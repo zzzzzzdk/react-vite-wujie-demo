@@ -1,0 +1,124 @@
+@import "~@/assets/css/mixin.scss";
+$prefixCls: "inner-drawer-container";
+
+.double-drawer {
+  position: absolute;
+  &:hover {
+    .box-drawer-switch-btn {
+      &.visible-true {
+        display: block;
+      }
+    }
+  }
+  &.ysd-drawer-open {
+    .ysd-drawer-content-wrapper {
+      box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    }
+  }
+
+  .ysd-drawer-content-wrapper {
+    border-radius: 4px;
+
+    .ysd-drawer-content {
+      border-radius: 4px;
+      .ysd-drawer-wrapper-body {
+        padding: 12px;
+      }
+      .ysd-drawer-header {
+        padding: 0;
+
+        .ysd-drawer-header-title {
+          .ysd-drawer-title {
+            position: relative;
+            padding-left: 14px;
+            display: flex;
+            justify-content: space-between;
+            line-height: 28px;
+
+            &::before {
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 50%;
+              margin-top: -8px;
+              width: 4px;
+              height: 16px;
+              background: var(--primary-color);
+              border-radius: 2px;
+            }
+          }
+        }
+      }
+      .ysd-drawer-body {
+        padding: 0;
+        overflow-x: hidden;
+        .#{$prefixCls} {
+          display: flex;
+          height: 100%;
+          @include sfp.flex-gap((0, 12px));
+          @include scrollBar();
+          &-left,
+          &-right {
+            display: flex;
+            flex-direction: column;
+            @include scrollBar();
+            &-title {
+              position: relative;
+              padding-left: 14px;
+              display: flex;
+              justify-content: space-between;
+              line-height: 28px;
+              font-size: var(--drawer-title-font-size);
+              font-weight: var(--drawer-title-font-weight);
+              color: var(--drawer-title-text-color);
+              &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 50%;
+                margin-top: -8px;
+                width: 4px;
+                height: 16px;
+                background: var(--primary-color);
+                border-radius: 2px;
+              }
+            }
+            &-content {
+              flex: auto;
+              @include scrollBar();
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .box-drawer-switch-btn {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -35px;
+    width: 20px;
+    height: 70px;
+    background-color: var(--drawer-bg-color);
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+
+    &.right {
+      left: -20px;
+      border-radius: 16px 0 0 16px;
+    }
+
+    &.left {
+      right: -20px;
+      left: unset;
+      border-radius: 0 16px 16px 0;
+    }
+
+    &.visible-true {
+      display: none;
+    }
+  }
+}

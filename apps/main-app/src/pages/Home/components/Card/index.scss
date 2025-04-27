@@ -1,0 +1,53 @@
+@import "@/assets/css/mixin";
+.homepage-card {
+  & + & {
+    margin-top: 20px;
+  }
+  // min-height: 250px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  box-shadow: 0px 6px 18px 0px rgba(113, 117, 137, 0.15);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  overflow: hidden;
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    > p {
+      & :last-child {
+        margin-left: 1em;
+      }
+    }
+  }
+  &-body {
+    @include scrollBar;
+  }
+
+  &-icon {
+    font-size: 14px;
+    color: white;
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, #4c8afa, #1a5bf7);
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px 0px rgba(26, 91, 247, 0.3);
+  }
+  &-more {
+    cursor: pointer;
+    color: var(--primary-color);
+  }
+  &-title {
+    font-weight: 700;
+    text-align: left;
+    color: var(--base-color1);
+    line-height: 22px;
+  }
+}

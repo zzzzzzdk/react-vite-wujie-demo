@@ -1,0 +1,66 @@
+@import "../../../../assets/css/mixin.scss";
+.n2n-task-result {
+  color: var(--base-color1);
+  padding: 16px;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  header {
+    .search-form {
+      display: flex;
+      align-items: flex-end;
+      @include sfp.flex-gap(16px);
+      .ysd-form-item {
+      }
+      .btn-wrapper {
+        flex: 1;
+        display: inline-flex;
+        justify-content: flex-end;
+        .btn-search {
+          width: 146px;
+        }
+      }
+    }
+    .statistic {
+      .operations {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        @include sfp.flex-gap((0, 1rem));
+        .btn-filter {
+          .ysd-icon {
+            font-size: 0.8em;
+            width: 5px;
+            color: var(--base-color1-30);
+            &.active {
+              color: var(--primary-color);
+            }
+          }
+        }
+        .fusion3-export-btn-wrap {
+          button {
+            border-radius: 4px;
+            border-radius: var(--border-radius);
+            height: 28px;
+            line-height: 26px;
+            padding: 0 10px;
+            width: 60px;
+            min-width: 60px;
+          }
+        }
+      }
+    }
+  }
+  main {
+    overflow: hidden auto;
+    @include scrollBar();
+    .results {
+      padding-top: 0.5rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(428px, 1fr));
+      place-items: center;
+      @include sfp.flex-gap(1rem);
+    }
+  }
+}

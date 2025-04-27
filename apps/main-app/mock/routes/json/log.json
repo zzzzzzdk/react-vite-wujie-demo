@@ -1,0 +1,476 @@
+{
+  "target": {
+    "targetType": "vehicle",
+    "timeType": "time",
+    "locationIds": [
+      "3702023739704259",
+      "3702014294916629"
+    ],
+    "locationGroupIds": [
+      "49-3702021342849527",
+      "49-3702023112920108"
+    ],
+    "pageNo": 1,
+    "pageSize": 40,
+    "colorTypeId": -1,
+    "sort": {
+      "field": "captureTime",
+      "order": "desc"
+    },
+    "groupfilters": [],
+    "movingDirection": [
+      4
+    ],
+    "coatLengthId": [
+      3
+    ],
+    "bagId": [
+      1
+    ],
+    "sexId": 2,
+    "coatColorTypeId": [
+      4
+    ],
+    "holdingId": [
+      1
+    ],
+    "ageId": [
+      2
+    ],
+    "pantsLengthId": [
+      3
+    ],
+    "pullId": [
+      2
+    ],
+    "hairstyleId": [
+      2
+    ],
+    "pantsColorTypeId": [
+      4
+    ],
+    "clothingTextureId": [
+      2
+    ],
+    "headThing": [
+      2
+    ],
+    "hatId": 3,
+    "isGait": 1,
+    "shoeColorTypeId": [
+      3
+    ],
+    "hatColorTypeId": [
+      4
+    ],
+    "shootingDirectionId": 2,
+    "timeRange": {
+      "times": [
+        "2024-01-01 00:00:00",
+        "2024-01-02 16:49:04"
+      ]
+    },
+    "fileId": [],
+    "licensePlate": "鲁A12345",
+    "plateColorTypeId": "1",
+    "brandId": "8",
+    "yearId": ["511"],
+    "modelId": ["106"]
+  },
+  "image": {
+    "imageType": "image",
+    "similarity": 45,
+    "locationIds": [
+      "370211-2",
+      "3702023250875510",
+      "3702021342849527",
+      "3702020625728343",
+      "3702020596089079",
+      "370211400056",
+      "370211400050",
+      "370211400049",
+      "370211400048",
+      "370211400047",
+      "49-3702021342849527"
+    ],
+    "sort": {
+      "field": "similarity",
+      "order": "desc"
+    },
+    "groupFilters": [],
+    "pageNo": 1,
+    "pageSize": 40,
+    "featureList": [
+      {
+        "bigImage": "http://192.168.5.76:8021/img.php?img_uuid=http%3A%2F%2F192.168.5.80%3A9081%2F1819%2C012519069c40a3b0.jpg",
+        "feature": "eCwUpPStuKl8ps0tk6uEqVehSazALVIrNCH",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F13%2C3e6a51291ce7&xywh=1506%2C415%2C471%2C458",
+        "targetType": "vehicle",
+        "detection": {
+          "h": 79,
+          "w": 63,
+          "x": 1489,
+          "y": 424
+        }
+      },
+      {
+        "bigImage": "http://192.168.5.76:8021/rlimg?url=http://192.168.11.16:9080/219,21b342cf517abd.jpg",
+        "feature": "fKONJjkjpQ==",
+        "targetImage": "http://192.168.5.76:8021/img.php?img_uuid=http%3A%2F%2F192.168.5.76%3A8021%2Frlimg%3Furl%3Dhttp%3A%2F%2F192.168.11.16%3A9080%2F219%2C21b342cf517abd.jpg&xywh=39,27,88,119&cut_img=1",
+        "targetType": "face",
+        "h": 119,
+        "w": 88,
+        "x": 39,
+        "y": 27
+      }
+    ],
+    "timeRange": {
+      "times": [
+        "2024-01-11 00:00:00",
+        "2024-01-17 16:20:14"
+      ]
+    },
+    "qualityFilter": 1,
+    "fileId": []
+  },
+  "cross": {
+    "taskId": 1705459259037,
+    "similarity": 100,
+    "featureList": [
+      {
+        "bigImage": "http://192.168.5.76:8021/img.php?img_uuid=http%3A%2F%2F192.168.5.80%3A9081%2F1819%2C012519069c40a3b0.jpg",
+        "feature": "eCwUpPStuKl8ps0tk6uEqVehSazALVIrNCHLHWCoRqnPKBUqKizsJGgUUJ+oqZwmFKIQLjQo4yWioNmrqiT6KAeiDSmQImMpe6aiqT0Ptqzen5cghyplKI+rDqw/JN2cwRwSJg0VOKS7Kugh7ysxKmOfuqF9sJylMyyHqg6f1ii1pw2t4618CV4lIKrjJG+p6p8VpX4oWKzGKp8sTpuAqoYWhKGGpUmn55Dup0mpOqaiKgUmQSGfp9MroSVbJ2yg4yuUpG6oyCx9qhqlIJ7fKY8cIyS2Iq6gSyu+qSooLiQjKgAmeqhZI3svu6pEFVwj0KB9piIp7KMNKTmntqtVKkSpAaz9pxMg9yuVpiMjoyeZKuOktqSwLegmnijEJ1chRqHXrMwmGaQjpaSkhJ/TJYWrVib4rEwnzizXL+ar3ibLJ7siPSiXLMKod6HDKkQm4qgEpPiosavfqweV66huIDSbxCpnIE6j5KnVp5WmXqYnpKKlWx4XrQStfCotoWMUKxPRmb6jTCEhHYsibyHLqmaW1KQmq86f3yByoGCfoieTrrWs4SrqLWmmEh/qpX2nlygvJI4gOJeaJneoGikjIDokv6Ttp+yt36V7Kx6oCqCBJUsq7qHbqrEb/Z/vqB4ifCOtrlIoGJ0SrfekZyFzrG0bUStgJDatVRg+ozUpbCT6pQktPi9tJsstwyoYLaUkb6kepPglF6YSrkmjJ6jLqROmWaR/qEwpM6hpLIwrtq1JrtemrSyQJEwrj6ceK1IjAawLob8brK3WLaMowKmzK4kdr5e+rUsfJ6xxKs2lfSLfnhwskCy6LIWcaaTeqGUYW6x/GIQrciauqJIt9ShgHEOr0J4AKDofq5mEq/SoPS3yLEwlcSjkCmSlAiVHpl4iY6QbLDQeJayjIYufdKWxp9ylFaU4LMitXig4IeUtPh/IKd4owCZIqnsktKUiLDokHqnfLkwo1KjCK+4iHSmGrFEltSXuqKKsX6rALPsjb6eJIMKl5iLtJ6qtJKyYKRAq7STGqWCkOKFXqLsgkCt8mm6miqdOrBAciamxpxugCCzDp4opWqjfqu8qfamGKgutIyMnqNmc4S0vnHeoESyqqrEppqZ+JCgpbSOLK2QoEynCrFSlRiwxLBSp4Kw9Kv2mKyhGpNOrlBsEIM4djp7/q6gskirvqNeoVyaxIdYpKJg7rY+X356QJtooxCmmLwWvUqZcKywt5KRgEloqBa4zLT0ie6X7JpscrSa1HVMjKKlhIEkk8iq6GZqctCXgKRSeWSRVJP8lViDJoaobWyBgqMEoOCeZovMlBqUvp+8qLas4pCMqJ6ralg4d4KyvKaycOpZyKmqqb6ioKmEfc6Simg==",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F13%2C3e6a51291ce7&xywh=1506%2C415%2C471%2C458",
+        "targetType": "vehicle",
+        "detection": {
+          "h": 79,
+          "w": 63,
+          "x": 1489,
+          "y": 424
+        }
+      }
+    ],
+    "locationIds": [
+      "3702023739704259",
+      "3702014294916629"
+    ],
+    "locationGroupIds": [
+      "49-3702021342849527",
+      "49-3702023112920108"
+    ],
+    "fileId": [],
+    "timeRange": {
+      "times": [
+        "2024-01-01 00:00:00",
+        "2024-01-02 10:38:11"
+      ]
+    },
+    "index": 0
+  },
+  "record-list": {
+    "keywords": " 鲁B13244",
+    "resultType": ""
+  },
+  "record-list-1": {
+    "plateColorTypeId": -1,
+    "noplate": "",
+    "personName": "张三",
+    "idType": "111",
+    "idNUmber": "6666666666",
+    "plateColor": -1,
+    "licensePlate": "",
+    "label": [
+      "0-0-1"
+    ],
+    "phone": "13455559999",
+    "householdAddress": "",
+    "noLocal": true,
+    "residentialAddress": "",
+    "age": [
+      23,
+      78
+    ],
+    "minor": false,
+    "profileType": "1",
+    "captureCount": [
+      1,
+      100
+    ],
+    "searchType": "1"
+  },
+  "record-list-2": {
+    "timeType": "time",
+    "beginDate": "2024-01-17 00:00:00",
+    "endDate": "2024-01-17 14:03:50",
+    "beginTime": "",
+    "endTime": "",
+    "locationIds": [
+      "3702023739704259"
+    ],
+    "locationGroupIds": [
+      "49-3702023112920108"
+    ],
+    "offlineIds": [],
+    "timeRange": {
+      "times": [
+        "2024-01-17 00:00:00",
+        "2024-01-17 14:03:50"
+      ]
+    },
+    "searchType": "2"
+  },
+  "vehicle-track": {
+    "licensePlates": [
+      {
+        "licensePlate": "贵B22222",
+        "plateColorTypeId": -1,
+        "noplate": ""
+      },
+      {
+        "licensePlate": "黑C33333",
+        "plateColorTypeId": 6,
+        "noplate": ""
+      }
+    ],
+    "timeRange": {
+      "times": [
+        "2024-01-01 00:00:00",
+        "2024-01-02 11:01:00"
+      ]
+    }
+  },
+  "person-track": {
+    "clusterData": {
+      "infoId": "6544a8a9-f7db-5d4f-4fa1hdsfsf5-731e95008321",
+      "bigImage": "http://192.168.7.206:8000/992_6cbf5c34-927b-11ed-8d2d-a0369f1f7f36.jpg",
+      "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011484672369-20231103160356-41&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F992_6cbf5c34-927b-11ed-8d2d-a0369f1f7f36.jpg",
+      "feature": "t7HdpO+hODFdqn0Z8y/6KMcsCDBhLcgiuSoQKsalySg9pBQrJCmojm4chy3lqp+hZqTCjcUiXC4hGQ4slqtKLKIcD6w4LEwSFLKiqmSwg6RVn+ub8bAtrzwwhaDWEkye4K4dJlAq9jBXJKmtoh7zq8YeKzAmIamtvLAyLBk09SxZKCQxPK+AKoQyYKo0MFWqHClaqbOs6CcwLOak2afMJoKkgq1SLtsy1B+lsOIpzzQ7okep76oysH+Ymq7ChcumDa2yL0KwuKx3GwAhfzQxLl+oxSlgKOmwd6ehKjixKJ+orFgq5CgZKHmrpiMyJNwm5J0eEiKotyxgHqspkSa7rQ==",
+      "lngLat": {
+        "lng": 0,
+        "lat": 0
+      },
+      "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0d980d74-55d6-11ec-88b0-0cc47a9c4b97.jpg&xywh=203%2C1331%2C118%2C162",
+      "targetType": "face",
+      "personBasicInfo": {
+        "name": "张三",
+        "sex": "男",
+        "age": 66,
+        "nation": "汉族",
+        "idcardUrl": "http://192.168.5.47:3003/targetImage.jpg",
+        "idcard": "372657200010015441",
+        "similarity": "99.90"
+      },
+      "personTags": [
+        "徘徊人员",
+        "地道人员",
+        "徘徊人员",
+        "地道人员"
+      ]
+    },
+    "timeRange": {
+      "times": [
+        "2024-01-01 00:00:00",
+        "2024-01-02 11:01:00"
+      ]
+    }
+  },
+  "vehicle-peer": {
+    "locationIds": [
+      "370211-3",
+      "3702033646812312",
+      "3702031527950834",
+      "370211400058"
+    ],
+    "locationGroupIds": [
+      "49-3702021342849527",
+      "49-3702023112920108",
+      "49-3702023250875510",
+      "49"
+    ],
+    "brandId": "36",
+    "modelId": [
+      "418"
+    ],
+    "yearId": [
+      "2017"
+    ],
+    "licensePlate": "京A11111",
+    "plateColorTypeId": -1,
+    "objectTypeId": -1,
+    "vehicleTypeId": [
+      -1
+    ],
+    "vehicleFuncId": [
+      -1
+    ],
+    "excludeLicensePlate": {
+      "licensePlate": "京A22222",
+      "plateColorTypeId": -1,
+      "noplate": ""
+    },
+    "interval": "5",
+    "minCount": "5",
+    "peerSpot": "5",
+    "colorTypeId": 5,
+    "timeRange": {
+      "times": [
+        "2023-11-19 00:00:00",
+        "2024-01-17 08:58:05"
+      ]
+    },
+    "sort": {
+      "field": "peerCount",
+      "order": "desc"
+    }
+  },
+  "initial": {
+    "locationIds": [],
+    "groupFilters": [],
+    "pageNo": 1,
+    "pageSize": 40,
+    "brandId": "6",
+    "modelId": [
+      "76"
+    ],
+    "yearId": [
+      "16167"
+    ],
+    "licensePlate": "京A11111",
+    "plateColorTypeId": -1,
+    "objectTypeId": 1,
+    "vehicleTypeId": [
+      3
+    ],
+    "vehicleFuncId": [
+      3
+    ],
+    "excludeLicensePlates": [
+      {
+        "licensePlate": "京A2222",
+        "plateColorTypeId": -1
+      },
+      {
+        "licensePlate": "",
+        "plateColorTypeId": -1
+      }
+    ],
+    "backtrackTime": "15",
+    "colorTypeId": 5,
+    "timeRange": {
+      "times": [
+        "2023-12-19 00:00:00",
+        "2024-01-17 16:24:53"
+      ]
+    }
+  },
+  "face-peer": {
+    "clusterData": [
+      {
+        "infoId": "6544a8a9-f7db-5d4f-4fa1hdsfsf5-731e95008321",
+        "bigImage": "http://192.168.7.206:8000/992_6cbf5c34-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011484672369-20231103160356-41&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F992_6cbf5c34-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "t7HdpO+hODFdqn0Z8y/6KMcsCDBhLcgiuSoQKsalySg9pBQrJCmojm4chy3lqp+hZqTCjcUiXC4hGQ4slqtKLKIcD6w4LEwSFLKiqmSwg6RVn+ub8bAtrzwwhaDWEkye4K4dJlAq9jBXJKmtoh7zq8YeKzAmIamtvLAyLBk09SxZKCQxPK+AKoQyYKo0MFWqHClaqbOs6CcwLOak2afMJoKkgq1SLtsy1B+lsOIpzzQ7okep76oysH+Ymq7ChcumDa2yL0KwuKx3GwAhfzQxLl+oxSlgKOmwd6ehKjixKJ+orFgq5CgZKHmrpiMyJNwm5J0eEiKotyxgHqspkSa7rQ==",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0d980d74-55d6-11ec-88b0-0cc47a9c4b97.jpg&xywh=203%2C1331%2C118%2C162",
+        "targetType": "face",
+        "personBasicInfo": {
+          "name": "张三",
+          "sex": "男",
+          "age": 66,
+          "nation": "汉族",
+          "idcardUrl": "http://192.168.5.47:3003/targetImage.jpg",
+          "idcard": "372657200010015441",
+          "similarity": "99.90"
+        },
+        "personTags": [
+          "徘徊人员",
+          "地道人员",
+          "徘徊人员",
+          "地道人员"
+        ]
+      }
+    ],
+    "locationIds": [
+      "370211-2",
+      "3702023250875510",
+      "3702021342849527",
+      "3702020625728343",
+      "3702020596089079",
+      "370211400056",
+      "370211400050",
+      "370211400049",
+      "370211400048",
+      "370211400047"
+    ],
+    "locationGroupIds": [
+      "49-3702021342849527"
+    ],
+    "interval": "15",
+    "peerSpot": "15",
+    "timeRange": {
+      "times": [
+        "2024-01-11 00:00:00",
+        "2024-01-17 16:28:01"
+      ]
+    },
+    "sort": {
+      "field": "peerCount",
+      "order": "desc"
+    }
+  },
+  "real-time-tracking": {
+    "taskId": 1712108448934,
+    "featureLists": [
+      {
+        "featureList": [
+          {
+            "bigImage": "http://192.168.5.76:8021/img.php?img_uuid=http%3A%2F%2F192.168.5.80%3A9081%2F1819%2C012519069c40a3b0.jpg",
+            "feature": "eCwUpPStuKl8ps0tk6uEqVehSazALVIrNCHLHWCoRqnPKBUqKizsJGgUUJ+oqZwmFKIQLjQo4yWioNmrqiT6KAeiDSmQImMpe6aiqT0Ptqzen5cghyplKI+rDqw/JN2cwRwSJg0VOKS7Kugh7ysxKmOfuqF9sJylMyyHqg6f1ii1pw2t4618CV4lIKrjJG+p6p8VpX4oWKzGKp8sTpuAqoYWhKGGpUmn55Dup0mpOqaiKgUmQSGfp9MroSVbJ2yg4yuUpG6oyCx9qhqlIJ7fKY8cIyS2Iq6gSyu+qSooLiQjKgAmeqhZI3svu6pEFVwj0KB9piIp7KMNKTmntqtVKkSpAaz9pxMg9yuVpiMjoyeZKuOktqSwLegmnijEJ1chRqHXrMwmGaQjpaSkhJ/TJYWrVib4rEwnzizXL+ar3ibLJ7siPSiXLMKod6HDKkQm4qgEpPiosavfqweV66huIDSbxCpnIE6j5KnVp5WmXqYnpKKlWx4XrQStfCotoWMUKxPRmb6jTCEhHYsibyHLqmaW1KQmq86f3yByoGCfoieTrrWs4SrqLWmmEh/qpX2nlygvJI4gOJeaJneoGikjIDokv6Ttp+yt36V7Kx6oCqCBJUsq7qHbqrEb/Z/vqB4ifCOtrlIoGJ0SrfekZyFzrG0bUStgJDatVRg+ozUpbCT6pQktPi9tJsstwyoYLaUkb6kepPglF6YSrkmjJ6jLqROmWaR/qEwpM6hpLIwrtq1JrtemrSyQJEwrj6ceK1IjAawLob8brK3WLaMowKmzK4kdr5e+rUsfJ6xxKs2lfSLfnhwskCy6LIWcaaTeqGUYW6x/GIQrciauqJIt9ShgHEOr0J4AKDofq5mEq/SoPS3yLEwlcSjkCmSlAiVHpl4iY6QbLDQeJayjIYufdKWxp9ylFaU4LMitXig4IeUtPh/IKd4owCZIqnsktKUiLDokHqnfLkwo1KjCK+4iHSmGrFEltSXuqKKsX6rALPsjb6eJIMKl5iLtJ6qtJKyYKRAq7STGqWCkOKFXqLsgkCt8mm6miqdOrBAciamxpxugCCzDp4opWqjfqu8qfamGKgutIyMnqNmc4S0vnHeoESyqqrEppqZ+JCgpbSOLK2QoEynCrFSlRiwxLBSp4Kw9Kv2mKyhGpNOrlBsEIM4djp7/q6gskirvqNeoVyaxIdYpKJg7rY+X356QJtooxCmmLwWvUqZcKywt5KRgEloqBa4zLT0ie6X7JpscrSa1HVMjKKlhIEkk8iq6GZqctCXgKRSeWSRVJP8lViDJoaobWyBgqMEoOCeZovMlBqUvp+8qLas4pCMqJ6ralg4d4KyvKaycOpZyKmqqb6ioKmEfc6Simg==",
+            "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F13%2C3e6a51291ce7&xywh=1506%2C415%2C471%2C458",
+            "targetType": "vehicle",
+            "detection": {
+              "h": 79,
+              "w": 63,
+              "x": 1489,
+              "y": 424
+            }
+          }
+        ],
+        "plateColorTypeId": -1,
+        "licensePlate": "",
+        "similarity": 80,
+        "qualityFilter": false,
+        "trackId": "-32f6a23f",
+        "bgColor": "rgba(83, 140, 255, 0.05)",
+        "enableTrackPredict": true
+      },
+      {
+        "featureList": [
+          {
+            "bigImage": "http://192.168.5.76:8021/rlimg?url=http://192.168.5.80:9081/1818,b5b8af3970ac6b.jpg",
+            "feature": "nKOAJjgjZaw3I38qOa3rHywdUyoQKH8lQ68yJBQwTKVqrTIpSqgYJWMsqyg+LbSocxzyKjmUHqoyoCyoOSVDLuamPqvvpSYoNCc2IGMs8Sr9H+UiOqpmpbUl/y7GmdYnKKViH/YssqbZnCImKiBUH0Crup0Crv8mGihyGdAnXSKZLeajj6WIJdUN7JiZpT8jIisrovMs8p/9KNgSNiSuKV0PGCwlr6Attq5DJoAWgyhLLCCuUSkHJTSrhBniGhMoTKFaKOWmJSAdqsWrsioIK06o4qy3LCerWhaWIwUnWaexrPcew6oKLuIiORzLJ2ypDKRpoxeqwyXAJzsjNy0uKnKoLyVuqhqofKidJ1OayyU/qYcr6aXGpUSuf6e+JRglTq3bHXmsviVODXGi6JVRIwQfMCUxqZ+jd6gMqTop4J6um4KggyxFK2CoYSmrHq+mqiqRq02mXB6Iq9WipSUGqC6liSttqf0sCSx7rX8nUKrIINAhJ61dJaqgSa+spQ0epy+cK7imvaQWI2Ms1ajIK92p3awhmcEnHR06LIEs9qkqJx8lYhsKKuEpdyJdJHyfLyVPm9AsOY0JKYqpyKjqKrOq5Su/qiMoNyf3I04NJB1mHAwZsxMLKtWlni3AGSqsMi91ojenealCqTYk2JA5JMqs1abLls8lJqKYqSSuYBTgohUokCrMoHqqQ6rDGDGtVCZOKA0tiZ/2HaqqSSikKjMkMqy0q/qig6liHicrK6q7prmo96LXpKoqGStLlyKunSdHohSksS00LPQvjKvNqvegVqAip9gie6JXIUylsCA/LMkrxyfAKEcqX6wAK4CoXyUtK9mmh5mQpKagKKnuJgytQ6qDpwcpLSXioYOrLo3yHJGphKZ3HbyqZigapy8p3SFzpYcnNqyWqJWlGKZkKT4pAqZ/JJGjNyKbqD2k1Z8wKKoTL6mWqDksFiihFISbuSTtJPSrPijiGSIpTCjRKYkj7ZlQqcwqHKoFDGuoraG7lWkp5yMKqLclpCVpKNCvPaimoiKhnShqpA0sCR2HkOwoqihprVAowiHvHcigeajgKoCqxazuqOAt2xSPK/Qn7R7bqFSuD6uZp32cSKyNKs0vDye7Hl+sbK1WLMgirKWzIxqqwKXuoqasRxaIrJygpaJQIcsbTSptp8uiIikqqlOlCx40rGwpx6nuprsg1yl5HLqnBaQsKaApB6TZLOSqByt3mD8nWqr/qbUpoZxXKjmqJyziKmUoVSKzIfklHaYrJFQiSSZCHYcfFqvIrh4q9iLErBEpxyv9pCYnvZAhKlQn+6Zvn9Mp1a0iMGWa26EwnPIhxiCSK8cntikwqMwr1am1ovQnlCBxIjoobCnnpA==",
+            "targetImage": "http://192.168.5.76:8021/img.php?img_uuid=http%3A%2F%2F192.168.5.76%3A8021%2Frlimg%3Furl%3Dhttp%3A%2F%2F192.168.5.80%3A9081%2F1818%2Cb5b8af3970ac6b.jpg&xywh=39,27,88,120&cut_img=1",
+            "targetType": "bicycle",
+            "detection": {
+              "h": 120,
+              "w": 88,
+              "x": 39,
+              "y": 27
+            }
+          }
+        ],
+        "plateColorTypeId": -1,
+        "licensePlate": "鲁A33333",
+        "similarity": 80,
+        "qualityFilter": false,
+        "trackId": "10c8cc2b",
+        "bgColor": "rgba(255, 154, 52, 0.05)",
+        "enableTrackPredict": true
+      }
+    ]
+  },
+  "deploy-detail": {"jobId":[4,2],"target":"11111","status":["createdByMe","monitoring","close"],"measure":[2,1,3],"closeType":[],"createUser":"","approveUser":"12131","pageNo":1,"pageSize":40,"taskId":"4f5b10f7","timeRange":{"times":["",""]}}
+}

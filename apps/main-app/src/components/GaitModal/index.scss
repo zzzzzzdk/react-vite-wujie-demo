@@ -1,0 +1,105 @@
+.gait-modal {
+  &-content {
+    &-search,
+    &-result {
+      &-container {
+        height: 314px;
+        display: flex;
+        .video-wrapper {
+          width: 560px;
+          flex: none;
+        }
+        .info-wrapper {
+          margin-left: 16px;
+          flex: auto;
+          max-width: calc(100% - 576px);
+          &-tag {
+            height: 148px;
+            overflow: hidden;
+          }
+          &-sequence {
+            margin-top: 10px;
+            height: calc(100% - 158px);
+          }
+        }
+      }
+    }
+
+    &-similarity {
+      position: relative;
+      height: 38px;
+      .similarity-container {
+        background: var(--modal-bg-color);
+        position: absolute;
+        top: 3px;
+        width: 100px;
+        height: 38px;
+        line-height: 38px;
+        z-index: 2;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        > span {
+          color: var(--danger-color);
+          &:nth-child(1) {
+            font-size: 26px;
+            font-weight: 700;
+          }
+          &:nth-child(2) {
+            font-weight: 700;
+          }
+        }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 24px;
+        width: 100%;
+        height: 2px;
+        background: var(--danger-color);
+      }
+    }
+
+    &-list {
+      margin-top: 10px;
+    }
+  }
+}
+
+.gait-video {
+  width: 100%;
+  height: 100%;
+  &-loading {
+    height: 100%;
+    .ysd-loading-container {
+      height: 100%;
+      position: relative;
+      .gait-video-container {
+        position: relative;
+        height: 100%;
+        &-close {
+          cursor: pointer;
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          z-index: 2;
+          font-size: 28px;
+        }
+        // .video-wrap {
+        // }
+      }
+      .gait-video-play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        cursor: pointer;
+        transform: translate(-50%, -50%);
+        .ysd-icon {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}

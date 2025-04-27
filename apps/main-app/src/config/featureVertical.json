@@ -1,0 +1,2084 @@
+{
+  "face": {
+    "sexId": {
+      "type": "int",
+      "isSingle": true,
+      "desc": "人员性别",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "男"
+        },
+        {
+          "value": 2,
+          "text": "女"
+        }
+      ],
+      "comment": ""
+    },
+    "ageId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "人员年龄",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "儿童"
+        },
+        {
+          "value": 2,
+          "text": "中青年"
+        },
+        {
+          "value": 3,
+          "text": "老年"
+        }
+      ],
+      "comment": ""
+    },
+    "nationId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "人员民族",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "汉族"
+        },
+        {
+          "value": 2,
+          "text": "维族"
+        },
+        {
+          "value": 3,
+          "text": "回族"
+        }
+      ],
+      "comment": ""
+    },
+    "hairstyleId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "人员发型",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "光头/谢顶"
+        },
+        {
+          "value": 2,
+          "text": "平头"
+        },
+        {
+          "value": 3,
+          "text": "短发"
+        },
+        {
+          "value": 4,
+          "text": "齐耳短发"
+        },
+        {
+          "value": 5,
+          "text": "长发"
+        },
+        {
+          "value": 6,
+          "text": "扎辫子"
+        }
+      ],
+      "comment": "数据库人脸表使用 hair_id ，后端需要转换"
+    },
+    "beardId": {
+      "type": "int",
+      "isSingle": true,
+      "desc": "人员胡须",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "有"
+        },
+        {
+          "value": 2,
+          "text": "无"
+        }
+      ],
+      "comment": "与算法字典对应, IMPORTANT"
+    },
+    "raceId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "人员肤色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黄"
+        },
+        {
+          "value": 2,
+          "text": "黑"
+        },
+        {
+          "value": 3,
+          "text": "白"
+        }
+      ],
+      "comment": ""
+    },
+    "glassesId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "人员眼镜",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "无"
+        },
+        {
+          "value": 2,
+          "text": "眼镜"
+        },
+        {
+          "value": 3,
+          "text": "墨镜"
+        }
+      ],
+      "comment": ""
+    },
+    "maskId": {
+      "type": "int",
+      "isSingle": true,
+      "desc": "人员口罩",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 0,
+          "text": "未识别"
+        },
+        {
+          "value": 1,
+          "text": "有"
+        },
+        {
+          "value": 2,
+          "text": "无"
+        }
+      ],
+      "comment": "与算法字典对应 IMPORTANT"
+    },
+    "hatId": {
+      "type": "[]int",
+      "isSingle": true,
+      "desc": "帽盔样式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "无"
+        },
+        {
+          "value": 2,
+          "text": "帽子"
+        },
+        {
+          "value": 3,
+          "text": "头盔"
+        },
+        {
+          "value": 4,
+          "text": "头巾"
+        },
+        {
+          "value": 99,
+          "text": "未戴头盔"
+        }
+      ],
+      "comment": "99是业务字段，用来表示未戴头盔"
+    },
+    "hatColorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "帽盔颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "qualityFilter": {
+      "type": "int",
+      "isSingle": true,
+      "desc": "质量过滤",
+      "value": [
+        {
+          "value": -1,
+          "text": "过滤低质量图片"
+        },
+        {
+          "value": 1,
+          "text": "不过滤"
+        }
+      ],
+      "comment": "后端组合参数"
+    }
+  },
+  "pedestrian": {
+    "movingDirection": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "运动方向",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "方向向上"
+        },
+        {
+          "value": 2,
+          "text": "方向向下"
+        },
+        {
+          "value": 3,
+          "text": "方向向左"
+        },
+        {
+          "value": 4,
+          "text": "方向向右"
+        },
+        {
+          "value": 5,
+          "text": "方向向左上"
+        },
+        {
+          "value": 6,
+          "text": "方向向右上"
+        },
+        {
+          "value": 7,
+          "text": "方向向左下"
+        },
+        {
+          "value": 8,
+          "text": "方向向右下"
+        }
+      ],
+      "comment": ""
+    },
+    "sexId": {
+      "type": "int",
+      "isSingle": true,
+      "desc": "人员性别",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "男"
+        },
+        {
+          "value": 2,
+          "text": "女"
+        }
+      ],
+      "comment": ""
+    },
+    "ageId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "人员年龄",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "少年"
+        },
+        {
+          "value": 2,
+          "text": "中青年"
+        },
+        {
+          "value": 3,
+          "text": "老年"
+        }
+      ],
+      "comment": ""
+    },
+    "hairstyleId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "人员发型",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "光头/谢顶"
+        },
+        {
+          "value": 2,
+          "text": "平头"
+        },
+        {
+          "value": 3,
+          "text": "短发"
+        },
+        {
+          "value": 4,
+          "text": "齐耳短发"
+        },
+        {
+          "value": 5,
+          "text": "长发"
+        },
+        {
+          "value": 6,
+          "text": "扎辫子"
+        }
+      ],
+      "comment": "数据库人脸表使用 hair_id ，后端需要转换"
+    },
+    "headThing": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "头部特征",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "戴口罩"
+        },
+        {
+          "value": 2,
+          "text": "戴眼镜"
+        },
+        {
+          "value": 3,
+          "text": "打伞"
+        }
+      ],
+      "comment": "组合字段，后端转换"
+    },
+    "shoeColorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "鞋子颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "coatLengthId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "上衣款式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "长袖"
+        },
+        {
+          "value": 2,
+          "text": "短袖"
+        },
+        {
+          "value": 3,
+          "text": "无袖"
+        },
+        {
+          "value": 4,
+          "text": "雨衣"
+        },
+        {
+          "value": 5,
+          "text": "外套"
+        }
+      ],
+      "comment": "1400标准雨衣/外套额外字段，需要后端添加逻辑"
+    },
+    "coatColorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "上衣颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "pantsLengthId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "下衣款式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "长裤"
+        },
+        {
+          "value": 2,
+          "text": "短裤"
+        },
+        {
+          "value": 3,
+          "text": "七分裤"
+        },
+        {
+          "value": 4,
+          "text": "长裙"
+        },
+        {
+          "value": 5,
+          "text": "短裙"
+        }
+      ],
+      "comment": ""
+    },
+    "pantsColorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "下衣颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "hatId": {
+      "type": "[]int",
+      "isSingle": true,
+      "desc": "帽盔样式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "无"
+        },
+        {
+          "value": 2,
+          "text": "帽子"
+        },
+        {
+          "value": 3,
+          "text": "头盔"
+        },
+        {
+          "value": 4,
+          "text": "头巾"
+        },
+        {
+          "value": 99,
+          "text": "未戴头盔"
+        }
+      ],
+      "comment": "算法字段, 99 为业务字段  IMPORTANT"
+    },
+    "hatColorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "帽盔颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "bagId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "带包款式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "单肩包"
+        },
+        {
+          "value": 2,
+          "text": "双肩包"
+        },
+        {
+          "value": 3,
+          "text": "斜挎包"
+        },
+        {
+          "value": 4,
+          "text": "拎包"
+        },
+        {
+          "value": 5,
+          "text": "拎东西"
+        }
+      ],
+      "comment": ""
+    },
+    "holdingId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "怀抱物品",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "抱孩子"
+        },
+        {
+          "value": 2,
+          "text": "抱东西"
+        },
+        {
+          "value": 3,
+          "text": "扛背东西"
+        }
+      ],
+      "comment": ""
+    },
+    "pullId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "推拉物品",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "行李箱"
+        },
+        {
+          "value": 2,
+          "text": "婴儿车"
+        },
+        {
+          "value": 3,
+          "text": "轮椅"
+        },
+        {
+          "value": 4,
+          "text": "推拉物品"
+        }
+      ],
+      "comment": ""
+    },
+    "clothingTextureId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "衣服纹理",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "格子"
+        },
+        {
+          "value": 2,
+          "text": "花纹"
+        },
+        {
+          "value": 3,
+          "text": "纯色"
+        },
+        {
+          "value": 4,
+          "text": "条纹"
+        },
+        {
+          "value": 5,
+          "text": "拼色"
+        },
+        {
+          "value": 6,
+          "text": "图案"
+        }
+      ],
+      "comment": ""
+    },
+    "isGait": {
+      "type": "int",
+      "isSingle": true,
+      "desc": "步态特征",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 0,
+          "text": "否"
+        },
+        {
+          "value": 1,
+          "text": "是"
+        }
+      ],
+      "comment": ""
+    },
+    "shootingDirectionId": {
+      "type": "int",
+      "isSingle": true,
+      "desc": "拍摄方向",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "正面"
+        },
+        {
+          "value": 2,
+          "text": "背面"
+        },
+        {
+          "value": 3,
+          "text": "侧面"
+        }
+      ],
+      "comment": ""
+    }
+  },
+  "bicycle": {
+    "licensePlate": {
+      "type": "string",
+      "isSingle": true,
+      "desc": "车牌号码",
+      "value": "",
+      "comment": ""
+    },
+    "movingDirection": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "运动方向",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "方向向上"
+        },
+        {
+          "value": 2,
+          "text": "方向向下"
+        },
+        {
+          "value": 3,
+          "text": "方向向左"
+        },
+        {
+          "value": 4,
+          "text": "方向向右"
+        },
+        {
+          "value": 5,
+          "text": "方向向左上"
+        },
+        {
+          "value": 6,
+          "text": "方向向右上"
+        },
+        {
+          "value": 7,
+          "text": "方向向左下"
+        },
+        {
+          "value": 8,
+          "text": "方向向右下"
+        }
+      ],
+      "comment": ""
+    },
+    "bicycleTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "车辆类型",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "摩托车"
+        },
+        {
+          "value": 2,
+          "text": "自行车"
+        },
+        {
+          "value": 3,
+          "text": "电动车"
+        },
+        {
+          "value": 4,
+          "text": "电动滑板车"
+        }
+      ],
+      "comment": ""
+    },
+    "loadId": {
+      "type": "[]int",
+      "isSingle": true,
+      "desc": "乘坐人数",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "1人"
+        },
+        {
+          "value": 3,
+          "text": "多人"
+        },
+        {
+          "value": 4,
+          "text": "无人"
+        }
+      ],
+      "comment": ""
+    },
+    "hairstyleId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "人员发型",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "光头/谢顶"
+        },
+        {
+          "value": 2,
+          "text": "平头"
+        },
+        {
+          "value": 3,
+          "text": "短发"
+        },
+        {
+          "value": 4,
+          "text": "齐耳短发"
+        },
+        {
+          "value": 5,
+          "text": "长发"
+        },
+        {
+          "value": 6,
+          "text": "扎辫子"
+        }
+      ],
+      "comment": "数据库人脸表使用 hair_id ，后端需要转换"
+    },
+    "headThing": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "头部特征",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "戴口罩"
+        },
+        {
+          "value": 2,
+          "text": "戴眼镜"
+        },
+        {
+          "value": 3,
+          "text": "打伞"
+        }
+      ],
+      "comment": ""
+    },
+    "clothingTextureId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "衣服纹理",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "格子"
+        },
+        {
+          "value": 2,
+          "text": "花纹"
+        },
+        {
+          "value": 3,
+          "text": "纯色"
+        },
+        {
+          "value": 4,
+          "text": "条纹"
+        },
+        {
+          "value": 5,
+          "text": "拼色"
+        },
+        {
+          "value": 6,
+          "text": "图案"
+        }
+      ],
+      "comment": ""
+    },
+    "coatLengthId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "上衣款式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "长袖"
+        },
+        {
+          "value": 2,
+          "text": "短袖"
+        },
+        {
+          "value": 3,
+          "text": "无袖"
+        },
+        {
+          "value": 4,
+          "text": "雨衣"
+        },
+        {
+          "value": 5,
+          "text": "外套"
+        }
+      ],
+      "comment": "1400标准雨衣/外套额外字段，需要后端添加逻辑"
+    },
+    "coatColorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "上部颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "colorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "下部颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "hatId": {
+      "type": "[]int",
+      "isSingle": true,
+      "desc": "驾驶人帽盔样式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "无"
+        },
+        {
+          "value": 2,
+          "text": "帽子"
+        },
+        {
+          "value": 3,
+          "text": "头盔"
+        },
+        {
+          "value": 4,
+          "text": "头巾"
+        },
+        {
+          "value": 99,
+          "text": "未戴头盔"
+        }
+      ],
+      "comment": "算法字典 IMPORTANT"
+    },
+    "hatColorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "驾驶人帽盔颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "guestHatId": {
+      "type": "[]int",
+      "isSingle": true,
+      "desc": "乘客帽盔样式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "无"
+        },
+        {
+          "value": 2,
+          "text": "帽子"
+        },
+        {
+          "value": 3,
+          "text": "头盔"
+        },
+        {
+          "value": 4,
+          "text": "头巾"
+        },
+        {
+          "value": 99,
+          "text": "未戴头盔"
+        }
+      ],
+      "comment": ""
+    },
+    "guestHatColorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "乘客帽盔颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "shootDirectionId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "拍摄方向",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "正面"
+        },
+        {
+          "value": 2,
+          "text": "背面"
+        },
+        {
+          "value": 3,
+          "text": "侧面"
+        }
+      ],
+      "comment": ""
+    },
+    "bagId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "带包款式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "单肩包"
+        },
+        {
+          "value": 2,
+          "text": "双肩包"
+        },
+        {
+          "value": 3,
+          "text": "斜挎包"
+        },
+        {
+          "value": 4,
+          "text": "拎包"
+        },
+        {
+          "value": 5,
+          "text": "拎东西"
+        },
+        {
+          "value": 6,
+          "text": "车上带包"
+        }
+      ],
+      "comment": ""
+    },
+    "takeOutBox": {
+      "type": "int",
+      "isSingle": true,
+      "desc": "外卖箱有无",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 0,
+          "text": "无"
+        },
+        {
+          "value": 1,
+          "text": "有"
+        }
+      ],
+      "comment": "IMPORTANT"
+    }
+  },
+  "tricycle": {
+    "licensePlate": {
+      "type": "string",
+      "isSingle": true,
+      "desc": "车牌号码",
+      "value": "",
+      "comment": ""
+    },
+    "movingDirection": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "运动方向",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "方向向上"
+        },
+        {
+          "value": 2,
+          "text": "方向向下"
+        },
+        {
+          "value": 3,
+          "text": "方向向左"
+        },
+        {
+          "value": 4,
+          "text": "方向向右"
+        },
+        {
+          "value": 5,
+          "text": "方向向左上"
+        },
+        {
+          "value": 6,
+          "text": "方向向右上"
+        },
+        {
+          "value": 7,
+          "text": "方向向左下"
+        },
+        {
+          "value": 8,
+          "text": "方向向右下"
+        }
+      ],
+      "comment": ""
+    },
+    "tricycleTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "车辆类型",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "斗式"
+        },
+        {
+          "value": 2,
+          "text": "篷式"
+        },
+        {
+          "value": 3,
+          "text": "厢式"
+        },
+        {
+          "value": 4,
+          "text": "其他"
+        }
+      ],
+      "comment": ""
+    },
+    "loadId": {
+      "type": "[]int",
+      "isSingle": true,
+      "desc": "乘坐人数",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "1人"
+        },
+        {
+          "value": 2,
+          "text": "2人"
+        },
+        {
+          "value": 3,
+          "text": "多人"
+        },
+        {
+          "value": 4,
+          "text": "无人"
+        }
+      ],
+      "comment": ""
+    },
+    "hairstyleId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "人员发型",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "光头/谢顶"
+        },
+        {
+          "value": 2,
+          "text": "平头"
+        },
+        {
+          "value": 3,
+          "text": "短发"
+        },
+        {
+          "value": 4,
+          "text": "齐耳短发"
+        },
+        {
+          "value": 5,
+          "text": "长发"
+        },
+        {
+          "value": 6,
+          "text": "扎辫子"
+        }
+      ],
+      "comment": "数据库人脸表使用 hair_id ，后端需要转换"
+    },
+    "headThing": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "头部特征",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "戴口罩"
+        },
+        {
+          "value": 2,
+          "text": "戴眼镜"
+        },
+        {
+          "value": 3,
+          "text": "打伞"
+        }
+      ],
+      "comment": ""
+    },
+    "clothingTextureId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "衣服纹理",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "格子"
+        },
+        {
+          "value": 2,
+          "text": "花纹"
+        },
+        {
+          "value": 3,
+          "text": "纯色"
+        },
+        {
+          "value": 4,
+          "text": "条纹"
+        },
+        {
+          "value": 5,
+          "text": "拼色"
+        },
+        {
+          "value": 6,
+          "text": "图案"
+        }
+      ],
+      "comment": ""
+    },
+    "coatLengthId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "上衣款式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "长袖"
+        },
+        {
+          "value": 2,
+          "text": "短袖"
+        },
+        {
+          "value": 3,
+          "text": "无袖"
+        },
+        {
+          "value": 4,
+          "text": "雨衣"
+        },
+        {
+          "value": 5,
+          "text": "外套"
+        }
+      ],
+      "comment": "1400标准雨衣/外套额外字段，需要后端添加逻辑"
+    },
+    "coatColorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "上部颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "colorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "下部颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "hatId": {
+      "type": "[]int",
+      "isSingle": true,
+      "desc": "帽盔样式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "无"
+        },
+        {
+          "value": 2,
+          "text": "帽子"
+        },
+        {
+          "value": 3,
+          "text": "头盔"
+        },
+        {
+          "value": 4,
+          "text": "头巾"
+        },
+        {
+          "value": 99,
+          "text": "未戴头盔"
+        }
+      ],
+      "comment": "算法字段 IMPORTANT"
+    },
+    "hatColorTypeId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "帽盔颜色",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "黑"
+        },
+        {
+          "value": 2,
+          "text": "白"
+        },
+        {
+          "value": 3,
+          "text": "灰"
+        },
+        {
+          "value": 4,
+          "text": "红"
+        },
+        {
+          "value": 5,
+          "text": "蓝"
+        },
+        {
+          "value": 6,
+          "text": "黄"
+        },
+        {
+          "value": 7,
+          "text": "橙"
+        },
+        {
+          "value": 8,
+          "text": "棕"
+        },
+        {
+          "value": 9,
+          "text": "绿"
+        },
+        {
+          "value": 10,
+          "text": "紫"
+        },
+        {
+          "value": 12,
+          "text": "粉"
+        },
+        {
+          "value": 14,
+          "text": "花"
+        }
+      ],
+      "comment": ""
+    },
+    "shootDirection": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "拍摄方向",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "正面"
+        },
+        {
+          "value": 2,
+          "text": "背面"
+        },
+        {
+          "value": 3,
+          "text": "侧面"
+        }
+      ],
+      "comment": ""
+    },
+    "bagId": {
+      "type": "[]int",
+      "isSingle": false,
+      "desc": "带包款式",
+      "value": [
+        {
+          "value": -1,
+          "text": "不限"
+        },
+        {
+          "value": 1,
+          "text": "单肩包"
+        },
+        {
+          "value": 2,
+          "text": "双肩包"
+        },
+        {
+          "value": 3,
+          "text": "斜挎包"
+        },
+        {
+          "value": 4,
+          "text": "拎包"
+        },
+        {
+          "value": 5,
+          "text": "拎东西"
+        },
+        {
+          "value": 6,
+          "text": "车上带包"
+        }
+      ],
+      "comment": ""
+    }
+  }
+}

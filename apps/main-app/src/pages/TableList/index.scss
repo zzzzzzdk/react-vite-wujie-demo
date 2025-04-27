@@ -1,0 +1,45 @@
+.table-list {
+  min-width: 1100px;
+
+
+  .ysd-tabs-line {
+    width: 100%;
+  }
+
+  .search-group-box {
+    padding-top: 16px;
+    padding-bottom: 8px;
+
+    .ysd-form .ysd-form-item {
+      margin-bottom: 12px;
+    }
+
+    .ysd-divider {
+
+      .ysd-divider-inner-text {
+        color: var(--primary-color);
+        cursor: pointer;
+        user-select: none;
+
+        .ysd-icon {
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+
+  .tool {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .left {
+      span {
+        display: inline-block;
+        padding: 0 4px;
+        color: var(--primary-color);
+      }
+    }
+  }
+}

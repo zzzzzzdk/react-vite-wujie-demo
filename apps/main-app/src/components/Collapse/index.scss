@@ -1,0 +1,53 @@
+$yisa-collapse: "yisa-collapse";
+
+.#{$yisa-collapse} {
+  &-header {
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    justify-content: space-between;
+    background: var(--panel-header-bg);
+    margin-bottom: 16px;
+    &-title {
+      font-weight: 700;
+      color: var(--text-color);
+      padding-left: 14px;
+      position: relative;
+      &.title-icon {
+        &::before {
+          content: "";
+          position: absolute;
+          top: 6px;
+          left: 0;
+          border-radius: 2px;
+          width: 4px;
+          height: 16px;
+          background: var(--primary-color);
+        }
+      }
+    }
+    &-button {
+      cursor: pointer;
+      color: var(--primary-color);
+      > span {
+        &.expand {
+          .ysd-icon {
+            transform: rotate(180deg);
+            vertical-align: -2px;
+          }
+        }
+      }
+      .ysd-icon {
+        margin: 0 5px;
+        font-size: 9px;
+        vertical-align: 2px;
+        transition: transform 0.2s ease;
+      }
+    }
+  }
+  &-wrapper {
+    // opacity: 0;
+    // // transition: height .3s ease-out;
+    overflow: hidden;
+  }
+}

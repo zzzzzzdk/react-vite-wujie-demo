@@ -1,0 +1,140 @@
+.time-range-picker {
+  position: relative;
+
+  .ysd-picker-range {
+    width: 209px;
+    &.type-time {
+      width: 426px;
+    }
+  }
+
+  .no-left-radius {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .no-right-radius {
+    border-right-color: transparent;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .ysd-form-item-content {
+    .ysd-form-item-content-label {
+      height: 32px;
+      line-height: 32px;
+    }
+
+    .ysd-form-item-content-value-input {
+      .time-type-select {
+        vertical-align: top;
+        &.has-right-gap {
+          margin-right: 8px;
+          align-self: flex-start;
+        }
+      }
+      .time-custom-label {
+        width: 80px;
+        min-width: 76px;
+        line-height: 32px;
+        color: var(--text-color);
+        margin-right: 8px;
+        text-align: center;
+        display: inline-block;
+      }
+      .ysd-space {
+        flex: auto;
+        .ysd-space-item {
+          &:last-child {
+            // margin-left: -8px;
+            flex: 1;
+          }
+        }
+      }
+    }
+  }
+
+  .periods {
+    position: absolute;
+    left: 90px;
+    top: 0;
+    li {
+      height: 32px;
+      line-height: 32px;
+      cursor: pointer;
+      color: var(--primary-color);
+      &.periods-disabled {
+        cursor: not-allowed;
+        pointer-events: none;
+        opacity: 0.5;
+      }
+    }
+    &.periods-technology{
+      li{
+        color: #0cf;
+      }
+    }
+  }
+  .time-span {
+    display: flex;
+    align-items: center;
+    .add,
+    .del {
+      cursor: pointer;
+      user-select: none;
+      font-size: 24px;
+    }
+    .add {
+      color: var(--primary-color);
+    }
+    .del {
+      color: var(--danger-color);
+    }
+  }
+  // .common-periods {
+  //   color: var(--primary-color);
+  //   .ysd-icon {
+  //     font-size: 12px;
+  //   }
+  // }
+  .ysd-picker.type-time.ysd-ranger-picker-technology,
+  .ysd-picker.ysd-picker-range.ysd-ranger-picker-technology,
+  .ysd-picker.ysd-picker-range.time-add-gap.ysd-time-picker-technology {
+    background: var(--technology-form-bg);
+    border: 1px solid var(--technology-form-border);
+    .ysd-picker-input {
+      input {
+        color: #fff;
+        caret-color: #fff;
+      }
+      ::-webkit-input-placeholder {
+        color: #fff;
+        opacity: 0.7;
+      }
+    }
+    .ysd-picker-range-separator .ysd-picker-separator {
+      color: #fff;
+    }
+    .ysd-picker-suffix {
+      color: #fff;
+    }
+  }
+}
+
+.periods-dropdown {
+  width: 72px;
+  .ysd-popover-inner-content {
+    padding: 4px 0;
+    ul {
+      li {
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        &:hover {
+          background-color: var(--base-color1-5);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

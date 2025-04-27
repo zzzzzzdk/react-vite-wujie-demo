@@ -1,0 +1,235 @@
+@import "./token.scss";
+
+
+.#{$prefix}-vehicle-model {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  padding: 0 8px;
+  border: var(--vehicle-model-border-width) solid var(--vehicle-model-border-color);
+  border-radius: var(--vehicle-model-border-radius);
+  outline: none;
+  color: var(--vehicle-model-color);
+  vertical-align: middle;
+  font-size: var(--font-size);
+  background-color: var(--vehicle-model-background-color);
+  cursor: pointer;
+  box-sizing: border-box;
+
+  &-view {
+    position: relative;
+    width: 100%;
+    min-width: 0;
+    min-height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &-placeholder {
+    width: 100%;
+    color: var(--vehicle-model-placeholder-color);
+    pointer-events: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+  }
+
+  &-suffix {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    color: var(--vehicle-model-icon-color);
+    box-sizing: border-box;
+  }
+
+  &-open &-arrow-icon {
+    transform: rotate(180deg);
+  }
+
+  &-focused,
+  &-hoverd {
+    border-color: var(--vehicle-model-hover-border-color);
+  }
+
+  &-no-border {
+    border: none;
+  }
+
+  &-disabled {
+    cursor: no-drop;
+    border-color: var(--vehicle-model-disabled-border-color);
+    background-color: var(--vehicle-model-disabled-background-color);
+    color: var(--vehicle-model-disabled-color);
+  }
+
+  &-error {
+    position: relative;
+    border-color: var(--vehicle-model-error-border-color);
+
+    &:hover {
+      border-color: var(--vehicle-model-error-border-color);
+    }
+  }
+
+  &-trigger {
+    position: absolute;
+    z-index: 1050;
+
+    &-hidden {
+      display: none;
+    }
+  }
+
+  &-size-mini {
+    font-size: var(--font-size-sm);
+
+    .#{$prefix}-vehicle-model-view {
+      min-height: 22px;
+      line-height: 22px;
+    }
+  }
+
+  &-size-small {
+
+    .#{$prefix}-vehicle-model-view {
+      min-height: 26px;
+      line-height: 26px;
+    }
+  }
+
+  &-size-large {
+    font-size: var(--font-size-lg);
+
+    .#{$prefix}-vehicle-model-view {
+      min-height: 38px;
+      line-height: 38px;
+    }
+  }
+
+  &-empty {
+    padding-top: 20px;
+    color: var(--vehicle-model-icon-color);
+
+    &-icon {
+      height: 40px;
+      margin-bottom: 8px;
+      font-size: 36px;
+      text-align: center;
+    }
+
+    &-description {
+      text-align: center;
+      font-size: var(--font-size-sm);
+    }
+  }
+
+  &-wrapper {
+    display: flex;
+    color: var(--text-color);
+
+  }
+
+  &-list {
+    background: var(--vehicle-model-wrapper-background-color);
+  }
+
+  &-list-brand {
+    display: flex;
+  }
+
+  &-letter {
+    width: 30px;
+    border-right: 1px solid var(--vehicle-model-wrapper-border-color);
+    background: var(--vehicle-model-letter-background-color);
+  }
+
+  &-letter-item {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--vehicle-model-wrapper-color);
+    font-size: 12px;
+    cursor: pointer;
+
+    &:not(&-active) {
+
+      &:hover {
+        color: #fff;
+        background-color: var(--vehicle-model-letter-hover-background-color);
+      }
+    }
+
+    &-active {
+      color: #fff;
+      background: var(--vehicle-model-letter-active-background-color);
+    }
+  }
+
+  &-column {
+    width: 130px;
+    height: 100%;
+    border: 1px solid var(--vehicle-model-wrapper-border-color);
+    border-left: none;
+  }
+
+  &-search {
+    height: 30px;
+    padding: 3px 6px;
+    border-bottom: 1px solid var(--vehicle-model-wrapper-border-color);
+    background: var(--vehicle-model-letter-background-color);
+
+    .ysd-input-wrapper {
+      background: var(--vehicle-model-search-background-color);
+    }
+  }
+
+  &-column-list {
+    height: calc(100% - 30px);
+  }
+
+  &-column-item {
+    height: 26px;
+    padding: 0 4px;
+    border-radius: var(--vehicle-model-border-radius);
+    margin-bottom: 1px;
+    line-height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:not(&-letter) {
+      cursor: pointer;
+    }
+
+    &:not(&-letter, &-active) {
+
+      &:hover {
+        background-color: var(--vehicle-model-item-hover-background-color);
+      }
+    }
+
+    &-letter {
+      background: var(--vehicle-model-letter-background-color);
+      font-weight: 700;
+    }
+
+    &-active {
+      color: var(--vehicle-model-item-active-color);
+      background: var(--vehicle-model-item-active-background-color);
+      border: none;
+    }
+  }
+}
+
+
+
+
+

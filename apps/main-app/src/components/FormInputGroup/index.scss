@@ -1,0 +1,43 @@
+.cc-form-input-groups {
+  display: flex;
+  align-items: center;
+  .form-input-name {
+    margin-right: 10px;
+    width: 60px;
+    font-weight: bold;
+  }
+
+  .ysd-input-wrapper-disabled {
+    opacity: 0.7;
+  }
+
+  .ant-input-number-handler-down{
+    border-color: var(--color-border);
+  }
+  .ant-input-group {
+    .ant-input,.ant-input-number {
+      width: 100px;
+      min-width: 80px;
+      background: var(--color-input-bg);
+      color: var(--color-text);
+      border-color:var(--color-border);
+      border-radius: 4px;
+      .ant-input-number-handler-wrap {
+        opacity: 1;
+        background: var(--color-bg-body);
+        border-left-color: var(--color-input-border);
+        .ant-input-number-handler-up-inner,
+        .ant-input-number-handler-down-inner {
+          color: var(--color-text);
+        }
+      }
+    }
+    .input-split {
+      min-width: 20px;
+      text-align: center;
+      line-height: 31px;
+      margin: 0 5px;
+      color: var(--color-text);
+    }
+  }
+}

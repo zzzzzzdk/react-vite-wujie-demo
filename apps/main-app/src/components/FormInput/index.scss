@@ -1,0 +1,66 @@
+// $nameText: var(--color-text);
+.form-upload {
+    display: flex;
+    // height: 32px;
+    width: 100%;
+    .form-input-name {
+        flex: none;
+        align-self: top;
+        margin-right: 10px;
+        font-weight: 600;
+        // color: $nameText;
+        line-height: 34px;
+    }
+    .form-input-content {
+        flex: 1;
+    }
+    .tishi {
+        font-size: 12px;
+        color: var(--danger-color);
+        line-height: 34px;
+        // margin-left: 19px;
+    }
+
+    .file-list {
+        display: block;
+        width: 100%;
+        .ysd-row {
+            width: 100%;
+            .file-list-item {
+                background: rgba(51, 119, 255, 0.06);
+                padding: 0 10px;
+                margin-top: 10px;
+                margin-right: 10px;
+                display: flex;
+                .icon {
+                    font-size: 26px;
+                    margin-right: 10px;
+                    .ysd-icon{
+                        margin-top: 3px;
+                        color: var(--primary-color);
+                    }
+                }
+                .info {
+                    display: inline-block;
+                    flex: 1;
+                    line-height: 40px;
+                    padding-right: 10px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    max-width: 65px;
+                }
+                .size {
+                    line-height: 40px;
+                }
+                .close {
+                    flex: right;
+                    line-height: 40px;
+                    // color: var(--color-gray-close);
+                    cursor: pointer;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

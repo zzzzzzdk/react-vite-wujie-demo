@@ -1,0 +1,77 @@
+@import "@/assets/css/mixin";
+.homepage {
+  .record-search-input {
+    // overflow: hidden;
+    position: relative;
+    .search-input {
+      margin: 0;
+      border-radius: 60px;
+    }
+    .search-btn {
+      border-radius: 60px;
+    }
+    .bottom-options {
+      padding: 0 30px;
+      align-items: center;
+    }
+    .more-btn {
+      display: none;
+    }
+    .more-search-btn {
+      display: inline-block;
+      position: absolute;
+      top: 100px;
+      right: 0;
+      padding: 0;
+    }
+  }
+  &-left {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  &-middle {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  &-right {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 290px;
+  }
+  .scroll {
+    @include scrollBar;
+  }
+
+  &-header {
+    background-color: var(--layout-horizontal-header-bg-color);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .right-tools {
+      .ysd-icon {
+        color: var(--layout-vertical-header-color);
+        color: white;
+      }
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      margin-left: 20px;
+    }
+    .text {
+      margin-left: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      width: calc(100% - 48px);
+      min-width: 193px;
+      white-space: initial;
+      text-align: center;
+      color: white;
+    }
+  }
+}

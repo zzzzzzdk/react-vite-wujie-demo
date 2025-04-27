@@ -1,0 +1,46 @@
+@import "../../../assets/css/mixin.scss";
+.clothing-same {
+  background: url(../../../assets/images/record/same-day.png) no-repeat;
+  width: 100%;
+  padding: 40px 10px 10px 10px;
+  background-color: var(--base-color2);
+  border-radius: 4px;
+  border: 1px solid var(--base-color1-10);
+  position: relative;
+  .clothing-data{
+    @include scrollBar();
+    overflow-x: auto;
+    @include sfp.flex-gap(16px);
+    display: flex;
+    cursor: pointer;
+    .clothing-card {
+      width: 180px;
+      margin-bottom: 0;
+      .image {
+        width: 160px;
+        height: 160px;
+      }
+    }
+  }
+  .capture-time {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    height: 30px;
+    font-size: 16px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    line-height: 30px;
+  }
+  .title-right {
+    color: #3377ff;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 30px;
+    line-height: 30px;
+  }
+}

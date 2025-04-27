@@ -1,0 +1,29 @@
+.addcluemodel {
+    // background-color: black;
+    // text-align: center;
+    .ysd-form {
+        width: 86%;
+        margin: auto;
+        .ysd-form-item {
+            // width: 80%;
+            margin-bottom: 10px;
+            .ysd-form-item-content{
+                .ysd-form-item-content-value{
+                   max-width:336px; 
+                }
+            }
+            .nameinput {
+                width: 100%;
+                .ysd-input-wrapper {
+                    display: block;
+                }
+                p {
+                    color: var(--danger-color);
+                    font-size: 12px;
+                    height: 22px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}

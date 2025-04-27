@@ -1,0 +1,271 @@
+@import "@/assets/css/mixin.scss";
+
+$record-lists-card: "record-lists-card";
+.#{$record-lists-card} {
+  width: 100%;
+  height: 182px;
+  border: 1px solid var(--tabs-line-border);
+  border-radius: 12px 4px 4px 4px;
+  padding: 10px;
+  padding-top: 40px;
+  background: url(../../../../../assets/images/record/record-card-bg.png) no-repeat;
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid #37f;
+  }
+  .card-header {
+    background: url(../../../../../assets/images/record/record-name-header.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 114px;
+    height: 54px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    font-family:
+      Microsoft YaHei,
+      Microsoft YaHei-Bold;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .card-header-check-box {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .card-capture {
+    padding: 0 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    @include sfp.flex-gap(5px);
+    .capture {
+      width: 104px;
+      height: 30px;
+      background: var(--tabs-line-border);
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+      color: var(--text-color);
+      line-height: 30px;
+    }
+  }
+  .card-img {
+    width: 128px;
+    height: 128px;
+    border-radius: 4px;
+    margin-right: 30px;
+  }
+  .card-info {
+    flex: 1;
+    position: relative;
+    // padding: 20px 0;
+    // display: flex;
+    // flex-wrap: wrap;
+    // writing-mode: vertical-lr;
+    .basic-info {
+      flex: 1;
+      padding: 5px 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      writing-mode: vertical-lr;
+      width: 100%;
+      height: 85px;
+    }
+
+    .info-item {
+      writing-mode: horizontal-tb;
+      height: 40px;
+      display: flex;
+      @include sfp.flex-gap(5px);
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+      color: var(--text-color);
+      line-height: 19px;
+      letter-spacing: 0.7px;
+      align-items: center;
+      .text {
+        opacity: 0.65;
+        width: 65px;
+        text-align: right;
+      }
+      .value span {
+        margin-right: 10px;
+      }
+      &.address {
+        .value {
+          width: 300px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+    .info-plate,
+    .person-name {
+      position: absolute;
+      writing-mode: horizontal-tb;
+      top: -24px;
+    }
+    .person-name {
+      font-size: 16px;
+      font-weight: bold;
+      font-family:
+        Microsoft YaHei,
+        Microsoft YaHei-Bold;
+      top: -20px;
+    }
+    .idNUmber,
+    .info {
+      .value {
+        white-space: nowrap;
+        width: 200px;
+      }
+    }
+    .idNUmber {
+      .value {
+        color: #3377ff;
+      }
+    }
+    .under-car,
+    .drive-car {
+      .plate2-text {
+        // color: var(--text-color);
+        // color: #ffffff;
+        margin-right: 5px;
+      }
+      .value {
+        width: 270px;
+      }
+      .more {
+        color: #3377ff;
+        cursor: pointer;
+      }
+    }
+    .drive-car {
+      // height: 60px;
+    }
+    .tel-phone {
+      height: 80px;
+      align-items: baseline;
+      padding-top: 10px;
+      .value {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        width: 270px;
+        position: relative;
+        div {
+          height: 28px;
+        }
+        & > span {
+          color: #3377ff;
+          cursor: pointer;
+          position: absolute;
+          bottom: 10px;
+          right: -30px;
+        }
+        .tel-item {
+          position: relative;
+          span {
+            margin-right: 2px;
+          }
+        }
+      }
+    }
+    .drive-person {
+      .value {
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        .drive-item {
+          // height: 28px;
+          color: #3377ff;
+          span {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .label-info {
+      .label {
+        .value {
+          display: flex;
+          @include sfp.flex-gap((0, 5px));
+          @include tag-item();
+          .label-more {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .update-time {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      display: flex;
+      @include sfp.flex-gap((0, 5px));
+      .time {
+        display: flex;
+        @include sfp.flex-gap((0, 5px));
+      }
+    }
+  }
+  &-more-tel-popover {
+    .ysd-popover-inner-content {
+      max-width: 362px;
+      .more-tel {
+        display: flex;
+        flex-wrap: wrap;
+        .tel-item {
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  &-more-label-popover {
+    .ysd-popover-inner-content {
+      width: 320px;
+      .more-label {
+        display: flex;
+        flex-wrap: wrap;
+        @include sfp.flex-gap(5px);
+        @include tag-item();
+      }
+    }
+  }
+  &-more-drive-popover {
+    .ysd-popover-inner-content {
+      max-width: 360px;
+      .more-drive {
+        display: flex;
+        flex-wrap: wrap;
+        @include sfp.flex-gap(5px);
+        .drive-item {
+          height: 20px;
+          color: #3377ff;
+        }
+      }
+    }
+  }
+  &-more-car-popover {
+    .ysd-popover-inner-content {
+      max-width: 310px;
+      .more-car {
+        display: flex;
+        flex-wrap: wrap;
+        @include sfp.flex-gap(5px);
+        .plate2-text {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

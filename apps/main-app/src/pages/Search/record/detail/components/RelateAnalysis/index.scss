@@ -1,0 +1,264 @@
+@import "@/assets/css/mixin.scss";
+$relate-analysis: "relate-analysis";
+.#{$relate-analysis} {
+  height: calc(100%);
+  position: relative;
+  &-top {
+    height: 100%;
+    padding-bottom: 66px;
+    @include scrollBar();
+  }
+  &-header {
+    padding: 0 2px;
+    .relate-type {
+      padding: 16px 0;
+    }
+    .static-active-relate {
+      padding: 14px 0 10px 20px;
+      box-shadow: 0px 0px 6px 0px rgba(34, 34, 38, 0.08);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      .relate {
+        display: flex;
+        min-height: 30px;
+        // align-items: center;
+        line-height: 24px;
+        width: calc(100% - 160px);
+        .title {
+          font-size: 14px;
+          font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+          font-weight: 400;
+          color: var(--text-color);
+          // line-height: 32px;
+          margin-right: 20px;
+          min-width: 60px;
+        }
+        .value {
+          display: flex;
+          flex: 1;
+          > .ysd-checkbox-wrapper {
+            margin-right: 20px;
+            width: 60px;
+          }
+          .ysd-checkbox-group {
+            flex: 1;
+            .ysd-checkbox-group-item {
+              width: 137px;
+              margin-right: 10px;
+              margin-bottom: 6px;
+              .ysd-checkbox + span {
+                width: auto;
+                height: 22px;
+                border-radius: 2px;
+                line-height: 22px;
+                margin-left: 5px;
+                background: rgba(0, 204, 102, 0.1);
+                border: 1px solid #00cc66;
+                color: #00cc66;
+              }
+            }
+          }
+        }
+        .static-value {
+          .ysd-checkbox-group .ysd-checkbox-group-item {
+            .ysd-checkbox + span {
+              background: rgba(255, 141, 26, 0.1);
+              border: 1px solid #ff8d1a;
+              color: #ff8d1a;
+            }
+          }
+        }
+      }
+      .search-btn {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        .ysd-btn {
+          width: 146px;
+          height: 32px;
+        }
+      }
+    }
+  }
+  &-content {
+    .total-header {
+      padding: 20px 0;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      @include sfp.flex-gap((0, 10px));
+      .total-num {
+        span {
+          color: #37f;
+          margin: 5px;
+        }
+      }
+      .total-options {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        @include sfp.flex-gap((0, 10px));
+        position: relative;
+        .ysd-select {
+          width: 162px;
+        }
+      }
+    }
+    .result-data {
+      .card-item-flex {
+        flex: auto;
+        margin-right: 18px;
+        margin-bottom: 18px;
+        width: 182px;
+      }
+      .table-data {
+        height: 100%;
+        .table-no-data {
+          height: 300px;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          color: var(--resultbox-nodata-tip-color);
+          font-size: 20px;
+          letter-spacing: 2px;
+          .no-data-img {
+            height: 420px;
+            width: 500px;
+            background: var(--result-no-data-img) no-repeat center center;
+          }
+        }
+        .image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .ysd-image-wrapper {
+            height: 80px;
+            width: 80px;
+          }
+        }
+        .plate-bg {
+          cursor: pointer;
+        }
+        .idNumber,
+        .case-number,
+        .case-name {
+          cursor: pointer;
+          color: #37f;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        .case-details {
+          width: 450px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          word-wrap: break-word;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 3;
+          display: -webkit-box;
+          font-size: 14px;
+          font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+          font-weight: 400;
+          line-height: 22px;
+        }
+        .static-relate {
+          background: rgba(255, 141, 26, 0.1);
+          border: 1px solid #ff8d1a;
+          color: #ff8d1a;
+          width: auto;
+          height: 28px;
+          border-radius: 2px;
+          line-height: 22px;
+          padding: 2px 6px;
+          cursor: pointer;
+          &:hover {
+            color: #fff;
+            background-color: #ff8d1a;
+          }
+        }
+        .active-relate {
+          width: auto;
+          height: 28px;
+          border-radius: 2px;
+          line-height: 22px;
+          padding: 2px 6px;
+          cursor: pointer;
+          background: rgba(0, 204, 102, 0.1);
+          border: 1px solid #00cc66;
+          color: #00cc66;
+          &:hover {
+            background-color: #00cc66;
+            color: #fff;
+          }
+        }
+        .static,
+        .active {
+          display: flex;
+          @include sfp.flex-gap((0, 5px));
+          margin: 4px 0;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+        .popover-label {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          cursor: pointer;
+          @include sfp.flex-gap(5px);
+          @include tag-item();
+          .label-item-more {
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+  &-pagination {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 32px;
+    padding-right: 10px;
+    margin-top: 20px;
+    border-top: 1px solid var(--tabs-line-border);
+    padding-top: 20px;
+    background-color: var(--layout-vertical-content-body-bg-color);
+    z-index: 3;
+    .tips {
+      color: #ff5b4d;
+    }
+  }
+  &-popover-label {
+    .popover-label {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      width: 295px;
+      @include sfp.flex-gap(5px);
+      @include tag-item();
+    }
+  }
+  &-vehicle-modal {
+    .ysd-modal-content {
+      height: 620px;
+      .result-data {
+        display: flex;
+        flex-wrap: wrap;
+        .card-normal-item {
+          flex: none;
+        }
+      }
+    }
+    .ysd-modal-footer {
+      border-top: 1px solid var(--modal-title-border-color);
+      padding-top: 22px;
+      margin-top: 0;
+    }
+  }
+}

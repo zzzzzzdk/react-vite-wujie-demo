@@ -1,0 +1,11 @@
+.shortcut {
+  &-add {
+    > :first-child {
+      background: transparent;
+      color: var(--base-color1-50);
+      border: 1px dashed rgba(34, 34, 38, 0.4);
+      background: rgba(51, 119, 255, 0.04);
+      border: 1px dashed rgba(51, 119, 255, 0.5);
+    }
+  }
+}

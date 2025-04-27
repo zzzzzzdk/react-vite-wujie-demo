@@ -1,0 +1,46 @@
+$color-primary: var(--primary-color);
+$color-default: var(--base-color1-30);
+$button-background: var(--button-default-background-color);
+$form-radio-group: "form-radio-group";
+.#{$form-radio-group} {
+  height: 32px;
+  .ysd-radio-button-wrapper {
+    min-width: 80px;
+    padding: 0 16px;
+    line-height: 30px;
+    font-size: 12px;
+    &.ysd-radio-button-wrapper-checked {
+      background: $button-background;
+      color: $color-primary !important;
+      &.ysd-radio-button-wrapper-disabled {
+        color: var(--radio-button-disabled-text-color);
+        background: var(--radio-button-disabled-bg-color);
+        &:first-child {
+          border-right-color: var(--radio-disabled-border-color);
+        }
+        .ysd-icon {
+          color: $color-default;
+          &.active {
+            color: $color-default;
+          }
+        }
+      }
+      // .ysd-icon {
+      //   color: $color-primary;
+      // }
+    }
+    .ysd-icon {
+      width: 9px;
+      color: $color-default;
+      &.active {
+        color: $color-primary;
+      }
+    }
+    &:first-child {
+      border-right-color: $color-primary;
+    }
+    &:nth-child(2) {
+      padding-left: 19px;
+    }
+  }
+}

@@ -1,0 +1,226 @@
+$form-plate-cls: #{$prefix}-form-plate;
+
+.#{$form-plate-cls} {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  position: relative;
+  .ysd-select {
+    flex: none;
+    width: 74px !important;
+    border-radius: 4px 0 0 4px;
+    // margin-right: 4px;
+
+    .ysd-select-view {
+      background: url(./plate-color-select.png) no-repeat center;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      word-break: break-all;
+      white-space: nowrap;
+      text-align: center;
+
+      &:not([title="不限"]) {
+        color: transparent !important;
+      }
+    }
+  }
+
+  .#{$form-plate-cls}-form-input {
+    flex: auto;
+    width: 0;
+    .ysd-input-inner {
+      margin-left: -1px;
+      border-radius: 0 4px 4px 0;
+      .ysd-input {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .ysd-radio-group {
+    margin-left: 8px;
+    flex: none;
+
+    .ysd-radio-wrapper {
+      margin: 0;
+    }
+
+    span.ysd-radio + * {
+      padding-right: 0;
+    }
+  }
+}
+
+.#{$form-plate-cls}-plate-type {
+  width: 162px !important;
+
+  .ysd-select-option {
+    background: url(./plate-color-select.png) no-repeat left 0;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+
+    &:nth-child(1) {
+      background-position: left -209px;
+    }
+
+    &:nth-child(2) {
+      background-position: left 0;
+    }
+
+    &:nth-child(3) {
+      background-position: left -30px;
+    }
+
+    &:nth-child(4) {
+      background-position: left -60px;
+    }
+
+    &:nth-child(5) {
+      background-position: left -90px;
+    }
+
+    &:nth-child(6) {
+      background-position: left -120px;
+    }
+
+    &:nth-child(7) {
+      background-position: left -150px;
+    }
+
+    &:nth-child(8) {
+      background-position: left -180px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.#{$form-plate-cls}-no-limit {
+  .ysd-select-option {
+    &:nth-child(1) {
+      display: none;
+    }
+  }
+}
+
+.#{$form-plate-cls}-keyboard-box {
+  position: absolute;
+  z-index: 1050;
+  // z-index: 10000;
+  top: 0px;
+  left: 0px;
+  width: 398px;
+  border: 1px solid var(--formplate-keyboard-border);
+  background-color: var(--formplate-keyboard-bg);
+  padding: 8px;
+  opacity: 0;
+  transition: opacity 0.1s 0.2ms;
+
+  .keyboard-item {
+    .keyboard-item-n {
+      position: relative;
+      user-select: none;
+      display: inline-block;
+      width: 34px;
+      height: 34px;
+      text-align: center;
+      line-height: 34px;
+      border-radius: 4px;
+      margin: 2px;
+      cursor: pointer;
+
+      &::after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: none;
+        z-index: 1;
+        background-color: var(--formplate-keyboard-item-hover-color);
+        content: " ";
+      }
+
+      &:hover {
+        &::after {
+          display: block;
+        }
+      }
+    }
+  }
+
+  @for $i from 1 through 5 {
+    .keyboard-item#{$i} {
+      .keyboard-item-n {
+        background-color: var(--formplate-keyboard-item-bg#{$i});
+        color: var(--formplate-keyboard-item-color#{$i});
+      }
+    }
+  }
+
+  .keyboard-del-button {
+    position: relative;
+    user-select: none;
+    background-color: var(--formplate-keyboard-del-bg);
+    display: inline-block;
+    width: 53px;
+    color: var(--formplate-keyboard-del-color);
+    height: 34px;
+    text-align: center;
+    line-height: 31px;
+    border-radius: 4px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 18px;
+
+    &.keyboard-confirm {
+      background-color: var(--button-primary-background-color);
+      font-size: 16px;
+    }
+
+    &::after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      display: none;
+      z-index: 1;
+      background-color: var(--formplate-keyboard-item-hover-color);
+      content: " ";
+    }
+
+    &:hover {
+      &::after {
+        display: block;
+      }
+    }
+  }
+
+  .keyboard-remind-text {
+    padding: 10px 2px 0;
+    letter-spacing: 1px;
+    color: var(--formplate-keyboard-remind-color);
+    line-height: 20px;
+    font-size: 14px;
+  }
+}
+
+$technologyFormBg: rgba(0, 32, 93, 0.53);
+$technologyFormBorder: rgba(151, 210, 255, 0.7);
+$technologyFormBorderFocus: #acc2ff;
+
+.plate-keyboard-box-technology {
+  background-color: $technologyFormBg;
+
+  .keyboard-item {
+    .keyboard-item-n {
+      background-color: var(--primary-color-30);
+      color: #fff;
+    }
+  }
+  .keyboard-remind-text {
+    color: #fff;
+  }
+}

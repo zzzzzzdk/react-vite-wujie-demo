@@ -1,0 +1,144 @@
+.card-info-item {
+  // cursor: pointer;
+  // max-width: 400px;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--base-color2);
+  border-radius: 4px;
+  border: 1px solid var(--base-color1-10);
+  position: relative;
+  display: flex;
+  &:hover {
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-img {
+    padding-top: 0 !important;
+    width: 130px;
+    height: 130px;
+    flex: none;
+    // cursor: pointer;
+    &.small {
+      width: 108px;
+      height: 108px;
+    }
+    &:hover {
+      .card-delete.hovering {
+        display: block;
+      }
+    }
+    .card-delete {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      z-index: 2;
+      cursor: pointer;
+      color: var(--danger-color);
+      &.hovering {
+        display: none;
+      }
+    }
+    .card-img-inner {
+      width: 100%;
+      height: 100%;
+      .ysdb-img-zoom-original-pic-wrap {
+        z-index: 0;
+      }
+    }
+  }
+
+  .aspect-ratio-box-content {
+    .ysdb-img-zoom {
+      width: 100%;
+      height: 100%;
+      background: var(--image-background-color);
+      border: var(--image-border-width) solid var(--image-border-color);
+      border-radius: var(--image-border-radius);
+      color: var(--image-color);
+      .ysdb-img-zoom-original-pic-bg {
+        background: transparent;
+        .zoom-img-error-layer {
+          background-color: transparent;
+          color: var(--image-color);
+        }
+      }
+      .ysdb-img-zoom-big-pic-wrap {
+        z-index: 4;
+      }
+    }
+  }
+  .card-info-wrapper {
+    margin-left: 10px;
+    width: calc(100% - 140px);
+    &.small{
+      width:calc(100% - 118px) ;
+    }
+    .card-info {
+      display: flex;
+      align-items: center;
+      height: 26px;
+      &-content {
+        flex: 1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: flex;
+        .count {
+          margin: 0 5px;
+          color: var(--primary-color);
+          font-style: normal;
+        }
+        .idcard {
+          // max-width: 160px;
+          display: block;
+          width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .ysd-icon {
+        opacity: 0.7;
+        margin-right: 6px;
+      }
+
+      .location {
+        // &:hover {
+        //   text-decoration: underline;
+        // }
+        &.can-click {
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        &-item {
+          height: 24px;
+          line-height: 24px;
+          background: var(--danger-color-20);
+          border-radius: 2px;
+          color: var(--danger-color);
+          margin: 0px 12px 0px 0;
+          padding: 0 12px;
+          max-width: 80px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          text-align: center;
+          &:nth-child(2n) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .no-name {
+    font-size: 18px;
+    font-weight: 700;
+    height: 78px;
+  }
+}

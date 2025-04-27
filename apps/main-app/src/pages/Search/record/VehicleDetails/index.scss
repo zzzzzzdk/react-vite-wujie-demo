@@ -1,0 +1,141 @@
+@import "~@/assets/css/mixin.scss";
+$prefixCls: "record-detail-vehicle";
+.#{$prefixCls} {
+  height: 100%;
+  display: flex;
+  &-vehicle-info {
+    width: 230px;
+    padding: 15px;
+    border-right: 1px solid var(--tabs-line-border);
+    position: relative;
+    .info-header {
+      height: 19px;
+      font-size: 14px;
+      font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+      font-weight: 700;
+      text-align: left;
+      color: var(--breadcrumb-last-color);
+      line-height: 22px;
+      align-items: center;
+      position: relative;
+      display: flex;
+      &::before {
+        content: "";
+        width: 4px;
+        height: 16px;
+        background: var(--primary-color);
+        border-radius: 2px;
+        margin-right: 10px;
+      }
+      .title-right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        @include sfp.flex-gap((0, 10px));
+        font-weight: 400;
+        text-align: center;
+        padding-right: 5px;
+        cursor: pointer;
+        .ysd-btn-md {
+          min-width: 0;
+          padding: 0 8px;
+          .ysd-btn-icon {
+            font-size: 14px;
+            margin-right: 4px;
+          }
+          &.ysd-btn-loading {
+            padding: 0 3px;
+          }
+        }
+        .btn {
+          height: 24px;
+          border-radius: 4px;
+          line-height: 24px;
+        }
+        .edit-btn {
+          color: var(--primary-color);
+        }
+        .save-btn {
+          color: var(--primary-color);
+        }
+        .cancel-btn {
+          color: var(--danger-color) !important;
+          border-color: var(--danger-color);
+          &:hover {
+            background: var(--danger-color-10);
+          }
+          &:active {
+            background: var(--danger-color-20);
+            outline: 4px solid var(--danger-color-20);
+          }
+        }
+      }
+    }
+    .info-content {
+      margin-top: 20px;
+      &-img {
+        position: relative;
+        width: 196px;
+        height: 196px;
+        .ysd-image-wrapper {
+          border: 1px solid var(--image-border-color);
+          border-radius: 4px;
+        }
+        .left,
+        .right {
+          position: absolute;
+          height: 46px;
+          line-height: 46px;
+          width: 16px;
+          text-align: center;
+          border-radius: 4px;
+          cursor: pointer;
+          top: 50%;
+          transform: translateY(-50%);
+          box-shadow: 0px 6px 18px 0px rgba(113, 117, 137, 0.15);
+          background-color: rgba(0, 0, 0, 0.5);
+          color: #fff;
+        }
+        .left {
+          left: 0;
+        }
+        .right {
+          right: 0;
+        }
+      }
+      .no-image-data {
+        width: 196px;
+        height: 196px;
+        font-size: 64px;
+        display: flex;
+        align-items: center;
+        border: 1px solid var(--image-border-color);
+        border-radius: 4px;
+      }
+      .plate-text {
+        margin: 20px auto;
+        text-align: center;
+      }
+    }
+    .ysd-loading.ysd-loading-spinning {
+      margin: 90px;
+    }
+  }
+  &-tab {
+    width: 100%;
+  }
+  &-vehicle-content {
+    padding: 15px;
+    width: calc(100% - 230px);
+    .active-data {
+      height: calc(100% - 40px);
+      @include scrollBar();
+      .ysd-loading.ysd-loading-spinning {
+        margin-top: 30vh;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}

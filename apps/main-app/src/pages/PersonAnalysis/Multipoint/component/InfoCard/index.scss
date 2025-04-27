@@ -1,0 +1,129 @@
+@import "../../../../../assets/css/mixin.scss";
+.card-vehicle-info-item {
+  cursor: pointer;
+  max-width: 400px;
+  width: 100%;
+  background-color: var(--base-color2);
+  border-radius: 4px;
+  border: 1px solid var(--base-color1-10);
+  position: relative;
+  min-height: 150px;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  // display: flex;
+  &:hover {
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  &.active {
+    border-color: var(--primary-color);
+  }
+
+  .index {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 4px 0px 4px 0px;
+    background: rgba(51, 119, 255, 0.5);
+    color: #fff;
+    font-weight: 700;
+    width: 32px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+  }
+
+  .person-img-info {
+    display: flex;
+
+    .person-img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .person-info {
+      width: calc(100% - 140px);
+      padding-left: 10px;
+
+      .show-conditional {
+        display: flex;
+        flex-wrap: wrap;
+        // flex-direction: column;
+        // height: 70px;
+
+        .conditional-item {
+          width: calc(50% - 20px);
+          margin-right: 10px;
+          display: flex;
+          margin-bottom: 5px;
+
+          .conditional-index {
+            width: 16px;
+            height: 16px;
+            border-radius: 2px;
+            box-shadow: 0px 3px 6px 0px rgba(255, 255, 255, 0.53) inset;
+            font-size: 12px;
+            font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+            font-weight: 400;
+            text-align: center;
+            color: #ffffff;
+            line-height: 16px;
+            margin-right: 5px;
+          }
+
+        }
+      }
+    }
+
+    .vehicle-plate {
+      margin-bottom: 10px;
+    }
+
+    .car-info {
+      display: flex;
+      margin-bottom: 10px;
+
+      .card-info-content {
+        // width: calc(100% - 90px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
+    .card-info {
+      .name{
+        margin-right: 20px;
+      }
+      .ysd-icon {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .tag-container {
+    display: flex;
+    margin-bottom: 10px;
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      @include sfp.flex-gap((0, 5px));
+      @include tag-item();
+      .label-item {
+        width: 78px;
+      }
+      .more {
+        width: 36px;
+        padding: 0;
+      }
+    }
+    .ysd-icon {
+      margin-right: 6px;
+      opacity: 0.7;
+      margin-top: 3px;
+    }
+   
+  }
+}

@@ -1,0 +1,61 @@
+@import "@/assets/css/mixin";
+.colorful-label {
+  white-space: nowrap;
+  &-ellipsis {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.colorful-label-link {
+  display: inline-block;
+  padding: 0;
+  height: 24px;
+  line-height: unset;
+
+  &:hover{
+    text-decoration: none;
+  }
+  .ysd-tag { 
+    width: 100%;
+   
+    span {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+.colorful-container {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  @include sfp.flex-gap(2px);
+
+  &-center {
+    justify-content: center;
+    text-overflow: ellipsis;
+  }
+  .ellipsis {
+    white-space: nowrap;
+  }
+  .placeholder {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+  }
+  
+}
+.colorful-label-popover {
+  .ysd-popover-inner-content-content {
+    max-width: 600px;
+    max-height: 400px;
+    @include scrollBar;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

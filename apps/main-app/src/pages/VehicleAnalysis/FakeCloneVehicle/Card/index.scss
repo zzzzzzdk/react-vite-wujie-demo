@@ -1,0 +1,136 @@
+.card-normal-item {
+  flex: auto;
+  max-width: 300px;
+  width: 182px;
+  padding: 10px 10px 40px 10px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+  background-color: var(--base-color2);
+  border-radius: 4px;
+  border: 1px solid var(--base-color1-10);
+  position: relative;
+
+  &:hover {
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  &.checked {
+    border-color: var(--primary-color);
+  }
+
+  .card-img {
+    margin-bottom: 12px;
+    cursor: pointer;
+
+    .card-checked {
+      position: absolute;
+      left: 8px;
+      top: 8px;
+      z-index: 2;
+
+      .ysd-checkbox {
+        .ysd-checkbox-inner {
+          width: 24px;
+          height: 24px;
+
+          &::after {
+            left: 28%;
+          }
+        }
+      }
+    }
+
+    .card-img-inner {
+      width: 100%;
+      height: 100%;
+
+      .ysdb-img-zoom-original-pic-wrap {
+        z-index: 0;
+      }
+    }
+  }
+
+  .aspect-ratio-box-content {
+    .ysdb-img-zoom {
+      width: 100%;
+      height: 100%;
+      background: var(--image-background-color);
+      border: var(--image-border-width) solid var(--image-border-color);
+      border-radius: var(--image-border-radius);
+      color: var(--image-color);
+
+      .ysdb-img-zoom-original-pic-bg {
+        background: transparent;
+
+        .zoom-img-error-layer {
+          background-color: transparent;
+          color: var(--image-color);
+        }
+      }
+
+      .ysdb-img-zoom-big-pic-wrap {
+        z-index: 4;
+      }
+    }
+  }
+
+  .card-info {
+    display: flex;
+    align-items: center;
+    height: 26px;
+
+    &-label {
+      width: 102px;
+    }
+
+    &-content {
+      width: calc(100% - 20px);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      &-daysElapsed {
+        margin: 0 2px;
+      }
+    }
+
+    .ysd-icon {
+      opacity: 0.7;
+      margin-right: 6px;
+    }
+
+    .location {
+
+      &.can-click {
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+  }
+
+  .plate-wrap {
+    position: relative;
+
+    .plate-text {
+      color: var(--primary-color);
+    }
+
+    .plate2-text {
+      line-height: 28px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  .card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+  }
+}

@@ -1,0 +1,32 @@
+.opration-more {
+  .ysd-popover-inner-content {
+    padding: 0;
+  }
+  .opration-item {
+    width: 100px;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+    a {
+      width: 98%;
+      line-height: 34px;
+      color: var(--popover-color);
+      &:hover {
+        color: var(--primary-color);
+      }
+    }
+    a.no-link {
+      color: #997 !important;
+      text-decoration: none !important;
+    }
+    &:hover {
+      background-color: rgba(49, 119, 255, 0.06);
+    }
+    .joinClue:hover {
+      color: var(--primary-color);
+    }
+    .errorSubmit:hover {
+      color: var(--danger-color);
+    }
+  }
+}

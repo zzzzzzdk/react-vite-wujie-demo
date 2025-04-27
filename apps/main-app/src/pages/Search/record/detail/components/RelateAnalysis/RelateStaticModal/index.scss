@@ -1,0 +1,154 @@
+@import "@/assets/css/mixin.scss";
+$relate-static-modal: "relate-static-modal";
+.#{$relate-static-modal} {
+  &-relation-modal {
+    .body {
+      display: flex;
+      height: 700px;
+      .body-left {
+        width: 380px;
+        margin-right: 20px;
+        border-right: 1px solid var(--tabs-line-border);
+        @include scrollBar();
+        .title {
+          display: flex;
+          align-items: center;
+          font-size: 14px;
+          font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+          font-weight: 700;
+          text-align: left;
+          color: var(--text-color);
+          margin-bottom: 15px;
+          &::before {
+            content: "";
+            width: 4px;
+            height: 16px;
+            background: #3377ff;
+            border-radius: 2px;
+            display: inline-block;
+            margin-right: 10px;
+          }
+        }
+        .content {
+          .active-person-item {
+            border: 1px solid #3377ff;
+          }
+        }
+      }
+      .body-right {
+        flex: 1;
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .relation-pk {
+            background: url("../../../../../../../assets/images/record/relation-person-bg.png");
+            width: 130px;
+            height: 130px;
+            background-size: cover;
+            text-align: center;
+            padding: 30px 0;
+            .num {
+              font-size: 20px;
+              font-family: "YouSheBiaoTiHei";
+              font-weight: 400;
+              color: #3377ff;
+              span {
+                font-size: 34px;
+              }
+            }
+            .type {
+              font-size: 18px;
+              font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+              font-weight: 700;
+              color: var(--text-color);
+            }
+            .relation-type {
+              font-size: 18px;
+              font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+              font-weight: 700;
+              text-align: center;
+              color: var(--text-color);
+              padding: 25px 0;
+            }
+          }
+        }
+        .content {
+          .case-label {
+            display: flex;
+            justify-content: center;
+            .case-text {
+              width: 76px;
+              height: 24px;
+              background: rgba(255, 91, 77, 0.2);
+              border-radius: 2px;
+              font-size: 14px;
+              font-weight: 400;
+              text-align: center;
+              color: #ff5b4d;
+              line-height: 24px;
+            }
+          }
+          .case-type-1 {
+            width: 76px;
+            height: 24px;
+            background: rgba(255, 91, 77, 0.1);
+            border: 1px solid #ff5b4d;
+            border-radius: 2px;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: left;
+            color: #ff5b4d;
+            line-height: 24px;
+          }
+          .case-type-2 {
+            width: 76px;
+            height: 24px;
+            background: rgba(255, 141, 26, 0.1);
+            border: 1px solid #ff8d1a;
+            border-radius: 2px;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: left;
+            color: #ff8d1a;
+            line-height: 24px;
+          }
+          .plate2-text {
+            cursor: pointer;
+          }
+        }
+        .id-card {
+          color: #3377ff;
+          cursor: pointer;
+        }
+        .result-pagination {
+          position: relative;
+          height: 35px;
+          margin: 10px 0;
+          .ysd-pagination {
+            position: absolute;
+            right: 20px;
+            bottom: 0;
+          }
+        }
+        .table-no-data {
+          height: 430px;
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          color: var(--resultbox-nodata-tip-color);
+          font-size: 20px;
+          letter-spacing: 2px;
+          .no-data-img {
+            height: 220px;
+            width: 500px;
+            background: var(--result-no-data-img) no-repeat center center;
+            background-size: contain;
+          }
+        }
+      }
+    }
+  }
+}

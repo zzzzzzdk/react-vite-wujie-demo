@@ -1,0 +1,222 @@
+@import "../../../assets/css/mixin.scss";
+@mixin flex($x, $y) {
+  display: flex;
+  justify-content: $x;
+  align-items: $y;
+}
+@mixin inline-flex($x, $y) {
+  display: inline-flex;
+  justify-content: $x;
+  align-items: $y;
+  @include sfp.flex-gap((0, 1rem));
+}
+.text-span {
+  span {
+    color: var(--primary-color);
+  }
+  &-margin {
+    span {
+      margin: 0.5rem;
+    }
+  }
+}
+
+// ====================N2N===================
+.n2n {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  position: relative;
+  // overflow: hidded;
+  .container {
+    padding-bottom: 60px;
+    height: 100%;
+    // overflow: hidden auto;
+    @include scrollBar;
+  }
+  &-header {
+    .search-form {
+      // 给表单设置统一宽度
+      .ysd-form-item {
+        flex: 1;
+        min-width: 200px
+      }
+      // timer-picker
+      .date-picker {
+        width: 498px;
+        min-width: 498px;
+        max-width: 498px;
+        .ysd-picker-range {
+          width: 498px;
+          flex: 1;
+        }
+      }
+      .ysd-form-item-content-value-input {
+        justify-content: flex-end;
+      }
+      .btn-search {
+        width: 130px;
+      }
+    }
+    .overview {
+      &-statistic {
+        @include flex(space-between, center);
+      }
+      &-operations {
+        @include flex(center, center);
+        @include sfp.flex-gap((0, 1em));
+        .btn-add {
+          color: var(--button-primary-color) !important;
+          border: none;
+          background-color: var(--warning-color);
+          min-width: 0px
+        }
+      }
+      &-notification {
+        // @include flex(flex-start, center);
+        display: grid;
+        align-content: center;
+        align-items: baseline;
+        justify-items: start;
+        grid-template-columns: auto auto 1fr;
+        height: 2rem;
+        margin: 0.5rem 0;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 2px;
+        background: rgba(255, 141, 26, 0.06);
+        &--hidden {
+          display: none;
+        }
+        .danger-icon {
+          font-size: 16px;
+          margin: 0.4em;
+          color: #ff8d1a;
+        }
+        .close-icon {
+          cursor: pointer;
+          margin: 0.4em;
+          justify-self: flex-end;
+        }
+      }
+    }
+  }
+  &-main {
+    .table {
+      .ysd-table-cell-wrap-value {
+        width: 100%;
+        // display: inline-block;
+        a {
+          width: 100%;
+          display: inline-block;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+      &-operations {
+        width: 100%;
+        // display: inline-flex;
+        // justify-content: center;
+        // @include sfp.flex-gap((0, 22px));
+        &> button:nth-child(1) {
+          margin-right: 22px;
+        }
+        .operation-del {
+          border: 1px solid var(--button-danger-color);
+        }
+      }
+      &-count {
+        color: var(--primary-color);
+        cursor: pointer;
+      }
+      .db-name {
+        max-width: 100%;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        cursor: pointer;
+        color: var(--primary-color);
+      }
+      .db-deleted {
+        pointer-events: none;
+        color: var(--table-color-text-body-cell);
+      }
+      .task-status {
+        width: 80px;
+        height: 29px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        @include sfp.flex-gap((0, 0.5em));
+        .text {
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+  &-footer {
+    z-index: 3;
+    padding: 16px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 66px;
+    border-top: 1px solid var(--divider-border-color);
+    background: var(--layout-vertical-content-body-bg-color);
+    @include flex(space-between, center);
+    .ysd-pagination-options-size-changer.ysd-select {
+      margin-right: 0;
+    }
+    .batch-operations {
+      display: inline-flex;
+      @include sfp.flex-gap((0, 0.5rem));
+      .selected {
+        display: inline-flex;
+        align-items: center;
+        padding-right: 12px;
+        &-count {
+          color: var(--danger-color);
+          display: inline-block;
+          padding: 0 4px;
+        }
+      }
+      .btn-delete {
+        border-radius: 4px;
+        border: 1px solid var(--button-danger-color);
+      }
+    }
+  }
+}
+// ====================TaskModal===================
+.add-task-modal {
+  width: 623px;
+  &-wrapper {
+    padding: 0 94px;
+  }
+  &-tabs {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+    &>.ysd-tabs-item {}
+  }
+  &-form {
+    .tip {
+      margin: 0.5rem 0;
+      button {
+        border: none;
+        padding: 0;
+      }
+    }
+    .form-item-label {
+      flex: 1;
+      text-align-last: justify;
+    }
+  }
+
+  
+}
+// ====================Operation===================

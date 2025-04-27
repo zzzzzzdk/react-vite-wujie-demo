@@ -1,0 +1,1334 @@
+{
+  "data": {
+    "target": {
+      "bigImage": "http://192.168.7.206:8000/992_6cbf5c34-927b-11ed-8d2d-a0369f1f7f36.jpg",
+      "captureTime": "2023-11-03 16:03:56",
+      "carInfo": "五菱-征程-2015",
+      "detection": {
+        "x": 780,
+        "y": 343,
+        "w": 135,
+        "h": 127
+      },
+      "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011484672369-20231103160356-41&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F992_6cbf5c34-927b-11ed-8d2d-a0369f1f7f36.jpg",
+      "feature": "t7HdpO+hODFdqn0Z8y/6KMcsCDBhLcgiuSoQKsalySg9pBQrJCmojm4chy3lqp+hZqTCjcUiXC4hGQ4slqtKLKIcD6w4LEwSFLKiqmSwg6RVn+ub8bAtrzwwhaDWEkye4K4dJlAq9jBXJKmtoh7zq8YeKzAmIamtvLAyLBk09SxZKCQxPK+AKoQyYKo0MFWqHClaqbOs6CcwLOak2afMJoKkgq1SLtsy1B+lsOIpzzQ7okep76oysH+Ymq7ChcumDa2yL0KwuKx3GwAhfzQxLl+oxSlgKOmwd6ehKjixKJ+orFgq5CgZKHmrpiMyJNwm5J0eEiKotyxgHqspkSa7rQ==",
+      "windowFeature": "p6pxM4WzcizosBMzsK1zsNqL/CAUrr0tk6r/sIyv36odIfCqQiErLeYut6BTnrWu863VJ2Ix1afMKFaumiTdLfsktapUKQIleaCPKYappS53pG0tja4eI1IyXq5PLWeoG4rQMwGqLrKpJO6w3SW+rxmsSbCUrLUn+iFVn6Aew68dot6sWSkbrCoohizvKo0w/y2YrxcrIikvrfWmNS3Dpacj+5pnq2uc4C0opoEmtCkELuQN6SJdFC+c4SOJpnipyjAnKK2x9KuRK4KtBKj7JDwxdh3zLB4fPSyEpRWvSDCIqhmlniYlr9CtTK1MKeopyJ1FMKeryLHnqRkkFS+qqg==",
+      "infoId": "6544a96c-f758-e1cc-d7e7-39c60001e839",
+      "licensePlate1": "无牌",
+      "licensePlate2": "未识别",
+      "lngLat": {
+        "lng": 0,
+        "lat": 0
+      },
+      "locationId": "3702011484672369",
+      "locationName": "3702011484672369",
+      "direction": "未识别",
+      "plateColorTypeId2": 99,
+      "plateColorTypeString2": "其他",
+      "plateImage": "",
+      "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F992_6cbf5c34-927b-11ed-8d2d-a0369f1f7f36.jpg&xywh=780%2C343%2C135%2C127",
+      "targetType": "vehicle"
+    },
+    "peers": [
+      {
+        "bigImage": "http://192.168.7.206:8000/992_6cbf5c34-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:03:56",
+        "carInfo": "五菱-征程-2015",
+        "detection": {
+          "x": 780,
+          "y": 343,
+          "w": 135,
+          "h": 127
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011484672369-20231103160356-41\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F992_6cbf5c34-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "t7HdpO+hODFdqn0Z8y/6KMcsCDBhLcgiuSoQKsalySg9pBQrJCmojm4chy3lqp+hZqTCjcUiXC4hGQ4slqtKLKIcD6w4LEwSFLKiqmSwg6RVn+ub8bAtrzwwhaDWEkye4K4dJlAq9jBXJKmtoh7zq8YeKzAmIamtvLAyLBk09SxZKCQxPK+AKoQyYKo0MFWqHClaqbOs6CcwLOak2afMJoKkgq1SLtsy1B+lsOIpzzQ7okep76oysH+Ymq7ChcumDa2yL0KwuKx3GwAhfzQxLl+oxSlgKOmwd6ehKjixKJ+orFgq5CgZKHmrpiMyJNwm5J0eEiKotyxgHqspkSa7rQ==",
+        "windowFeature": "p6pxM4WzcizosBMzsK1zsNqL/CAUrr0tk6r/sIyv36odIfCqQiErLeYut6BTnrWu863VJ2Ix1afMKFaumiTdLfsktapUKQIleaCPKYappS53pG0tja4eI1IyXq5PLWeoG4rQMwGqLrKpJO6w3SW+rxmsSbCUrLUn+iFVn6Aew68dot6sWSkbrCoohizvKo0w/y2YrxcrIikvrfWmNS3Dpacj+5pnq2uc4C0opoEmtCkELuQN6SJdFC+c4SOJpnipyjAnKK2x9KuRK4KtBKj7JDwxdh3zLB4fPSyEpRWvSDCIqhmlniYlr9CtTK1MKeopyJ1FMKeryLHnqRkkFS+qqg==",
+        "infoId": "6544a96c-f758-e1cc-d7e7-39c60001e839",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702011484672369",
+        "locationName": "3702011484672369",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F992_6cbf5c34-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=780%2C343%2C135%2C127",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/992_6cb58006-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:03:54",
+        "carInfo": "五菱-征程-2015",
+        "detection": {
+          "x": 779,
+          "y": 337,
+          "w": 137,
+          "h": 131
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702014230712995-20231103160354-24\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F992_6cb58006-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "MbBrHeamHzJxrQCmdzBjKAMvHjGkLkksoCsuJ/KgZC0/p3EeV6i4Igee/Cv2qosjTxxlnckckCRJpXAoEauYoVUpJaygKfOcP69yKdywwqgTqcgoi665rOsuVKzBqZ0SX69nLjMmmzC8JR2wLyiHqOYfCTFElripT7B5Lo80aSyrH9Uw56qzLagxG6QWLoeqT6i/qzirtCh0LVmsA60tFJ0eG7B+LCQxTSvrsesu2DMBoYemLqwBsQYoJK3/o8qpDK0xLEazM66HEOOjojSFLC6dSykuHiuxOZ2rLruwJqwaqiotfCYyKxOskpxVIVsjFaoSo4EiDigzpP0gZaiVqQ==",
+        "windowFeature": "LKYGLiq0fLBqrk6dmC7+rq+rozDerPUpbyklqMChDaXsKU4pl6gZMRekEyfBKX2w0iZ1qnszYil/rGypE6cZM1olZrBQp7UvYS24pAis2i3JI+0ubKe9Ku8iBCPFqWwvqaplMU4k1bDJoKiuUa1JrPKpRya1Hi0wk6zdp5kmO7FBp2GmuyrusECrIiNcLawyky1cKC4wgS0zsZWy2TH8oZkw3phcr5SmLaq9MAopOivWJyqwKS2GokQwSSxCp6WpZSsFJLWl8CiIGquU/S18KvYtFyarGgeoaibyrrWstq/WpXIk+qXdIXedRqqpKVmsB6tqLxSfWqr9rSaimjABpw==",
+        "infoId": "6544a96a-ac6c-683a-248a-4760b059717e",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702014230712995",
+        "locationName": "3702014230712995",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F992_6cb58006-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=779%2C337%2C137%2C131",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/992_6cafd44e-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:03:50",
+        "carInfo": "五菱-征程-2015",
+        "detection": {
+          "x": 780,
+          "y": 342,
+          "w": 131,
+          "h": 130
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702012096879816-20231103160350-48\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F992_6cafd44e-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "IrErpFmftzKzqEqnmDHAI9wsqy7WGkuppqYunQmsGZuYII2lhB80JkgkBCeHragljqgMIL+mkSjZhRkYSq3QKskWfa0JLZMjl7GXp6at76NDqmko2q4+sacu+KIbrYcorq/KLOwu0jBmKNqttKh/rZCoqjBTGRaxNa4nLqIzXSpKJxAtHq5dMGA0w6UmMGCqOyhwlBSnmyZ8JZsks65vqrshgKxcK1swKqoKsi6lIDSNrVusFqREsJ8g6a1DKE0fgq2wLKWwcay6KVklhjTfLtwlSam6G46v/yIUMKSwQaEsqawnZCkVLJGg6BSYIyAo4aTpJeysyC3KpXwsRiM8rA==",
+        "windowFeature": "tSdSI2qx9qr9ovYsxKz5ozGwIKJ3L8IpjbDRrFiss7BkGu+oOy2DL4goCK2Jp8mnJ68HJYsxqxRkJpGuU6h3Mf+tFq1HsgAAPauNqBirNCxaKXQu+LEhrXsyCq2NIzeNl6/VHkWpB7MCHcSq5Sk9qPQUY7OMrUIjcq19sbij6rBlr5iuri2xryue4yGpqW8s0Si8qochzabnKGmt6y1LKiKukaVOscaqCCzmrZcnKCC9MA+uVKslpyAwRS04JPsniS0qr+Wrqi2yMF2sEzIFsA4sH6nvLHAqSy1CqSMpKa2AJsMm1ihEKvurnaudL6suZKVIL+QpCpsrrXEsRikKHw==",
+        "infoId": "6544a966-61cb-4104-a7dc-d362e20f4591",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702012096879816",
+        "locationName": "3702012096879816",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F992_6cafd44e-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=780%2C342%2C131%2C130",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/990_68e71b24-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:03:40",
+        "carInfo": "吉利-远景X3-2020,2019",
+        "detection": {
+          "x": 887,
+          "y": 375,
+          "w": 130,
+          "h": 116
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702012532620691-20231103160340-14\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F990_68e71b24-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "QrOarWUhKC8RqQGr8zH6q30tkjGbMGAnA6NxHPClwShLpvwtDaVbnlun9Cyfq8gjp67bq9cc5TBVqPcuBiieKDQsbq5bpRImTK2FLoEqa6iiLHUoFSQ2JLEwpypfsHMm/q2lq5ApmzDeLMcfBygIqFahczJCJ2Gvvay3LO4ypaiwpzslYaeWKCExq6oXJ7euSKg2KbKrAx+eramiNqhNq9Wr2KwzKIIs6yLbrVmtFDYTrbapxivtpqOoTasdJyQpHxydKAWzGajIJlsiZDEDLMOl/6yJI76y5qy+HNSoFSx9sEImYi41q0EpsCwZsFMgpKhwKByyHqZOLMOhjSkcpQ==",
+        "windowFeature": "E69Ap6epQp2BsAUuL6YIrLYtGazyKH8nyCpWKWkxf6kNKyAuhZ2UrKmrDaGKrykvnh0JKhqnZKYiKj4Ut6L4LDYtriQrMKcvjqxsK4at3rE9KQKl2jHHMEuog6lbmC6rLCV1Kiytb61HLAmg3yS9rZSuHCwxLBcsr6mKLtyqAitjqiosJ6iRKuapTzQUrMGrb63wriQu3jIRqe+ulCBIKTUuY628MvKjqqxMs3KxLK58LmQRma3RpNmwvayZn+Uusa0vrq6itpv+MGeyAax0I6Qp0ySXMF6fDy+WqCgspirQsFeuASjxJlwwLqV+KMIprikRqwycppUXqHCoYzHlKQ==",
+        "infoId": "6544a95c-4d83-3b2f-5cff-a31f7e63d3fa",
+        "licensePlate1": "无牌",
+        "licensePlate2": "京B15196",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702012532620691",
+        "locationName": "3702012532620691",
+        "direction": "未识别",
+        "plateColorTypeId2": 5,
+        "plateColorTypeString2": "蓝",
+        "plateImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F990_68e71b24-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=929%2C437%2C30%2C10",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F990_68e71b24-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=887%2C375%2C130%2C116",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/990_68e22236-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:03:36",
+        "carInfo": "雪铁龙-C4L-2015,2014,2013",
+        "detection": {
+          "x": 712,
+          "y": 280,
+          "w": 92,
+          "h": 63
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702012823610010-20231103160336-59\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F990_68e22236-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "L7JnLh+tAzITHjOqATQCoWsuZzAnMESt+Sj0KUQcIaEGqxumVygMqLij/S8krKSkCKyUIFgpKSqbrKQtwKXKLSkqzKr/II6ceamVLN2tWKKyKmElPalBrDkxZSsUq+ssXanTLYsuqjGwoCwoPSobqBYfbTBTnjOnfKDULnQ03C7VJD0oAyY8LAY0yK9tK1usLSpMrb+phC97KROtnp/aK/omNa9qMP8s2iF6sain7DSsqAipAijuqOGsxqwNHwMtba6OKX2xliNjL/ghizHxL0qh4STuo+mssCReLQWr1Sa4qAsx3iMUJf6ZAilQqXQl8ZzUmjCsl6uoqdMokqi5rg==",
+        "windowFeature": "JyqYJuSg4a8IoZkuGKLSKOeqQ65KKnwo6LDvJoytPbB9qEAuaSowoK2t7qyQLNGxjh7TpQIxW6SjqQshIKjSqUgrFK1RLLowjajvp34wDy1vqMoeWikFrD8zLqlbrOMwdC6OGvcraqwOstwqjjPaGf+ybKzInomkBSwZpjQrLCyPKQ4uU6iGqwKo3i6joNGu0C9SsSondzCeq6qrPK0RLSqu4DBRLg0s6yj9rSWsq6RTHToodSoLLewYv65ZMKGy1CrNLmQiL6+krWWsza4BrSAwXrKuJo0ttiS6rF6vFqV/JYOcHzA0rsCubyzYKI+cnyjjrSWspqf+JTIrmaxnrA==",
+        "infoId": "6544a958-8c2d-9a4c-0a72-6dd107ad4975",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702012823610010",
+        "locationName": "3702012823610010",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F990_68e22236-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=712%2C280%2C92%2C63",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/990_68d96b78-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:03:31",
+        "carInfo": "丰田-卡罗拉-2021,2021进口,2019",
+        "detection": {
+          "x": 530,
+          "y": 460,
+          "w": 214,
+          "h": 147
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702014027443165-20231103160331-21\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F990_68d96b78-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "kbBQLGaqcSxiJVasVjQxKvgtUTLUKIopsJyEqhuwTqqtKxeh3iXMqfSl1iM6qQKoMagdKviusan1qzok86JaLSEt5ywjLpCmcazcJwatV64gquMi1bDNsdIu+C2dsJUoEKocMJkmySUEKz2pPSM/p2sNcCbtJYmtnK9zLpo0bqksqgwpuzCBLMoxB6ofpiam6yVXopmnUS7rqdmfnqABrLMqVKy8Mdgw9yuirBEZBDK/qUyldCllIVGuBKYbr2YuMqxvIqumhq1/JVIqWDR9MZYlQC4aJgettS0JKSuyEK9FqCwy/6kCKQsqIS13mfymmapdozwjbCDqnDWpOq0YrA==",
+        "windowFeature": "YagOKAiuqp7eJ0YpHScGohAs/qKNrm0p8ywYnp6qkSnutCCqySU2rXOnCyUzrdOiG7Bnp7qtlC23nF4tdammqaqt+rISMDgq7K+HJg6tJ64YLd8sIp61LMsmiqsBB5Ao/a5Vs0kivicjLeEvpajoLLudwi1PrMcrRC8CMDKvZiW/sKikqjAuqMWr3aSSK3UoOKgWrsWtsCAPs6+pUzL0LceqdyhcIyibbzGlIL6jKyeWr20x8KX+oaemza1nLvOnrzHRKD0mpy3inpisfKkwsAgmeKgSKQCkwjFDIbCvzjGHKker6TLIKI8rHqrloxeu1SVRrjghuxbCJWMwoSynqA==",
+        "infoId": "6544a953-79df-997e-c8e3-f52ca910819d",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702014027443165",
+        "locationName": "3702014027443165",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F990_68d96b78-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=530%2C460%2C214%2C147",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/98_e7c53ee0-927a-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:03:23",
+        "carInfo": "江铃-顺达-2000",
+        "detection": {
+          "x": 1534,
+          "y": 236,
+          "w": 60,
+          "h": 54
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702014077605558-20231103160323-60\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F98_e7c53ee0-927a-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "Ua4SLRCqjjG2rDmpQTFRKigtmDACNIKm3qZ5I8ynxC1ZqR2t/KodmyAaXCV1rCmdfqkNG7cpnilmoIYrpam2JaQtua4dJe4mCal8MLKpfqqmLoujIitNr1MvpyiJI0Iut686L+4w3y8zoVAfZy0FoLIujTVhKMMoBq0MMPcwKSewJMErnSjuLaYyzKv2LGOtURTsqB+tNy8wG7SsIKqOrWQb0LLyL3osoKoQrRyhqDS3qd+twZdoqmcf8KlSJQ0nN68NBzOudyFhLIEiMzOZLBooyKwfq1GghaIfLPmuiqTDnosuwy23oZwbJqTgrWIkA6ZDoIioY6ApIa4kS67npw==",
+        "windowFeature": "k6QFMVStsyVvsFikbS1SpnAl0Ck0LDIugiR4K+iwO61KLICsFC5GsOGw96pNoiWw/K7xKBkrq6oDrouvcSXRKdOyQCj3p98sLp8AsogvaSuAp08wtK2xGSUrELFbIE+kTyHYLVwuAql+qCUrWC0ELDevOib6r4StujF6rPIdPKdwsN4pYS6zroMrJCRortMec6NwpGSsvi3XsR2w9qlZLfIskabArlSn9CowsJKxEa4TLoinzqkHLz+hHaZUKFau2rA9KlurR68bqNsVtiknszopba1SLQoiZ6xLqyevvjCVrNygFbDtK0qx5x4hLw2gMihWqm8sDiwtrNAtGC5Eqg==",
+        "infoId": "6544a94b-2b3b-ee0a-8e87-29321175810d",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702014077605558",
+        "locationName": "3702014077605558",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F98_e7c53ee0-927a-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1534%2C236%2C60%2C54",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/98_e7bbbd70-927a-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:03:18",
+        "carInfo": "玛莎拉蒂-Ghibli-2017,2015,2014",
+        "detection": {
+          "x": 1534,
+          "y": 238,
+          "w": 61,
+          "h": 53
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702013815532351-20231103160318-74\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F98_e7bbbd70-927a-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "D64sLceplzFerHuojzGpKoAt0zA3NAuoAaMcIZSogC2mqtCsYqu1HuAZ9yUVrBGdtaoEnLIoAivjpMsquqxjJb8sE6/nIpoowqR+MNyotajjLuSdQCosrycw/yi9ItEtk68oMCAxoS9Ko5mkTy6sncQuJjXZJNIkVa0rMGwwBx3pII0qnCibLQ8z3qnKLLislpwjqpyshy66IDesZau3rfAZy7LmLyos7KjorHuXnTQ7qSStZZA0qU0kKqrAJmIn+a8SoRKw4ybdK6YhazN3LEEigax5rIacZaRTLHWv0qGMIQwtFi4EpvMgsRudrSsfBKjVpZqoH6PnDLIll62cqQ==",
+        "windowFeature": "",
+        "infoId": "6544a946-eb6d-517d-8467-36e967696084",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702013815532351",
+        "locationName": "3702013815532351",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F98_e7bbbd70-927a-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1534%2C238%2C61%2C53",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/988_6820da36-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:03:12",
+        "carInfo": "大众-速腾-2018,2017,2016,2015",
+        "detection": {
+          "x": 788,
+          "y": 458,
+          "w": 200,
+          "h": 141
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702010947976851-20231103160312-02\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F988_6820da36-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "8bCDLjEhci5OqWetzjEFLLgqeKG7Jv4lgqnrLE0kqyCZlqcrsivbp3IiXiiLF32wIaRuqEkqFiFPKqUmYqoOIDQxLa68qr4r5K1NLSqtQCbyJmekrqrTsIwsgigoqp2p+qT4LcetODCtKrIo+Ky0nvchhS1+pVqvVC6VKVIy5yuzre8iwjEtMqIw961CrjOoF6npLIcmFKC/qDGtWiGbsIWldLC0NPIuiCkzqI6tNTOTquCscKnmptepcqKaKCUyvKkhJQSuESilMAspgjHQLuosGzKALDOyaC9fLZyxPKgSm/MlcaoKoXImY6JzKbukuKynKrWoS6zBK+4rNq7pqA==",
+        "windowFeature": "S6gDpXerPqtgKt+hEi4psfkpH6vBGmMtzTBCMVeuXKc1LiUql6XdqS2vyatYMSixByMGsNmuCiNLrlEdRCaJrYsX8rFAp0OpnS2pquyoYq1toucuoKoOl5Up8i4kLgwgVag2sPYxayOMpQ4p8aR1rN+uipbipriglR3KHK6u8y/6KF8ZfTB8pS4tFqJDLGKsWbArrDaywJViKTsne60wsS4v7aKdqOMrlS6kJkcoo6/YqLmx6in4odqnvK4oLkKsuhqprpGshKdOrOKldTBOKGiko53gLscwj5jOoU2wxrAAoKSt3LEbKTuvdTLfmb6ouDEcsDgwrDD/q5UsD6eULQ==",
+        "infoId": "6544a940-1122-565e-268e-1ad2b4bc81d9",
+        "licensePlate1": "无牌",
+        "licensePlate2": "EF147",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702010947976851",
+        "locationName": "3702010947976851",
+        "direction": "未识别",
+        "plateColorTypeId2": 5,
+        "plateColorTypeString2": "蓝",
+        "plateImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F988_6820da36-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=827%2C543%2C36%2C13",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F988_6820da36-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=788%2C458%2C200%2C141",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/988_6820da36-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:03:06",
+        "carInfo": "大众-速腾-2018,2017,2016,2015",
+        "detection": {
+          "x": 790,
+          "y": 456,
+          "w": 199,
+          "h": 143
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011606118083-20231103160306-69\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F988_6820da36-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "ArEQLTsjSy6JqImsATK9KkMrcaCuJs8gYKvvLdUmgyC6pL8sVSsmpEYcXSmgJsewfKV/prcqSSCZKvsmdakHn/0wBa5Bqy8sGq9MLQCunSZkKZuo5adBsG8u5ynWqVmqSaKxLsetiDAqLIspya0aIWEb9CwOpsau/S2QKB0ydiogrrElKjLxMeYwdK7fr2OiiapoLmwjYxrppimtaZ9ssAmnCbCPNHMuDiijqEiuijNGpXCs4KY6qiSrC6bDKhcxBqi5HRCtySgJMWMneTFHLwwtaDHqLUCyaS4XLVOxAKeZi9cm5ataoy4mQ6djKLipg6jeKmGsRqv4LLUodK7vpA==",
+        "windowFeature": "kaompfCszarjKESihy09sZcpcqozHiUuQjDVMOeuLqXCLekqiqFLq62uC6zJMf2wDyI9sK2uqCEXrkKYiiVyrcYf/bFFqGar4y0Pq3KryKwjoxcumqm3EKgqOC+FLVAe26idsPQxnCXgpy4pv6V5rKmuAJ26pEWllBczIAGvYS/SJwslGDBEpFUtKhx9LAytfK8HrAyySZwwKYonJq0Wsd0uAaDSp9Ir9y3qJD8lA7CIqbqxzCrbolKk3a46Lk2skaA5r2ms46gYrFOobTAQKVOk86FEL8ww+xTTpoqwW7C1oC2t+7FDKlOvZzIYHYSpNTJrsLAvoDCyrPsrfKRQLg==",
+        "infoId": "6544a93a-1122-565e-268e-1ad204cfefe8",
+        "licensePlate1": "无牌",
+        "licensePlate2": "EF1437",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702011606118083",
+        "locationName": "3702011606118083",
+        "direction": "未识别",
+        "plateColorTypeId2": 5,
+        "plateColorTypeString2": "蓝",
+        "plateImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F988_6820da36-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=827%2C543%2C36%2C13",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F988_6820da36-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=790%2C456%2C199%2C143",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/988_681e16f2-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:03:02",
+        "carInfo": "中车时代-客车车型1-A款",
+        "detection": {
+          "x": 1013,
+          "y": 199,
+          "w": 75,
+          "h": 60
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702014216391932-20231103160302-26\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F988_681e16f2-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "r64iKJapVDHPrxOmEzTTmAUwzS5GMGErvST2Kwyt/i37qzKslKX8IpGpJCeSqwAZ3B+1JH0tepwBqBwvlqXJH/csM65Uq72aP6oVLeunbaMjLp+di6AMrH4w0iQMn9MbRKyKMGQwzTAIKUqoeCkqpNgwdjNhrA4r/6zMLns06CkHJPQrsSS4LuMx0a70LUyttiCIqturTCwRKpmmwateqI8gibBfL2Es5KQOsgEquTSAp2GsY6TNrnCpxa0fq4CoRa9DK2yxeKjZLRqlAjOgLbGkTqkPJrarg6ePLJqvXajqrQMudyvbnREfgJ04qTSch6mnqhYng6PInEYo5CQTqA==",
+        "windowFeature": "",
+        "infoId": "6544a936-d55c-f212-1bf1-40de98f38dee",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702014216391932",
+        "locationName": "3702014216391932",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F988_681e16f2-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1013%2C199%2C75%2C60",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/988_6818c490-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:57",
+        "carInfo": "未识别",
+        "detection": {
+          "x": 637,
+          "y": 739,
+          "w": 471,
+          "h": 343
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702014234339358-20231103160257-65\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F988_6818c490-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "zbB5LpEp9ypengugIi8kqS80vrN9MCUm7yZDJ9SsHjHMqbmuoSgDq86tDSYdpxopWyhasJkpw6aDJgQmiSbMojEyrqNaL9qgd6aXKPWruCgtqLusL504rNwmF6igo4EhOqtnJzqgaTIUrMCw0SVaGSUwUS9KphOoVpTyJKA0gSXZKVYpELJOL/asfK7OLImsA6iOoTewiS/HpA8UwKzzMXqtSa6ZMH8u7JAmsRem6jLyKO2thCzOsAqu4a06pRElbbEfpWSqXqADpnSo2S/zLGYkPiWhqBuxUqjpquEsZquIqpGbrKncI5ssqakNKfug36ssJrqpnyz7HeCoTpBBrQ==",
+        "windowFeature": "EimKLI6qZC2QsHenHjCCsCMsYicAMGYtYaxBomatCalzLbKUaaxiKQqsUqg6L24idqqVLpcpvi3jrkqwSKjWLFiogTAtJX0pjbKGs18rBqfpImUsUasMJZsnMSsSK7glWKyMpnAvY6kProiwhDEes8SqdiZ6p+8aQC3Kr+OU6S4PqoMtCDKtqoumeR4OJeEy1rALnI2xmjDGsT+q8SpPK0qv3KsgpyeoXK75rd4oMR8rKi4tDaVwHwuYCaeHqN8ft60JrhsWmShIp2aUhq/fq1Ot5a7nMKougC81LkQj7C5gLLCtJCxfm86ugi52qhWtxiIcq7Gdhy5GK+IpqCrWsQ==",
+        "infoId": "6544a931-f3d2-12b8-42e3-288ced493b12",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702014234339358",
+        "locationName": "3702014234339358",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F988_6818c490-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=637%2C739%2C471%2C343",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/986_692d4ad6-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:51",
+        "carInfo": "江淮-瑞风-2012,2011,2010,2009",
+        "detection": {
+          "x": 1035,
+          "y": 337,
+          "w": 60,
+          "h": 49
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702012435918366-20231103160251-94\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F986_692d4ad6-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "TrGdKzusxTFGramoITQkn9YvZDD1L66fwaijKPmpKCxDrbKo6yc5oK8ijSlFrGCfxKobKBwiGKRJphQo26pgKOsq/a6WKAKVB6qSLGSsnpzcK9qm/R1tq/guM5RGp7cqoK+ELygxZy/aH0sSBiglqj0u0zSZIzAok60VL/YyGSjnJAowtynAL6wxhq42LDSsjaFzpg2tsyqDJuKlFqwgGjKdfrBfMT4wL6YFstwbATQwqbSiRql/rCKnOq1+JM8kW6+iKmOxC6FbK96nwjJsMPSfka0YJKquTycGLgGvgqfireQwnSpHGRurlCjHpc4gBaf4o32l+ptPqNsqcyO7qw==",
+        "windowFeature": "",
+        "infoId": "6544a92b-66ae-dad8-d8a6-ad3b5183fddc",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702012435918366",
+        "locationName": "3702012435918366",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F986_692d4ad6-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1035%2C337%2C60%2C49",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/986_692d4ad6-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:48",
+        "carInfo": "奔驰-V级-2020,2018,2017,2016,2015",
+        "detection": {
+          "x": 1034,
+          "y": 337,
+          "w": 62,
+          "h": 49
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702013156127184-20231103160248-80\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F986_692d4ad6-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "/LAKK9arpTFKrc2oGDT7oL4v3DDqL2+g2KhSKSyp6CxcrT2lXyhSn6EiZyporByefaqGKCcmz6SQph8mXqtSJ+Aowq7qKFkX/KmCLCusXhkBLAKmyBcCrK4uhh4ep3IqW68VLwoxhy6LHTOhgSfdqRMuyjRuI7smz61FL9gy8yd/JR0w9CmbL2kxoa5lLHusrKLBpq6s9SiVJdelJqy+FSmitrAAMT0wtahXstchLjTpqSqjAan9rHSlAq1tIZIjT6+yKs6xYKHiKhCmFTOBMJ2axKzPHfmu8iIlLjCu8aWzrTwx5iu/HeKpHyhYprMg5abxpfCmlRPhpX4qRSZBrA==",
+        "windowFeature": "",
+        "infoId": "6544a928-66ae-dad8-d8a6-ad3b12a330ce",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702013156127184",
+        "locationName": "3702013156127184",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F986_692d4ad6-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1034%2C337%2C62%2C49",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/986_692884ce-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:41",
+        "carInfo": "客车车尾-车型2-A款",
+        "detection": {
+          "x": 1018,
+          "y": 244,
+          "w": 50,
+          "h": 36
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702012256950094-20231103160241-00\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F986_692884ce-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "Eq9WKKKquzEnrnCkSjOqL1Awxy/YMc0pUan1HNyodiizryOs+KTWhz6gRy1mp4GjeKvZJ0sijyVVp2cqBKp6KqGq4qzDrm+ZmqlwLKaqHiXIMNuaWy9ErAouZaiKI4ghZ65FLckzLCvfKYarwyuWnrEuDTW4qmAs+q2yLxQwVanBIB4lZjDeLAsuj7CvMA6p7iZarnWqRS9qLPKpw6hkqcSsc606MiEleSO3sYglxDD7m0yt5yI5qyelFKyanNgpdq/5IUWxL6dzKm2nLTKZMFGkK6zWKDescauVLPWwOq1eqFouoTD/JN4V8aX7o12jcqk/p/gpOqk9pp8lPy3/HA==",
+        "windowFeature": "",
+        "infoId": "6544a921-8f61-9b39-64c5-592d3cfa2c58",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702012256950094",
+        "locationName": "3702012256950094",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F986_692884ce-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1018%2C244%2C50%2C36",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/986_691f8c34-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:39",
+        "carInfo": "阿尔法·罗密欧-Giulietta-2014,2011",
+        "detection": {
+          "x": 890,
+          "y": 364,
+          "w": 104,
+          "h": 93
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702010606439393-20231103160239-98\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F986_691f8c34-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "ELBWKKiq7DJ7ryysOjM4Hs4wfDLgLT6iNapILKin2i+JqkSsPqnjnYSluiz3qOoaQa79JO8pzCyGr+kpkKxIKIIuna+YoJokI6whLwOuTa40KYweELCRqFktzCRKrwIska4IMKQuHDAnIWKsri4epw4oRC4qpIGsRK6zLy4y9SA0JKuq+AzUI5EwoqlBjlGsgh08rG2jeSwyLJSq7a55q1+iC7A7MlQvEqdfsSEtuTXXqoIhWKyLqr2iH6nkpPIq6a0zK+muDBzmJL6pvjEsMHasWadck82qySpuLUWwka0SmqUwDCn7IHCk+JRvKkYgjqo7nfaqQCXKqCEruqN4IQ==",
+        "windowFeature": "baznJ7CjnB1/r9aqXCrVKyWvQDCZr9WjCjEGrEScOyJlsDSn861FoRadOa0/MD8nYqYOLmkyCy5MJr4ZxicBpoYvD6M8MVqsninCsL6oRKvbMvMsLimxKXSnwa+LMYItQaRjpJqwKbAkKWatLqyHJwGmtqxQqg2wcqAhKAuk3TCuorSoBSkSskyu0K/8pDAr467roF4j/BTLmZaqHRnept6jxyiarEcr+irwssGrW6i+LBKvma/YLU+qWiCrJmmi1q6pMy+aX6vrsJauHaSZtIkpjipap4OkMqm1KxKuS61qmYufC6YRHE+ZIi7OLIoiIywhFAOvAjCHr8Gnqi3usA==",
+        "infoId": "6544a91f-6932-ad17-f4a2-2c1b0bb1147e",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702010606439393",
+        "locationName": "3702010606439393",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F986_691f8c34-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=890%2C364%2C104%2C93",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/985_69d647b2-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:36",
+        "carInfo": "奇瑞-艾瑞泽5-2018,2017,2016",
+        "detection": {
+          "x": 893,
+          "y": 658,
+          "w": 371,
+          "h": 262
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702012459266115-20231103160236-63\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69d647b2-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "1ayFJvuujy6LqeGpNzO/MaUsAC5xsx0wlCyNrxOvGiz8LDqp9iUCqIOrmDAnqrOsG6iOoG8pUKiIrxSqIya/Knatqa1HL0yeN7COoT+x1SSBqEao+K2TpOszVi+EK8Srj6zSra0u4TMOJm4w2i8QHjwo5aIOr7MvcqhtLVsxkiy4o1iv368WKWQsX61Wp+emXSy3pcGo8S3OLHKu4DF6LzGoWLLvnwcs7KqhsIoeUymyKVWpoajfpxOUjyfRr1auyyIBloarqiN8qr0qpy4+orGqMqhqMPEonKOcH0mtKyh+rTIv16dvoUwq56ZqsOKkUahVqTol6KjuKUOjULBHow==",
+        "windowFeature": "ACj7LAAvHq45K5WvGylvJlqtiCSXIagy+DG7rUCnapvqrJOvvSxErBwjhrKoLYGqNqRFn5Yoa6zSLbAkOK3AIS0tAa1VMBQo+anULc4vwqnFqxoqKSwwtMcjJamOpn6ucCq7q4wtDK9EsXyoe67mJzmouKcar4Ast6K2MBipDDBsr9QkrS/tLXydNqWlocyfIKofMLowACnrrIspGKtEp0ap7qEorguvXC77raIx7SVYsisrbxm3LYEpZR5OKVyqvatcsWwswROakPutGymgKaopZSgxKLMuEq4GKrAtp6gALZyu67AArn8kXahkrkSgMqVJrqou2SriL4+sWy+Wsw==",
+        "infoId": "6544a91c-f657-ecb3-559e-bf5de9dd1d22",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702012459266115",
+        "locationName": "3702012459266115",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69d647b2-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=893%2C658%2C371%2C262",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/985_69d647b2-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:33",
+        "carInfo": "奇瑞-艾瑞泽5-2018,2017,2016",
+        "detection": {
+          "x": 893,
+          "y": 658,
+          "w": 371,
+          "h": 262
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702012637934325-20231103160233-29\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69d647b2-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "1ayFJvuujy6LqeGpNzO/MaUsAC5xsx0wlCyNrxOvGiz8LDqp9iUCqIOrmDAnqrOsG6iOoG8pUKiIrxSqIya/Knatqa1HL0yeN7COoT+x1SSBqEao+K2TpOszVi+EK8Srj6zSra0u4TMOJm4w2i8QHjwo5aIOr7MvcqhtLVsxkiy4o1iv368WKWQsX61Wp+emXSy3pcGo8S3OLHKu4DF6LzGoWLLvnwcs7KqhsIoeUymyKVWpoajfpxOUjyfRr1auyyIBloarqiN8qr0qpy4+orGqMqhqMPEonKOcH0mtKyh+rTIv16dvoUwq56ZqsOKkUahVqTol6KjuKUOjULBHow==",
+        "windowFeature": "ACj7LAAvHq45K5WvGylvJlqtiCSXIagy+DG7rUCnapvqrJOvvSxErBwjhrKoLYGqNqRFn5Yoa6zSLbAkOK3AIS0tAa1VMBQo+anULc4vwqnFqxoqKSwwtMcjJamOpn6ucCq7q4wtDK9EsXyoe67mJzmouKcar4Ast6K2MBipDDBsr9QkrS/tLXydNqWlocyfIKofMLowACnrrIspGKtEp0ap7qEorguvXC77raIx7SVYsisrbxm3LYEpZR5OKVyqvatcsWwswROakPutGymgKaopZSgxKLMuEq4GKrAtp6gALZyu67AArn8kXahkrkSgMqVJrqou2SriL4+sWy+Wsw==",
+        "infoId": "6544a919-f657-ecb3-559e-bf5d2c7e4aa1",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702012637934325",
+        "locationName": "3702012637934325",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69d647b2-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=893%2C658%2C371%2C262",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/985_69cd3154-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:28",
+        "carInfo": "江铃-福特新世代全顺-2010,2008",
+        "detection": {
+          "x": 768,
+          "y": 363,
+          "w": 98,
+          "h": 48
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011675662657-20231103160228-20\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69cd3154-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "V7HIL3eqsjE3rHmn3TPBoWItGSb0MBervagwKnKcMCjKrfikm6lOEpGjnCfVq14hQKx6I34o7iiBqocrqa3ZJGilTq4DpW0nCKreLiiuSaUqK1YmfqeIrMQw6iMmpvQqUqxKMC4uezBkKcyoYizxqI4qzjMyrFoiyKwUL9oyMCo1JtgqaSzoJ2UzR62NLdWri5zmquaqHS+MLSKnSarOJU2kyq5AMQ0uqCrfruSrwjSRqyOfjSOYsASoB6tjK2ks866LJSKyNCiAMfQddzGqLwElZ60Jj/KwfqdJLS+wiaupH8wuRSRiIzai5yx+o88gV6ZAJEeNkCrLqDwt8CkLqg==",
+        "windowFeature": "",
+        "infoId": "6544a914-b1b2-a0e8-349a-8934fa353727",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702011675662657",
+        "locationName": "3702011675662657",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69cd3154-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=768%2C363%2C98%2C48",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/985_69cd3154-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:23",
+        "carInfo": "江铃-福特新世代全顺-2010,2008",
+        "detection": {
+          "x": 768,
+          "y": 363,
+          "w": 98,
+          "h": 48
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702010271687567-20231103160223-04\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69cd3154-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "V7HIL3eqsjE3rHmn3TPBoWItGSb0MBervagwKnKcMCjKrfikm6lOEpGjnCfVq14hQKx6I34o7iiBqocrqa3ZJGilTq4DpW0nCKreLiiuSaUqK1YmfqeIrMQw6iMmpvQqUqxKMC4uezBkKcyoYizxqI4qzjMyrFoiyKwUL9oyMCo1JtgqaSzoJ2UzR62NLdWri5zmquaqHS+MLSKnSarOJU2kyq5AMQ0uqCrfruSrwjSRqyOfjSOYsASoB6tjK2ks866LJSKyNCiAMfQddzGqLwElZ60Jj/KwfqdJLS+wiaupH8wuRSRiIzai5yx+o88gV6ZAJEeNkCrLqDwt8CkLqg==",
+        "windowFeature": "",
+        "infoId": "6544a90f-b1b2-a0e8-349a-893480df9ef2",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702010271687567",
+        "locationName": "3702010271687567",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69cd3154-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=768%2C363%2C98%2C48",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/985_69caf4d4-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:19",
+        "carInfo": "货车车尾-搅拌货车-A款",
+        "detection": {
+          "x": 827,
+          "y": 370,
+          "w": 110,
+          "h": 60
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702013136774728-20231103160219-82\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69caf4d4-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "b7DgKaiqLzDyrfmc0zHaMkgwy6SFM3qhnJ9UKJ2pbChrpAWrwCfKIOip/i9eqCSYIyPMKhwqLx7RrGcpgqwmmMAvgqGHrTQm+qgvKrSeeaxzMgcsYq1Hqr0taKyBrWuhZLBiLQ8wgSrzJBuwDCnSG8kt+jVdJzQsf6vbLjoyqqSSpUoqICdQKM4sRZ8HMLKqERsQqU+pcCvgLAevYa4+sHIYpqyBK8MtxayOsPcrMS6xIlQf4aXBrCmhtap6JI4hlKURKp+ycSl+quuj0DFsL22u2J19LKCwCigmLw+tQ6osnKgylDD/Irmrohc8p++fMKsoqkqiaCDenl4kLClqpQ==",
+        "windowFeature": "",
+        "infoId": "6544a90b-eae0-3c60-5276-0d02286c781a",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702013136774728",
+        "locationName": "3702013136774728",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69caf4d4-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=827%2C370%2C110%2C60",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/985_69caf4d4-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:17",
+        "carInfo": "货车车尾-搅拌货车-A款",
+        "detection": {
+          "x": 828,
+          "y": 369,
+          "w": 109,
+          "h": 62
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011952620943-20231103160217-24\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69caf4d4-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "SrDcKxWr1y+UrfuZSDEMM7YwUaZgMpukraUkKhKnXixUpCerOii3H2erIzCUp2cdyiTcKjIq+KAHrMwoa6yzFuwt/SRmrwsl26YMLBWiWq5fMtorrq35qsMsTqxdrdalc7DCLTwwkiuYIHywEinNHo4tEjaEKOctpatFLfYxfZ8FoqAigydGJTYt/KSdLgGqmIRVqiWkBi3oLMCubq60sMCWKK1WLFsuVKxSsB0sci49JOIjq6XZq7Sf8Kh3KssiiKdlKZeySypLrOSl+zB9L2WtNKjqLOOwByZDLzStSarhoIgyNzElGUapHRiPpFGhgaxmqZKg6pZ5HrkoHiwepg==",
+        "windowFeature": "",
+        "infoId": "6544a909-eae0-3c60-5276-0d02b6b8fc5c",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702011952620943",
+        "locationName": "3702011952620943",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F985_69caf4d4-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=828%2C369%2C109%2C62",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/984_6a411498-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:11",
+        "carInfo": "货车车尾-板式货车-A款",
+        "detection": {
+          "x": 1110,
+          "y": 294,
+          "w": 111,
+          "h": 79
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011840572643-20231103160211-13\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a411498-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "TKx4lkylbTFcr2qpzDPsMXwuMCprMEQpLx34pR2wmC37rB2pWapMJUulHSo1qNmlmpqyqW8oC6glqyAowqtYIMcsXq0tqrCl5qkZLbimUa+BMAAn6avIrZQvD54ZpNmd9KwJLUYwUzIxpcOtciupo3cvoDIFqj0quKbdLrc0xaTmIygo4ylOLk8wcK2hLISsF4c7rIituCzfIK2tza1XqwAqL7F6LKol2ibFsbQlNjOtoNOnAKpZpFinlazDqNYtc6yeIzGw9iUgreui3DPwL9eo9iFzoeyuiKN4LL6wiaBYHLAztC1wIN+nRaxLqducWCDsqAeawaQdo7GeNKiWqQ==",
+        "windowFeature": "",
+        "infoId": "6544a903-fc41-bdf4-449c-5866b37a5d3c",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702011840572643",
+        "locationName": "3702011840572643",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a411498-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1110%2C294%2C111%2C79",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/984_6a411498-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:07",
+        "carInfo": "货车车尾-板式货车-A款",
+        "detection": {
+          "x": 1100,
+          "y": 294,
+          "w": 120,
+          "h": 78
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702013120301198-20231103160207-00\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a411498-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "Ia1tIKmniDGrrjenfDMOMQ0v2ymzMOkkiaGWo0qu1y92rZWqoqlJJ7aoSiw4qsmiYqF+qBApJ6PBrJAnAKoqGVotMq3wokaf1apMLXCoHa/rMFQlK68ErjswGJ9io6iW56swLWMvxTG9oXCuFiwjpIAu6jFZpjAl/qhEL4Y0u6YxJOwm1ylkLYcxsKxsLIesURIwrTmuGS0QJZqtJK3/rRsr+rCRLCYotB+0sVMoaDKuF5mmOamppFyjV6zFqXcu9KzQJiqxsiWIrEqRfjRIL5mqi6Q7nmmw5KZgLdmwSSBgoHMyHC2zIualUalCpMyZ+iJMqyWat6a6pBscDJ60qQ==",
+        "windowFeature": "",
+        "infoId": "6544a8ff-fc41-bdf4-449c-5866d4c5bbf4",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702013120301198",
+        "locationName": "3702013120301198",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a411498-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1100%2C294%2C120%2C78",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/984_6a3b80dc-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:02",
+        "carInfo": "江铃-经典全顺-2013,2011,2010",
+        "detection": {
+          "x": 725,
+          "y": 414,
+          "w": 164,
+          "h": 148
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702014000111069-20231103160202-08\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a3b80dc-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "zaulHX+wLjCOpUOnMxH4HJctAi2PojSei6SnIUei6SwEKvmusqsLqs2s8Se4qgEsZ6rirNChbikPJwWMkSxsqfAxMa5RrH+dxKioLeCvvKVbqLSoip28rOEu8KxYslArQ63dLi81MC2NoHaouSL4oyYpARynrw8aLp2PLPoxriz6Jboqf6XJL8kwKa9ZJDOtza8Lqp+j2p3bLJMonqyUo4wdeqpCM7YrvSQmsFYnKzHap/KmIq/arROsiqXjsMugn6s/pV6qy6iwNfAiCiUMMOSg0SQMJIysXyAIMGwnrqrZqT8xD7LCq46e4TGUMLojMqTcKQ2qxqSrkA6snSk3JQ==",
+        "windowFeature": "x7HfMQ2uLCG0KHutLi+ur+Sq1Kywrt8u/qtiJf4rGqY9qWurQiR9sEewGqCJLpqwrrI2LxKrFKtBIRolvCREpN2pHST7KPosxifKJsiwHiYPJdguUq6mpI0wYyO3LN+mci+qohkngbH2plexoCUhon0nn6hZLYwdyC3VMH2tg61qKgAm167jrcOxzq1zsZgomDPPJ0OuE7FHsXad/CTjq52t5ak0rrgtWaqVrPMVhCykMEAo5oj/sIeoJKZHpAkiUi6WLA+tgjAJsICsJyC/JgImuS+jpYupqxzgpB2wSCaTm/osmaxYqUWxISr+KLctEyglr/as0SVqrROsvCzyLQ==",
+        "infoId": "6544a8fa-bb22-6068-cfeb-a67941437552",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702014000111069",
+        "locationName": "3702014000111069",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a3b80dc-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=725%2C414%2C164%2C148",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/984_6a3b80dc-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:02:00",
+        "carInfo": "荣威-科莱威CLEVER-2022,2021,2020",
+        "detection": {
+          "x": 725,
+          "y": 414,
+          "w": 163,
+          "h": 146
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011509549608-20231103160200-10\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a3b80dc-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "/aq4pWawbDBOom2mhyJgHOwswSzKDbukv6DrJDygUiyjLGCwkayEqZWsoil5qkssDqrkrZ2q7ymqJwQgeCl6qT4xyK4IrXkcKqjwLWyv1qi6qGqoGCI7rbcv4qxKsxgpPKxlLt80vy1pk2ellyYypq8oxCMnsHwaU5mTLLkxOixRJg4s46riMFkwDq+pJqitXa+3qJqURB2CLPsp6a36pTWcA6vhMvkp8Siurt0oojFkpD+o867irb6sFqhEsf2nDao2pLGqk6hGNR4gXyRrLy2jmiCwJN6sj5VBLxEgyal/qSEyz7BXrKOmijLQMIYk9qVMKgOrKaRKpK2reClgJQ==",
+        "windowFeature": "YLFkMl6tDiGbJ9asXC77r1ylMqu5q0Uvca1HJFgqDageqGOpe6AYsEKwaSAOLM6wHLPgLTyrTKCgobsj/yVAGcapuCE3KEwpdCRnGbqxJ6LHJRwww62Fp6EwvySuLBWmJi0WpSSmZLLmo++w6x7PIV0qR6q2K+YYHS3OMJOuIK2DI20mCa4Oq4Cyrqzosfog8jLkLCKtS7E3sesksigErCOuLqvDrvMt/au1rNMhyiiAMNImiSTTsHWgOKRsHj4mSS9WLeSs5TAJsNCsvySWKcMpvS94Ig6XLCTgI8SvjyMeJKgtrK5+qgeyMitWHDsthSohsAmsQyt6rRatZSgYLQ==",
+        "infoId": "6544a8f8-bb22-6068-cfeb-a67934fa2abb",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702011509549608",
+        "locationName": "3702011509549608",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a3b80dc-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=725%2C414%2C163%2C146",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/984_6a3ac5de-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:01:54",
+        "carInfo": "金旅客车-客车车型11-A款",
+        "detection": {
+          "x": 1022,
+          "y": 483,
+          "w": 249,
+          "h": 170
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702010104828640-20231103160154-01\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a3ac5de-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "964oJIyteS5NrDyoCyy9LoUxcCfCDbko0i4HnH8cwTB8IVYo2ayerg+t2SkjJCsr3yLir2qn6iqWqWIqbC3NqiCwr7E6rJWohapUJo6tpqZSM3ArQiQ7JpMusiuDsUqq46T5K54xViyyKOmkGC0jr6clIrOtHwiuWp9BKHkwtyq+qRmvBquNLF0yS6gTr8apia32o5Sl9TLOpS6YLaWfrT4u5yFAsDUo+aQyrbYuMyliIjusgq6LISsa4qiPsV+pCqjTKQKw/azvru+b9zIEMS8qCi3MnDOwGSKfL58ojCf7rTkznqvCrQMptS+trxMnqas4qukpAqk1JAKfJ64wow==",
+        "windowFeature": "SK6eKfGthS+8JOucQaqYsQEnmyZ2rGMszC9rHKYqBqz8qcIuYy2HHJ6inKmen0MwXaxUr0QqiKmNrLkkRZ/trEmnQy45NREiIqOlrCwwHyw0qCmlWqmwr+ymwzPUMPEh9S1crd6nUKR7G6ksc7DwLkKwNy5zrW+mIC6wpbcv0awUocodFi46rq6spqxFrN8tUilCMDSknrCLtM4gISj0oFUrCS16qr8lILA1rSwgxCwTrDYo16GVpTIp8aewMEyuRy+XpvAeHi+PJHKxBaH5otUrxh3Bpbmm0qanr16qkKfpsTUsebF8JF0hUqlxqLSaRzKbpTwular+KdIrqio8rg==",
+        "infoId": "6544a8f2-919d-a675-c2df-a252200ab4ad",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702010104828640",
+        "locationName": "3702010104828640",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a3ac5de-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1022%2C483%2C249%2C170",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/984_6a3ac5de-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:01:48",
+        "carInfo": "现代-伊兰特-2005,2004",
+        "detection": {
+          "x": 1024,
+          "y": 481,
+          "w": 247,
+          "h": 167
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011006326661-20231103160148-29\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a3ac5de-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "8K2/I/isyC7kqRKpniy6MEYy/ZkHJaEpfi7Ima8juC6oJXMl8qpGrYCtuCQfJh0rlSd8rlekCCiHqswp2S35qTyvBbEjq+OmRKwWJAusy6XLNFAs4CTAKA4uoyqdsOyntB4lLvgzNS1IKDqkSygrrxYi8rLZmdquzJk6KIswlCgMqISvsKvvKQgyS6cGrnmo+6wgnFaYcTK4qHoeHqnorL0tDShAqUsoqKASrCcuFyx7JQ6rKa5SIcoiZqk+sYSpHadrKVCwTayZsHSiqzOkMaYp6S6FH7evXaVBLyMpwyqXrRMyM6YRrRIknzDvrTEoYqvmqVQqVqUnoQmj5q60HQ==",
+        "windowFeature": "S637K7GsMi9UJ/8jFamOseMo0yrnrU0r6y+koK4sXKpUpXIuIi6ZJfKiUKguqHsvcaznrgws6abxq24oU6BtrJakMC8iNe0j7aM1rcIviCuZqZSmbqiBsEepljOTMAsiNS65rHela6WskF0taLBdLwawnS3erVSpfy1EpGQvB61Jnnui/Czgrp6s3K0RqUUuiCtxMKyikbDDtAEnuyVJjysqgiyIrHsnJbDerDIfSC0Hq6Ek96TUpWIq1KKxMA6u6zCqpaAi2y+fJxWxz6TXnkYsMCCLnfSdJai+rk2rg6ndsV8qVLGNJJ8hX6iSqLOgAzJcoQItVqk/KzAsQCyUrQ==",
+        "infoId": "6544a8ec-919d-a675-c2df-a2527026154f",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702011006326661",
+        "locationName": "3702011006326661",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F984_6a3ac5de-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1024%2C481%2C247%2C167",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/980_6ac63268-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:01:46",
+        "carInfo": "未识别",
+        "detection": {
+          "x": 920,
+          "y": 46,
+          "w": 126,
+          "h": 45
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702012200423506-20231103160146-19\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F980_6ac63268-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "ya8+KAGwAC5VsFWmmDO7JSIx3y3TL8ooI6d6K72sbDAIrOKc/QwUmBypKyiVqcajZKucqbUoRCqYpv8kFClhn6yvU6iqrCGo7iIJMK2le6XyMPAhPDKsqb0twRMYJxGl5yCqFQozejCFJ+arlC1anIMw4TVXpGUt9qmwMAIw2KWgq+ssezGELiAwcq3cKyWslKwAq5qqzS0wLwiweKtfqlyopbCsLzQsOSZJsbImIDE/pE2k/yhlrP0nqKxVql8fK6sUmlCtWin9KvYetTJaLwCpgqamKECst6sGLjqpjay+rJ0vtCwNEBEq0igkrZAgvKxaIXUnQCLrJG8lsin2pw==",
+        "windowFeature": "",
+        "infoId": "6544a8ea-35be-ce5e-df0c-21296f37f1d0",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702012200423506",
+        "locationName": "3702012200423506",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F980_6ac63268-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=920%2C46%2C126%2C45",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/980_6ac07882-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:01:40",
+        "carInfo": "未识别",
+        "detection": {
+          "x": 921,
+          "y": 47,
+          "w": 125,
+          "h": 44
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702013292883629-20231103160140-89\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F980_6ac07882-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "Jq2apamv9y6tr3WomDMvL60t5i8cMEssJ6kUK86s9TGUrjeqap1qoh6sdpnopEakqKjJrDYsuyehpSYjQymjHJOsWh5SqqCkBx7xLiGtz608MewoOzHfqOMtJiJspIOcNhSnKpkzeC8XJr+qGi34lzQwjjVGJQQwt6jlL9Ax95n2o34j9S+RL2cw5az9LDusxatkrPWjqSxeKRSuw6iwrb8l9axELmsoRaL7sDopqDHEFmuj9yFgGZEmKq65rdgjca7Rl8yuyiaSJZAjYTNzMNysHi09Jv2sniObL2+svKxupXwtgS9RKjknJCaXrvugFqnQEaCkN6atpB8lEyluqw==",
+        "windowFeature": "",
+        "infoId": "6544a8e4-135a-ef7f-4ad3-0195b09ef8f9",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702013292883629",
+        "locationName": "3702013292883629",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F980_6ac07882-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=921%2C47%2C125%2C44",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/980_6ab6fee2-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:01:35",
+        "carInfo": "未识别",
+        "detection": {
+          "x": 922,
+          "y": 47,
+          "w": 125,
+          "h": 44
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702013583778869-20231103160135-33\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F980_6ab6fee2-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "8a2OIAex7i4Hr0KqhTNqLHcv5y22MWkoohstLXmthjCgq30gVKSyI/uqRSkapxyiLqlyqzwqhxvAJPclziizGXyuQaqdq6qiHaXGLy2qZKy1Mo8pLjApqk4t+ibZI0SrGZzhKt4z7TDOJWyqQy7Sp0YyazRDKS8wXasQMLIxBKMNqHClpS2UL/UwRKyxLgSrB6wGqtOpSS8eLLitMq3YqkOe565ZLfYm2pyIsJMfyjJApxukUaJkHdwlXq3OrB0Y2a45KbysUaZeKfwcuDIGMCas6iWqKIugl5kWME+kdKs6oaEwmS0iJKynlCOasOCXYasLG5ujKKHFp0ImXSStqA==",
+        "windowFeature": "",
+        "infoId": "6544a8df-d5e6-400f-0272-8f8e9ff946fa",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702013583778869",
+        "locationName": "3702013583778869",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F980_6ab6fee2-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=922%2C47%2C125%2C44",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/978_6b07ced0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:01:12",
+        "carInfo": "未识别",
+        "detection": {
+          "x": 1040,
+          "y": 213,
+          "w": 255,
+          "h": 165
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011677077128-20231103160112-34\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F978_6b07ced0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "Za1HLHQg2SvLssOohDOXKxkv5zGirQKsWK3pptmvICA3pH2kkqkTqhGdjzBorvmsQK+pqLwRXCU6o+cjrqliKrcqYrPpLmasz64OLEatyaI3pJ8o9qsOrKowkyzhrT0wPavhLLco2zIWogOmvyzuInqcnSFSKmAsiZy2MDkwZClgLHUqER9kMIExV6lHKT+t5JrwqEeuVS1Toi6v+6Bupi0Z7Kg7p00pS52Psk2pizVqLbmrU6RXrTKfI6yLrI+hdrAVK7qwIJyHpKcmSDHSK02pnab2pZKj+af+K7mr8KpIrlMy/CW5K0Wk3KhwCgSevqg7q1MgpKotr8UlcKydrQ==",
+        "windowFeature": "GqiRMYWpuTAvsjQs5qImrnAj8axBrSotyC8dqn+nbqYCJ1as2ixConKeLSh/MI0bT6tZq8wwpC7dq0Sm86H2pb6s0yzyJxUnby7/KoYwzasVKZmn46H8rbktILAhI+CsoR70qdckNh8nMMYgn63WqXov4SbcJnOwViXwq7qrAS6rop6uBS7nsFitBK3NrESkBLClNf4lcbM9p8ax1i1SLB6t8KoXr5GtFaiHohAnz6UkrKctTS8bJosw5CEgqvOkq652qJwqmCjFp0OtKSQoshupBi+RKOIpqgymoLIekS88riOsD6QUJD+sEyp3MaenISmcKuIvs6srLIoy0Carrg==",
+        "infoId": "6544a8c8-a1bc-41dd-2b81-51ef9834d595",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702011677077128",
+        "locationName": "3702011677077128",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F978_6b07ced0-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1040%2C213%2C255%2C165",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/978_6b07ced0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:01:08",
+        "carInfo": "未识别",
+        "detection": {
+          "x": 1040,
+          "y": 213,
+          "w": 255,
+          "h": 165
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702013510746781-20231103160108-76\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F978_6b07ced0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "Za1HLHQg2SvLssOohDOXKxkv5zGirQKsWK3pptmvICA3pH2kkqkTqhGdjzBorvmsQK+pqLwRXCU6o+cjrqliKrcqYrPpLmasz64OLEatyaI3pJ8o9qsOrKowkyzhrT0wPavhLLco2zIWogOmvyzuInqcnSFSKmAsiZy2MDkwZClgLHUqER9kMIExV6lHKT+t5JrwqEeuVS1Toi6v+6Bupi0Z7Kg7p00pS52Psk2pizVqLbmrU6RXrTKfI6yLrI+hdrAVK7qwIJyHpKcmSDHSK02pnab2pZKj+af+K7mr8KpIrlMy/CW5K0Wk3KhwCgSevqg7q1MgpKotr8UlcKydrQ==",
+        "windowFeature": "GqiRMYWpuTAvsjQs5qImrnAj8axBrSotyC8dqn+nbqYCJ1as2ixConKeLSh/MI0bT6tZq8wwpC7dq0Sm86H2pb6s0yzyJxUnby7/KoYwzasVKZmn46H8rbktILAhI+CsoR70qdckNh8nMMYgn63WqXov4SbcJnOwViXwq7qrAS6rop6uBS7nsFitBK3NrESkBLClNf4lcbM9p8ax1i1SLB6t8KoXr5GtFaiHohAnz6UkrKctTS8bJosw5CEgqvOkq652qJwqmCjFp0OtKSQoshupBi+RKOIpqgymoLIekS88riOsD6QUJD+sEyp3MaenISmcKuIvs6srLIoy0Carrg==",
+        "infoId": "6544a8c4-a1bc-41dd-2b81-51ef250308e4",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702013510746781",
+        "locationName": "3702013510746781",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F978_6b07ced0-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1040%2C213%2C255%2C165",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/978_6b0290b4-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:01:06",
+        "carInfo": "福田-欧曼-B款",
+        "detection": {
+          "x": 840,
+          "y": 40,
+          "w": 86,
+          "h": 63
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011161110027-20231103160106-12\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F978_6b0290b4-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "IbDIJk2tazFnr2mp0zEPLq4wgC26MREkqB2NHoWoBi4NrfoYTKZHJgelgzLXq9aojalBJCMtpyc2qy0qLapLH2Eq2K1bJpKek6PSLmuuSiiTMW0iqqqsqeowsyNOp1+gCq5+LjsxRTCZHN6ohyxYqNopxzAhqLYYja1DMXAztCV9pfcqdx6KL0IyJqYoK0Grsih9rSar2yj3Kyev9KO8rEkcjq8tLhkuMaZYsfQtHDM6HxCcGawLJy0l8KgPqwEe6K1cLLyxOSAfJFUeHzTMLqasGKmxo5avOCemLOWxDa8kpwwxgCtNHeufux2xpQ2hDafHrDul7qgim1AmAyc/rA==",
+        "windowFeature": "",
+        "infoId": "6544a8c2-d410-4cc1-7bf8-7f63e3513db1",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702011161110027",
+        "locationName": "3702011161110027",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F978_6b0290b4-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=840%2C40%2C86%2C63",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/978_6afb6c8a-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:01:04",
+        "carInfo": "开瑞-优胜-2012,2011",
+        "detection": {
+          "x": 627,
+          "y": 52,
+          "w": 83,
+          "h": 72
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702010933301743-20231103160104-42\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F978_6afb6c8a-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "D7FqJWqsxjG9qIGqzzNoKW0xBDJbMTYmNqgOqBCssiybrI+tuqnsG76qfiyEqzgkbqoHKFUiyikhrQ0rX6mEnwGU2LC4pk0h4aR9MMmnFaLhMLqihBrgofEtoqEqrk0i1a0cLoMzqDFpm24IvyyUpYgpuS93rTOeyKsUMDk0VKlspMoY7ylZJMwsZ6yvKn6sZqkqrJOtCStnpC6vQay+rE+ol6s0LFwtGiWbryoqxzRgoEOoz6w3rjCoGq6Yqr2pAK4So8CxNywQqKap/TKnL9+qBq49qRSxH63FLcCuuag9IOYvMqTFooCm7qPjJfMhqqskooGl5CnmoWOgJxjwHw==",
+        "windowFeature": "1ay6MDmrVqQlJNAqXCkkKOCs6KSRLYAqBxhyrSsnObA3J1wvI69MKF6oNpwJK9WoiSgQJaIpSq42qy+gbCrLp08mZa9BMu0lfy2zrXCdDy3tGQQcUaz/MLwutbE5qpckgagFpkkpxaicsEetQCzppKmheCo3sXWdVTA3J2Cqh68usxws/ydbK32vop3VLVyhnhz0qgazdqfar4egbKptK8wynyo7pjen4jEJqrYrByT1KmwmeiWHMF4vAKjvrjmwRavVMkonYKR6rpexTrHCsAcxCK14pKgnUCQprPivKC1fqdgw+KZXrEOxeSw5LKgnqSl8rAitGKg9rCUv+6wnrA==",
+        "infoId": "6544a8c0-c8f8-b60a-e57e-6dfe4bc70fef",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702010933301743",
+        "locationName": "3702010933301743",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F978_6afb6c8a-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=627%2C52%2C83%2C72",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/977_6b451e70-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:00:58",
+        "carInfo": "海马-S5-2018,2017,2016,2015,2014",
+        "detection": {
+          "x": 715,
+          "y": 555,
+          "w": 202,
+          "h": 149
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702014187717302-20231103160058-56\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F977_6b451e70-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "basDsHoVCqv1rv6skDNjMgChbqgjqvGcfa6XqL2hQqkpHjutYqMaKZyoMDVgsLYmPSqZKyKgTatWHyGpSKk+qJctzauZq2UkICNTrXsoUqw4MWYrBLBSpyQtsiw1p9QtUanHpa6pVqNwCzEr86dOLDAwXjMnKt8d7qbNK9wvRytgJ1SY3KhGM5ExjSYvjD4uNS5qrk+xFaxosEEpba37rb4uf6UNrwo0FbIorDihBivBLYgs36zdruKUpKpPq1swQ6sII3olKyx/K2srODAMo1ys1CUgINOrtagUq32vS6yZI6gv4ikyrucrYiygph4kUaUvkP6ufJuoLGYhXyrTrQ==",
+        "windowFeature": "NKbkLqshOa71sO0qzKcZrFssIh1xKlssqyaQmlus3CaprOKtrKbdIq8m+KZTLDCtvipQoKmc0igqL5uxfzJfrIWuc6wnMBAvTapbEj4svi6So6Ia/rDqru0obixyr4AsmzMCLdMstaywKL+kpTLrmziy/i0PMNug2DGiJzevJrDKMCAlIB3PqzGpFy2qr3sf7S6uJ4Qsy6gwrMutl6tuHqOocaJIKtErKSy6LxqqyTAAr7krEyZGMo0xw6Y3pEmoea8HmAup17A+JPGkOax5rlEsqCnwrHQhwy1KLcApqKGjqH0oHqFAMSms9CzCqngmRyeIpQOlJyBmKZM0KqpErA==",
+        "infoId": "6544a8ba-033c-8bb2-f617-808281a5623d",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702014187717302",
+        "locationName": "3702014187717302",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F977_6b451e70-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=715%2C555%2C202%2C149",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/977_6b451e70-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:00:56",
+        "carInfo": "海马-S5-2018,2017,2016,2015,2014",
+        "detection": {
+          "x": 715,
+          "y": 555,
+          "w": 202,
+          "h": 149
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702014047453735-20231103160056-67\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F977_6b451e70-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "basDsHoVCqv1rv6skDNjMgChbqgjqvGcfa6XqL2hQqkpHjutYqMaKZyoMDVgsLYmPSqZKyKgTatWHyGpSKk+qJctzauZq2UkICNTrXsoUqw4MWYrBLBSpyQtsiw1p9QtUanHpa6pVqNwCzEr86dOLDAwXjMnKt8d7qbNK9wvRytgJ1SY3KhGM5ExjSYvjD4uNS5qrk+xFaxosEEpba37rb4uf6UNrwo0FbIorDihBivBLYgs36zdruKUpKpPq1swQ6sII3olKyx/K2srODAMo1ys1CUgINOrtagUq32vS6yZI6gv4ikyrucrYiygph4kUaUvkP6ufJuoLGYhXyrTrQ==",
+        "windowFeature": "NKbkLqshOa71sO0qzKcZrFssIh1xKlssqyaQmlus3CaprOKtrKbdIq8m+KZTLDCtvipQoKmc0igqL5uxfzJfrIWuc6wnMBAvTapbEj4svi6So6Ia/rDqru0obixyr4AsmzMCLdMstaywKL+kpTLrmziy/i0PMNug2DGiJzevJrDKMCAlIB3PqzGpFy2qr3sf7S6uJ4Qsy6gwrMutl6tuHqOocaJIKtErKSy6LxqqyTAAr7krEyZGMo0xw6Y3pEmoea8HmAup17A+JPGkOax5rlEsqCnwrHQhwy1KLcApqKGjqH0oHqFAMSms9CzCqngmRyeIpQOlJyBmKZM0KqpErA==",
+        "infoId": "6544a8b8-033c-8bb2-f617-808275833b92",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702014047453735",
+        "locationName": "3702014047453735",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F977_6b451e70-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=715%2C555%2C202%2C149",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/975_6b72c050-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:00:51",
+        "carInfo": "货车车尾-重卡斗式货车-C款",
+        "detection": {
+          "x": 1060,
+          "y": 535,
+          "w": 63,
+          "h": 44
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702010753527051-20231103160051-74\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b72c050-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "l6ytpkOmmjCprIimczTbpaArzzErLg0iD6xxngyt+C21rPuspKg8o/wRVSrzpcCdVakDKEYpORwGKfIsoqaGJJ+qra7WrmAhQKjGJVAuSKikLlss4i21pmosN6XTqQypp6+8J1wvTS48KwOqty+uoHUs9DUUqi+l/K0xKXQsGRHBIwkmWTATLX0wNrBxLo+qjKdTrcylCjLXKn+im6xhrLMohbBELhyoLapCr0AsXDWcKY6o2qkmrKmnn606pTMoP6wqJNaudiSJMJqrRjIdMFWpQrC1IIOli6QXL7Otv6VRGjQwOi49KuwnnqvBqYugYa3TqIInX6geqP8m2CyqIg==",
+        "windowFeature": "",
+        "infoId": "6544a8b3-7168-ab62-248d-98fc0a2b1ece",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702010753527051",
+        "locationName": "3702010753527051",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b72c050-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1060%2C535%2C63%2C44",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/975_6b72c050-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:00:47",
+        "carInfo": "货车车尾-搅拌货车-A款",
+        "detection": {
+          "x": 1059,
+          "y": 535,
+          "w": 64,
+          "h": 42
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702011108633198-20231103160047-29\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b72c050-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "fq0mqEKkbDDaraalIjTCJfEr+TCeLhwlRaxhnGutcC1oreKsfKlLoJYkKishp74dFakgKCIqshxMJZAtmqdWI1WqGa0zr1MgUKhoKpAusqYqMAgsxSximzgsr6d9qNyoKbAvJYMuLi+vKW+qIjDTngUskDWkqHimeq4eKg0tniYTJJEozi8xLZguj7BSLcOqyqgdrEemqTJaLFCjyq68rCQpE7GSLqWoIarmrsAtcDWCKt+o8an4rNWjyqwbpdcnqKudJpKuPZ2cL96rATKRMFqoCbAdlqmobKCvLv2ukqjjn4swpC58K1sn3KkTq7+kNa5TqTYq1qoylqMmrS2FIw==",
+        "windowFeature": "",
+        "infoId": "6544a8af-7168-ab62-248d-98fc8e465571",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702011108633198",
+        "locationName": "3702011108633198",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b72c050-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=1059%2C535%2C64%2C42",
+        "targetType": "vehicle"
+      },
+      {
+        "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:00:45",
+        "carInfo": "客车车尾-车型2-A款",
+        "detection": {
+          "x": 754,
+          "y": 501,
+          "w": 76,
+          "h": 68
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702013300357537-20231103160045-39\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "Sa2WLKikMzFgqtilKjGBmzsxpS2rLcAoxal7p2CsZh7LqIqiAidrJKSnPR/kq7uidqn6KI0k4J5Fp0ooZp/AIncyH6wmnUWjjqkEKXgnjqjZKcQoEKs8rlQx7yupqhcrcq9iMHwxMy0JpGEeXCYHJW8s/TG9pHiubaz0L0800hwOpoQsrSlkL1szOKthLcGsqZ7ypliknCj+nkunrrH+q16pv7D9MEApGCywsEWpZTVVpteiGaSTqWmnIKsUILOhxq+7KxmyexhKLvyg1DIiL5mZlawEqSuv1509LTywOahtrY8xrgsAKcSlQCU1p6AeR6XXqcKsFJLzo8aoqadTrQ==",
+        "windowFeature": "",
+        "infoId": "6544a8ad-f7db-5d4f-4fa5-731ede6f064c",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702013300357537",
+        "locationName": "3702013300357537",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg\u0026xywh=754%2C501%2C76%2C68",
+        "targetType": "vehicle"
+      }
+    ]
+  },
+  "detailsData": [
+    {
+      "target": {
+        "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:00:41",
+        "carInfo": "客车车尾-车型2-A款",
+        "detection": {
+          "x": 754,
+          "y": 501,
+          "w": 76,
+          "h": 68
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702010286480746-20231103160041-66&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "Sa2WLKikMzFgqtilKjGBmzsxpS2rLcAoxal7p2CsZh7LqIqiAidrJKSnPR/kq7uidqn6KI0k4J5Fp0ooZp/AIncyH6wmnUWjjqkEKXgnjqjZKcQoEKs8rlQx7yupqhcrcq9iMHwxMy0JpGEeXCYHJW8s/TG9pHiubaz0L0800hwOpoQsrSlkL1szOKthLcGsqZ7ypliknCj+nkunrrH+q16pv7D9MEApGCywsEWpZTVVpteiGaSTqWmnIKsUILOhxq+7KxmyexhKLvyg1DIiL5mZlawEqSuv1509LTywOahtrY8xrgsAKcSlQCU1p6AeR6XXqcKsFJLzo8aoqadTrQ==",
+        "windowFeature": "",
+        "infoId": "6544a8a9-f7db-5d4f-4fa5-731e95008321",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702010286480746",
+        "locationName": "3702010286480746",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg&xywh=754%2C501%2C76%2C68",
+        "targetType": "vehicle"
+      },
+      "peer": {
+        "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "captureTime": "2023-11-03 16:00:41",
+        "carInfo": "客车车尾-车型2-A款",
+        "detection": {
+          "x": 754,
+          "y": 501,
+          "w": 76,
+          "h": 68
+        },
+        "downloadUrl": "http://192.168.11.12:81/image-proxy?browser_download_pic=3702010286480746-20231103160041-66&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+        "feature": "Sa2WLKikMzFgqtilKjGBmzsxpS2rLcAoxal7p2CsZh7LqIqiAidrJKSnPR/kq7uidqn6KI0k4J5Fp0ooZp/AIncyH6wmnUWjjqkEKXgnjqjZKcQoEKs8rlQx7yupqhcrcq9iMHwxMy0JpGEeXCYHJW8s/TG9pHiubaz0L0800hwOpoQsrSlkL1szOKthLcGsqZ7ypliknCj+nkunrrH+q16pv7D9MEApGCywsEWpZTVVpteiGaSTqWmnIKsUILOhxq+7KxmyexhKLvyg1DIiL5mZlawEqSuv1509LTywOahtrY8xrgsAKcSlQCU1p6AeR6XXqcKsFJLzo8aoqadTrQ==",
+        "windowFeature": "",
+        "infoId": "6544a8a9-f7db-5d4f-4sdfsdfa5-731e95008321",
+        "licensePlate1": "无牌",
+        "licensePlate2": "未识别",
+        "lngLat": {
+          "lng": 0,
+          "lat": 0
+        },
+        "locationId": "3702010286480746",
+        "locationName": "3702010286480746",
+        "direction": "未识别",
+        "plateColorTypeId2": 99,
+        "plateColorTypeString2": "其他",
+        "plateImage": "",
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg&xywh=754%2C501%2C76%2C68",
+        "targetType": "vehicle"
+      }
+    }
+  ],
+  "echo": {
+    "timeRange": {
+      "times": [
+        "2023-10-28 00:00:00",
+        "2023-11-03 16:04:03"
+      ],
+      "periods": {
+        "dates": null,
+        "times": null
+      }
+    },
+    "locationIds": [],
+    "fileIds": [],
+    "pageSize": 40,
+    "pageNo": 1,
+    "plateColorTypeId": -1,
+    "licensePlate": "",
+    "licensePlateFile": "",
+    "brandId": [],
+    "modelId": [],
+    "yearId": [],
+    "vehicleTypeId": [
+      -1
+    ],
+    "vehicleFuncId": [
+      -1
+    ],
+    "directionId": -1,
+    "objectTypeId": -1,
+    "colorTypeId": -1,
+    "sunroof": -1,
+    "roofRack": -1,
+    "tissue": -1,
+    "graffiti": -1,
+    "reflectiveOr": -1,
+    "pendant": -1,
+    "accessory": -1,
+    "card": -1,
+    "sunVisorLeft": -1,
+    "sunVisorRight": -1,
+    "spareTire": -1,
+    "led": -1,
+    "bolster": -1,
+    "toy": -1,
+    "sticker": -1,
+    "sundries": -1,
+    "hatLeft": -1,
+    "hatRight": -1,
+    "glassesLeft": -1,
+    "glassesRight": -1,
+    "maskLeft": -1,
+    "maskRight": -1,
+    "behaviorLeft": [
+      -1
+    ],
+    "behaviorRight": [
+      -1
+    ],
+    "coatColorTypeIdLeft": [
+      -1
+    ],
+    "coatColorTypeIdRight": [
+      -1
+    ],
+    "noplate": 0,
+    "backtrackTime": -1,
+    "excludeLicensePlates": null,
+    "groupFilters": [],
+    "sort": {
+      "field": "captureTime",
+      "order": "desc"
+    }
+  },
+  "errorMessage": "",
+  "message": "",
+  "totalRecords": 133914,
+  "usedTime": 0.17
+}

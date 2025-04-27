@@ -1,0 +1,11 @@
+server:
+  user: "root"
+  host: "192.168.5.47"
+  port: "22"
+  pass: "yisa123456"
+  localdir: "../dist/web/fusion3"
+  remotedir: "/yisa_oe/web/fusion3/"
+  # rmdir:
+  #   - "static"
+  #   - "apidoc"
+  #   - "syshelp"

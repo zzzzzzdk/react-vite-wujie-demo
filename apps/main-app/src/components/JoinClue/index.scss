@@ -1,0 +1,34 @@
+@import "@/assets/css/mixin";
+$prefix: clue-task;
+
+.cluemodel {
+    &.ysd-modal-wrapper{
+      z-index: 2022;
+    }
+    .ysd-modal-content {
+        width: 75%;
+        margin: auto;
+        height: 450px;
+        .search-tree{
+            .filter-input{
+                margin: 5px 0 10px 0;
+            }
+            .tree-wrap{
+                height: calc(100% - 47px)
+            }
+        }
+    }
+    .ysd-modal-footer {
+        position: relative;
+        margin-top: 22px;
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: -22px;
+            width: 100%;
+            height: 1px;
+            background-color: var(--base-color1-15);
+        }
+    }
+}

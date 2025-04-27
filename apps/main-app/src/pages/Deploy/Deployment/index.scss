@@ -1,0 +1,43 @@
+@import "@/assets/css/mixin";
+.deployment {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  & > aside,
+  & > main {
+    padding: 16px;
+  }
+  & > aside {
+    overflow: hidden;
+    menu {
+      display: grid;
+      gap: 8px;
+    }
+    border-right: 1px solid var(--base-color1-15);
+  }
+
+  & > main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    overflow: hidden;
+    header {
+      display: flex;
+      align-items: center;
+      @include sfp.flex-gap((0, 12px));
+      margin-bottom: 1em;
+      border-bottom: 1px solid var(--base-color1-15);
+      padding-bottom: 0.5em;
+      .deployment-heading {
+        margin-bottom: 0;
+      }
+    }
+    .scroll-area {
+      @include scrollBar;
+    }
+  }
+  .block-main {
+    padding: 0 0 1em 10px;
+  }
+}

@@ -1,0 +1,241 @@
+@import "~@/assets/css/mixin.scss";
+$prefix: "person-foothold";
+
+.#{$prefix} {
+  padding: 16px;
+  &-content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    .ysc-map-container {
+      border-radius: 4px;
+      .custom-popup-box {
+        background-color: var(--card-cross-bg);
+        .track-popver-content {
+          padding: 8px;
+          &-card {
+            .card-img {
+              cursor: pointer;
+              width: 262px;
+              height: 214px;
+            }
+            .card-info {
+              width: 194px;
+              margin: 5px 0;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              // display: -webkit-box;
+              overflow: hidden;
+
+              .ysd-icon {
+                margin-right: 7px;
+              }
+            }
+            .btn-change {
+              position: absolute;
+              top: 50%;
+              margin-top: -23px;
+              width: 16px;
+              height: 46px;
+              border-radius: 2px;
+              box-shadow: 0px 6px 18px 0px rgba(113, 117, 137, 0.15);
+              background-color: rgba(0, 0, 0, 0.5);
+              color: #fff;
+              line-height: 46px;
+              text-align: center;
+              cursor: pointer;
+
+              &.btn-prev {
+                left: -8px;
+              }
+
+              &.btn-next {
+                right: -8px;
+              }
+
+              &.disabled {
+                opacity: 0.5;
+                cursor: not-allowed;
+              }
+            }
+          }
+        }
+      }
+    }
+    .ysd-drawer-left {
+      &.ysd-drawer-open {
+        width: 436px !important;
+      }
+      .ysd-drawer-body {
+        .foothold-search {
+          height: 100%;
+          padding-top: 10px;
+          &-btn {
+            padding: 16px 10px 0 10px;
+            .ysd-btn {
+              width: 100%;
+            }
+            .ysd-space {
+              width: 100%;
+              &-item {
+                width: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .ysd-drawer-right {
+      .ysd-drawer-body {
+        // position: relative;
+        .inner-drawer-container-left {
+          background: rgba(34, 34, 38, 0.04);
+          .inner-drawer-container-left-content {
+            height: 100%;
+            .left-content {
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              .total-record {
+                margin: 0 10px 0 10px;
+                line-height: 45px;
+                height: 45px;
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid var(--base-color1-10);
+                .total-left {
+                  width: 172px;
+                  display: flex;
+                  justify-content: space-between;
+                }
+                .ysd-select-disabled {
+                  background-color: transparent;
+                }
+                em {
+                  font-style: normal;
+                  margin: 0 3px;
+                  color: var(--primary-color);
+                }
+                .ysd-btn-md {
+                  height: 28px;
+                  line-height: 28px;
+                  padding: 0;
+                  width: 60px;
+                  min-width: 0;
+                }
+                .ysd-select {
+                  width: 134px;
+                  border: none;
+                  .ysd-select-view {
+                    min-height: 0;
+                    height: 45px;
+                    line-height: 45px;
+                  }
+                }
+              }
+              .stay-list {
+                padding: 0 10px 0 10px;
+                flex: 1;
+                display: flex;
+                // justify-content: center;
+                flex-direction: column;
+                @include sfp.flex-gap((12px, 0));
+                @include scrollBar();
+                overflow-y: auto;
+              }
+            }
+          }
+        }
+        .inner-drawer-container-right {
+          display: flex;
+          flex-direction: column;
+          .inner-drawer-container-right-content {
+            height: calc(100% - 28px);
+            .right-content {
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              .total-record {
+                // padding: 0 10px 0 10px;
+                line-height: 45px;
+                height: 45px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                border-top: 1px solid var(--base-color1-10);
+                .total-left {
+                  display: flex;
+                  width: 150px;
+                  justify-content: space-between;
+                  // justify-content: ;
+                }
+                .ysd-select-disabled {
+                  background-color: transparent;
+                }
+                em {
+                  font-style: normal;
+                  margin: 0 3px;
+                  color: var(--primary-color);
+                }
+                .ysd-btn-md {
+                  height: 28px;
+                  line-height: 28px;
+                  padding: 0;
+                  width: 60px;
+                  min-width: 0;
+                }
+                .ysd-select {
+                  width: 134px;
+                  border: none;
+                  .ysd-select-view {
+                    min-height: 0;
+                    height: 45px;
+                    line-height: 45px;
+                  }
+                }
+              }
+              .card-info-item {
+                .card-img {
+                  cursor: pointer;
+                }
+              }
+              .search-list {
+                height: 466px;
+                // height: 100%;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                // justify-content: center;
+                @include sfp.flex-gap((12px, 0));
+                @include scrollBar();
+                overflow: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.img-info-view-content-content {
+  border: none;
+  // .searchperson-card
+  .foothold-img-right-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .yisa-panel {
+      .searchperson-card,
+      .target-info-content {
+        margin: 0 16px;
+      }
+    }
+  }
+}
+.popover-card {
+  z-index: 2011;
+}
+.nodata {
+  max-height: 200px;
+  margin: 30px 0;
+}

@@ -1,0 +1,188 @@
+{
+  "message": "获取成功！",
+  "data": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "abnormal": 0,
+              "disabled": false,
+              "id": "3702023739704259",
+              "lat": "35.023807",
+              "lng": "120.169973",
+              "locationType": 1,
+              "status": 1,
+              "text": "江山中路黄河立交"
+            },
+            {
+              "abnormal": 1,
+              "disabled": false,
+              "id": "3702014294916629",
+              "lat": "35.871437",
+              "lng": "119.979542",
+              "locationType": 1,
+              "status": 1,
+              "text": "东楼一居社区东楼路56号西北角球机"
+            },
+            {
+              "abnormal": 0,
+              "disabled": false,
+              "id": "3702014293522715",
+              "lat": "35.979487",
+              "lng": "119.959475",
+              "locationType": 1,
+              "status": 1,
+              "text": "铁山街道办事处朱家园朱家园村入口人车混合抓拍"
+            },
+            {
+              "abnormal": 0,
+              "disabled": false,
+              "id": "3702014291461802",
+              "lat": "36.122939",
+              "lng": "120.047846",
+              "locationType": 1,
+              "status": 1,
+              "text": "王台镇张家岛耳河小学南十字路口朝南混合抓拍机"
+            },
+            {
+              "abnormal": 0,
+              "disabled": false,
+              "id": "3702014291276381",
+              "lat": "35.931785",
+              "lng": "120.141793",
+              "locationType": 1,
+              "status": 1,
+              "text": "荣泰华庭琅琊荣泰华庭入口道闸"
+            },
+            {
+              "abnormal": 0,
+              "disabled": false,
+              "id": "3702014290702064",
+              "lat": "35.931995",
+              "lng": "120.147058",
+              "locationType": 1,
+              "status": 1,
+              "text": "江山瑞城长江路街道江山瑞城1号门出口道闸"
+            },
+            {
+              "abnormal": 0,
+              "disabled": false,
+              "id": "3702014289200421",
+              "lat": "36.032655",
+              "lng": "120.068857",
+              "locationType": 1,
+              "status": 1,
+              "text": "陈大路大夼东入口简易卡口"
+            },
+            {
+              "abnormal": 0,
+              "disabled": false,
+              "id": "3702014289162621",
+              "lat": "35.960815",
+              "lng": "120.163956",
+              "locationType": 1,
+              "status": 1,
+              "text": "江山南路榕江路路口"
+            },
+            {
+              "abnormal": 0,
+              "disabled": false,
+              "id": "3702014286613928",
+              "lat": "35.822045",
+              "lng": "119.975963",
+              "locationType": 1,
+              "status": 1,
+              "text": "融合学院融合学院出口车牌抓拍"
+            }
+          ],
+          "disabled": false,
+          "id": "370211-1",
+          "scale": 4,
+          "text": "车辆卡口"
+        },
+        {
+          "children": [
+            {
+              "abnormal": 1,
+              "disabled": false,
+              "id": "3702020625728343",
+              "lat": "35.942297",
+              "lng": "120.185623",
+              "locationType": 2,
+              "status": 1,
+              "text": "澳柯玛-测试-离线视频-01"
+            },
+            {
+              "abnormal": 0,
+              "disabled": false,
+              "id": "3702020596089079",
+              "lat": "36",
+              "lng": "120",
+              "locationType": 2,
+              "status": 0,
+              "text": "批量导入删除测试"
+            },
+            {
+              "abnormal": 1,
+              "disabled": false,
+              "id": "370211400056",
+              "lat": "35.977631",
+              "lng": "120.205025",
+              "locationType": 2,
+              "status": 1,
+              "text": "手动添加设备"
+            },
+            {
+              "abnormal": 1,
+              "disabled": false,
+              "id": "370211400050",
+              "lat": "35.950222",
+              "lng": "120.163333",
+              "locationType": 2,
+              "status": 1,
+              "text": "7楼澳柯玛摄像头04"
+            },
+            {
+              "abnormal": 1,
+              "disabled": false,
+              "id": "370211400049",
+              "lat": "35.950222",
+              "lng": "120.163333",
+              "locationType": 2,
+              "status": 1,
+              "text": "7楼澳柯玛摄像头03"
+            },
+            {
+              "abnormal": 1,
+              "disabled": false,
+              "id": "370211400048",
+              "lat": "36.062977",
+              "lng": "120.237122",
+              "locationType": 2,
+              "status": 1,
+              "text": "7楼澳柯玛摄像头02"
+            },
+            {
+              "abnormal": 1,
+              "disabled": false,
+              "id": "370211400047",
+              "lat": "35.950222",
+              "lng": "120.163333",
+              "locationType": 2,
+              "status": 1,
+              "text": "7楼澳柯玛摄像头01"
+            }
+          ],
+          "disabled": false,
+          "id": "370211-2",
+          "scale": 4,
+          "text": "视频监控"
+        }
+      ],
+      "id": "370211",
+      "scale": 3,
+      "text": "黄岛区"
+    }
+  ]
+}

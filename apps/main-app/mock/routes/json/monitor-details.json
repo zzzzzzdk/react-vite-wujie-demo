@@ -1,0 +1,1376 @@
+{
+  "data": [
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F84%2C53dd8be0458ca8.jpg",
+          "bkType": 1,
+          "captureTime": "2024-01-18 08:39:27",
+          "detection": {
+              "x": 776,
+              "y": 318,
+              "w": 104,
+              "h": 130
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B403-20240118083927-88\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F84%2C53dd8be0458ca8.jpg",
+          "feature": "",
+          "infoId": "65a8733f-22a5-f4e8-964c-b67412878f72",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.165333,
+              "lat": 35.954222
+          },
+          "locationId": "370211400049",
+          "locationName": "7楼澳柯玛摄像头03",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 1,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "a6f55ecf-3945-496e-973e-cd345e09f2d2",
+          "similarity": 93.33,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F84%2C53dd8be0458ca8.jpg\u0026xywh=776%2C318%2C104%2C130",
+          "targetType": "vehicle",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F84%2C53dd8be0458ca8.jpg",
+          "bkType": 1,
+          "captureTime": "2024-01-18 08:39:27",
+          "detection": {
+              "x": 776,
+              "y": 318,
+              "w": 104,
+              "h": 130
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B403-20240118083927-65\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F84%2C53dd8be0458ca8.jpg",
+          "feature": "",
+          "infoId": "65a8733f-22a5-f4e8-964c-b67412878f72",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.165333,
+              "lat": 35.954222
+          },
+          "locationId": "370211400049",
+          "locationName": "7楼澳柯玛摄像头03",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 1,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "33764e5d-0932-4d7f-8a7b-be773bc8c860",
+          "similarity": 93.33,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F84%2C53dd8be0458ca8.jpg\u0026xywh=776%2C318%2C104%2C130",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C54faeda725b127.jpg",
+          "bkType": 1,
+          "captureTime": "2024-01-18 13:33:24",
+          "detection": {
+              "x": 894,
+              "y": 282,
+              "w": 96,
+              "h": 126
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B403-20240118133324-24\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C54faeda725b127.jpg",
+          "feature": "",
+          "infoId": "65a8b824-e99c-8b56-bc35-399790b944f8",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.165333,
+              "lat": 35.954222
+          },
+          "locationId": "370211400049",
+          "locationName": "7楼澳柯玛摄像头03",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 1,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "6e6e6ff4-d76c-4e11-a325-1109b7c8e67f",
+          "similarity": 94.81,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C54faeda725b127.jpg\u0026xywh=894%2C282%2C96%2C126",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C54faeda725b127.jpg",
+          "bkType": 1,
+          "captureTime": "2024-01-18 13:33:24",
+          "detection": {
+              "x": 894,
+              "y": 282,
+              "w": 96,
+              "h": 126
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B403-20240118133324-32\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C54faeda725b127.jpg",
+          "feature": "",
+          "infoId": "65a8b824-e99c-8b56-bc35-399790b944f8",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.165333,
+              "lat": 35.954222
+          },
+          "locationId": "370211400049",
+          "locationName": "7楼澳柯玛摄像头03",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 1,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "cc7c853d-8f1b-4b40-82f6-01d865e52425",
+          "similarity": 94.81,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C54faeda725b127.jpg\u0026xywh=894%2C282%2C96%2C126",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C5535978aa4065d.jpg",
+          "bkType": 1,
+          "captureTime": "2024-01-18 14:50:42",
+          "detection": {
+              "x": 1241,
+              "y": 604,
+              "w": 128,
+              "h": 162
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B404-20240118145042-80\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C5535978aa4065d.jpg",
+          "feature": "",
+          "infoId": "65a8ca42-83ee-1dbf-976e-4b081fac7421",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.136871,
+              "lat": 35.983007
+          },
+          "locationId": "370211400050",
+          "locationName": "7楼澳柯玛摄像头04",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 1,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [
+              "120.165333,35.954222",
+              "120.170493,35.954381",
+              "120.170542,35.954310",
+              "120.168671,35.953458",
+              "120.166865,35.953115",
+              "120.165777,35.952846",
+              "120.153106,35.950705",
+              "120.152565,35.953277",
+              "120.151242,35.958786",
+              "120.151066,35.959740",
+              "120.151024,35.960305",
+              "120.151055,35.961107",
+              "120.151178,35.961839",
+              "120.151218,35.962217",
+              "120.151980,35.966055",
+              "120.152105,35.966891",
+              "120.152120,35.967742",
+              "120.152023,35.968363",
+              "120.151879,35.968986",
+              "120.151600,35.969678",
+              "120.151303,35.970228",
+              "120.150735,35.971209",
+              "120.150672,35.971361",
+              "120.149318,35.973819",
+              "120.146272,35.979287",
+              "120.144601,35.982188",
+              "120.144196,35.982840",
+              "120.143995,35.982789",
+              "120.146040,35.979150",
+              "120.142465,35.978384",
+              "120.142376,35.978611",
+              "120.142029,35.979156",
+              "120.141537,35.979516",
+              "120.140769,35.980010",
+              "120.140969,35.980183",
+              "120.141268,35.980678",
+              "120.141460,35.981180",
+              "120.141503,35.981728",
+              "120.141429,35.982232",
+              "120.141144,35.983018",
+              "120.136871,35.983007"
+          ],
+          "resultId": "e6a67d5f-c959-479e-8a61-ee0a3de8e6a8",
+          "similarity": 95.97,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C5535978aa4065d.jpg\u0026xywh=1241%2C604%2C128%2C162",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C5535978aa4065d.jpg",
+          "bkType": 1,
+          "captureTime": "2024-01-18 14:50:42",
+          "detection": {
+              "x": 1241,
+              "y": 604,
+              "w": 128,
+              "h": 162
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B404-20240118145042-69\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C5535978aa4065d.jpg",
+          "feature": "",
+          "infoId": "65a8ca42-83ee-1dbf-976e-4b081fac7421",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.136871,
+              "lat": 35.983007
+          },
+          "locationId": "370211400050",
+          "locationName": "7楼澳柯玛摄像头04",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 1,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "a9a6a323-1de4-41dd-9ac6-6d75ac24f08c",
+          "similarity": 95.97,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C5535978aa4065d.jpg\u0026xywh=1241%2C604%2C128%2C162",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C5fb16e2a475577.jpg",
+          "bkType": 1,
+          "captureTime": "2024-01-24 18:09:10",
+          "detection": {
+              "x": 1054,
+              "y": 532,
+              "w": 114,
+              "h": 148
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B404-20240124180910-21\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C5fb16e2a475577.jpg",
+          "feature": "",
+          "infoId": "65b0e1c6-ce99-8222-a613-8b324b9d44d9",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.136871,
+              "lat": 35.983007
+          },
+          "locationId": "370211400050",
+          "locationName": "7楼澳柯玛摄像头04",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "315f34a9-3b89-457f-86d2-70baea504a09",
+          "similarity": 98.18,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C5fb16e2a475577.jpg\u0026xywh=1054%2C532%2C114%2C148",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C5fdd85ead76026.jpg",
+          "bkType": 1,
+          "captureTime": "2024-01-24 18:41:00",
+          "detection": {
+              "x": 1095,
+              "y": 572,
+              "w": 128,
+              "h": 172
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B404-20240124184100-40\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C5fdd85ead76026.jpg",
+          "feature": "",
+          "infoId": "65b0e93c-b6ab-7f12-b525-01f05644e22d",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.136871,
+              "lat": 35.983007
+          },
+          "locationId": "370211400050",
+          "locationName": "7楼澳柯玛摄像头04",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "b0c5e7f2-3c58-4bf8-bd43-147dd439f6fc",
+          "similarity": 98.61,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C5fdd85ead76026.jpg\u0026xywh=1095%2C572%2C128%2C172",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F78%2C8db4ac330a5207.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 13:26:53",
+          "detection": {
+              "x": 939,
+              "y": 332,
+              "w": 120,
+              "h": 154
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315132653-47\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F78%2C8db4ac330a5207.jpg",
+          "feature": "",
+          "infoId": "65f3dc1d-32d0-2024-71b8-0c73f8c860f6",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [
+              "120.136871,35.983007",
+              "120.141144,35.983018",
+              "120.141429,35.982232",
+              "120.141503,35.981728",
+              "120.141460,35.981180",
+              "120.141268,35.980678",
+              "120.140969,35.980183",
+              "120.140769,35.980010",
+              "120.141537,35.979516",
+              "120.142029,35.979156",
+              "120.142376,35.978611",
+              "120.142501,35.978258",
+              "120.146096,35.979064",
+              "120.149117,35.973751",
+              "120.150448,35.971311",
+              "120.150516,35.971228",
+              "120.150541,35.971170",
+              "120.165239,35.974135",
+              "120.165437,35.974123",
+              "120.165446,35.974283",
+              "120.165729,35.975163",
+              "120.165947,35.975637",
+              "120.167086,35.977157",
+              "120.167324,35.977415",
+              "120.167646,35.977541",
+              "120.167935,35.977680",
+              "120.168092,35.977703",
+              "120.168273,35.977674",
+              "120.168670,35.977519",
+              "120.168876,35.977513",
+              "120.168995,35.977523",
+              "120.169144,35.977566",
+              "120.169294,35.977670",
+              "120.169458,35.977842",
+              "120.169617,35.977938",
+              "120.169844,35.978007",
+              "120.170078,35.978036",
+              "120.170269,35.978014",
+              "120.170552,35.977901",
+              "120.172020,35.977407",
+              "120.172880,35.977207",
+              "120.174719,35.976547",
+              "120.180239,35.974682",
+              "120.186110,35.972623",
+              "120.191243,35.970905",
+              "120.192641,35.970378",
+              "120.192892,35.968630",
+              "120.192947,35.968434",
+              "120.192993,35.968161",
+              "120.187683,35.968004"
+          ],
+          "resultId": "8b5dceb8-766c-47e4-aef2-859b0376d923",
+          "similarity": 93.15,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F78%2C8db4ac330a5207.jpg\u0026xywh=939%2C332%2C120%2C154",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8db514dc1072fd.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 13:27:34",
+          "detection": {
+              "x": 920,
+              "y": 291,
+              "w": 110,
+              "h": 128
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315132734-79\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8db514dc1072fd.jpg",
+          "feature": "",
+          "infoId": "65f3dc46-2e2c-8a0a-ea6f-4e82e2a22e41",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "353a0c80-e310-4b17-96cc-4b0646a59848",
+          "similarity": 92.02,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8db514dc1072fd.jpg\u0026xywh=920%2C291%2C110%2C128",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F79%2C8db5733a4912b8.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 13:28:37",
+          "detection": {
+              "x": 675,
+              "y": -13,
+              "w": 138,
+              "h": 178
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315132837-77\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F79%2C8db5733a4912b8.jpg",
+          "feature": "",
+          "infoId": "65f3dc85-b9a9-78af-668c-8098dcd67582",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "5f4a2475-2912-4f29-9c29-60728d751208",
+          "similarity": 89.16,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F79%2C8db5733a4912b8.jpg\u0026xywh=675%2C-13%2C138%2C178",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8db6b9d82f7521.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 13:29:41",
+          "detection": {
+              "x": 909,
+              "y": 527,
+              "w": 118,
+              "h": 150
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B404-20240315132941-13\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8db6b9d82f7521.jpg",
+          "feature": "",
+          "infoId": "65f3dcc5-1b32-f20c-50d5-d307e2d485d4",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.136871,
+              "lat": 35.983007
+          },
+          "locationId": "370211400050",
+          "locationName": "7楼澳柯玛摄像头04",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "c19a8d0f-2e44-4020-80ea-9f05623e2bab",
+          "similarity": 90.10,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8db6b9d82f7521.jpg\u0026xywh=909%2C527%2C118%2C150",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F83%2C8db7829bd4b429.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 13:30:23",
+          "detection": {
+              "x": 783,
+              "y": 351,
+              "w": 126,
+              "h": 168
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315133023-00\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F83%2C8db7829bd4b429.jpg",
+          "feature": "",
+          "infoId": "65f3dcef-8d5f-0fe6-97e0-0c10bfd68378",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "6e148f9e-7241-46e3-853d-828bb0620ccc",
+          "similarity": 91.30,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F83%2C8db7829bd4b429.jpg\u0026xywh=783%2C351%2C126%2C168",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F83%2C8dcd195ae00c9a.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 14:25:57",
+          "detection": {
+              "x": 720,
+              "y": 256,
+              "w": 86,
+              "h": 112
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315142557-54\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F83%2C8dcd195ae00c9a.jpg",
+          "feature": "",
+          "infoId": "65f3e9f5-e6ac-f8d9-70c2-042a48b5768c",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "d07f1f52-4a0d-4cba-a0c9-5bebe6fdc8e3",
+          "similarity": 89.04,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F83%2C8dcd195ae00c9a.jpg\u0026xywh=720%2C256%2C86%2C112",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8dcd509c5f114f.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 14:28:23",
+          "detection": {
+              "x": 720,
+              "y": 247,
+              "w": 86,
+              "h": 108
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315142823-84\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8dcd509c5f114f.jpg",
+          "feature": "",
+          "infoId": "65f3ea87-0d51-29b7-e436-8225f154b0c3",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "4c36e833-f3a0-4cdb-8c15-78c4e0a4de25",
+          "similarity": 91.38,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8dcd509c5f114f.jpg\u0026xywh=720%2C247%2C86%2C108",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8de23a5e5d4df4.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 15:36:01",
+          "detection": {
+              "x": 955,
+              "y": 288,
+              "w": 108,
+              "h": 128
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315153601-35\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8de23a5e5d4df4.jpg",
+          "feature": "",
+          "infoId": "65f3fa61-a08e-cc09-faf7-c3d64f6cf8ea",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "6b738cca-bcef-489b-9863-fe8898527ace",
+          "similarity": 91.89,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8de23a5e5d4df4.jpg\u0026xywh=955%2C288%2C108%2C128",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F83%2C8de2ddbd9016ec.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 15:36:41",
+          "detection": {
+              "x": 885,
+              "y": 743,
+              "w": 206,
+              "h": 268
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B404-20240315153641-28\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F83%2C8de2ddbd9016ec.jpg",
+          "feature": "",
+          "infoId": "65f3fa89-07c0-d6f0-06f4-d81acb4c295f",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.136871,
+              "lat": 35.983007
+          },
+          "locationId": "370211400050",
+          "locationName": "7楼澳柯玛摄像头04",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "c3df894b-ab60-453b-8458-8a2a4dc73dc7",
+          "similarity": 93.35,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F83%2C8de2ddbd9016ec.jpg\u0026xywh=885%2C743%2C206%2C268",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8df58cba4d26b5.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 16:18:56",
+          "detection": {
+              "x": 883,
+              "y": 480,
+              "w": 98,
+              "h": 124
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B404-20240315161856-76\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8df58cba4d26b5.jpg",
+          "feature": "",
+          "infoId": "65f40470-ceb9-9342-3702-15a8bf0c1c93",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.136871,
+              "lat": 35.983007
+          },
+          "locationId": "370211400050",
+          "locationName": "7楼澳柯玛摄像头04",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "f5f94f64-083d-4a45-8dbd-5cbb7830dc78",
+          "similarity": 90.17,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8df58cba4d26b5.jpg\u0026xywh=883%2C480%2C98%2C124",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8df647d6e01c0d.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 16:19:21",
+          "detection": {
+              "x": 640,
+              "y": 311,
+              "w": 100,
+              "h": 124
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315161921-69\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8df647d6e01c0d.jpg",
+          "feature": "",
+          "infoId": "65f40489-eccf-776c-606e-694c77e74c11",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "8844b337-453f-467a-a067-a965de907421",
+          "similarity": 90.64,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8df647d6e01c0d.jpg\u0026xywh=640%2C311%2C100%2C124",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8df75c6f15a501.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 16:22:08",
+          "detection": {
+              "x": 804,
+              "y": 216,
+              "w": 82,
+              "h": 96
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315162208-46\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8df75c6f15a501.jpg",
+          "feature": "",
+          "infoId": "65f40530-dda6-bebb-2cad-5a56915ae3ce",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "bc57bb32-d6db-4ba9-b851-0f0aa3515603",
+          "similarity": 92.70,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F81%2C8df75c6f15a501.jpg\u0026xywh=804%2C216%2C82%2C96",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8e002df8eb3194.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 16:58:02",
+          "detection": {
+              "x": 768,
+              "y": 266,
+              "w": 92,
+              "h": 114
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315165802-23\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8e002df8eb3194.jpg",
+          "feature": "",
+          "infoId": "65f40d9a-f95c-15fe-b5b2-4e5062b35d49",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "f0b30c79-e150-4225-b242-705037d4bd08",
+          "similarity": 90.72,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8e002df8eb3194.jpg\u0026xywh=768%2C266%2C92%2C114",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F82%2C8e01aac4cdd207.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 17:01:49",
+          "detection": {
+              "x": 794,
+              "y": 321,
+              "w": 112,
+              "h": 144
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315170149-76\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F82%2C8e01aac4cdd207.jpg",
+          "feature": "",
+          "infoId": "65f40e7d-7432-b945-1109-bd3b702ee9a9",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "271b1d67-ba4d-4b72-ab11-1434d89a42ab",
+          "similarity": 93.07,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F82%2C8e01aac4cdd207.jpg\u0026xywh=794%2C321%2C112%2C144",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F78%2C8e0804d3a0595f.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 17:22:55",
+          "detection": {
+              "x": 855,
+              "y": 314,
+              "w": 114,
+              "h": 132
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315172255-32\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F78%2C8e0804d3a0595f.jpg",
+          "feature": "",
+          "infoId": "65f4136f-439a-7765-bfec-66bfea49f464",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "f0e4a881-0fec-402b-8823-1e7118ebc1a1",
+          "similarity": 85.77,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9081%2F78%2C8e0804d3a0595f.jpg\u0026xywh=855%2C314%2C114%2C132",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F79%2C8e08a4ee2dcb12.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 17:25:49",
+          "detection": {
+              "x": 474,
+              "y": 580,
+              "w": 200,
+              "h": 246
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B401-20240315172549-92\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F79%2C8e08a4ee2dcb12.jpg",
+          "feature": "",
+          "infoId": "65f4141d-f7f8-420a-ebe8-6188ed86b674",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.187683,
+              "lat": 35.968004
+          },
+          "locationId": "370211400047",
+          "locationName": "7楼澳柯玛摄像头01",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "04db1a81-baea-4752-b34e-99689bcd2c2d",
+          "similarity": 93.43,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F79%2C8e08a4ee2dcb12.jpg\u0026xywh=474%2C580%2C200%2C246",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      },
+      {
+          "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8e08b18a656166.jpg",
+          "bkType": 1,
+          "captureTime": "2024-03-15 17:26:31",
+          "detection": {
+              "x": 992,
+              "y": 498,
+              "w": 110,
+              "h": 148
+          },
+          "deviceId": "0",
+          "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=7%E6%A5%BC%E6%BE%B3%E6%9F%AF%E7%8E%9B%E6%91%84%E5%83%8F%E5%A4%B404-20240315172631-00\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8e08b18a656166.jpg",
+          "feature": "",
+          "infoId": "65f41447-84e1-5a8a-6e34-2ef973775a71",
+          "jobId": 58,
+          "lngLat": {
+              "lng": 120.136871,
+              "lat": 35.983007
+          },
+          "locationId": "370211400050",
+          "locationName": "7楼澳柯玛摄像头04",
+          "measure": 1,
+          "monitorTarget": {
+              "monitorTargetUrl": "",
+              "licensePlate": "",
+              "plateColorTypeId": -1,
+              "brandId": [],
+              "modelId": [],
+              "yearId": [],
+              "carInfo": "",
+              "itemId": 44,
+              "monitorTargetId": 5,
+              "labelInfos": [
+                  {
+                      "id": 3,
+                      "name": "在逃人员",
+                      "color": 6
+                  }
+              ],
+              "license": "371521198710123171",
+              "personName": "张亮"
+          },
+          "monitorType": "monitorPersonTagType",
+          "path": [],
+          "resultId": "3ea861ad-03ba-483a-a821-b7f335133957",
+          "similarity": 90.37,
+          "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.211%3A9080%2F80%2C8e08b18a656166.jpg\u0026xywh=992%2C498%2C110%2C148",
+          "targetType": "face",
+          "title": "人脸图片布控测试1",
+          "windowFeature": ""
+      }
+  ],
+  "errorMessage": "",
+  "message": "请求成功",
+  "totalRecords": 25,
+  "usedTime": 0.14
+}

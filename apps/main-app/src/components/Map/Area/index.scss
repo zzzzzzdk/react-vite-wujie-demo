@@ -1,0 +1,12 @@
+.map-area, .map-area-error-message {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 502;
+  padding: 2px 6px;
+  border: 1px solid #ff7266;
+  border-radius: 4px;
+  background: rgba($color: #ff7266, $alpha: .2);
+  color: #ff7266;
+}

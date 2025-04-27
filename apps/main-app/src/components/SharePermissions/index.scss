@@ -1,0 +1,122 @@
+$prefix: "share-permissions";
+
+.#{$prefix}-modal {
+  width: 872px;
+
+  .ysd-modal-header {
+  }
+
+  .ysd-modal-content {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--modal-title-border-color);
+
+    .#{$prefix}-content {
+      .#{$prefix}-select {
+        display: flex;
+        margin-bottom: 20px;
+
+        label {
+          width: 70px;
+          line-height: 32px;
+        }
+        .ysd-select {
+          width: 160px;
+        }
+      }
+
+      .#{$prefix}-tree-wrap {
+        .title {
+          margin-bottom: 16px;
+        }
+
+        .#{$prefix}-tree-con {
+          display: flex;
+          justify-content: space-between;
+
+          & > div {
+            border: 1px solid var(--base-color1-20);
+            border-radius: 4px;
+          }
+
+          .#{$prefix}-tree {
+            width: calc(50% - 10px);
+            padding: 12px 20px;
+
+            .item-head {
+              padding-bottom: 10px;
+              border-bottom: 1px solid var(--base-color1-20);
+            }
+            .ysd-input-wrapper {
+              margin: 16px 0;
+              .check-all {
+                color: var(--primary-color);
+                cursor: pointer;
+              }
+            }
+          }
+          .#{$prefix}-tree-checked-list {
+            width: calc(50% - 10px);
+            padding: 12px 20px;
+
+            .item-head {
+              display: flex;
+              justify-content: space-between;
+              padding-bottom: 10px;
+              border-bottom: 1px solid var(--base-color1-20);
+              margin-bottom: 12px;
+
+              .clear {
+                color: var(--danger-color);
+                cursor: pointer;
+              }
+            }
+
+            .checked-list {
+              // height: calc(100% - 40px);
+              .nodata {
+                height: 350px;
+                background: url(../../assets/images/image/target-nodata-2.png) no-repeat center;
+              }
+
+              .checked-list-item {
+                display: flex;
+                justify-content: space-between;
+                height: 24px;
+                align-items: center;
+
+                .btn {
+                  color: var(--danger-color);
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+
+        .#{$prefix}-tip {
+          height: 417px;
+          // display: flex;
+          // justify-content: space-between;
+          // align-items: center;
+          text-align: center;
+          border: 1px solid var(--modal-title-border-color);
+
+          .img-wrap {
+            margin: 0 auto;
+            width: 400px;
+            height: 400px;
+            background: url(./../../assets/images/no-auth.png) no-repeat center;
+          }
+          .tip {
+            position: relative;
+            top: -20px;
+            .btn {
+              cursor: pointer;
+              color: var(--primary-color);
+            }
+          }
+        }
+      }
+    }
+  }
+}

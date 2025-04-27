@@ -1,0 +1,81 @@
+$similar-title: "similar-title";
+// 相同的title样式
+.#{$similar-title} {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  .title-left {
+    display: flex;
+    align-items: center;
+    height: 19px;
+    font-size: 14px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+    font-weight: 700;
+    color: var(--text-color);
+    &::before {
+      content: "";
+      width: 4px;
+      height: 16px;
+      background: #3377ff;
+      border-radius: 2px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+  .title-right {
+    display: flex;
+    @include sfp.flex-gap((0, 10px));
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding-right: 5px;
+    cursor: pointer;
+    .btn {
+      width: 46px;
+      height: 24px;
+      border-radius: 4px;
+      line-height: 24px;
+    }
+    .record-imgupload {
+      .feature-list {
+        li {
+          width: 38px;
+          height: 33px;
+          .upload-hisory-popver {
+            width: 38px;
+            height: 33px;
+          }
+          .ysd-upload-wrap {
+            width: 38px;
+            height: 33px;
+            .ysd-upload {
+              border: none;
+              .ysd-icon {
+                font-size: 33px;
+                color: #3377ff;
+                margin-bottom: 0;
+              }
+            }
+          }
+          .save-btn {
+            position: absolute;
+            top: 0;
+            left: -10px;
+          }
+        }
+      }
+    }
+    .edit-btn {
+      color: #3377ff;
+      border: 1px solid #3377ff;
+    }
+    .save-btn {
+      color: #3377ff;
+      border: 1px solid #3377ff;
+    }
+    .cancel-btn {
+      color: #ff5b4d;
+      border: 1px solid #ff5b4d;
+    }
+  }
+}

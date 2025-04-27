@@ -1,0 +1,26 @@
+@import "@/assets/css/mixin.scss";
+$baseinfo-tabtable: "baseinfo-tabtable";
+
+.#{$baseinfo-tabtable} {
+  &-content {
+    .tabtable-tab {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .table-no-data {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      line-height: 100px;
+      @include sfp.flex-gap(10px);
+
+      .ysd-icon {
+        font-size: 50px;
+        opacity: 0.5;
+      }
+      img {
+        width: 100px;
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+$trackAnalysis: "track-analysis";
+@import "@/assets/css/mixin";
+.#{$trackAnalysis} {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  &-left {
+    flex: 1;
+    .yisa-panel-container {
+      height: calc(100% - 45px);
+    }
+
+    .yisa-panel:nth-child(1) {
+      height: 45%;
+      .data-bar {
+        width: 100%;
+      }
+    }
+    .yisa-panel:nth-child(2) {
+      height: 55%;
+      .shiduan-bar {
+        width: 100%;
+      }
+    }
+  }
+  &-right {
+    flex: 2;
+    height: 100%;
+    .yisa-panel {
+      height: 100%;
+      position: relative;
+      .yisa-panel-header {
+        .title-right {
+          display: flex;
+          @include sfp.flex-gap((0, 16px));
+          .ysd-form-item-content {
+            display: flex;
+            .ysd-form-item-content-label {
+              font-weight: 700;
+              color: var(--text-color);
+              width: 70px !important;
+              height: 30px;
+            }
+            .ysd-form-item-content-value {
+              .ysd-picker {
+                height: 30px;
+                line-height: 28px;
+                width: 340px;
+              }
+            }
+          }
+          .ysd-btn-md {
+            min-width: 86px;
+          }
+        }
+      }
+      .yisa-panel-container {
+        height: calc(100% - 42px);
+        .ysc-map-container {
+          border-radius: 4px;
+          .custom-popup-box {
+            background-color: var(--card-cross-bg);
+            border-radius: 4px;
+            .track-content {
+              padding: 8px;
+              &-card {
+                .card-img {
+                  // cursor: pointer;
+                  width: 262px;
+                  height: 214px;
+                }
+                .card-info {
+                  width: 194px;
+                  margin: 5px 0;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                  span:nth-child(2) {
+                    padding: 0 5px;
+                    font-weight: bold;
+                    // color: var(--primary-color);
+                  }
+                  .ysd-icon {
+                    margin-right: 7px;
+                    opacity: 0.5;
+                  }
+                }
+                .btn-change {
+                  position: absolute;
+                  top: 50%;
+                  margin-top: -23px;
+                  width: 16px;
+                  height: 46px;
+                  border-radius: 2px;
+                  box-shadow: 0px 6px 18px 0px rgba(113, 117, 137, 0.15);
+                  background-color: rgba(0, 0, 0, 0.5);
+                  color: #fff;
+                  line-height: 46px;
+                  text-align: center;
+                  cursor: pointer;
+                  &.btn-prev {
+                    left: -8px;
+                  }
+                  &.btn-next {
+                    right: -8px;
+                  }
+                  &.disabled {
+                    opacity: 0.5;
+                    cursor: not-allowed;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .box-drawer.ysd-drawer-open {
+          width: 350px !important;
+        }
+        .ysd-drawer-wrapper-body {
+          position: relative;
+          .ysd-drawer-title {
+            font-size: 14px;
+            .list-title {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+            }
+          }
+          .ysd-drawer-body {
+            .ysd-table {
+              overflow: hidden;
+              // height: calc(100% - 25px);
+              // overflow-y: auto;
+              // @include scrollBar();
+              .location-name {
+                cursor: pointer;
+              }
+            }
+            .ysd-pagination {
+              display: flex;
+              justify-content: center;
+              position: absolute;
+              bottom: 12px;
+              right: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

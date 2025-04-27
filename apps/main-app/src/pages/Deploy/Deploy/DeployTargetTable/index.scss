@@ -1,0 +1,9 @@
+.deploy-target-table {
+  // 目标信息
+  &__objects {
+    // color: red;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

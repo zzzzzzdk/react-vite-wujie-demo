@@ -1,0 +1,430 @@
+{
+  "registrationInfo": [
+    {
+      "label": "车辆型号",
+      "value": "vehicleModel"
+    },
+    {
+      "label": "登记证书编号",
+      "value": "registrationCertificateNumber"
+    },
+    {
+      "label": "机动车状态",
+      "value": "vehicleStatus"
+    },
+    {
+      "label": "抵押标记",
+      "value": "mortgageFlag"
+    },
+    {
+      "label": "最近定检日期",
+      "value": "lastInspectionDate"
+    },
+    {
+      "label": "检验有效期止",
+      "value": "inspectionExpiryDate"
+    },
+    {
+      "label": "强制报废期止",
+      "value": "mandatoryScrapDate"
+    },
+    {
+      "label": "初次登记日期",
+      "value": "firstRegistrationDate"
+    },
+    {
+      "label": "保险终止日期",
+      "value": "insuranceExpiryDate"
+    },
+    {
+      "label": "更新日期",
+      "value": "updateDate"
+    },
+    {
+      "label": "发牌日期",
+      "value": "licensePlateIssuanceDate"
+    },
+    {
+      "label": "发登记证日期",
+      "value": "registrationCertificateIssuanceDate"
+    },
+    {
+      "label": "补/换领行驶证次数",
+      "value": "drivingLicenseCount"
+    },
+    {
+      "label": "补/换领号牌次数",
+      "value": "licensePlateCount"
+    },
+    {
+      "label": "补/换领登记证次数",
+      "value": "registrationCertificateCount"
+    },
+    {
+      "label": "发证机关",
+      "value": "issuingAuthority"
+    },
+    {
+      "label": "管理部门",
+      "value": "managementDepartment"
+    },
+    {
+      "label": "来历凭证1",
+      "value": "sourceCertificate1"
+    },
+    {
+      "label": "凭证编号1",
+      "value": "certificateNumber1"
+    },
+    {
+      "label": "来历凭证2",
+      "value": "sourceCertificate2"
+    },
+    {
+      "label": "凭证编号2",
+      "value": "certificateNumber2"
+    },
+    {
+      "label": "进口凭证",
+      "value": "importCertificate"
+    },
+    {
+      "label": "进口凭证号",
+      "value": "importCertificateNumber"
+    },
+    {
+      "label": "纳税证明",
+      "value": "taxCertificate"
+    },
+    {
+      "label": "纳税证明编号",
+      "value": "taxCertificateNumber"
+    },
+    {
+      "label": "前膜编号",
+      "value": "frontFilmNumber"
+    },
+    {
+      "label": "后膜编号",
+      "value": "rearFilmNumber"
+    }
+  ],
+  "physicalCar": [
+    {
+      "value": "vehicleType",
+      "className": "leixing"
+    },
+    {
+      "value": "vehicleColor",
+      "className": "yanse"
+    },
+    {
+      "value": "licensePlate",
+      "className": "haoma"
+    },
+    {
+      "value": "vehicleIdentificationNumber",
+      "className": "shibiema"
+    },
+    {
+      "value": "frontWheelDistance",
+      "className": "qianl"
+    },
+    {
+      "value": "rearWheelDistance",
+      "className": "houl"
+    },
+    {
+      "value": "vehicleStructure",
+      "className": "jiegou"
+    },
+    {
+      "value": "chineseBrand",
+      "className": "pinpaic"
+    },
+    {
+      "value": "englishBrand",
+      "className": "pinpaiy"
+    },
+    {
+      "value": "vehicleModel",
+      "className": "xinghao"
+    },
+    {
+      "value": "displacement",
+      "className": "pailiang"
+    }
+  ],
+  "physicalTable": [
+    {
+      "label": "制造国家",
+      "value": "manufacturingCountry"
+    },
+    {
+      "label": "制造厂商",
+      "value": "manufacturer"
+    },
+    {
+      "label": "号牌种类",
+      "value": "licensePlateType"
+    },
+    {
+      "label": "出厂日期",
+      "value": "manufactureDate"
+    },
+    {
+      "label": "整备质量（kg）",
+      "value": "curbWeight"
+    },
+    {
+      "label": "总质量（kg）",
+      "value": "grossWeight"
+    },
+    {
+      "label": "变速箱",
+      "value": "transmission"
+    },
+    {
+      "label": "长*宽*高（mm）",
+      "value": "lengthWidthHeight"
+    },
+    {
+      "label": "燃料种类",
+      "value": "fuelType"
+    },
+    {
+      "label": "发动机型号",
+      "value": "engineModel"
+    },
+    {
+      "label": "发动机号",
+      "value": "engineNumber"
+    },
+    {
+      "label": "功率",
+      "value": "power"
+    },
+    {
+      "label": "前排载客数",
+      "value": "frontPassengerCapacity"
+    },
+    {
+      "label": "后排载客数",
+      "value": "rearPassengerCapacity"
+    },
+    {
+      "label": "核定载客数",
+      "value": "approvedPassengerCapacity"
+    },
+    {
+      "label": "转向形式",
+      "value": "designatedForDirectionalTravel"
+    },
+    {
+      "label": "轮胎规格",
+      "value": "tireSpecification"
+    },
+    {
+      "label": "轴距",
+      "value": "wheelbase"
+    },
+    {
+      "label": "轴数",
+      "value": "axles"
+    },
+    {
+      "label": "钢板弹簧片数",
+      "value": "steelPlateSpringCount"
+    }
+  ],
+  "drivingLicenseInfoZheng": [
+    {
+      "value": "plateNumber",
+      "className": "chepai"
+    },
+    {
+      "value": "vehicleType",
+      "className": "leixing"
+    },
+    {
+      "value": "owner",
+      "className": "name"
+    },
+    {
+      "value": "address",
+      "className": "add"
+    },
+    {
+      "value": "useCharacter",
+      "className": "xingzhi"
+    },
+    {
+      "value": "model",
+      "className": "xinghao"
+    },
+    {
+      "value": "vehicleIdentificationNumber",
+      "className": "shibiema"
+    },
+    {
+      "value": "engineNumber",
+      "className": "num"
+    },
+    {
+      "value": "registrationDate",
+      "className": "zc-date"
+    },
+    {
+      "value": "issuanceDate",
+      "className": "fz-date"
+    },
+    {
+      "value": "issuingAuthority",
+      "className": "gongan"
+    }
+  ],
+  "drivingLicenseInfoFan": [
+    {
+      "value": "plateNumber",
+      "className": "chepai"
+    },
+    {
+      "value": "fileNumber",
+      "className": "bianhao"
+    },
+    {
+      "value": "approvedPassengerCapacity",
+      "className": "renshu"
+    },
+    {
+      "value": "grossWeight",
+      "className": "zl"
+    },
+    {
+      "value": "curbWeight",
+      "className": "zl2"
+    },
+    {
+      "value": "approvedLoadCapacity",
+      "className": "zl3"
+    },
+    {
+      "value": "overallDimensions",
+      "className": "chicun"
+    },
+    {
+      "value": "tractionMass",
+      "className": "zl4"
+    },
+    {
+      "value": "remark",
+      "className": "demo"
+    },
+    {
+      "value": "verificationRecord",
+      "className": "jilu"
+    }
+  ],
+  "ownerBaseInfo": [
+    {
+      "label": "车主姓名",
+      "value": "name"
+    },
+    {
+      "label": "车主性别",
+      "value": "sex"
+    },
+    {
+      "label": "车主出生日期",
+      "value": "birthday"
+    },
+    {
+      "label": "联系电话",
+      "value": "phoneNumber"
+    },
+    {
+      "label": "车主证件类型",
+      "value": "idType"
+    },
+    {
+      "label": "车主证件号码",
+      "value": "idcard"
+    },
+    {
+      "label": "住所详细地址",
+      "value": "homeAddress"
+    },
+    {
+      "label": "暂住详细地址",
+      "value": "temporaryAddress"
+    },
+    {
+      "label": "人员标签",
+      "value": "labels"
+    }
+  ],
+  "ownerDriverLicenseZheng": [
+    {
+      "value": "certificateNumber",
+      "className": "zhenghao"
+    },
+    {
+      "value": "name",
+      "className": "name"
+    },
+    {
+      "value": "sex",
+      "className": "sex"
+    },
+    {
+      "value": "nationality",
+      "className": "nationality"
+    },
+    {
+      "value": "address",
+      "className": "address"
+    },
+    {
+      "value": "birthday",
+      "className": "birthday"
+    },
+    {
+      "value": "issueDate",
+      "className": "issue-date"
+    },
+    {
+      "value": "validFor",
+      "className": "valid-for"
+    },
+    {
+      "value": "validFrom",
+      "className": "valid-from"
+    },
+    {
+      "value": "class",
+      "className": "car-class"
+    },
+    {
+      "value": "issuingAuthority",
+      "className": "gong-an"
+    }
+  ],
+  "ownerDriverLicenseFan": [
+    {
+      "value": "certificateNumber",
+      "className": "zhenghao"
+    },
+    {
+      "value": "name",
+      "className": "name"
+    },
+    {
+      "value": "fileNumber",
+      "className": "record-id"
+    },
+    {
+      "value": "record",
+      "className": "record"
+    }
+  ]
+}

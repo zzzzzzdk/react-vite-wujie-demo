@@ -1,0 +1,100 @@
+.deploy-target-block {
+  .targets {
+    display: grid;
+    gap: 22px;
+    margin-left: 1em;
+  }
+  .ysd-table-content-scroll {
+    overflow: visible;
+  }
+  .ysd-table-td {
+    border-bottom: 1px solid var(--table-color-border);
+  }
+  .table-no-data {
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 100px;
+    @include sfp.flex-gap(10px);
+    .ysd-icon {
+      font-size: 50px;
+    }
+    img {
+      width: 100px;
+    }
+  }
+  .text {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    .collapse {
+      cursor: pointer;
+      margin-right: 1em;
+      position: relative;
+      &-more {
+        &::after {
+          content: "";
+          position: absolute;
+          right: -12px;
+          top: 5px;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 6px 4px 0 4px;
+          border-color: var(--primary-color) transparent transparent transparent;
+        }
+      }
+      &-less {
+        &::after {
+          content: "";
+          position: absolute;
+          right: -12px;
+          top: 5px;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 0 4px 6px 4px;
+          border-color: transparent transparent var(--primary-color) transparent;
+        }
+      }
+    }
+  }
+  .image-wrapper {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    @include sfp.flex-gap(4px);
+    margin: 0 auto;
+    .ysdb-img-zoom {
+      width: 100px;
+      height: 100px;
+    }
+    .disabled {
+      opacity: 0.5;
+    }
+    .prev,
+    .next {
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 6px 18px 0px rgba(113, 117, 137, 0.15);
+      color: #fff;
+      width: 16px;
+      height: 46px;
+      border-radius: 2px;
+      line-height: 46px;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+  .brand-info {
+    width: 250px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .recent-capture {
+    width: 130px;
+    height: 130px;
+  }
+}

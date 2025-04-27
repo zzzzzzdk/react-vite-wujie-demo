@@ -1,0 +1,159 @@
+.card-detail-itemt {
+    // width: 348px;
+    width: 100%;
+    // height: 212px;
+    padding: 0 10px 0px 10px;
+    background-color: var(--base-color2);
+    border-radius: 4px;
+    border: 1px solid var(--base-color1-10);
+    position: relative;
+    // display: flex;
+    &:hover {
+      box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1);
+    }
+    &.active {
+      border-color: var(--primary-color);
+    }
+    .index {
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 4px 0px 4px 0px;
+      background: rgba(51, 119, 255, 0.5);
+      color: #fff;
+      font-weight: 700;
+      width: 32px;
+      text-align: center;
+      height: 24px;
+      line-height: 24px;
+      z-index: 100;
+    }
+    .tag{
+      width:66px;
+      height: 28px;
+      // background-color: orange;
+      position: absolute;
+      right: 2px;
+      top: 2px;
+      border-radius: 4px;
+      text-align: center;
+      line-height: 28px;
+      // color: #fff;
+    }
+    .guoye{
+      background-color:rgba(255,91,77,0.10) ;
+      color:#ff5b4d ;
+    }
+    .duori{
+      background-color:rgba(51,119,255,0.10);
+      color:#3377ff ;
+    }
+    .duanzan{
+      background-color: rgba(255,141,26,0.10);
+      color: #ff8d1a;
+    }
+    .infos-con {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px 0;
+      justify-content: space-between;
+      width: 100%;
+      // min-height: 160px;
+      height: 156px;
+      .identify-img-item{
+        // background-color: #ff8d1a;
+        width: 48%;
+        // height: 136px;
+        .img-wrap{
+          // background-color: #ff5b4d;
+          // height: 178px;
+          // width: 100px;
+          position: relative;
+          .ysd-image-wrapper{
+            height: 136px;
+
+          }
+        }
+        .gait-number {
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          border-radius: 0px 4px 0px 10px;
+          background: rgba(0, 0, 0, 0.7);
+          color: #fff;
+          padding: 0 8px;
+          line-height: 24px;
+          font-size: 12px;
+          .ysd-icon {
+            margin-right: 5px;
+            font-size: 14px;
+          }
+        }
+      }
+      // .no-infos {
+      //   width: 100%;
+      //   text-align: center;
+      //   line-height: 160px;
+      // }
+    }
+    .sss {
+      width: 100%;
+      // height: 100px;
+      // margin-top: 29px;
+      .item-location {
+        display: flex;
+        align-items: center;
+        height: 23px;
+        // margin-left: 8px;
+        margin-bottom: 3px;
+        // width: calc(100% - 30px);
+        &-content {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .ysd-icon {
+          opacity: 0.7;
+          margin-right: 6px;
+        }
+      }
+    }
+  
+    .item-img {
+      margin-top: 5px;
+      display: flex;
+      justify-content: space-between;
+      .car-common {
+        position: relative;
+        // height: 120px;
+        &-title {
+          position: absolute;
+          left: 0;
+          top: 0;
+          border-radius: 4px 0px 10px 0px;
+          background: rgba(0, 0, 0, 0.7);
+          color: #fff;
+          padding: 0 8px;
+          line-height: 24px;
+          height: 24px;
+        }
+        &-img {
+          width: 158px;
+          height: 120px;
+        }
+        &-time {
+          display: flex;
+          align-items: center;
+          height: 26px;
+          margin: 5px 0;
+          .content {
+          }
+          .ysd-icon {
+            opacity: 0.7;
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+  }
+  

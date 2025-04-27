@@ -1,0 +1,142 @@
+.pifu-setting {
+  .ysd-popover-inner-content {
+    padding: 0px 30px 20px;
+  }
+
+  .ysd-popover-arrow {
+    display: none;
+  }
+
+  .title {
+    padding-top: 20px;
+    color: var(--base-color1-85);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  .list {
+    > div {
+      width: 56px;
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+      font-size: 12px;
+      color: var(--base-color1-85);
+
+      img {
+        width: 56px;
+        height: 48px;
+      }
+
+      .ysd-icon {
+        display: none;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: absolute;
+        bottom: 22px;
+        right: 2px;
+        font-size: 18px;
+        color: var(--primary-color);
+
+        > svg {
+          vertical-align: -0.04em;
+        }
+      }
+    }
+
+    .active {
+      .ysd-icon {
+        display: block;
+      }
+    }
+  }
+}
+
+.user-info {
+  .ysd-popover-arrow {
+    display: none;
+  }
+
+  .info {
+    width: 200px;
+    font-size: 16px;
+    color: var(--base-color1-85);
+
+    .username {
+      .name {
+        color: var(--base-color1);
+        font-weight: bold;
+      }
+
+      margin-bottom: 16px;
+    }
+
+    .role {
+      display: flex;
+      flex-flow: row nowrap;
+
+      .label {
+        flex: none;
+        width: 60px;
+      }
+
+      .role-list {
+        flex: auto;
+        width: 0;
+
+        .role-name {
+          display: inline-block;
+          text-align: center;
+          min-width: 76px;
+          background-color: var(--success-color);
+          color: #ffffff;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          padding: 0 5px;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
+
+.right-tools {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 22px;
+
+  .ysd-icon {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 10px;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+  .exit .ysd-icon {
+    font-size: 27px;
+  }
+
+  .help {
+    margin-right: 30px;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+
+    .ysd-icon {
+      font-size: 14px;
+    }
+  }
+  .tuichu{
+    .ysd-icon{
+      font-size: 25px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.error-page {
+  padding: 60px 20px 20px;
+  width: 100%;
+  text-align: center;
+  .title {
+    text-align: center;
+    font-size: 20px;
+    color: var(--base-color1);
+    margin-bottom: 20px;
+  }
+  .info {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    color: var(--base-color1-50);
+    background-color: var(--base-color1-5);
+    padding: 20px;
+  }
+}

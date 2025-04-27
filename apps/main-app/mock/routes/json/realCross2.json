@@ -1,0 +1,1926 @@
+{
+  "data": [
+    {
+      "trackData": [
+        {
+          "infos": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "captureTime": "2024-04-02 16:41:59",
+              "detection": {
+                "h": 104,
+                "w": 96,
+                "x": 2287,
+                "y": 699
+              },
+              "deviceId": "3702011064690823",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240402164159-69\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "drivingPositionId": 0,
+              "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+              "infoId": "660bc4d7-c354-2d18-e9f9-84e039ba3041",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": [
+                {
+                  "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                  "detection": {
+                    "h": 104,
+                    "w": 96,
+                    "x": 2287,
+                    "y": 699
+                  },
+                  "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                  "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                  "objectTypeId": 9,
+                  "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                  "similarity": "99.32",
+                  "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                  "targetType": "face"
+                }
+              ],
+              "similarity": "99.32",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+              "targetType": "face",
+              "trackId": "xxxx"
+            }
+          ],
+          "minCaptureTime": "2024-04-02 16:41:59",
+          "maxCaptureTime": "2024-04-02 16:41:59",
+          "locationId": 3702011169668958,
+          "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+          "lngLat": {
+            "lng": 119.908669,
+            "lat": 35.764214
+          },
+          "path": [
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1712047319000
+            }
+          ]
+        },
+        {
+          "infos": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "captureTime": "2024-03-30 07:58:48",
+              "detection": {
+                "h": 104,
+                "w": 96,
+                "x": 2287,
+                "y": 699
+              },
+              "deviceId": "3702011064690823",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240330075848-85\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "drivingPositionId": 0,
+              "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+              "infoId": "660755b8-c354-2d18-e9f9-84e07738372c",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": [
+                {
+                  "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                  "detection": {
+                    "h": 104,
+                    "w": 96,
+                    "x": 2287,
+                    "y": 699
+                  },
+                  "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                  "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                  "objectTypeId": 9,
+                  "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                  "similarity": "99.32",
+                  "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                  "targetType": "face"
+                }
+              ],
+              "similarity": "99.32",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+              "targetType": "face",
+              "trackId": "xxxx"
+            }
+          ],
+          "minCaptureTime": "2024-03-30 07:58:48",
+          "maxCaptureTime": "2024-03-30 07:58:48",
+          "locationId": 3702011169668958,
+          "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+          "lngLat": {
+            "lng": 119.908669,
+            "lat": 35.764214
+          },
+          "path": [
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711756728000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711756728000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1711756728000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1711756728000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711756728000
+            }
+          ]
+        },
+        {
+          "infos": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "captureTime": "2024-03-29 15:47:05",
+              "detection": {
+                "h": 104,
+                "w": 96,
+                "x": 2287,
+                "y": 699
+              },
+              "deviceId": "3702011064690823",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240329154705-21\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "drivingPositionId": 0,
+              "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+              "infoId": "660671f9-c354-2d18-e9f9-84e0575b24ac",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": [
+                {
+                  "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                  "detection": {
+                    "h": 104,
+                    "w": 96,
+                    "x": 2287,
+                    "y": 699
+                  },
+                  "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                  "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                  "objectTypeId": 9,
+                  "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                  "similarity": "99.32",
+                  "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                  "targetType": "face"
+                }
+              ],
+              "similarity": "99.32",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+              "targetType": "face",
+              "trackId": "xxxx"
+            }
+          ],
+          "minCaptureTime": "2024-03-29 15:47:05",
+          "maxCaptureTime": "2024-03-29 15:47:05",
+          "locationId": 3702011169668958,
+          "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+          "lngLat": {
+            "lng": 119.908669,
+            "lat": 35.764214
+          },
+          "path": [
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711698425000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711698425000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1711698425000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1711698425000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711698425000
+            }
+          ]
+        },
+        {
+          "infos": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "captureTime": "2024-03-24 23:02:55",
+              "detection": {
+                "h": 104,
+                "w": 96,
+                "x": 2287,
+                "y": 699
+              },
+              "deviceId": "3702011064690823",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240324230255-64\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "drivingPositionId": 0,
+              "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+              "infoId": "6600409f-c354-2d18-e9f9-84e081d6219c",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": [
+                {
+                  "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                  "detection": {
+                    "h": 104,
+                    "w": 96,
+                    "x": 2287,
+                    "y": 699
+                  },
+                  "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                  "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                  "objectTypeId": 9,
+                  "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                  "similarity": "99.32",
+                  "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                  "targetType": "face"
+                }
+              ],
+              "similarity": "99.32",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+              "targetType": "face",
+              "trackId": "xxxx"
+            }
+          ],
+          "minCaptureTime": "2024-03-24 23:02:55",
+          "maxCaptureTime": "2024-03-24 23:02:55",
+          "locationId": 3702011169668958,
+          "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+          "lngLat": {
+            "lng": 119.908669,
+            "lat": 35.764214
+          },
+          "path": [
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711292575000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711292575000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1711292575000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1711292575000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711292575000
+            }
+          ]
+        },
+        {
+          "infos": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "captureTime": "2024-03-23 14:50:58",
+              "detection": {
+                "h": 104,
+                "w": 96,
+                "x": 2287,
+                "y": 699
+              },
+              "deviceId": "3702011064690823",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240323145058-90\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "drivingPositionId": 0,
+              "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+              "infoId": "65fe7bd2-c354-2d18-e9f9-84e0664289be",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": [
+                {
+                  "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                  "detection": {
+                    "h": 104,
+                    "w": 96,
+                    "x": 2287,
+                    "y": 699
+                  },
+                  "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                  "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                  "objectTypeId": 9,
+                  "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                  "similarity": "99.32",
+                  "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                  "targetType": "face"
+                }
+              ],
+              "similarity": "99.32",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+              "targetType": "face",
+              "trackId": "xxxx"
+            }
+          ],
+          "minCaptureTime": "2024-03-23 14:50:58",
+          "maxCaptureTime": "2024-03-23 14:50:58",
+          "locationId": 3702011169668958,
+          "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+          "lngLat": {
+            "lng": 119.908669,
+            "lat": 35.764214
+          },
+          "path": [
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711176658000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711176658000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1711176658000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1711176658000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1711176658000
+            }
+          ]
+        },
+        {
+          "infos": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "captureTime": "2024-03-17 13:35:42",
+              "detection": {
+                "h": 104,
+                "w": 96,
+                "x": 2287,
+                "y": 699
+              },
+              "deviceId": "3702011064690823",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240317133542-34\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "drivingPositionId": 0,
+              "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+              "infoId": "65f6812e-c354-2d18-e9f9-84e0cbbed3a0",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": [
+                {
+                  "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                  "detection": {
+                    "h": 104,
+                    "w": 96,
+                    "x": 2287,
+                    "y": 699
+                  },
+                  "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                  "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                  "objectTypeId": 9,
+                  "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                  "similarity": "99.32",
+                  "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                  "targetType": "face"
+                }
+              ],
+              "similarity": "99.32",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+              "targetType": "face",
+              "trackId": "xxxx"
+            }
+          ],
+          "minCaptureTime": "2024-03-17 13:35:42",
+          "maxCaptureTime": "2024-03-17 13:35:42",
+          "locationId": 3702011169668958,
+          "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+          "lngLat": {
+            "lng": 119.908669,
+            "lat": 35.764214
+          },
+          "path": [
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1710653742000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1710653742000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1710653742000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1710653742000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1710653742000
+            }
+          ]
+        },
+        {
+          "infos": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "captureTime": "2024-03-12 20:58:05",
+              "detection": {
+                "h": 104,
+                "w": 96,
+                "x": 2287,
+                "y": 699
+              },
+              "deviceId": "3702011064690823",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240312205805-88\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "drivingPositionId": 0,
+              "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+              "infoId": "65f0515d-c354-2d18-e9f9-84e008bc237f",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": [
+                {
+                  "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                  "detection": {
+                    "h": 104,
+                    "w": 96,
+                    "x": 2287,
+                    "y": 699
+                  },
+                  "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                  "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                  "objectTypeId": 9,
+                  "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                  "similarity": "99.32",
+                  "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                  "targetType": "face"
+                }
+              ],
+              "similarity": "99.32",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+              "targetType": "face",
+              "trackId": "xxxx"
+            }
+          ],
+          "minCaptureTime": "2024-03-12 20:58:05",
+          "maxCaptureTime": "2024-03-12 20:58:05",
+          "locationId": 3702011169668958,
+          "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+          "lngLat": {
+            "lng": 119.908669,
+            "lat": 35.764214
+          },
+          "path": [
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1710248285000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1710248285000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1710248285000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1710248285000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1710248285000
+            }
+          ]
+        },
+        {
+          "infos": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "captureTime": "2024-03-10 04:30:19",
+              "detection": {
+                "h": 104,
+                "w": 96,
+                "x": 2287,
+                "y": 699
+              },
+              "deviceId": "3702011064690823",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240310043019-73\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "drivingPositionId": 0,
+              "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+              "infoId": "65ecc6db-c354-2d18-e9f9-84e00519fc04",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": [
+                {
+                  "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                  "detection": {
+                    "h": 104,
+                    "w": 96,
+                    "x": 2287,
+                    "y": 699
+                  },
+                  "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                  "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                  "objectTypeId": 9,
+                  "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                  "similarity": "99.32",
+                  "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                  "targetType": "face"
+                }
+              ],
+              "similarity": "99.32",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+              "targetType": "face",
+              "trackId": "xxxx"
+            }
+          ],
+          "minCaptureTime": "2024-03-10 04:30:19",
+          "maxCaptureTime": "2024-03-10 04:30:19",
+          "locationId": 3702011169668958,
+          "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+          "lngLat": {
+            "lng": 119.908669,
+            "lat": 35.764214
+          },
+          "path": [
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1710016219000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1710016219000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1710016219000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1710016219000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1710016219000
+            }
+          ]
+        },
+        {
+          "infos": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "captureTime": "2024-03-08 20:14:37",
+              "detection": {
+                "h": 104,
+                "w": 96,
+                "x": 2287,
+                "y": 699
+              },
+              "deviceId": "3702011064690823",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240308201437-27\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "drivingPositionId": 0,
+              "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+              "infoId": "65eb012d-c354-2d18-e9f9-84e0a1563876",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": [
+                {
+                  "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                  "detection": {
+                    "h": 104,
+                    "w": 96,
+                    "x": 2287,
+                    "y": 699
+                  },
+                  "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                  "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                  "objectTypeId": 9,
+                  "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                  "similarity": "99.32",
+                  "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                  "targetType": "face"
+                }
+              ],
+              "similarity": "99.32",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+              "targetType": "face",
+              "trackId": "xxxx"
+            }
+          ],
+          "minCaptureTime": "2024-03-08 20:14:37",
+          "maxCaptureTime": "2024-03-08 20:14:37",
+          "locationId": 3702011169668958,
+          "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+          "lngLat": {
+            "lng": 119.908669,
+            "lat": 35.764214
+          },
+          "path": [
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1709900077000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1709900077000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1709900077000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1709900077000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1709900077000
+            }
+          ]
+        },
+        {
+          "infos": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "captureTime": "2024-03-06 03:43:43",
+              "detection": {
+                "h": 104,
+                "w": 96,
+                "x": 2287,
+                "y": 699
+              },
+              "deviceId": "3702011064690823",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240306034343-56\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "drivingPositionId": 0,
+              "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+              "infoId": "65e775ef-c354-2d18-e9f9-84e0afa998b6",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": [
+                {
+                  "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                  "detection": {
+                    "h": 104,
+                    "w": 96,
+                    "x": 2287,
+                    "y": 699
+                  },
+                  "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                  "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                  "objectTypeId": 9,
+                  "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                  "similarity": "99.32",
+                  "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                  "targetType": "face"
+                }
+              ],
+              "similarity": "99.32",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+              "targetType": "face",
+              "trackId": "xxxx"
+            }
+          ],
+          "minCaptureTime": "2024-03-06 03:43:43",
+          "maxCaptureTime": "2024-03-06 03:43:43",
+          "locationId": 3702011169668958,
+          "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+          "lngLat": {
+            "lng": 119.908669,
+            "lat": 35.764214
+          },
+          "path": [
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1709667823000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1709667823000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1709667823000
+            },
+            {
+              "lng": 119.908724,
+              "lat": 35.763464,
+              "time": 1709667823000
+            },
+            {
+              "lng": 119.908669,
+              "lat": 35.764214,
+              "time": 1709667823000
+            }
+          ]
+        }
+      ],
+      "extendData": [
+        {
+          "associates": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "brandId": 26,
+              "captureTime": "2024-03-23 14:50:58",
+              "carInfo": "大众-朗逸-2015",
+              "colorTypeId": 7,
+              "detection": {
+                "h": 650,
+                "w": 613,
+                "x": 1932,
+                "y": 585
+              },
+              "deviceId": "3702011064690823",
+              "direction": "方向未知",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240323145058-09\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "feature": "WSfELCmsyarerbMtsKktJHOt9qxCr7WpiyY0rvutsSjWJBilwqhVHYYr3yhFMF4szqxQoXcvByvRqSQmySe5rDCuZ7TTrASwPzA8LzQuoZzuroAs+CbSr56s5iQuJTyr1C66MLmul6L/nhYa7agDrbCusSF3MDmwGa28rKEpKaulMKUtgCifLIUubKiZremx5StkMGeyOi1KpcciKLCELtQaaDH4LOGi1C7IrxurHDGEp1kpYpU3rNodKC8GLE6syqpkMIetK632MCMrhzAspa+wIy4dMrasYh0oItGovSj1qH+x7iYkq9OvaakJmNMuaC5FnNopayJyJqssm67YJQ==",
+              "infoId": "65fe7bd2-c354-2d18-e9f9-84e0251d2792",
+              "licensePlate1": "鲁UT0583",
+              "licensePlate2": "鲁UT0583",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": null,
+              "modelId": 324,
+              "plateColorTypeId1": 99,
+              "plateColorTypeId2": 5,
+              "plateColorTypeString2": "蓝",
+              "plateImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2153%2C1135%2C151%2C47",
+              "similarity": "0.00",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=1932%2C585%2C613%2C650",
+              "targetType": "vehicle",
+              "trackId": "xxxx",
+              "trackingSegment": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "vehicleTypeId": 1,
+              "windowFeature": "5S34q14nd6wDIESs9Z9/JE2zNywepoyvvKgiqPiunSptq0uiGa29rKKsNyO5n3iuXiyDrfAlILEyMZGt9iURLVKpVapjqi0vxKt2LSAtf6bzpm8g0BoXrJAo6CQZqcgwkyQAr5AwADFHLoeuUq50oTyohCk1JVaa8C6JKGAtdLDAqHqqxypTLFoukayzo5awyCRwsc2nHKqUrZcyDCxmoX6s/zBVMCSvtyleLFurgSfSJfMvayiMLQ6uejBjKR6tX6C0MjSpTC59ImKwnywvLQUvZq01rlap/C9irL2kwy3DqSSwmCpsqvWlvjFBLU+x261iL3emXDAqMKcdq7AcKA==",
+              "yearId": 442
+            }
+          ],
+          "result": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "captureTime": "2024-03-23 14:50:58",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "deviceId": "3702011064690823",
+            "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240323145058-10\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "drivingPositionId": 0,
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "infoId": "65fe7bd2-c354-2d18-e9f9-84e0664289be",
+            "lngLat": {
+              "lng": 119.908669,
+              "lat": 35.764214
+            },
+            "locationId": "3702011169668958",
+            "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+            "matches": [
+              {
+                "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                "detection": {
+                  "x": 2287,
+                  "y": 699,
+                  "w": 96,
+                  "h": 104
+                },
+                "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                "objectTypeId": 9,
+                "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                "similarity": "99.32",
+                "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                "targetType": "face"
+              }
+            ],
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          },
+          "cond": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+            "objectTypeId": 9,
+            "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          }
+        },
+        {
+          "associates": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "brandId": 26,
+              "captureTime": "2024-03-10 04:30:19",
+              "carInfo": "大众-朗逸-2015",
+              "colorTypeId": 7,
+              "detection": {
+                "h": 650,
+                "w": 613,
+                "x": 1932,
+                "y": 585
+              },
+              "deviceId": "3702011064690823",
+              "direction": "方向未知",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240310043019-60\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "feature": "WSfELCmsyarerbMtsKktJHOt9qxCr7WpiyY0rvutsSjWJBilwqhVHYYr3yhFMF4szqxQoXcvByvRqSQmySe5rDCuZ7TTrASwPzA8LzQuoZzuroAs+CbSr56s5iQuJTyr1C66MLmul6L/nhYa7agDrbCusSF3MDmwGa28rKEpKaulMKUtgCifLIUubKiZremx5StkMGeyOi1KpcciKLCELtQaaDH4LOGi1C7IrxurHDGEp1kpYpU3rNodKC8GLE6syqpkMIetK632MCMrhzAspa+wIy4dMrasYh0oItGovSj1qH+x7iYkq9OvaakJmNMuaC5FnNopayJyJqssm67YJQ==",
+              "infoId": "65ecc6db-c354-2d18-e9f9-84e0e86cf434",
+              "licensePlate1": "鲁UT0583",
+              "licensePlate2": "鲁UT0583",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": null,
+              "modelId": 324,
+              "plateColorTypeId1": 99,
+              "plateColorTypeId2": 5,
+              "plateColorTypeString2": "蓝",
+              "plateImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2153%2C1135%2C151%2C47",
+              "similarity": "0.00",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=1932%2C585%2C613%2C650",
+              "targetType": "vehicle",
+              "trackId": "xxxx",
+              "trackingSegment": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "vehicleTypeId": 1,
+              "windowFeature": "5S34q14nd6wDIESs9Z9/JE2zNywepoyvvKgiqPiunSptq0uiGa29rKKsNyO5n3iuXiyDrfAlILEyMZGt9iURLVKpVapjqi0vxKt2LSAtf6bzpm8g0BoXrJAo6CQZqcgwkyQAr5AwADFHLoeuUq50oTyohCk1JVaa8C6JKGAtdLDAqHqqxypTLFoukayzo5awyCRwsc2nHKqUrZcyDCxmoX6s/zBVMCSvtyleLFurgSfSJfMvayiMLQ6uejBjKR6tX6C0MjSpTC59ImKwnywvLQUvZq01rlap/C9irL2kwy3DqSSwmCpsqvWlvjFBLU+x261iL3emXDAqMKcdq7AcKA==",
+              "yearId": 442
+            }
+          ],
+          "result": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "captureTime": "2024-03-10 04:30:19",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "deviceId": "3702011064690823",
+            "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240310043019-63\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "drivingPositionId": 0,
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "infoId": "65ecc6db-c354-2d18-e9f9-84e00519fc04",
+            "lngLat": {
+              "lng": 119.908669,
+              "lat": 35.764214
+            },
+            "locationId": "3702011169668958",
+            "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+            "matches": [
+              {
+                "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                "detection": {
+                  "x": 2287,
+                  "y": 699,
+                  "w": 96,
+                  "h": 104
+                },
+                "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                "objectTypeId": 9,
+                "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                "similarity": "99.32",
+                "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                "targetType": "face"
+              }
+            ],
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          },
+          "cond": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+            "objectTypeId": 9,
+            "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          }
+        },
+        {
+          "associates": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "brandId": 26,
+              "captureTime": "2024-03-29 15:47:05",
+              "carInfo": "大众-朗逸-2015",
+              "colorTypeId": 7,
+              "detection": {
+                "h": 650,
+                "w": 613,
+                "x": 1932,
+                "y": 585
+              },
+              "deviceId": "3702011064690823",
+              "direction": "方向未知",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240329154705-58\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "feature": "WSfELCmsyarerbMtsKktJHOt9qxCr7WpiyY0rvutsSjWJBilwqhVHYYr3yhFMF4szqxQoXcvByvRqSQmySe5rDCuZ7TTrASwPzA8LzQuoZzuroAs+CbSr56s5iQuJTyr1C66MLmul6L/nhYa7agDrbCusSF3MDmwGa28rKEpKaulMKUtgCifLIUubKiZremx5StkMGeyOi1KpcciKLCELtQaaDH4LOGi1C7IrxurHDGEp1kpYpU3rNodKC8GLE6syqpkMIetK632MCMrhzAspa+wIy4dMrasYh0oItGovSj1qH+x7iYkq9OvaakJmNMuaC5FnNopayJyJqssm67YJQ==",
+              "infoId": "660671f9-c354-2d18-e9f9-84e0cf98479b",
+              "licensePlate1": "鲁UT0583",
+              "licensePlate2": "鲁UT0583",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": null,
+              "modelId": 324,
+              "plateColorTypeId1": 99,
+              "plateColorTypeId2": 5,
+              "plateColorTypeString2": "蓝",
+              "plateImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2153%2C1135%2C151%2C47",
+              "similarity": "0.00",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=1932%2C585%2C613%2C650",
+              "targetType": "vehicle",
+              "trackId": "xxxx",
+              "trackingSegment": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "vehicleTypeId": 1,
+              "windowFeature": "5S34q14nd6wDIESs9Z9/JE2zNywepoyvvKgiqPiunSptq0uiGa29rKKsNyO5n3iuXiyDrfAlILEyMZGt9iURLVKpVapjqi0vxKt2LSAtf6bzpm8g0BoXrJAo6CQZqcgwkyQAr5AwADFHLoeuUq50oTyohCk1JVaa8C6JKGAtdLDAqHqqxypTLFoukayzo5awyCRwsc2nHKqUrZcyDCxmoX6s/zBVMCSvtyleLFurgSfSJfMvayiMLQ6uejBjKR6tX6C0MjSpTC59ImKwnywvLQUvZq01rlap/C9irL2kwy3DqSSwmCpsqvWlvjFBLU+x261iL3emXDAqMKcdq7AcKA==",
+              "yearId": 442
+            }
+          ],
+          "result": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "captureTime": "2024-03-29 15:47:05",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "deviceId": "3702011064690823",
+            "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240329154705-30\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "drivingPositionId": 0,
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "infoId": "660671f9-c354-2d18-e9f9-84e0575b24ac",
+            "lngLat": {
+              "lng": 119.908669,
+              "lat": 35.764214
+            },
+            "locationId": "3702011169668958",
+            "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+            "matches": [
+              {
+                "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                "detection": {
+                  "x": 2287,
+                  "y": 699,
+                  "w": 96,
+                  "h": 104
+                },
+                "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                "objectTypeId": 9,
+                "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                "similarity": "99.32",
+                "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                "targetType": "face"
+              }
+            ],
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          },
+          "cond": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+            "objectTypeId": 9,
+            "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          }
+        },
+        {
+          "associates": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "brandId": 26,
+              "captureTime": "2024-03-30 07:58:48",
+              "carInfo": "大众-朗逸-2015",
+              "colorTypeId": 7,
+              "detection": {
+                "h": 650,
+                "w": 613,
+                "x": 1932,
+                "y": 585
+              },
+              "deviceId": "3702011064690823",
+              "direction": "方向未知",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240330075848-68\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "feature": "WSfELCmsyarerbMtsKktJHOt9qxCr7WpiyY0rvutsSjWJBilwqhVHYYr3yhFMF4szqxQoXcvByvRqSQmySe5rDCuZ7TTrASwPzA8LzQuoZzuroAs+CbSr56s5iQuJTyr1C66MLmul6L/nhYa7agDrbCusSF3MDmwGa28rKEpKaulMKUtgCifLIUubKiZremx5StkMGeyOi1KpcciKLCELtQaaDH4LOGi1C7IrxurHDGEp1kpYpU3rNodKC8GLE6syqpkMIetK632MCMrhzAspa+wIy4dMrasYh0oItGovSj1qH+x7iYkq9OvaakJmNMuaC5FnNopayJyJqssm67YJQ==",
+              "infoId": "660755b8-c354-2d18-e9f9-84e09d8ad0a6",
+              "licensePlate1": "鲁UT0583",
+              "licensePlate2": "鲁UT0583",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": null,
+              "modelId": 324,
+              "plateColorTypeId1": 99,
+              "plateColorTypeId2": 5,
+              "plateColorTypeString2": "蓝",
+              "plateImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2153%2C1135%2C151%2C47",
+              "similarity": "0.00",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=1932%2C585%2C613%2C650",
+              "targetType": "vehicle",
+              "trackId": "xxxx",
+              "trackingSegment": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "vehicleTypeId": 1,
+              "windowFeature": "5S34q14nd6wDIESs9Z9/JE2zNywepoyvvKgiqPiunSptq0uiGa29rKKsNyO5n3iuXiyDrfAlILEyMZGt9iURLVKpVapjqi0vxKt2LSAtf6bzpm8g0BoXrJAo6CQZqcgwkyQAr5AwADFHLoeuUq50oTyohCk1JVaa8C6JKGAtdLDAqHqqxypTLFoukayzo5awyCRwsc2nHKqUrZcyDCxmoX6s/zBVMCSvtyleLFurgSfSJfMvayiMLQ6uejBjKR6tX6C0MjSpTC59ImKwnywvLQUvZq01rlap/C9irL2kwy3DqSSwmCpsqvWlvjFBLU+x261iL3emXDAqMKcdq7AcKA==",
+              "yearId": 442
+            }
+          ],
+          "result": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "captureTime": "2024-03-30 07:58:48",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "deviceId": "3702011064690823",
+            "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240330075848-23\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "drivingPositionId": 0,
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "infoId": "660755b8-c354-2d18-e9f9-84e07738372c",
+            "lngLat": {
+              "lng": 119.908669,
+              "lat": 35.764214
+            },
+            "locationId": "3702011169668958",
+            "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+            "matches": [
+              {
+                "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                "detection": {
+                  "x": 2287,
+                  "y": 699,
+                  "w": 96,
+                  "h": 104
+                },
+                "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                "objectTypeId": 9,
+                "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                "similarity": "99.32",
+                "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                "targetType": "face"
+              }
+            ],
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          },
+          "cond": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+            "objectTypeId": 9,
+            "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          }
+        },
+        {
+          "associates": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "brandId": 26,
+              "captureTime": "2024-03-24 23:02:55",
+              "carInfo": "大众-朗逸-2015",
+              "colorTypeId": 7,
+              "detection": {
+                "h": 650,
+                "w": 613,
+                "x": 1932,
+                "y": 585
+              },
+              "deviceId": "3702011064690823",
+              "direction": "方向未知",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240324230255-93\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "feature": "WSfELCmsyarerbMtsKktJHOt9qxCr7WpiyY0rvutsSjWJBilwqhVHYYr3yhFMF4szqxQoXcvByvRqSQmySe5rDCuZ7TTrASwPzA8LzQuoZzuroAs+CbSr56s5iQuJTyr1C66MLmul6L/nhYa7agDrbCusSF3MDmwGa28rKEpKaulMKUtgCifLIUubKiZremx5StkMGeyOi1KpcciKLCELtQaaDH4LOGi1C7IrxurHDGEp1kpYpU3rNodKC8GLE6syqpkMIetK632MCMrhzAspa+wIy4dMrasYh0oItGovSj1qH+x7iYkq9OvaakJmNMuaC5FnNopayJyJqssm67YJQ==",
+              "infoId": "6600409f-c354-2d18-e9f9-84e03bf5d523",
+              "licensePlate1": "鲁UT0583",
+              "licensePlate2": "鲁UT0583",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": null,
+              "modelId": 324,
+              "plateColorTypeId1": 99,
+              "plateColorTypeId2": 5,
+              "plateColorTypeString2": "蓝",
+              "plateImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2153%2C1135%2C151%2C47",
+              "similarity": "0.00",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=1932%2C585%2C613%2C650",
+              "targetType": "vehicle",
+              "trackId": "xxxx",
+              "trackingSegment": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "vehicleTypeId": 1,
+              "windowFeature": "5S34q14nd6wDIESs9Z9/JE2zNywepoyvvKgiqPiunSptq0uiGa29rKKsNyO5n3iuXiyDrfAlILEyMZGt9iURLVKpVapjqi0vxKt2LSAtf6bzpm8g0BoXrJAo6CQZqcgwkyQAr5AwADFHLoeuUq50oTyohCk1JVaa8C6JKGAtdLDAqHqqxypTLFoukayzo5awyCRwsc2nHKqUrZcyDCxmoX6s/zBVMCSvtyleLFurgSfSJfMvayiMLQ6uejBjKR6tX6C0MjSpTC59ImKwnywvLQUvZq01rlap/C9irL2kwy3DqSSwmCpsqvWlvjFBLU+x261iL3emXDAqMKcdq7AcKA==",
+              "yearId": 442
+            }
+          ],
+          "result": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "captureTime": "2024-03-24 23:02:55",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "deviceId": "3702011064690823",
+            "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240324230255-87\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "drivingPositionId": 0,
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "infoId": "6600409f-c354-2d18-e9f9-84e081d6219c",
+            "lngLat": {
+              "lng": 119.908669,
+              "lat": 35.764214
+            },
+            "locationId": "3702011169668958",
+            "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+            "matches": [
+              {
+                "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                "detection": {
+                  "x": 2287,
+                  "y": 699,
+                  "w": 96,
+                  "h": 104
+                },
+                "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                "objectTypeId": 9,
+                "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                "similarity": "99.32",
+                "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                "targetType": "face"
+              }
+            ],
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          },
+          "cond": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+            "objectTypeId": 9,
+            "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          }
+        },
+        {
+          "associates": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "brandId": 26,
+              "captureTime": "2024-03-17 13:35:42",
+              "carInfo": "大众-朗逸-2015",
+              "colorTypeId": 7,
+              "detection": {
+                "h": 650,
+                "w": 613,
+                "x": 1932,
+                "y": 585
+              },
+              "deviceId": "3702011064690823",
+              "direction": "方向未知",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240317133542-43\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "feature": "WSfELCmsyarerbMtsKktJHOt9qxCr7WpiyY0rvutsSjWJBilwqhVHYYr3yhFMF4szqxQoXcvByvRqSQmySe5rDCuZ7TTrASwPzA8LzQuoZzuroAs+CbSr56s5iQuJTyr1C66MLmul6L/nhYa7agDrbCusSF3MDmwGa28rKEpKaulMKUtgCifLIUubKiZremx5StkMGeyOi1KpcciKLCELtQaaDH4LOGi1C7IrxurHDGEp1kpYpU3rNodKC8GLE6syqpkMIetK632MCMrhzAspa+wIy4dMrasYh0oItGovSj1qH+x7iYkq9OvaakJmNMuaC5FnNopayJyJqssm67YJQ==",
+              "infoId": "65f6812e-c354-2d18-e9f9-84e014798c6f",
+              "licensePlate1": "鲁UT0583",
+              "licensePlate2": "鲁UT0583",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": null,
+              "modelId": 324,
+              "plateColorTypeId1": 99,
+              "plateColorTypeId2": 5,
+              "plateColorTypeString2": "蓝",
+              "plateImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2153%2C1135%2C151%2C47",
+              "similarity": "0.00",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=1932%2C585%2C613%2C650",
+              "targetType": "vehicle",
+              "trackId": "xxxx",
+              "trackingSegment": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "vehicleTypeId": 1,
+              "windowFeature": "5S34q14nd6wDIESs9Z9/JE2zNywepoyvvKgiqPiunSptq0uiGa29rKKsNyO5n3iuXiyDrfAlILEyMZGt9iURLVKpVapjqi0vxKt2LSAtf6bzpm8g0BoXrJAo6CQZqcgwkyQAr5AwADFHLoeuUq50oTyohCk1JVaa8C6JKGAtdLDAqHqqxypTLFoukayzo5awyCRwsc2nHKqUrZcyDCxmoX6s/zBVMCSvtyleLFurgSfSJfMvayiMLQ6uejBjKR6tX6C0MjSpTC59ImKwnywvLQUvZq01rlap/C9irL2kwy3DqSSwmCpsqvWlvjFBLU+x261iL3emXDAqMKcdq7AcKA==",
+              "yearId": 442
+            }
+          ],
+          "result": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "captureTime": "2024-03-17 13:35:42",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "deviceId": "3702011064690823",
+            "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240317133542-93\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "drivingPositionId": 0,
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "infoId": "65f6812e-c354-2d18-e9f9-84e0cbbed3a0",
+            "lngLat": {
+              "lng": 119.908669,
+              "lat": 35.764214
+            },
+            "locationId": "3702011169668958",
+            "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+            "matches": [
+              {
+                "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                "detection": {
+                  "x": 2287,
+                  "y": 699,
+                  "w": 96,
+                  "h": 104
+                },
+                "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                "objectTypeId": 9,
+                "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                "similarity": "99.32",
+                "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                "targetType": "face"
+              }
+            ],
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          },
+          "cond": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+            "objectTypeId": 9,
+            "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          }
+        },
+        {
+          "associates": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "brandId": 26,
+              "captureTime": "2024-04-02 16:41:59",
+              "carInfo": "大众-朗逸-2015",
+              "colorTypeId": 7,
+              "detection": {
+                "h": 650,
+                "w": 613,
+                "x": 1932,
+                "y": 585
+              },
+              "deviceId": "3702011064690823",
+              "direction": "方向未知",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240402164159-11\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "feature": "WSfELCmsyarerbMtsKktJHOt9qxCr7WpiyY0rvutsSjWJBilwqhVHYYr3yhFMF4szqxQoXcvByvRqSQmySe5rDCuZ7TTrASwPzA8LzQuoZzuroAs+CbSr56s5iQuJTyr1C66MLmul6L/nhYa7agDrbCusSF3MDmwGa28rKEpKaulMKUtgCifLIUubKiZremx5StkMGeyOi1KpcciKLCELtQaaDH4LOGi1C7IrxurHDGEp1kpYpU3rNodKC8GLE6syqpkMIetK632MCMrhzAspa+wIy4dMrasYh0oItGovSj1qH+x7iYkq9OvaakJmNMuaC5FnNopayJyJqssm67YJQ==",
+              "infoId": "660bc4d7-c354-2d18-e9f9-84e0b95e8ee0",
+              "licensePlate1": "鲁UT0583",
+              "licensePlate2": "鲁UT0583",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": null,
+              "modelId": 324,
+              "plateColorTypeId1": 99,
+              "plateColorTypeId2": 5,
+              "plateColorTypeString2": "蓝",
+              "plateImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2153%2C1135%2C151%2C47",
+              "similarity": "0.00",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=1932%2C585%2C613%2C650",
+              "targetType": "vehicle",
+              "trackId": "xxxx",
+              "trackingSegment": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "vehicleTypeId": 1,
+              "windowFeature": "5S34q14nd6wDIESs9Z9/JE2zNywepoyvvKgiqPiunSptq0uiGa29rKKsNyO5n3iuXiyDrfAlILEyMZGt9iURLVKpVapjqi0vxKt2LSAtf6bzpm8g0BoXrJAo6CQZqcgwkyQAr5AwADFHLoeuUq50oTyohCk1JVaa8C6JKGAtdLDAqHqqxypTLFoukayzo5awyCRwsc2nHKqUrZcyDCxmoX6s/zBVMCSvtyleLFurgSfSJfMvayiMLQ6uejBjKR6tX6C0MjSpTC59ImKwnywvLQUvZq01rlap/C9irL2kwy3DqSSwmCpsqvWlvjFBLU+x261iL3emXDAqMKcdq7AcKA==",
+              "yearId": 442
+            }
+          ],
+          "result": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "captureTime": "2024-04-02 16:41:59",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "deviceId": "3702011064690823",
+            "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240402164159-76\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "drivingPositionId": 0,
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "infoId": "660bc4d7-c354-2d18-e9f9-84e039ba3041",
+            "lngLat": {
+              "lng": 119.908669,
+              "lat": 35.764214
+            },
+            "locationId": "3702011169668958",
+            "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+            "matches": [
+              {
+                "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                "detection": {
+                  "x": 2287,
+                  "y": 699,
+                  "w": 96,
+                  "h": 104
+                },
+                "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                "objectTypeId": 9,
+                "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                "similarity": "99.32",
+                "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                "targetType": "face"
+              }
+            ],
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          },
+          "cond": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+            "objectTypeId": 9,
+            "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          }
+        },
+        {
+          "associates": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "brandId": 26,
+              "captureTime": "2024-03-06 03:43:43",
+              "carInfo": "大众-朗逸-2015",
+              "colorTypeId": 7,
+              "detection": {
+                "h": 650,
+                "w": 613,
+                "x": 1932,
+                "y": 585
+              },
+              "deviceId": "3702011064690823",
+              "direction": "方向未知",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240306034343-32\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "feature": "WSfELCmsyarerbMtsKktJHOt9qxCr7WpiyY0rvutsSjWJBilwqhVHYYr3yhFMF4szqxQoXcvByvRqSQmySe5rDCuZ7TTrASwPzA8LzQuoZzuroAs+CbSr56s5iQuJTyr1C66MLmul6L/nhYa7agDrbCusSF3MDmwGa28rKEpKaulMKUtgCifLIUubKiZremx5StkMGeyOi1KpcciKLCELtQaaDH4LOGi1C7IrxurHDGEp1kpYpU3rNodKC8GLE6syqpkMIetK632MCMrhzAspa+wIy4dMrasYh0oItGovSj1qH+x7iYkq9OvaakJmNMuaC5FnNopayJyJqssm67YJQ==",
+              "infoId": "65e775ef-c354-2d18-e9f9-84e085c401c7",
+              "licensePlate1": "鲁UT0583",
+              "licensePlate2": "鲁UT0583",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": null,
+              "modelId": 324,
+              "plateColorTypeId1": 99,
+              "plateColorTypeId2": 5,
+              "plateColorTypeString2": "蓝",
+              "plateImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2153%2C1135%2C151%2C47",
+              "similarity": "0.00",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=1932%2C585%2C613%2C650",
+              "targetType": "vehicle",
+              "trackId": "xxxx",
+              "trackingSegment": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "vehicleTypeId": 1,
+              "windowFeature": "5S34q14nd6wDIESs9Z9/JE2zNywepoyvvKgiqPiunSptq0uiGa29rKKsNyO5n3iuXiyDrfAlILEyMZGt9iURLVKpVapjqi0vxKt2LSAtf6bzpm8g0BoXrJAo6CQZqcgwkyQAr5AwADFHLoeuUq50oTyohCk1JVaa8C6JKGAtdLDAqHqqxypTLFoukayzo5awyCRwsc2nHKqUrZcyDCxmoX6s/zBVMCSvtyleLFurgSfSJfMvayiMLQ6uejBjKR6tX6C0MjSpTC59ImKwnywvLQUvZq01rlap/C9irL2kwy3DqSSwmCpsqvWlvjFBLU+x261iL3emXDAqMKcdq7AcKA==",
+              "yearId": 442
+            }
+          ],
+          "result": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "captureTime": "2024-03-06 03:43:43",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "deviceId": "3702011064690823",
+            "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240306034343-62\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "drivingPositionId": 0,
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "infoId": "65e775ef-c354-2d18-e9f9-84e0afa998b6",
+            "lngLat": {
+              "lng": 119.908669,
+              "lat": 35.764214
+            },
+            "locationId": "3702011169668958",
+            "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+            "matches": [
+              {
+                "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                "detection": {
+                  "x": 2287,
+                  "y": 699,
+                  "w": 96,
+                  "h": 104
+                },
+                "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                "objectTypeId": 9,
+                "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                "similarity": "99.32",
+                "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                "targetType": "face"
+              }
+            ],
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          },
+          "cond": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+            "objectTypeId": 9,
+            "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          }
+        },
+        {
+          "associates": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "brandId": 26,
+              "captureTime": "2024-03-12 20:58:05",
+              "carInfo": "大众-朗逸-2015",
+              "colorTypeId": 7,
+              "detection": {
+                "h": 650,
+                "w": 613,
+                "x": 1932,
+                "y": 585
+              },
+              "deviceId": "3702011064690823",
+              "direction": "方向未知",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240312205805-13\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "feature": "WSfELCmsyarerbMtsKktJHOt9qxCr7WpiyY0rvutsSjWJBilwqhVHYYr3yhFMF4szqxQoXcvByvRqSQmySe5rDCuZ7TTrASwPzA8LzQuoZzuroAs+CbSr56s5iQuJTyr1C66MLmul6L/nhYa7agDrbCusSF3MDmwGa28rKEpKaulMKUtgCifLIUubKiZremx5StkMGeyOi1KpcciKLCELtQaaDH4LOGi1C7IrxurHDGEp1kpYpU3rNodKC8GLE6syqpkMIetK632MCMrhzAspa+wIy4dMrasYh0oItGovSj1qH+x7iYkq9OvaakJmNMuaC5FnNopayJyJqssm67YJQ==",
+              "infoId": "65f0515d-c354-2d18-e9f9-84e057a28514",
+              "licensePlate1": "鲁UT0583",
+              "licensePlate2": "鲁UT0583",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": null,
+              "modelId": 324,
+              "plateColorTypeId1": 99,
+              "plateColorTypeId2": 5,
+              "plateColorTypeString2": "蓝",
+              "plateImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2153%2C1135%2C151%2C47",
+              "similarity": "0.00",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=1932%2C585%2C613%2C650",
+              "targetType": "vehicle",
+              "trackId": "xxxx",
+              "trackingSegment": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "vehicleTypeId": 1,
+              "windowFeature": "5S34q14nd6wDIESs9Z9/JE2zNywepoyvvKgiqPiunSptq0uiGa29rKKsNyO5n3iuXiyDrfAlILEyMZGt9iURLVKpVapjqi0vxKt2LSAtf6bzpm8g0BoXrJAo6CQZqcgwkyQAr5AwADFHLoeuUq50oTyohCk1JVaa8C6JKGAtdLDAqHqqxypTLFoukayzo5awyCRwsc2nHKqUrZcyDCxmoX6s/zBVMCSvtyleLFurgSfSJfMvayiMLQ6uejBjKR6tX6C0MjSpTC59ImKwnywvLQUvZq01rlap/C9irL2kwy3DqSSwmCpsqvWlvjFBLU+x261iL3emXDAqMKcdq7AcKA==",
+              "yearId": 442
+            }
+          ],
+          "result": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "captureTime": "2024-03-12 20:58:05",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "deviceId": "3702011064690823",
+            "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240312205805-39\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "drivingPositionId": 0,
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "infoId": "65f0515d-c354-2d18-e9f9-84e008bc237f",
+            "lngLat": {
+              "lng": 119.908669,
+              "lat": 35.764214
+            },
+            "locationId": "3702011169668958",
+            "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+            "matches": [
+              {
+                "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                "detection": {
+                  "x": 2287,
+                  "y": 699,
+                  "w": 96,
+                  "h": 104
+                },
+                "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                "objectTypeId": 9,
+                "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                "similarity": "99.32",
+                "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                "targetType": "face"
+              }
+            ],
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          },
+          "cond": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+            "objectTypeId": 9,
+            "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          }
+        },
+        {
+          "associates": [
+            {
+              "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "brandId": 26,
+              "captureTime": "2024-03-08 20:14:37",
+              "carInfo": "大众-朗逸-2015",
+              "colorTypeId": 7,
+              "detection": {
+                "h": 650,
+                "w": 613,
+                "x": 1932,
+                "y": 585
+              },
+              "deviceId": "3702011064690823",
+              "direction": "方向未知",
+              "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240308201437-53\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+              "feature": "WSfELCmsyarerbMtsKktJHOt9qxCr7WpiyY0rvutsSjWJBilwqhVHYYr3yhFMF4szqxQoXcvByvRqSQmySe5rDCuZ7TTrASwPzA8LzQuoZzuroAs+CbSr56s5iQuJTyr1C66MLmul6L/nhYa7agDrbCusSF3MDmwGa28rKEpKaulMKUtgCifLIUubKiZremx5StkMGeyOi1KpcciKLCELtQaaDH4LOGi1C7IrxurHDGEp1kpYpU3rNodKC8GLE6syqpkMIetK632MCMrhzAspa+wIy4dMrasYh0oItGovSj1qH+x7iYkq9OvaakJmNMuaC5FnNopayJyJqssm67YJQ==",
+              "infoId": "65eb012d-c354-2d18-e9f9-84e06d56ab83",
+              "licensePlate1": "鲁UT0583",
+              "licensePlate2": "鲁UT0583",
+              "lngLat": {
+                "lat": 35.764214,
+                "lng": 119.908669
+              },
+              "locationId": "3702011169668958",
+              "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+              "matches": null,
+              "modelId": 324,
+              "plateColorTypeId1": 99,
+              "plateColorTypeId2": 5,
+              "plateColorTypeString2": "蓝",
+              "plateImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2153%2C1135%2C151%2C47",
+              "similarity": "0.00",
+              "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=1932%2C585%2C613%2C650",
+              "targetType": "vehicle",
+              "trackId": "xxxx",
+              "trackingSegment": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "vehicleTypeId": 1,
+              "windowFeature": "5S34q14nd6wDIESs9Z9/JE2zNywepoyvvKgiqPiunSptq0uiGa29rKKsNyO5n3iuXiyDrfAlILEyMZGt9iURLVKpVapjqi0vxKt2LSAtf6bzpm8g0BoXrJAo6CQZqcgwkyQAr5AwADFHLoeuUq50oTyohCk1JVaa8C6JKGAtdLDAqHqqxypTLFoukayzo5awyCRwsc2nHKqUrZcyDCxmoX6s/zBVMCSvtyleLFurgSfSJfMvayiMLQ6uejBjKR6tX6C0MjSpTC59ImKwnywvLQUvZq01rlap/C9irL2kwy3DqSSwmCpsqvWlvjFBLU+x261iL3emXDAqMKcdq7AcKA==",
+              "yearId": 442
+            }
+          ],
+          "result": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "captureTime": "2024-03-08 20:14:37",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "deviceId": "3702011064690823",
+            "downloadUrl": "http://192.168.5.82:9898/image_proxy?browser_download_pic=%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%BA%84%E5%AE%B6%E7%96%83%E6%9D%91%E5%8F%A3%E5%85%A5%E5%8F%A3%E4%BA%BA%E8%BD%A6%E6%B7%B7%E5%90%88%E6%8A%93%E6%8B%8D-20240308201437-33\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg",
+            "drivingPositionId": 0,
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "infoId": "65eb012d-c354-2d18-e9f9-84e0a1563876",
+            "lngLat": {
+              "lng": 119.908669,
+              "lat": 35.764214
+            },
+            "locationId": "3702011169668958",
+            "locationName": "庄家疃村口庄家疃村口入口人车混合抓拍",
+            "matches": [
+              {
+                "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+                "detection": {
+                  "x": 2287,
+                  "y": 699,
+                  "w": 96,
+                  "h": 104
+                },
+                "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+                "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+                "objectTypeId": 9,
+                "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+                "similarity": "99.32",
+                "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+                "targetType": "face"
+              }
+            ],
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F07bed524-5589-11ec-88b0-0cc47a9c4b97.jpg\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          },
+          "cond": {
+            "bigImage": "http://192.168.5.82:9898/image_proxy?img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c",
+            "detection": {
+              "x": 2287,
+              "y": 699,
+              "w": 96,
+              "h": 104
+            },
+            "feature": "06FZrGWmnauJJe8rWiibqEotbJ0NqTCt9iruHJ0ps6ePJj6qpqrjKJSnViH8JqUYoCTupN8nNqUAriasKSAAGV8QDiVnLTonS6j8JEQmCxy3riurUai3qUUk9CVFrR8ptKBFKZOm+idKIk2dOSkymOwjiZpbmH0l4ioYDXkl+C2NHbkjO5g+p8uoCypzKtwlnKFrqTIp26fHIgUpkSyaK+WrZa0jIreuHyeCJM8mtCQBH+QoYKq8G2AZeyrMKOQg76Owq3QnJClUKkAsfKdxrSYtXxpmpGaq7CVrlJep+i2gHKSfOylHLmipeqTxp4oleah7rbQmfynXpyWsDSTAKY+ibCRnogoapSPtpUiubxu5KrAlVSeSsCKs2KijJnMeKaC3IUwgC6z0qAoqVidflKCkDShXLHaqw5vornihFC2tKTkmxCQRKl2mMK4MqoSklaSoLuEgWKpnLLQpI6z5oG0kzSU5rIerfynBopCq16yyJ8YhbyaVI3olqizApS0mmJ8yKxsmrimxJiaqHCA3qcooEKqqKHowdCyXorgu2ytIpWarjiQeKxqmnpWrqn2oDaj+lY+kFKbvKHksGyNtJGwhkqEjJDckHB6iKNgcPiwyoe4m4hb4rAUqXCOrnqWoZa0QqYupqqSAI7whnqOZooSn5AoJJi8pyyQ6ItQnISOrJp6ZS6sWoPoi56jYKYEopKeHG7oomy4NKVaqgSk6H7uo3iyLmTElnZ2QK8Amk695pw6od6ZYJpinXqzxqQOe8x6JHoSuYCSJIqOqK5hyHRueIywjrJEqEhmDHkQqLy4yqH+tFCl8J5qjw6vOrGGjryi4IpEovKzULL8owaa3pV8cW6FQITqnHSokqRQj9SSxoJGtyy5nnRQlcS7fppCZdpzGpP6SkS2dmgyWvaUWon+kYKM3LbKoziCtI56lli1xqdGr7KOPnb4WDa+JrCmoox35rTyhzyfQpIwpXqREHVgsjiK6oAgkQKDPKgWaxizzKA2tGi1RoJcqxyUOor4igZliJROr7S7PqmmdygfKo2EsVZwSpFyqpSBcqnSonKnTn0emg6wPIFEq1C3AnKOlJCQ3qaAgApkRLOApJqQBqcChUamEJWCnayAmIdqjdiegJrcpACH1JJGjWCs5KXAq7JyhKVmoDKoWJ6+qqajTJz2ozJlgou8kECOFKdKsFKbaKTkp5KGHKJMmyKfIIy0qjqrKJp8rDiRSr6yo8Se9IaesBaqeKPcpF6CNpUgizhGJqfOjkqs2Ky6a8CbBKnipeKexLVYk3ReoonglnKHipwKnY6bzrQiu76SzK3UtVqMyncik7Kd/LpyeKi5JqD8gSxxeKHkm0SoEII+lU61GrA==",
+            "id": "8b6538bf-f044-4a8a-8028-a521b32aa63b",
+            "objectTypeId": 9,
+            "parentId": "2340c089-d581-419e-a53c-edd2e4da8db8",
+            "similarity": "99.32",
+            "targetImage": "http://192.168.5.82:9898/image_proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F10%2C6ee7c218dd5c\u0026xywh=2287%2C699%2C96%2C104",
+            "targetType": "face"
+          }
+        }
+      ],
+      "personInfoData": null,
+      "predictPath": [],
+      "vehicleInfoData": [],
+      "trackId": "xxxx"
+    }
+  ],
+  "errorMessage": "",
+  "message": "请求成功"
+}

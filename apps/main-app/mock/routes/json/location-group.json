@@ -1,0 +1,2483 @@
+{
+  "message": "获取成功！",
+  "data": [
+    {
+      "children": [
+        {
+          "id": "49-3702021342849527",
+          "text": "视频流测试1",
+          "lng": "120.18966",
+          "lat": "35.949104",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "49-3702023112920108",
+          "text": "VNP视频流测试",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "49-3702023250875510",
+          "text": "视频流测试2",
+          "lng": "120.1767",
+          "lat": "35.941322",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        }
+      ],
+      "id": "49",
+      "scale": "4",
+      "text": "视频流"
+    },
+    {
+      "children": [
+        {
+          "id": "39-3702020875471349",
+          "text": "asdjod",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        }
+      ],
+      "id": "39",
+      "scale": "4",
+      "text": "FF "
+    },
+    {
+      "children": [
+        {
+          "id": "46-3702020868795117",
+          "text": "视频监控测试4",
+          "lng": "123.245636",
+          "lat": "38.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "46-3702021678875853",
+          "text": "视频监控测试3",
+          "lng": "122.245636",
+          "lat": "37.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "46-3702021892174151",
+          "text": "视频监控测试5",
+          "lng": "124.245636",
+          "lat": "39.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "46-3702023102326164",
+          "text": "视频监控测试1",
+          "lng": "120.14305",
+          "lat": "36.018005",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "46-3702023112920108",
+          "text": "VNP视频流测试",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "46-3702023946386795",
+          "text": "视频监控测试2",
+          "lng": "121.245636",
+          "lat": "36.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        }
+      ],
+      "id": "46",
+      "scale": "4",
+      "text": "sad"
+    },
+    {
+      "children": [
+        {
+          "id": "40-370211001187",
+          "text": "异常检测6",
+          "lng": "120.50526",
+          "lat": "36.26578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-370211001367",
+          "text": "异常检测5",
+          "lng": "121.70525",
+          "lat": "37.16578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-370211001468",
+          "text": "异常检测4",
+          "lng": "120.20525",
+          "lat": "36.56578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-370211001957",
+          "text": "异常检测3",
+          "lng": "121.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-370211002121",
+          "text": "异常检测1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-370211400047",
+          "text": "7楼澳柯玛摄像头01",
+          "lng": "120.18562",
+          "lat": "35.969116",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-370211400048",
+          "text": "7楼澳柯玛摄像头022",
+          "lng": "120.16433",
+          "lat": "35.95122",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-370211400049",
+          "text": "7楼澳柯玛摄像头03",
+          "lng": "120.16534",
+          "lat": "35.954224",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-370211400050",
+          "text": "7楼澳柯玛摄像头04",
+          "lng": "120.167336",
+          "lat": "35.956223",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702010092422200",
+          "text": "缦沙半岛D出口人脸和车辆抓拍",
+          "lng": "120.2907",
+          "lat": "35.977905",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702010160555824",
+          "text": "珠江路与武夷山路路口电子警察设备南向北0102",
+          "lng": "120.12863",
+          "lat": "36.00523",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702010489486497",
+          "text": "三轮车测试点位1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702010631106446",
+          "text": "刘公岛路与斋堂岛街路口电子警察设备西向东0102",
+          "lng": "120.21756",
+          "lat": "36.044823",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702010791354519",
+          "text": "长江东路与东江路路口西30米（货车禁行）",
+          "lng": "120.23126",
+          "lat": "35.96992",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702010921921735",
+          "text": "衡山路与汉江路路口",
+          "lng": "120.224075",
+          "lat": "35.98634",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702011022174247",
+          "text": "太行山路小学北",
+          "lng": "120.179085",
+          "lat": "35.95322",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702011025930217",
+          "text": "异常检测2",
+          "lng": "0",
+          "lat": "0",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702011040106327",
+          "text": "昆仑山北路与清水河路路口1",
+          "lng": "120.10842",
+          "lat": "36.11622",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702011221762408",
+          "text": "红柳河路与骊山路路口",
+          "lng": "120.13757",
+          "lat": "36.08899",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702011400511769",
+          "text": "ceshi1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702011433270028",
+          "text": "测试关联设备",
+          "lng": "120.080086",
+          "lat": "35.97243",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702011499596421",
+          "text": "昆仑山北路与清水河路口北向南反卡1",
+          "lng": "120.10414",
+          "lat": "36.090553",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702012088540982",
+          "text": "江山中路新街口立交桥北610米（货车禁行）",
+          "lng": "120.17315",
+          "lat": "36.012245",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702012264966185",
+          "text": "点位id string",
+          "lng": "120.203476",
+          "lat": "35.955776",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702012395564755",
+          "text": "三轮车测试点位2",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702012427471700",
+          "text": "红石崖中心幼儿园",
+          "lng": "120.10535",
+          "lat": "36.09462",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702012611066098",
+          "text": "黄河西路与六盘山路口（新）",
+          "lng": "120.11034",
+          "lat": "36.015354",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702012672160974",
+          "text": "奋进路与齐长城路路口南160米（货车禁行）",
+          "lng": "120.15792",
+          "lat": "35.989174",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702012680154027",
+          "text": "嘉陵江东路长江东路东",
+          "lng": "120.23122",
+          "lat": "35.968414",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702012754059824",
+          "text": "衡山路与东江路路口",
+          "lng": "120.21699",
+          "lat": "35.963192",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702012923225435",
+          "text": "卡口车辆测试点位",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702012942703275",
+          "text": "红柳河路与七星河路路口",
+          "lng": "120.16746",
+          "lat": "36.069298",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702012962140174",
+          "text": "黄河西路与祁连山路口（新）",
+          "lng": "20.124144",
+          "lat": "36.01692",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702013381950563",
+          "text": "前湾港路与成山路路口",
+          "lng": "20.130793",
+          "lat": "36.000446",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702013509679161",
+          "text": "汉江路与连江路路口东1000米",
+          "lng": "120.24111",
+          "lat": "36.00584",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702013669134927",
+          "text": "嘉陵江路与五台山路南侧",
+          "lng": "120.174095",
+          "lat": "35.975063",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702013806522730",
+          "text": "告警测试点位1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702020875471349",
+          "text": "asdjod",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702021342849527",
+          "text": "视频流测试1",
+          "lng": "120.18966",
+          "lat": "35.949104",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "40-3702023102326164",
+          "text": "视频监控测试1",
+          "lng": "120.14305",
+          "lat": "36.018005",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "40-3702023112920108",
+          "text": "VNP视频流测试",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702023250875510",
+          "text": "视频流测试2",
+          "lng": "120.1767",
+          "lat": "35.941322",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "40-3702023739704259",
+          "text": "江山中路黄河立交",
+          "lng": "120.169975",
+          "lat": "35.023808",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702031527950834",
+          "text": "人像卡口测试",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 3,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702040026818318",
+          "text": "视图点位添加全局相机",
+          "lng": "120.18631",
+          "lat": "35.941322",
+          "locationType": 4,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "40-3702052600331501",
+          "text": "wrkname",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 5,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        }
+      ],
+      "id": "40",
+      "scale": "4",
+      "text": "TT"
+    },
+    {
+      "children": [
+        {
+          "id": "48-3702031527950834",
+          "text": "人像卡口测试",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 3,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        }
+      ],
+      "id": "48",
+      "scale": "4",
+      "text": "3333"
+    },
+    {
+      "children": [
+        {
+          "id": "41-370211400047",
+          "text": "7楼澳柯玛摄像头01",
+          "lng": "120.18562",
+          "lat": "35.969116",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-370211400048",
+          "text": "7楼澳柯玛摄像头022",
+          "lng": "120.16433",
+          "lat": "35.95122",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702010178731758",
+          "text": "测32",
+          "lng": "121.245636",
+          "lat": "36.974052",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702012243723895",
+          "text": "测34",
+          "lng": "123.245636",
+          "lat": "38.974052",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702013342557073",
+          "text": "测33",
+          "lng": "122.245636",
+          "lat": "37.974052",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702014196729045",
+          "text": "测31",
+          "lng": "120.245636",
+          "lat": "35.974052",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702020817249195",
+          "text": "测36",
+          "lng": "125.245636",
+          "lat": "40.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702020875471349",
+          "text": "asdjod",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702020948371821",
+          "text": "测37",
+          "lng": "126.245636",
+          "lat": "41.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702020983463504",
+          "text": "测40",
+          "lng": "129.24564",
+          "lat": "44.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702021095112462",
+          "text": "测39",
+          "lng": "128.24564",
+          "lat": "43.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702021944495639",
+          "text": "测41",
+          "lng": "130.24564",
+          "lat": "45.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702022028748846",
+          "text": "测35",
+          "lng": "124.245636",
+          "lat": "39.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702023032227660",
+          "text": "测38",
+          "lng": "127.245636",
+          "lat": "42.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702023198621332",
+          "text": "测42",
+          "lng": "131.24564",
+          "lat": "46.974052",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702051400506721",
+          "text": "测46",
+          "lng": "0",
+          "lat": "0",
+          "locationType": 5,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702051611785409",
+          "text": "执机人3",
+          "lng": "0",
+          "lat": "0",
+          "locationType": 5,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702051855165037",
+          "text": "测50",
+          "lng": "0",
+          "lat": "0",
+          "locationType": 5,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "41-3702052913141285",
+          "text": "测48",
+          "lng": "0",
+          "lat": "0",
+          "locationType": 5,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        }
+      ],
+      "id": "41",
+      "scale": "4",
+      "text": "1111"
+    },
+    {
+      "children": [
+        {
+          "id": "45-3702023102326164",
+          "text": "视频监控测试1",
+          "lng": "120.14305",
+          "lat": "36.018005",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        }
+      ],
+      "id": "45",
+      "scale": "4",
+      "text": "aaaa"
+    },
+    {
+      "children": [
+        {
+          "id": "44-3702023102326164",
+          "text": "视频监控测试1",
+          "lng": "120.14305",
+          "lat": "36.018005",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        }
+      ],
+      "id": "44",
+      "scale": "4",
+      "text": "asd"
+    },
+    {
+      "children": [
+        {
+          "id": "42-3702023102326164",
+          "text": "视频监控测试1",
+          "lng": "120.14305",
+          "lat": "36.018005",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "42-3702023250875510",
+          "text": "视频流测试2",
+          "lng": "120.1767",
+          "lat": "35.941322",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        }
+      ],
+      "id": "42",
+      "scale": "4",
+      "text": "1122"
+    },
+    {
+      "children": [
+        {
+          "id": "38-370211001187",
+          "text": "异常检测6",
+          "lng": "120.50526",
+          "lat": "36.26578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-370211001367",
+          "text": "异常检测5",
+          "lng": "121.70525",
+          "lat": "37.16578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-370211001468",
+          "text": "异常检测4",
+          "lng": "120.20525",
+          "lat": "36.56578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-370211001957",
+          "text": "异常检测3",
+          "lng": "121.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-370211002121",
+          "text": "异常检测1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-370211400047",
+          "text": "7楼澳柯玛摄像头01",
+          "lng": "120.18562",
+          "lat": "35.969116",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-370211400048",
+          "text": "7楼澳柯玛摄像头022",
+          "lng": "120.16433",
+          "lat": "35.95122",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-370211400049",
+          "text": "7楼澳柯玛摄像头03",
+          "lng": "120.16534",
+          "lat": "35.954224",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-370211400050",
+          "text": "7楼澳柯玛摄像头04",
+          "lng": "120.167336",
+          "lat": "35.956223",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702010092422200",
+          "text": "缦沙半岛D出口人脸和车辆抓拍",
+          "lng": "120.2907",
+          "lat": "35.977905",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702010160555824",
+          "text": "珠江路与武夷山路路口电子警察设备南向北0102",
+          "lng": "120.12863",
+          "lat": "36.00523",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702010489486497",
+          "text": "三轮车测试点位1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702010631106446",
+          "text": "刘公岛路与斋堂岛街路口电子警察设备西向东0102",
+          "lng": "120.21756",
+          "lat": "36.044823",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702010791354519",
+          "text": "长江东路与东江路路口西30米（货车禁行）",
+          "lng": "120.23126",
+          "lat": "35.96992",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702010921921735",
+          "text": "衡山路与汉江路路口",
+          "lng": "120.224075",
+          "lat": "35.98634",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702011022174247",
+          "text": "太行山路小学北",
+          "lng": "120.179085",
+          "lat": "35.95322",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702011025930217",
+          "text": "异常检测2",
+          "lng": "0",
+          "lat": "0",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702011040106327",
+          "text": "昆仑山北路与清水河路路口1",
+          "lng": "120.10842",
+          "lat": "36.11622",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702011221762408",
+          "text": "红柳河路与骊山路路口",
+          "lng": "120.13757",
+          "lat": "36.08899",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702011400511769",
+          "text": "ceshi1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702011433270028",
+          "text": "测试关联设备",
+          "lng": "120.080086",
+          "lat": "35.97243",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702011499596421",
+          "text": "昆仑山北路与清水河路口北向南反卡1",
+          "lng": "120.10414",
+          "lat": "36.090553",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702012088540982",
+          "text": "江山中路新街口立交桥北610米（货车禁行）",
+          "lng": "120.17315",
+          "lat": "36.012245",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702012264966185",
+          "text": "点位id string",
+          "lng": "120.203476",
+          "lat": "35.955776",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702012395564755",
+          "text": "三轮车测试点位2",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702012427471700",
+          "text": "红石崖中心幼儿园",
+          "lng": "120.10535",
+          "lat": "36.09462",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702012611066098",
+          "text": "黄河西路与六盘山路口（新）",
+          "lng": "120.11034",
+          "lat": "36.015354",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702012672160974",
+          "text": "奋进路与齐长城路路口南160米（货车禁行）",
+          "lng": "120.15792",
+          "lat": "35.989174",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702012680154027",
+          "text": "嘉陵江东路长江东路东",
+          "lng": "120.23122",
+          "lat": "35.968414",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702012754059824",
+          "text": "衡山路与东江路路口",
+          "lng": "120.21699",
+          "lat": "35.963192",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702012923225435",
+          "text": "卡口车辆测试点位",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702012942703275",
+          "text": "红柳河路与七星河路路口",
+          "lng": "120.16746",
+          "lat": "36.069298",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702012962140174",
+          "text": "黄河西路与祁连山路口（新）",
+          "lng": "20.124144",
+          "lat": "36.01692",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702013381950563",
+          "text": "前湾港路与成山路路口",
+          "lng": "20.130793",
+          "lat": "36.000446",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702013509679161",
+          "text": "汉江路与连江路路口东1000米",
+          "lng": "120.24111",
+          "lat": "36.00584",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702013669134927",
+          "text": "嘉陵江路与五台山路南侧",
+          "lng": "120.174095",
+          "lat": "35.975063",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702013806522730",
+          "text": "告警测试点位1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702021342849527",
+          "text": "视频流测试1",
+          "lng": "120.18966",
+          "lat": "35.949104",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "38-3702023102326164",
+          "text": "视频监控测试1",
+          "lng": "120.14305",
+          "lat": "36.018005",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "38-3702023250875510",
+          "text": "视频流测试2",
+          "lng": "120.1767",
+          "lat": "35.941322",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "38-3702023739704259",
+          "text": "江山中路黄河立交",
+          "lng": "120.169975",
+          "lat": "35.023808",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702031527950834",
+          "text": "人像卡口测试",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 3,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702040026818318",
+          "text": "视图点位添加全局相机",
+          "lng": "120.18631",
+          "lat": "35.941322",
+          "locationType": 4,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "38-3702052600331501",
+          "text": "wrkname",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 5,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        }
+      ],
+      "id": "38",
+      "scale": "4",
+      "text": "AAAA"
+    },
+    {
+      "children": [
+        {
+          "id": "36-3702021342849527",
+          "text": "视频流测试1",
+          "lng": "120.18966",
+          "lat": "35.949104",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "36-3702023102326164",
+          "text": "视频监控测试1",
+          "lng": "120.14305",
+          "lat": "36.018005",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        }
+      ],
+      "id": "36",
+      "scale": "4",
+      "text": "1"
+    },
+    {
+      "children": [
+        {
+          "id": "35-3702021342849527",
+          "text": "视频流测试1",
+          "lng": "120.18966",
+          "lat": "35.949104",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "35-3702023250875510",
+          "text": "视频流测试2",
+          "lng": "120.1767",
+          "lat": "35.941322",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        }
+      ],
+      "id": "35",
+      "scale": "4",
+      "text": "213"
+    },
+    {
+      "children": [],
+      "id": "33",
+      "scale": "4",
+      "text": "0"
+    },
+    {
+      "children": [],
+      "id": "17",
+      "scale": "4",
+      "text": "手机围栏点位组"
+    },
+    {
+      "children": [
+        {
+          "id": "13-370211001187",
+          "text": "异常检测6",
+          "lng": "120.50526",
+          "lat": "36.26578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-370211001367",
+          "text": "异常检测5",
+          "lng": "121.70525",
+          "lat": "37.16578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-370211001468",
+          "text": "异常检测4",
+          "lng": "120.20525",
+          "lat": "36.56578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-370211001957",
+          "text": "异常检测3",
+          "lng": "121.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-370211002121",
+          "text": "异常检测1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-370211400047",
+          "text": "7楼澳柯玛摄像头01",
+          "lng": "120.18562",
+          "lat": "35.969116",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-370211400048",
+          "text": "7楼澳柯玛摄像头022",
+          "lng": "120.16433",
+          "lat": "35.95122",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-370211400049",
+          "text": "7楼澳柯玛摄像头03",
+          "lng": "120.16534",
+          "lat": "35.954224",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-370211400050",
+          "text": "7楼澳柯玛摄像头04",
+          "lng": "120.167336",
+          "lat": "35.956223",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702010092422200",
+          "text": "缦沙半岛D出口人脸和车辆抓拍",
+          "lng": "120.2907",
+          "lat": "35.977905",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702010160555824",
+          "text": "珠江路与武夷山路路口电子警察设备南向北0102",
+          "lng": "120.12863",
+          "lat": "36.00523",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702010489486497",
+          "text": "三轮车测试点位1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702010631106446",
+          "text": "刘公岛路与斋堂岛街路口电子警察设备西向东0102",
+          "lng": "120.21756",
+          "lat": "36.044823",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702010791354519",
+          "text": "长江东路与东江路路口西30米（货车禁行）",
+          "lng": "120.23126",
+          "lat": "35.96992",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702010921921735",
+          "text": "衡山路与汉江路路口",
+          "lng": "120.224075",
+          "lat": "35.98634",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702011022174247",
+          "text": "太行山路小学北",
+          "lng": "120.179085",
+          "lat": "35.95322",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702011025930217",
+          "text": "异常检测2",
+          "lng": "0",
+          "lat": "0",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702011040106327",
+          "text": "昆仑山北路与清水河路路口1",
+          "lng": "120.10842",
+          "lat": "36.11622",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702011221762408",
+          "text": "红柳河路与骊山路路口",
+          "lng": "120.13757",
+          "lat": "36.08899",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702011400511769",
+          "text": "ceshi1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702011499596421",
+          "text": "昆仑山北路与清水河路口北向南反卡1",
+          "lng": "120.10414",
+          "lat": "36.090553",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702012088540982",
+          "text": "江山中路新街口立交桥北610米（货车禁行）",
+          "lng": "120.17315",
+          "lat": "36.012245",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702012395564755",
+          "text": "三轮车测试点位2",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702012427471700",
+          "text": "红石崖中心幼儿园",
+          "lng": "120.10535",
+          "lat": "36.09462",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702012611066098",
+          "text": "黄河西路与六盘山路口（新）",
+          "lng": "120.11034",
+          "lat": "36.015354",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702012672160974",
+          "text": "奋进路与齐长城路路口南160米（货车禁行）",
+          "lng": "120.15792",
+          "lat": "35.989174",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702012680154027",
+          "text": "嘉陵江东路长江东路东",
+          "lng": "120.23122",
+          "lat": "35.968414",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702012754059824",
+          "text": "衡山路与东江路路口",
+          "lng": "120.21699",
+          "lat": "35.963192",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702012942703275",
+          "text": "红柳河路与七星河路路口",
+          "lng": "120.16746",
+          "lat": "36.069298",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702012962140174",
+          "text": "黄河西路与祁连山路口（新）",
+          "lng": "20.124144",
+          "lat": "36.01692",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702013381950563",
+          "text": "前湾港路与成山路路口",
+          "lng": "20.130793",
+          "lat": "36.000446",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702013509679161",
+          "text": "汉江路与连江路路口东1000米",
+          "lng": "120.24111",
+          "lat": "36.00584",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "13-3702021342849527",
+          "text": "视频流测试1",
+          "lng": "120.18966",
+          "lat": "35.949104",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "13-3702023250875510",
+          "text": "视频流测试2",
+          "lng": "120.1767",
+          "lat": "35.941322",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        }
+      ],
+      "id": "13",
+      "scale": "4",
+      "text": "2"
+    },
+    {
+      "children": [
+        {
+          "id": "32-3702023102326164",
+          "text": "视频监控测试1",
+          "lng": "120.14305",
+          "lat": "36.018005",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "32-3702023250875510",
+          "text": "视频流测试2",
+          "lng": "120.1767",
+          "lat": "35.941322",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        }
+      ],
+      "id": "32",
+      "scale": "4",
+      "text": "21231"
+    },
+    {
+      "children": [
+        {
+          "id": "12-370211400047",
+          "text": "7楼澳柯玛摄像头01",
+          "lng": "120.18562",
+          "lat": "35.969116",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "12-370211400048",
+          "text": "7楼澳柯玛摄像头022",
+          "lng": "120.16433",
+          "lat": "35.95122",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "12-370211400049",
+          "text": "7楼澳柯玛摄像头03",
+          "lng": "120.16534",
+          "lat": "35.954224",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "12-370211400050",
+          "text": "7楼澳柯玛摄像头04",
+          "lng": "120.167336",
+          "lat": "35.956223",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "12-3702021342849527",
+          "text": "视频流测试1",
+          "lng": "120.18966",
+          "lat": "35.949104",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "12-3702023250875510",
+          "text": "视频流测试2",
+          "lng": "120.1767",
+          "lat": "35.941322",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        }
+      ],
+      "id": "12",
+      "scale": "4",
+      "text": "1"
+    },
+    {
+      "children": [
+        {
+          "id": "14-370211001187",
+          "text": "异常检测6",
+          "lng": "120.50526",
+          "lat": "36.26578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-370211001367",
+          "text": "异常检测5",
+          "lng": "121.70525",
+          "lat": "37.16578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-370211001468",
+          "text": "异常检测4",
+          "lng": "120.20525",
+          "lat": "36.56578",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-370211001957",
+          "text": "异常检测3",
+          "lng": "121.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-370211002121",
+          "text": "异常检测1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-370211400047",
+          "text": "7楼澳柯玛摄像头01",
+          "lng": "120.18562",
+          "lat": "35.969116",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-370211400048",
+          "text": "7楼澳柯玛摄像头022",
+          "lng": "120.16433",
+          "lat": "35.95122",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-370211400049",
+          "text": "7楼澳柯玛摄像头03",
+          "lng": "120.16534",
+          "lat": "35.954224",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-370211400050",
+          "text": "7楼澳柯玛摄像头04",
+          "lng": "120.167336",
+          "lat": "35.956223",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702010092422200",
+          "text": "缦沙半岛D出口人脸和车辆抓拍",
+          "lng": "120.2907",
+          "lat": "35.977905",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702010160555824",
+          "text": "珠江路与武夷山路路口电子警察设备南向北0102",
+          "lng": "120.12863",
+          "lat": "36.00523",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702010489486497",
+          "text": "三轮车测试点位1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702010631106446",
+          "text": "刘公岛路与斋堂岛街路口电子警察设备西向东0102",
+          "lng": "120.21756",
+          "lat": "36.044823",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702010791354519",
+          "text": "长江东路与东江路路口西30米（货车禁行）",
+          "lng": "120.23126",
+          "lat": "35.96992",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702010921921735",
+          "text": "衡山路与汉江路路口",
+          "lng": "120.224075",
+          "lat": "35.98634",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702011022174247",
+          "text": "太行山路小学北",
+          "lng": "120.179085",
+          "lat": "35.95322",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702011025930217",
+          "text": "异常检测2",
+          "lng": "0",
+          "lat": "0",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702011040106327",
+          "text": "昆仑山北路与清水河路路口1",
+          "lng": "120.10842",
+          "lat": "36.11622",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702011221762408",
+          "text": "红柳河路与骊山路路口",
+          "lng": "120.13757",
+          "lat": "36.08899",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702011400511769",
+          "text": "ceshi1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702011433270028",
+          "text": "测试关联设备",
+          "lng": "120.080086",
+          "lat": "35.97243",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702011499596421",
+          "text": "昆仑山北路与清水河路口北向南反卡1",
+          "lng": "120.10414",
+          "lat": "36.090553",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702012088540982",
+          "text": "江山中路新街口立交桥北610米（货车禁行）",
+          "lng": "120.17315",
+          "lat": "36.012245",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702012395564755",
+          "text": "三轮车测试点位2",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702012427471700",
+          "text": "红石崖中心幼儿园",
+          "lng": "120.10535",
+          "lat": "36.09462",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702012611066098",
+          "text": "黄河西路与六盘山路口（新）",
+          "lng": "120.11034",
+          "lat": "36.015354",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702012672160974",
+          "text": "奋进路与齐长城路路口南160米（货车禁行）",
+          "lng": "120.15792",
+          "lat": "35.989174",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702012680154027",
+          "text": "嘉陵江东路长江东路东",
+          "lng": "120.23122",
+          "lat": "35.968414",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702012754059824",
+          "text": "衡山路与东江路路口",
+          "lng": "120.21699",
+          "lat": "35.963192",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702012942703275",
+          "text": "红柳河路与七星河路路口",
+          "lng": "120.16746",
+          "lat": "36.069298",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702012962140174",
+          "text": "黄河西路与祁连山路口（新）",
+          "lng": "20.124144",
+          "lat": "36.01692",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702013381950563",
+          "text": "前湾港路与成山路路口",
+          "lng": "20.130793",
+          "lat": "36.000446",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702013509679161",
+          "text": "汉江路与连江路路口东1000米",
+          "lng": "120.24111",
+          "lat": "36.00584",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702013669134927",
+          "text": "嘉陵江路与五台山路南侧",
+          "lng": "120.174095",
+          "lat": "35.975063",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "14-3702021342849527",
+          "text": "视频流测试1",
+          "lng": "120.18966",
+          "lat": "35.949104",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "14-3702023250875510",
+          "text": "视频流测试2",
+          "lng": "120.1767",
+          "lat": "35.941322",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        }
+      ],
+      "id": "14",
+      "scale": "4",
+      "text": "3"
+    },
+    {
+      "children": [
+        {
+          "id": "31-370211002121",
+          "text": "异常检测1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-370211400048",
+          "text": "7楼澳柯玛摄像头022",
+          "lng": "120.16433",
+          "lat": "35.95122",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-370211400049",
+          "text": "7楼澳柯玛摄像头03",
+          "lng": "120.16534",
+          "lat": "35.954224",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-370211400050",
+          "text": "7楼澳柯玛摄像头04",
+          "lng": "120.167336",
+          "lat": "35.956223",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702010092422200",
+          "text": "缦沙半岛D出口人脸和车辆抓拍",
+          "lng": "120.2907",
+          "lat": "35.977905",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702010160555824",
+          "text": "珠江路与武夷山路路口电子警察设备南向北0102",
+          "lng": "120.12863",
+          "lat": "36.00523",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702010489486497",
+          "text": "三轮车测试点位1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702010791354519",
+          "text": "长江东路与东江路路口西30米（货车禁行）",
+          "lng": "120.23126",
+          "lat": "35.96992",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702010921921735",
+          "text": "衡山路与汉江路路口",
+          "lng": "120.224075",
+          "lat": "35.98634",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702011022174247",
+          "text": "太行山路小学北",
+          "lng": "120.179085",
+          "lat": "35.95322",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702011400511769",
+          "text": "ceshi1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702011433270028",
+          "text": "测试关联设备",
+          "lng": "120.080086",
+          "lat": "35.97243",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702012088540982",
+          "text": "江山中路新街口立交桥北610米（货车禁行）",
+          "lng": "120.17315",
+          "lat": "36.012245",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702012264966185",
+          "text": "点位id string",
+          "lng": "120.203476",
+          "lat": "35.955776",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702012395564755",
+          "text": "三轮车测试点位2",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702012611066098",
+          "text": "黄河西路与六盘山路口（新）",
+          "lng": "120.11034",
+          "lat": "36.015354",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702012672160974",
+          "text": "奋进路与齐长城路路口南160米（货车禁行）",
+          "lng": "120.15792",
+          "lat": "35.989174",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702012680154027",
+          "text": "嘉陵江东路长江东路东",
+          "lng": "120.23122",
+          "lat": "35.968414",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702012754059824",
+          "text": "衡山路与东江路路口",
+          "lng": "120.21699",
+          "lat": "35.963192",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702012923225435",
+          "text": "卡口车辆测试点位",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702013509679161",
+          "text": "汉江路与连江路路口东1000米",
+          "lng": "120.24111",
+          "lat": "36.00584",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702013669134927",
+          "text": "嘉陵江路与五台山路南侧",
+          "lng": "120.174095",
+          "lat": "35.975063",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702013806522730",
+          "text": "告警测试点位1",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 1,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702021342849527",
+          "text": "视频流测试1",
+          "lng": "120.18966",
+          "lat": "35.949104",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "31-3702023250875510",
+          "text": "视频流测试2",
+          "lng": "120.1767",
+          "lat": "35.941322",
+          "locationType": 2,
+          "abnormal": "1",
+          "status": 0,
+          "disabled": false
+        },
+        {
+          "id": "31-3702040026818318",
+          "text": "视图点位添加全局相机",
+          "lng": "120.18631",
+          "lat": "35.941322",
+          "locationType": 4,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        },
+        {
+          "id": "31-3702052600331501",
+          "text": "wrkname",
+          "lng": "120.20525",
+          "lat": "35.965782",
+          "locationType": 5,
+          "abnormal": "1",
+          "status": 1,
+          "disabled": false
+        }
+      ],
+      "id": "31",
+      "scale": "4",
+      "text": "rtee"
+    },
+    {
+      "children": [
+        {
+          "id": "20-3702012672160974",
+          "text": "奋进路与齐长城路路口南160米（货车禁行）",
+          "lng": "120.15792",
+          "lat": "35.989174",
+          "locationType": 1,
+          "abnormal": "0",
+          "status": 1,
+          "disabled": false
+        }
+      ],
+      "id": "20",
+      "scale": "4",
+      "text": "34342342342211/"
+    }
+  ]
+}

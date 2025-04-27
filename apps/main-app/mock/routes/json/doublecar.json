@@ -1,0 +1,412 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "distance": "16310.3",
+      "timedifference": "120",
+      "speed": "526.1",
+      "doublecar": [
+        {
+          "infoId": "11",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "carType": "越野车",
+          "captureTime": "2020-11-09 10:47:01",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 35.950591,
+            "lng": 120.159821
+          },
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-A款",
+          "licensePlate1": "无牌",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        },
+        {
+          "infoId": "22",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "captureTime": "2023-11-09 10:47:03",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 36.950591,
+            "lng": 121.159821
+          },
+          "carType": "越野车",
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-B款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "distance": "6",
+      "timedifference": "230",
+      "speed": "14",
+      "doublecar": [
+        {
+          "infoId": "33",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "carType": "越野车",
+          "captureTime": "1023-11-09 10:47:01",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 36.050591,
+            "lng": 120.159821
+          },
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-C款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        },
+        {
+          "infoId": "44",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "captureTime": "2023-11-09 10:47:03",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 35.950621,
+            "lng": 120.160051
+          },
+          "carType": "越野车",
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-D款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "distance": "16310.3",
+      "timedifference": "120",
+      "speed": "526.1",
+      "doublecar": [
+        {
+          "infoId": "55",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "carType": "越野车",
+          "captureTime": "2020-11-09 10:47:01",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 35.950591,
+            "lng": 120.159821
+          },
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-A款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        },
+        {
+          "infoId": "666",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "captureTime": "2023-11-09 10:47:03",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 36.950591,
+            "lng": 121.159821
+          },
+          "carType": "越野车",
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-B款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "distance": "6",
+      "timedifference": "230",
+      "speed": "14",
+      "doublecar": [
+        {
+          "infoId": "777",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "carType": "越野车",
+          "captureTime": "1023-11-09 10:47:01",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 36.050591,
+            "lng": 120.159821
+          },
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-C款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        },
+        {
+          "infoId": "888",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "captureTime": "2023-11-09 10:47:03",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 35.950621,
+            "lng": 120.160051
+          },
+          "carType": "越野车",
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-D款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "distance": "16310.3",
+      "timedifference": "120",
+      "speed": "526.1",
+      "doublecar": [
+        {
+          "infoId": "999",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "carType": "越野车",
+          "captureTime": "2020-11-09 10:47:01",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 35.950591,
+            "lng": 120.159821
+          },
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-A款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        },
+        {
+          "infoId": "101010",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "captureTime": "2023-11-09 10:47:03",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 36.950591,
+            "lng": 121.159821
+          },
+          "carType": "越野车",
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-B款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "distance": "6",
+      "timedifference": "230",
+      "speed": "14",
+      "doublecar": [
+        {
+          "infoId":"1111111111",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "carType": "越野车",
+          "captureTime": "1023-11-09 10:47:01",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 36.050591,
+            "lng": 120.159821
+          },
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-C款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        },
+        {
+          "infoId": "121212",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "captureTime": "2023-11-09 10:47:03",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 35.950621,
+            "lng": 120.160051
+          },
+          "carType": "越野车",
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-D款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "distance": "6",
+      "timedifference": "230",
+      "speed": "14",
+      "doublecar": [
+        {
+          "infoId": "13131313",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "carType": "越野车",
+          "captureTime": "1023-11-09 10:47:01",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 36.050591,
+            "lng": 120.159821
+          },
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-C款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        },
+        {
+          "infoId":"14141414",
+          "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "bigImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+          "detection": {
+            "x": 267,
+            "y": 1468,
+            "w": 1069,
+            "h": 584
+          },
+          "captureTime": "2023-11-09 10:47:03",
+          "locationId": "3702010296519040",
+          "locationName": "3702010296519040",
+          "lngLat": {
+            "lat": 35.950621,
+            "lng": 120.160051
+          },
+          "carType": "越野车",
+          "targetType": "vehicle",
+          "feature": "",
+          "carInfo": "跃进-小福星-D款",
+          "licensePlate1": "黑BDM688",
+          "licensePlate2": "黑BDM688",
+          "plateColorTypeId2": 5
+        }
+      ]
+    }
+  ],
+  "totalRecords": 2,
+  "usedTime": 1
+}

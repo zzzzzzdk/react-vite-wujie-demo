@@ -1,0 +1,150 @@
+body {
+  &.theme-light {
+    --test-var: #fff;
+    --scroll-bg-color: #f3f3f4;
+    --color-panel-box-shadow: 0px 0px 6px 0px rgba(34, 34, 38, 0.08);
+    // One2One page
+    --one2one-bg: url("../images/one2one/one2one-bg-light.png") center/ 100% 100% no-repeat;
+    --one2one-left-bg: url("../images/one2one/one2one-left-bg-light.png") center/ 100% 100% no-repeat;
+    --one2one-right-bg: url("../images/one2one/one2one-right-bg-light.png") center/ 100% 100% no-repeat;
+
+    --one2one-preview-bg: url("../images/one2one/one2one-preview-bg-light.png") center/ 100% 100% no-repeat;
+    --one2one-input-bg: #f4f5fa;
+    --one2one-image-border-color: #e6efff;
+    //image
+    --image-top-bg: url("../images/image/yitu-top-bg-light.png");
+    --text-color: #222226;
+    --panel-header-bg: #f4f5fa;
+    --image-similarity-bg: url("~@/assets/images/image/similarity-light.png");
+    --image-gait-number-bg: rgba(0, 0, 0, 0.7);
+    --border-color: #d7d7d7;
+
+    //双层抽屉
+    --double-drawer-bg: rgba(34, 34, 38, 0.04);
+
+    --text-color: #222226;
+    --image-similarity-bg: url("~@/assets/images/image/similarity-light.png");
+    --image-gait-number-bg: rgba(0, 0, 0, 0.7);
+    --list-border-color: #ebebeb;
+    --big-img-links-bg: rgba(0, 0, 0, 0.5);
+    --card-cross-bg: #fff;
+    --card-similar-bg: url("../images/similar-bg.png") no-repeat center;
+    --table-color-bg-body-cell-right: #fff;
+    --table-color-bg-header-cell-right: #f3f3f4;
+    // --record-search-bg: url("~@/assets/images/record/record-search-bg-light.png");
+    --color-gray: #353535;
+    --color-case-box-shadow: 0px 0px 6px 0px rgba(34, 34, 38, 0.08);
+    --table-stripe-row: #f8f8f8;
+    // 布控告警
+    --deploy-no-data-bg: url("../images/deploy/deploy.png") no-repeat center;
+
+    // 页面page-bottom背景色
+    --page-bottom-bg: #fff;
+    //以图步态上传视频的背景
+    --image-video-bg: rgba(34, 34, 38, 0.01);
+
+    // 导出
+    --export-btn-width: 60px;
+    --export-tabs-margin: 20px 0 30px;
+    --export-total-size: 14px;
+    --export-total-color: var(--danger-color);
+    --export-main-width: 360px;
+    --export-input-width: 80px;
+
+    --import-car-bg: url("~@/assets/images/record/import-car-light.png");
+    --import-person-bg: url("~@/assets/images/record/import-person-light.png");
+    --auth-approve-bg: url("~@/assets/images/record/auth-approve-light.png");
+    --import-car-big-bg: url("~@/assets/images/record/car-big-icon-light.png");
+    --import-person-big-bg: url("~@/assets/images/record/person-big-icon-light.png");
+    --active-big-bg: url("~@/assets/images/record/active-icon-big-light.png");
+
+    --result-no-data-img: url("~@/assets/images/image/search-nodata-light.png");
+    --record-search-title: url("~@/assets/images/record/record-search-title-light.png");
+    --record-search-bg: linear-gradient(180deg, #ffffff 2%, #ecf2ff);
+    --record-search-input-boxshadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.16);
+    --record-search-input-bg: rgba(255, 255, 255, 1);
+    --record-import-data-bg: #f2f4f8;
+  }
+
+  &.theme-dark {
+    --test-var: #000;
+    --scroll-bg-color: #f3f3f4;
+    --color-panel-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.14);
+    // One2One page
+    --one2one-bg: url("../images/one2one/one2one-bg-dark.png") center / 100% 100% no-repeat;
+    --one2one-left-bg: url("../images/one2one/one2one-left-bg-dark.png") center/ 100% 100% no-repeat;
+    --one2one-right-bg: url("../images/one2one/one2one-right-bg-dark.png") center/ 100% 100% no-repeat;
+    --one2one-preview-bg: url("../images/one2one/one2one-preview-bg-dark.png") center/ 100% 100% no-repeat;
+    --one2one-input-bg: #393941;
+    --one2one-image-border-color: #343d4e;
+    //image
+    --image-top-bg: url("../images/image/yitu-top-bg-dark.png");
+    --text-color: #fff;
+    --panel-header-bg: #393941;
+    --image-similarity-bg: url("~@/assets/images/image/similarity-dark.png");
+    --image-gait-number-bg: rgba(0, 0, 0, 0.7);
+    --list-border-color: rgba(255, 255, 255, 0.3);
+    --border-color: #535e69;
+    //双层抽屉
+    --double-drawer-bg: rgba(255, 255, 255, 0.04);
+
+    --image-similarity-bg: url("~@/assets/images/image/similarity-dark.png");
+    --image-gait-number-bg: rgba(0, 0, 0, 0.7);
+    --list-border-color: rgba(255, 255, 255, 0.3);
+    --big-img-links-bg: rgba(34, 34, 38, 0.5);
+    --card-cross-bg: rgba(34, 34, 38, 1);
+    --card-similar-bg: url("../images/similar-bg-dark.png") no-repeat center;
+    --table-color-bg-header-cell-right: #1d1d1e;
+    --table-color-bg-body-cell-right: rgba(34, 34, 38, 1);
+    // --record-search-bg: url("~@/assets/images/record/record-search-bg-dark.png");
+    --color-gray: #353535;
+    --color-case-box-shadow: 3px 0px 14px 0px #0f0f10;
+    --table-stripe-row: #2a2a2d;
+
+    // 布控告警
+    --deploy-no-data-bg: url("../images/deploy/deploy-dark.png") no-repeat center;
+
+    // 页面page-bottom背景色
+    --page-bottom-bg: rgba(34, 34, 38, 1);
+    //以图步态上传视频的背景
+    --image-video-bg: rgba(255, 255, 255, 0.01);
+
+    // 导出
+    --export-btn-width: 60px;
+    --export-tabs-margin: 20px 0 30px;
+    --export-total-size: 14px;
+    --export-total-color: var(--danger-color);
+    --export-main-width: 360px;
+    --export-input-width: 80px;
+
+    --import-car-bg: url("~@/assets/images/record/import-car-icon.png");
+    --import-person-bg: url("~@/assets/images/record/import-person-icon.png");
+    --auth-approve-bg: url("~@/assets/images/record/auth-approve-icon.png");
+    --import-car-big-bg: url("~@/assets/images/record/car-big-icon.png");
+    --import-person-big-bg: url("~@/assets/images/record/person-big-icon.png");
+    --active-big-bg: url("~@/assets/images/record/active-icon.png");
+
+    --result-no-data-img: url("~@/assets/images/image/search-nodata-dark.png");
+    --record-search-title: url("~@/assets/images/record/record-search-title.png");
+    --record-search-bg: linear-gradient(179deg, #1d1d1e 3%, #22252f 99%);
+    --record-search-input-boxshadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.3);
+    --record-search-input-bg: rgba(34, 34, 38, 1);
+    --record-import-data-bg: #20232F;
+  }
+  &.theme-technological {
+    --card-cross-bg: rgba(0, 25, 64, 1);
+    --table-color-bg-body-cell-right: rgba(92, 105, 126, 0.2);
+    --table-color-bg-header-cell-right: rgba(92, 105, 126, 0.3);
+
+    // 布控告警
+    --deploy-no-data-bg: url("../images/deploy/deploy.png") no-repeat center;
+
+    // 页面page-bottom背景色
+    --page-bottom-bg: rgba(0, 25, 64, 1);
+  }
+}
+:root{
+  --technology-form-bg: rgba(0, 32, 93, 0.53);
+  --technology-form-border: rgba(151, 210, 255, 0.7);
+  --technology-form-border-focus: #acc2ff;
+}

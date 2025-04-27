@@ -1,0 +1,7 @@
+packages:
+  - "apps/*"         # 主应用和子应用
+  - "apps/main-app"
+  - "apps/sub-app"
+  - "packages/*"     # 共享模块和工具库
+  - "docs"           # 文档项目（可选）
+  # 新项目配置可按需添加新行

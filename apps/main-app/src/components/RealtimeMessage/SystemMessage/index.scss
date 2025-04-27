@@ -1,0 +1,25 @@
+@import "@/assets/css/mixin";
+$offset: 6px;
+.message-panel {
+  .ysd-modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    // align-items: center;
+    height: 600px;
+    padding: $offset;
+  }
+  .ysd-tabs-line {
+    overflow: visible;
+  }
+
+  &__switch {
+    position: absolute;
+    z-index: 100;
+    right: $offset;
+    top: 12px;
+  }
+}
+.message-panel-wrap {
+  z-index: 2022 !important; // 防止遮住大图。
+}

@@ -1,0 +1,311 @@
+$vehicleBasicInfo: "vehicle-basic-info";
+.#{$vehicleBasicInfo} {
+  .yisa-panel {
+    &:nth-child(n + 2) {
+      margin-top: 10px;
+    }
+  }
+  .item-table {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+
+    .cell {
+      width: 33.3%;
+      display: flex;
+      margin-top: -1px;
+      color: var(--text-color);
+      &:not(:nth-child(3n + 1)) {
+        margin-left: -1px;
+      }
+      .cell-label {
+        border: 1px solid var(--base-color1-10);
+        background: var(--table-color-bg-header-cell-right);
+        padding: 10px;
+        text-align: right;
+        flex: 1.2;
+        font-weight: bold;
+
+        .yuan {
+          display: inline-block;
+          margin-left: 10px;
+          width: 10px;
+          height: 10px;
+          background: #f56c6c;
+          border-radius: 50%;
+        }
+      }
+
+      .cell-value {
+        overflow-wrap: break-word;
+        word-break: break-all;
+        margin-left: -1px;
+        border: 1px solid var(--base-color1-10);
+        padding: 10px;
+        flex: 2;
+
+        .ysd-icon {
+          margin-left: 10px;
+          color: var(--danger-color);
+        }
+      }
+    }
+  }
+
+  .physics-car {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+    width: 1086px;
+    height: 254px;
+    .ysd-image-wrapper {
+      background: transparent;
+      border: none;
+    }
+
+    span {
+      display: inline;
+      padding: 2px 10px;
+      position: absolute;
+      font-size: 14px;
+      font-weight: bold;
+      white-space: nowrap;
+      color: var(--primary-color);
+      background-color: rgba(51, 119, 255, 0.1);
+      &.hidden {
+        display: none;
+      }
+    }
+
+    .leixing {
+      right: 970px;
+      top: 36px;
+    }
+
+    .yanse {
+      right: 970px;
+      top: 80px;
+    }
+
+    .haoma {
+      right: 970px;
+      top: 148px;
+    }
+
+    .shibiema {
+      right: 970px;
+      top: 202px;
+    }
+
+    .qianl {
+      left: 462px;
+      top: 218px;
+    }
+
+    .houl {
+      left: 762px;
+      top: 218px;
+    }
+
+    .jiegou {
+      left: 926px;
+      top: 40px;
+    }
+
+    .pinpaic {
+      left: 926px;
+      top: 82px;
+    }
+
+    .pinpaiy {
+      left: 1012px;
+      top: 82px;
+    }
+
+    .xinghao {
+      left: 926px;
+      top: 134px;
+    }
+
+    .pailiang {
+      left: 926px;
+      top: 192px;
+    }
+  }
+
+  .driving-license {
+    display: flex;
+    flex-flow: row wrap;
+
+    .license-title {
+      height: 34px;
+      line-height: 34px;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+      color: var(--text-color);
+      background: var(--table-color-bg-header-cell-right);
+      background-size: cover;
+      border-bottom: 1px solid var(--base-color1-10);
+    }
+    .zheng {
+      // flex: 1;
+      border: 1px solid var(--base-color1-10);
+      border-radius: 4px 0 0 4px;
+      .ysd-image-wrapper {
+        border: none;
+        background: transparent;
+      }
+      .chepai {
+        top: 55px;
+        left: 115px;
+      }
+
+      .leixing {
+        top: 55px;
+        left: 333px;
+      }
+
+      .name {
+        top: 96px;
+        left: 107px;
+      }
+
+      .add {
+        top: 132px;
+        left: 78px;
+      }
+
+      .xingzhi {
+        top: 168px;
+        left: 140px;
+      }
+
+      .xinghao {
+        top: 172px;
+        left: 325px;
+      }
+
+      .shibiema {
+        left: 265px;
+        bottom: 85px;
+      }
+
+      .num {
+        left: 245px;
+        bottom: 52px;
+      }
+
+      .zc-date {
+        left: 235px;
+        bottom: 10px;
+        width: 90px;
+        white-space: nowrap;
+      }
+
+      .fz-date {
+        left: 400px;
+        bottom: 10px;
+        width: 90px;
+        white-space: nowrap;
+      }
+
+      .gongan {
+        top: 214px;
+        left: 33px;
+        display: inline-block;
+        width: 97px;
+        height: 95px;
+        font-size: 16px;
+        color: #6e3025;
+        text-align: left;
+        line-height: 28px;
+        font-weight: bold;
+      }
+    }
+
+    .fan {
+      // flex: 1;
+      border: 1px solid var(--base-color1-10);
+      border-left: none;
+      // padding: 24px 28px;
+      border-radius: 0 4px 4px 0;
+      .ysd-image-wrapper {
+        border: none;
+        background: transparent;
+      }
+      .chepai {
+        top: 16px;
+        left: 117px;
+      }
+
+      .bianhao {
+        top: 16px;
+        left: 317px;
+      }
+
+      .renshu {
+        top: 55px;
+        left: 135px;
+      }
+
+      .zl {
+        top: 55px;
+        left: 300px;
+      }
+
+      .zl2 {
+        top: 94px;
+        left: 100px;
+      }
+
+      .zl3 {
+        top: 94px;
+        left: 340px;
+      }
+
+      .chicun {
+        left: 100px;
+        top: 131px;
+      }
+
+      .zl4 {
+        left: 362px;
+        top: 131px;
+      }
+
+      .demo {
+        left: 65px;
+        top: 171px;
+      }
+
+      .jilu {
+        left: 100px;
+        top: 210px;
+      }
+    }
+
+    .image {
+      position: relative;
+      width: 485px;
+      height: 319px;
+      color: #3c3d3c;
+      margin: 20px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      i {
+        position: absolute;
+        font-style: normal;
+        font-size: 15px;
+      }
+      &.zheng,
+      &.fan {
+        border: none;
+      }
+    }
+  }
+}

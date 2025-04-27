@@ -1,0 +1,173 @@
+/*@include  来引用本文件中第一的函数，如：@include clearfix */
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin scrollBar {
+  overflow-x: hidden;
+  overflow-y: auto;
+  &::-webkit-scrollbar-track-piece,
+  &::-webkit-scrollbar-corner,
+  &::-webkit-scrollbar-track {
+    background-color: var(--layout-scroll-bar-bg-color);
+  }
+
+  &::-webkit-scrollbar {
+    width: 7px;
+    height: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--layout-scroll-thumb-color);
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+  }
+}
+
+@mixin scrollBar2($width: 4px) {
+  &::-webkit-scrollbar-track-piece,
+  &::-webkit-scrollbar-corner,
+  &::-webkit-scrollbar-track {
+    background-color: var(--scroll-bar-bg-color);
+  }
+
+  &::-webkit-scrollbar {
+    width: $width;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color);
+    border-radius: $width / 2;
+  }
+
+  &::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+  }
+}
+
+@mixin scrollBarTechnology {
+  overflow-x: hidden;
+  overflow-y: auto;
+  &::-webkit-scrollbar-track-piece,
+  &::-webkit-scrollbar-corner,
+  &::-webkit-scrollbar-track {
+    background-color: var(--technology-form-bg);
+  }
+
+  &::-webkit-scrollbar {
+    width: 0px;
+    height: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--technology-form-border);
+    border-radius: 1px;
+  }
+
+  &::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+  }
+}
+
+// 超出字符省略显示
+@mixin text-ellipsis($line-type: single) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @if $line-type==single {
+    white-space: nowrap;
+  }
+
+  @if $line-type==multi {
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+  }
+}
+
+// 禁止文本选择
+@mixin noSelect() {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+// 优设标题黑字体
+@font-face {
+  font-family: "YouSheBiaoTiHei"; /*定义字体的名称*/
+  src: url("./YSBTH.TTF"); /*定义字体文件的路径*/
+  font-weight: normal; /*定义字体的粗细程度*/
+}
+
+@mixin tag-item {
+  .label-item {
+    height: 24px;
+    line-height: 24px;
+    background: var(--danger-color-20);
+    border-radius: 2px;
+    color: var(--danger-color);
+    // margin: 6px 0;
+    padding: 0 10px;
+    width: 95px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 24px;
+    // &:nth-child(n + 3) {
+    //   margin-top: 0;
+    // }
+    // 紫色
+    &-1 {
+      color: rgba(255, 132, 247, 1);
+      background: rgba(255, 132, 247, 0.2);
+    }
+    // 黄色
+    &-2 {
+      color: rgba(225, 191, 3, 1);
+      background: rgba(255, 217, 0, 0.2);
+    }
+    // 蓝色
+    &-3 {
+      color: rgba(87, 143, 255, 1);
+      background: rgba(87, 143, 255, 0.2);
+    }
+    // 绿色
+    &-4 {
+      color: rgba(0, 204, 102, 1);
+      background: rgba(0, 204, 102, 0.2);
+    }
+    // 青色
+    &-5 {
+      color: rgba(100, 226, 241, 1);
+      background: rgba(100, 226, 241, 0.2);
+    }
+    // 红色
+    &-6 {
+      color: rgba(255, 91, 77, 1);
+      background: rgba(255, 91, 77, 0.2);
+    }
+    // 橙色
+    &-7 {
+      color: rgba(255, 141, 26, 1);
+      background: rgba(255, 141, 26, 0.2);
+    }
+    &.more {
+      cursor: pointer;
+      color: var(--danger-color);
+      background: rgba(255, 114, 102, 0.2);
+    }
+  }
+}

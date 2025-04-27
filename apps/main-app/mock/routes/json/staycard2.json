@@ -1,0 +1,242 @@
+[
+    {
+        "parkingDuration": 55839,
+        "parkingTime": "2023-10-26 09:37:42 -> 2023-10-31 14:27:55",
+        "personInfo": [
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0efd345c-5575-11ec-88b0-0cc47a9c4b97.jpg&xywh=147%2C1485%2C140%2C204",
+                "captureTime": "2023-06-01 14:10:00",
+                "locationName": "地点1",
+                "lngLat": {
+                    "lat": 35.950591,
+                    "lng": 120.159821
+                },
+                "downloadUrl": "",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "infoId": "1111111",
+                "locationId": "3702011864666914",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "targetType": "pedestrian",
+                "footholdarr": {
+                    "data": [
+                        {
+                            "lat": 35.950591,
+                            "lng": 120.159821,
+                            "locationName": "地点1"
+                        }
+                    ],
+                    "type": "foothold"
+                }
+            
+            }
+        ]
+    },
+    {
+        "parkingDuration": 53860,
+        "parkingTime": "2023-10-26 09:37:42 -> 2023-10-31 14:27:55",
+        "personInfo": [
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0ee826be-54b4-11ec-88b0-0cc47a9c4b97.jpg&xywh=683%2C395%2C86%2C118",
+                "locationName": "地点2",
+                "captureTime": "2023-06-01 14:10:00",
+                "lngLat": {
+                    "lat": 36.950591,
+                    "lng": 121.159821
+                },
+                "downloadUrl": "",
+                "infoId": "2222222222",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "locationId": "3702011864666914",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "targetType": "pedestrian",
+                "footholdarr": {
+                    "data": [
+                        {
+                            "lat": 36.950591,
+                            "lng": 121.159821,
+                            "locationName": "地点2"
+                        }
+                    ],
+                    "type": "foothold"
+                }
+            }
+        ]
+    },
+    {
+        "parkingDuration": 50000,
+        "parkingTime": "2023-10-26 09:37:42 -> 2023-10-31 14:27:55",
+        "personInfo": [
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0f2f6e14-55ce-11ec-88b0-0cc47a9c4b97.jpg&xywh=924%2C320%2C82%2C88",
+                "locationName": "地点3",
+                "captureTime": "2023-06-01 14:10:00",
+                "lngLat": {
+                    "lat": 35.950621,
+                    "lng": 120.160051
+                },
+                "downloadUrl": "",
+                "infoId": "333333333",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "locationId": "3702011864666914",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "targetType": "pedestrian",
+                "footholdarr": {
+                    "data": [
+                        {
+                            "lat": 35.950621,
+                            "lng": 120.160051,
+                            "locationName": "地点3"
+                        },
+                        {
+                            "lat": 35.950621,
+                            "lng": 120.160051,
+                            "locationName": "地点3"
+                        }
+                    ],
+                    "type": "foothold"
+                }
+            },
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0f2f6e14-55ce-11ec-88b0-0cc47a9c4b97.jpg&xywh=17%2C1451%2C144%2C186",
+                "locationName": "地点3",
+                "captureTime": "2023-06-01 14:10:00",
+                "lngLat": {
+                    "lat": 35.950621,
+                    "lng": 120.160051
+                },
+                "downloadUrl": "",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "locationId": "3702011864666914",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "plateColorTypeString2": "蓝",
+                "infoId": "444444444",
+                "plateImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0949653c-54b0-11ec-88b0-0cc47a9c4b97.jpg&xywh=1971%2C1041%2C142%2C45",
+                "targetType": "pedestrian",
+                "direction": "默认值",
+                "footholdarr": {
+                    "data": [
+                        {
+                            "lat": 35.950621,
+                            "lng": 120.160051,
+                            "locationName": "地点3"
+                        },
+                        {
+                            "lat": 35.950621,
+                            "lng": 120.160051,
+                            "locationName": "地点3"
+                        }
+                    ],
+                    "type": "foothold"
+                }
+            }
+        ]
+    },
+    {
+        "parkingDuration": 45839,
+        "parkingTime": "2023-10-26 09:37:42 -> 2023-10-31 14:27:55",
+        "personInfo": [
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "captureTime": "2023-06-01 14:10:00",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "downloadUrl": "",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "lngLat": {
+                    "lat": 36.050591,
+                    "lng": 120.159821
+                },
+                "locationId": "3702011864666914",
+                "infoId": "555555555555",
+                "locationName": "地点5",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0f2f6e14-55ce-11ec-88b0-0cc47a9c4b97.jpg&xywh=17%2C1451%2C144%2C186",
+                "targetType": "pedestrian",
+                "footholdarr": {
+                    "data": [
+                        {
+                            "lat": 36.050591,
+                            "lng": 120.159821,
+                            "locationName": "地点5"
+                        },
+                        {
+                            "lat": 35.950621,
+                            "lng": 120.160051,
+                            "locationName": "地点6"
+                        }
+                    ],
+                    "type": "foothold"
+                }
+            },
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0f2f6e14-55ce-11ec-88b0-0cc47a9c4b97.jpg&xywh=17%2C1451%2C144%2C186",
+                "locationName": "地点6",
+                "captureTime": "2023-06-01 14:10:00",
+                "lngLat": {
+                    "lat": 35.950621,
+                    "lng": 120.160051
+                },
+                "downloadUrl": "",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "infoId": "66666666",
+                "locationId": "3702011864666914",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "targetType": "pedestrian",
+                "footholdarr": {
+                    "data": [
+                        {
+                            "lat": 36.050591,
+                            "lng": 120.159821,
+                            "locationName": "地点5"
+                        },
+                        {
+                            "lat": 35.950621,
+                            "lng": 120.160051,
+                            "locationName": "地点6"
+                        }
+                    ],
+                    "type": "foothold"
+                }
+            }
+        ]
+    }
+]

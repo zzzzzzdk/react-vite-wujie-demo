@@ -1,0 +1,36 @@
+.record-vehicle-illegal-list {
+  padding: 0 15px;
+  .item-illegal-info {
+    // background-color: var(--table-color-bg-header-cell-right);
+    border-radius: 10px;
+    // box-shadow: var(--color-case-box-shadow);
+    box-shadow: var(--color-panel-box-shadow);
+    margin-bottom: 20px;
+    padding-top: 10px;
+    color: var(--text-color);
+    .info-index {
+      height: 24px;
+      line-height: 24px;
+      font-weight: 700;
+      background: var(--primary-color);
+      color: #fff;
+      border-radius: 0px 10px 10px 0px;
+      width: 50px;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .item-illegal-content {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      & > div {
+        width: 33%;
+        padding-left: 18px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

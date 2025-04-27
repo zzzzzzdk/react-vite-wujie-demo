@@ -1,0 +1,84 @@
+.cc-track-tool.track-multi {
+  .tool-progress {
+    width: calc(100% - 28px - 10px - 40px - 50px - 284px - 10px - 10px);
+    height: 100%;
+
+    .ysd-slider {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      flex: none;
+      width: 100%;
+      padding: 2px 0;
+      height: 12px;
+      margin-top: -6px;
+
+      // .ysd-slider-rail {
+      //   display: none;
+      // }
+
+      .ysd-slider-track {
+        background: linear-gradient(90deg, #00ccff, #2b83e8);
+        height: 8px;
+        border-radius: 4px;
+        z-index: 3;
+      }
+
+      .ysd-slider-handle {
+        margin-top: -3px;
+        background: #ffffff;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+        border-radius: 2px;
+        border: none;
+        width: 7px;
+        z-index: 10;
+        position: absolute;
+        height: 14px;
+        cursor: pointer;
+      }
+
+      .ysd-slider-step {
+        background: #d7d7d7;
+        height: 8px;
+        border-radius: 4px;
+
+        .ysd-slider-dot {
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+#TrackMultiMap {
+  .marker-usually {
+    width: 100%;
+    height: 100%;
+  }
+  .tracking-marker {
+    mix-blend-mode: screen;
+    position: relative;
+    width: 82px;
+    height: 82px;
+    animation: animation 6s infinite;
+    video {
+      width: 100%;
+      height: 100%;
+    }
+    .marker-usually {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+    }
+  }
+}
+
+$imgCount: 89;
+
+@keyframes animation {
+  @for $i from 1 through $imgCount {
+    #{($i * 100%/$imgCount)} {
+      background-image: url(./animateImgs/#{$i}.png);
+    }
+  }
+}

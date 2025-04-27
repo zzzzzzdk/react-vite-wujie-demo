@@ -1,0 +1,42 @@
+@import "@/assets/css/mixin";
+.shortcut-setting {
+  &-col {
+    flex: 1;
+    height: 100%;
+    border: var(--divider-border-width) solid var(--divider-border-color);
+    border-radius: 4px;
+    padding: 1em 0.5em;
+  }
+  .ysd-modal-content {
+    height: 700px;
+    overflow: hidden;
+  }
+  .ysd-modal-footer {
+    margin: 0;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  &-area {
+    padding-right: 5px;
+    max-height: calc(100% - 17px - 20px);
+    @include scrollBar;
+  }
+  &-placeholder {
+    > :first-child {
+      background: rgba(51, 119, 255, 0.04);
+      border: 1px dashed rgba(51, 119, 255, 0.5);
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-weight: 400;
+    }
+  }
+  .homepage-menu {
+    padding: 0;
+  }
+}

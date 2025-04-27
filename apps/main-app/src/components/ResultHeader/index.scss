@@ -1,0 +1,15 @@
+.result-header {
+  line-height: 32px;
+  display: flex;
+  justify-content: space-between;
+  &-left {
+    display: flex;
+    &-total {
+      margin-right: 25px;
+      & > span {
+        color: var(--primary-color);
+        margin: 0 3px;
+      }
+    }
+  }
+}

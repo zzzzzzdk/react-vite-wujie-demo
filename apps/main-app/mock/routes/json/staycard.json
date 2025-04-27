@@ -1,0 +1,196 @@
+[
+    {
+        "parkingDuration": 49,
+        "vehicleInfo": [
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0d536b0a-54d3-11ec-88b0-0cc47a9c4b97.jpg&xywh=1987%2C1298%2C1128%2C771",
+                "plateColorTypeId2": 5,
+                "licensePlate2": "鲁A12345",
+                "captureTime": "2023-06-01 14:10:00",
+                "locationName": "地点1",
+                "lngLat": {
+                    "lat": 35.950591,
+                    "lng": 120.159821
+                },
+                "carInfo": "大众-桑塔纳浩纳-2023",
+                "downloadUrl": "",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "infoId": "1111111",
+                "licensePlate1": "鲁B2AU87",
+                "locationId": "3702011864666914",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "plateColorTypeString2": "蓝",
+                "plateImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0949653c-54b0-11ec-88b0-0cc47a9c4b97.jpg&xywh=1971%2C1041%2C142%2C45",
+                "targetType": "vehicle",
+                "direction": "默认值"
+            }
+        ]
+    },
+    {
+        "parkingDuration": 53860,
+        "vehicleInfo": [
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg&xywh=754%2C501%2C76%2C68",
+                "plateColorTypeId2": "3",
+                "licensePlate2": "鲁A12345",
+                "locationName": "地点2",
+                "captureTime": "2023-06-01 14:10:00",
+                "lngLat": {
+                    "lat": 36.950591,
+                    "lng": 121.159821
+                },
+                "carInfo": "大众-桑塔纳浩纳-2023",
+                "downloadUrl": "",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "infoId": "22222222222",
+                "licensePlate1": "无牌",
+                "locationId": "3702011864666914",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "plateColorTypeString2": "蓝",
+                "plateImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0949653c-54b0-11ec-88b0-0cc47a9c4b97.jpg&xywh=1971%2C1041%2C142%2C45",
+                "targetType": "vehicle",
+                "direction": "默认值"
+            }
+        ]
+    },
+    {
+        "parkingDuration": 51000,
+        "vehicleInfo": [
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0d536b0a-54d3-11ec-88b0-0cc47a9c4b97.jpg&xywh=1987%2C1298%2C1128%2C771",
+                "plateColorTypeId2": "3",
+                "licensePlate2": "鲁A12345",
+                "locationName": "地点3",
+                "captureTime": "2023-06-01 14:10:00",
+                "lngLat": {
+                    "lat": 35.950621,
+                    "lng": 120.160051
+                  },
+                "carInfo": "大众-桑塔纳浩纳-2023",
+                "downloadUrl": "",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "infoId": "33333333",
+                "licensePlate1": "鲁B2AU87",
+                "locationId": "3702011864666914",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "plateColorTypeString2": "蓝",
+                "plateImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0949653c-54b0-11ec-88b0-0cc47a9c4b97.jpg&xywh=1971%2C1041%2C142%2C45",
+                "targetType": "vehicle",
+                "direction": "默认值"
+            },
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg&xywh=754%2C501%2C76%2C68",
+                "plateColorTypeId2": "3",
+                "licensePlate2": "鲁A12345",
+                "locationName": "地点3",
+                "captureTime": "2023-06-01 14:10:00",
+                "lngLat": {
+                    "lat": 35.950621,
+                    "lng": 120.160051
+                  },
+                "carInfo": "大众-桑塔纳浩纳-2023",
+                "downloadUrl": "",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "infoId": "444444444",
+                "licensePlate1": "鲁B2AU87",
+                "locationId": "3702011864666914",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "plateColorTypeString2": "蓝",
+                "plateImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0949653c-54b0-11ec-88b0-0cc47a9c4b97.jpg&xywh=1971%2C1041%2C142%2C45",
+                "targetType": "vehicle",
+                "direction": "默认值"
+            }
+        ]
+    },
+    {
+        "parkingDuration":45839,
+        "vehicleInfo": [
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "captureTime": "2023-06-01 14:10:00",
+                "carInfo": "大众-桑塔纳浩纳-2023",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "downloadUrl": "",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "infoId": "55555555",
+                "licensePlate1": "鲁B2AU87",
+                "licensePlate2": "鲁A12345",
+                "lngLat": {
+                    "lat": 36.050591,
+                    "lng": 120.159821
+                },
+                "locationId": "3702011864666914",
+                "locationName": "地点5",
+                "plateColorTypeId2": "3",
+                "plateColorTypeString2": "蓝",
+                "plateImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0949653c-54b0-11ec-88b0-0cc47a9c4b97.jpg&xywh=1971%2C1041%2C142%2C45",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0d536b0a-54d3-11ec-88b0-0cc47a9c4b97.jpg&xywh=1987%2C1298%2C1128%2C771",
+                "targetType": "vehicle",
+                "direction": "默认值"
+            },
+            {
+                "bigImage": "http://192.168.7.206:8000/975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg",
+                "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F975_6b6a41f0-927b-11ed-8d2d-a0369f1f7f36.jpg&xywh=754%2C501%2C76%2C68",
+                "plateColorTypeId2": "3",
+                "licensePlate2": "鲁A12345",
+                "locationName": "地点6",
+                "captureTime": "2023-06-01 14:10:00",
+                "lngLat": {
+                    "lat": 35.950621,
+                    "lng": 120.160051
+                },
+                "carInfo": "大众-桑塔纳浩纳-2023",
+                "downloadUrl": "",
+                "feature": "kqLOqAogVyjzp2ut1a3QJIEvhB0PLj+oKq2aKcGuAK2apqyrIygmsH+smi3krAerJ6lKp/Yo8StHKI2pORDiq/CyN6sbsQmuubHsqGal8SiGrPaqLTFMrDuwN7DQoCWw6S4EKCghih9hJuotfqWprBKxL7FirCMspqBrqiImYjG5p4emKrHhrPcnIqamM5+vDiwGrY0odSB6LSoVTyltrq+lyLABrIOvWaYQsVyprLIvraas/aCkmtuk0CwTJXQSfRwzJLEs7J79LRwuqTKkq84eg6o0L5EoE6ZwsDqqaCzCpHCyNrJLpsSsZiQKKTGq6LEIrTsu+a4HplIg3K50nw==",
+                "windowFeature": "cbDuscYtUSfZGRSvwLERMJ0w9yPNIsekriw7rRSfAy2BMFsuL7CpK6MowqhjrQswPqu0KBGsp6Zsqn4wSJolr6osFjKMpnUoZagXKx+lTKz1LnMd0KjtrMqkKShNMtqmwaXMq4qxfyLirpYvDTCNsGKwMydFq3+sayxPs7+mliZPMEqrui7hJE2lJSOOrP+q/iqGrJAuRa93MmevkavDq6ykjRqKMZqoZbRdrDEyby7KHo0WuitPH7KtgyvbKQqk/iw/rsskApBZsCUk1agcLmYxOiCDKi6nvSb/qh8pPCMpLNGQGykkJisplql0qgarsJwQqoolthgyjQorC61rqA==",
+                "infoId": "66666666",
+                "licensePlate1": "鲁B2AU87",
+                "locationId": "3702011864666914",
+                "detection": {
+                    "x": 1757,
+                    "y": 527,
+                    "w": 590,
+                    "h": 607
+                },
+                "plateColorTypeString2": "蓝",
+                "plateImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0949653c-54b0-11ec-88b0-0cc47a9c4b97.jpg&xywh=1971%2C1041%2C142%2C45",
+                "targetType": "vehicle",
+                "direction": "默认值"
+            }
+        ]
+    }
+]

@@ -1,0 +1,57 @@
+.double-box {
+  display: flex;
+  flex: 1;
+  max-width: 427px;
+  // width: 100%;
+  flex-direction: column;
+  border: 1px solid var(--base-color1-10);
+  border-radius: 5px;
+  &:hover {
+    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 10%);
+  }
+
+  padding: 10px;
+  margin: 0 18px 18px 0;
+  .title-box {
+    height: 24px;
+    // line-height: 24px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+    font-weight: 700;
+    text-align: left;
+    color: var(--drawer-title-text-color);
+    line-height: 15px;
+    white-space: nowrap;
+    div {
+      flex: 1;
+      padding-left: 10px;
+    }
+    div:nth-child(1) {
+      padding-left: 0;
+    }
+    div:nth-child(2) {
+      border-left: 1px solid var(--base-color1-50);
+      border-right: 1px solid var(--base-color1-50);
+    }
+    span {
+      color: var(--danger-color);
+    }
+  }
+  .card-box {
+    display: flex;
+    flex-direction: row;
+    @include sfp.flex-gap((0, 10px));
+    .card-normal-item {
+      width: 192px;
+      .plate-wrap {
+        height: 30px;
+      }
+    }
+    .card-normal-item:hover {
+      box-shadow: none;
+    }
+  }
+}

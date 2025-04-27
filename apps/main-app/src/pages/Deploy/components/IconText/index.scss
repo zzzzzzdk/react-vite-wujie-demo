@@ -1,0 +1,13 @@
+.icon-text {
+  border: 1px dashed var(--primary-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  @include sfp.flex-gap((0, 0.5em));
+
+  background-color: rgba(34, 34, 38, 0.01);
+  transition: all linear .5s;
+  &:hover {
+    background-color: var(--primary-color-10)
+  }
+}

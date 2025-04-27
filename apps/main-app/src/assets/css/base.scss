@@ -1,0 +1,576 @@
+body {
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+}
+
+micro-app,
+micro-app-body {
+  display: block;
+  height: 100%;
+}
+
+.map-title-dark {
+  .leaflet-tile-pane {
+    filter: invert(1) hue-rotate(-180deg) grayscale(0.7) brightness(1.5);
+  }
+}
+
+.word-break {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.link {
+  display: inline-block;
+  padding: 0 4px;
+  color: var(--primary-color);
+  cursor: pointer;
+
+  a {
+    color: var(--primary-color);
+  }
+}
+
+.ysd-notification-wrapper-bottomRight {
+  right: 75px;
+}
+
+// 版本升级弹框样式
+.version-update-modal {
+  width: 530px !important;
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+  z-index: 2020;
+
+  .ysd-modal-close-icon {
+    display: none;
+  }
+
+  .ysd-modal-header {
+    padding: 0;
+    border: none;
+
+    .ysd-modal-title {
+      width: 100%;
+      height: 173px;
+      background: url(../../assets/images/version-update.png) no-repeat center;
+    }
+  }
+
+  .ysd-modal-content {
+    background-color: #fff;
+    padding: 42px 0 0 50px;
+    font-size: 24px;
+    margin-top: 0;
+    color: #222226;
+  }
+
+  .ysd-modal-footer {
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 56px 0 24px 0;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+
+    .ysd-btn {
+      margin: 0;
+    }
+  }
+}
+
+// 车牌北京
+.plate-bg {
+  display: inline-block;
+  border-radius: 4px;
+  width: 90px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  background: none;
+  color: var(--base-color1);
+  border: 1px solid var(--base-color1-10);
+  font-weight: bold;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: #fff;
+  }
+
+  &.plate-color-1 {
+    background: url(../../assets/images/plate.png) no-repeat center -229px;
+    color: #fff;
+    border: none;
+  }
+
+  &.plate-color-2 {
+    background: url(../../assets/images/plate.png) no-repeat center -191px;
+    color: var(--base-color1);
+    // 2：白色车牌，黑色文字
+    color: rgba(0, 0, 0, 1);
+    // color:var(--layout-vertical-header-bg-color);
+    border: none;
+  }
+
+  &.plate-color-5 {
+    background: url(../../assets/images/plate.png) no-repeat center 0;
+    color: #fff;
+    border: none;
+  }
+
+  &.plate-color-6 {
+    background: url(../../assets/images/plate.png) no-repeat center -38px;
+    color: #fff;
+    border: none;
+  }
+
+  &.plate-color-9 {
+    background: url(../../assets/images/plate.png) no-repeat center -76px;
+    color: #fff;
+    border: none;
+  }
+
+  &.plate-color-15 {
+    background: url(../../assets/images/plate.png) no-repeat center -114px;
+    // 2：浅绿车牌，黑色文字
+    color: rgba(0, 0, 0, 1);
+    color: var(--layout-vertical-header-bg-color);
+    border: none;
+  }
+
+  &.plate-color-16 {
+    background: url(../../assets/images/plate.png) no-repeat center -151px;
+    color: #fff;
+    border: none;
+  }
+
+  &.plate-color-8 {
+    background: url(../../assets/images/plate.png) no-repeat center -267px;
+    border-radius: 0;
+    color: #fff;
+    border: none;
+  }
+
+  &.plate-color--1 {
+    background: none;
+    color: var(--base-color1);
+    border: 1px solid var(--base-color1-10);
+  }
+}
+
+$firstPng: "~@/assets/images/image/yitu-first-coming.png";
+$firstPngDark: "~@/assets/images/first-coming-dark.png";
+$firstPngLight: "~@/assets/images/first-coming-light.png";
+
+.first-coming {
+  background: url($firstPng) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.first-coming-dark {
+  background: url($firstPngDark) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.first-coming-light {
+  background: url($firstPngLight) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+// 跳转按钮样式
+.btn-link {
+  display: inline-block;
+  width: 80px;
+  height: 28px;
+  line-height: 26px;
+  padding: 0 10px;
+  margin-left: 16px;
+  color: var(--button-table-color) !important;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--primary-color);
+  &.widther {
+    width: auto;
+  }
+
+  &.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  &:hover {
+    background: var(--button-default-hover-background-color);
+  }
+}
+
+// 时间排序按钮样式
+.time-sort {
+  padding: 0 16px;
+  font-size: 14px;
+  min-width: auto;
+
+  .ysd-icon {
+    font-size: 10px;
+    width: 3px;
+    color: var(--base-color1-30);
+
+    &.active {
+      color: var(--primary-color);
+    }
+  }
+}
+
+.result-card-list-row {
+  display: flex;
+  justify-content: space-between;
+
+  > div {
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.ysd-progress-text .circle-bg {
+  font-size: 12px;
+}
+
+.ysd-table {
+  .ysd-table-th {
+    background-color: var(--table-color-bg-header-cell-right);
+  }
+
+  .ysd-table-td.ysd-table-col-fixed-right-first {
+    background-color: var(--table-color-bg-body-cell-right);
+  }
+}
+
+.ysd-btn-danger {
+  border-color: var(--button-danger-color) !important;
+}
+
+// 权重等级：下拉等（2000） < 导航（2010） < 弹框（2020） < 弹框中下拉（2030）
+.ysd-modal-wrapper,
+.ysd-modal-mask {
+  z-index: 2020;
+  .fusion3-form-plate-keyboard-box,
+  .ysd-select-trigger,
+  .ysd-tree-select-trigger,
+  .ysd-picker-dropdown,
+  .ysd-popover,
+  .ysd-tooltip,
+  .ysd-cascader-trigger,
+  .ysd-notification-wrapper,
+  .fusion3-form-plate-keyboard-box {
+    z-index: 2030;
+  }
+}
+.fusion3-form-plate-keyboard-box,
+.ysd-select-trigger,
+.ysd-tree-select-trigger,
+.ysd-picker-dropdown,
+.ysd-popover,
+.ysd-tooltip,
+.ysd-cascader-trigger,
+.ysd-notification-wrapper,
+.fusion3-form-plate-keyboard-box {
+  z-index: 2030;
+}
+.ysd-message-wrapper {
+  z-index: 2040;
+}
+.big-img-modal-wrap {
+  z-index: 2021;
+  &.big-img-modal-double {
+    z-index: 2022;
+  }
+  &.notify-big-img {
+    z-index: 2024;
+  }
+}
+.ysc-map-component {
+  position: unset !important; // 轨迹播放空间被隐藏
+}
+
+.ysc-map-popup-inner {
+  background-color: var(--drawer-bg-color);
+}
+
+.ysd-picker {
+  .ysd-picker-range-separator {
+    padding: 0 6px;
+  }
+}
+$technologyFormBg: rgba(0, 32, 93, 0.53);
+$technologyFormBorder: rgba(151, 210, 255, 0.7);
+$technologyFormBorderFocus: #acc2ff;
+
+.ysd-select-technology {
+  border-color: $technologyFormBorder;
+  background: $technologyFormBg;
+  color: #fff !important;
+  &.ysd-select-hover {
+    border-color: $technologyFormBorder;
+  }
+  &.ysd-select-focused {
+    border-color: $technologyFormBorderFocus;
+    outline: none;
+  }
+  .ysd-select__suffix {
+    color: #fff;
+  }
+}
+
+.ysd-select-technology-menu {
+  background: linear-gradient(180deg, rgba(32, 93, 174, 0.86), rgba(12, 63, 141, 0.74) 49%, rgba(0, 49, 113, 0.86));
+  border: 1px solid #1d86df;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 85, 255, 0.49);
+
+  .ysd-scrollbar-wrapper .ysd-scrollbar-content {
+    .ysd-select-option {
+      color: #fff;
+      &.ysd-select-option-selected {
+        background-color: var(--primary-color-30);
+      }
+    }
+  }
+}
+
+.ysd-checkbox-techonology {
+  color: #fff;
+  .ysd-checkbox {
+    .ysd-checkbox-inner {
+      background: $technologyFormBg;
+      border-color: $technologyFormBorder;
+    }
+    &:hover {
+      .ysd-checkbox-inner {
+        border-color: $technologyFormBorder;
+      }
+    }
+    &.ysd-checkbox-checked {
+      .ysd-checkbox-inner {
+        border-color: $technologyFormBorderFocus;
+      }
+    }
+  }
+}
+
+.ysd-tree-select-techonology {
+  border-color: $technologyFormBorder;
+  background: $technologyFormBg;
+  color: #fff;
+  &.ysd-tree-select-hover {
+    border-color: $technologyFormBorder;
+  }
+  &.ysd-tree-select-focused {
+    border-color: $technologyFormBorderFocus;
+    outline: none;
+  }
+  .ysd-tree-select__suffix {
+    color: #fff;
+  }
+  input {
+    caret-color: #fff;
+  }
+}
+.ysd-tree-select-techonology-menu {
+  background: linear-gradient(180deg, rgba(32, 93, 174, 0.86), rgba(12, 63, 141, 0.74) 49%, rgba(0, 49, 113, 0.86));
+  border: 1px solid #1d86df;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 85, 255, 0.49);
+  .ysd-scrollbar-wrapper .ysd-scrollbar-content {
+    .ysd-tree {
+      color: #fff;
+      .ysd-checkbox-wrapper {
+        .ysd-checkbox {
+          .ysd-checkbox-inner {
+            background: $technologyFormBg;
+            border-color: $technologyFormBorder;
+          }
+          &:hover {
+            .ysd-checkbox-inner {
+              border-color: $technologyFormBorder;
+            }
+          }
+          &.ysd-checkbox-checked {
+            .ysd-checkbox-inner {
+              border-color: $technologyFormBorderFocus;
+            }
+          }
+        }
+      }
+    }
+  }
+  .ysd-scrollbar-thumb {
+    background: $technologyFormBorder;
+  }
+}
+
+// 过滤名单弹框
+.filterate-modal {
+  width: 72vw;
+
+  .filterate-modal-content {
+    padding-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    @include sfp.flex-gap(18px);
+    height: 80vh;
+    overflow-y: auto;
+    align-content: flex-start;
+    &::-webkit-scrollbar-track-piece,
+    &::-webkit-scrollbar-corner,
+    &::-webkit-scrollbar-track {
+      background-color: var(--layout-scroll-bar-bg-color);
+    }
+
+    &::-webkit-scrollbar {
+      width: 6px;
+      height: 12px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--layout-scroll-thumb-color);
+      border-radius: 4px;
+    }
+    .card-identify-single-item {
+      max-width: 208px;
+    }
+  }
+
+  .ysd-modal-footer {
+    width: calc(100% + 32px);
+    margin: 0 0 -16px -16px;
+    border-top: 1px solid var(--modal-title-border-color);
+
+    .page-bottom {
+      width: initial;
+      height: 66px;
+      display: flex;
+      align-items: center;
+      padding: 16px;
+
+      .left {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        .check-box {
+          line-height: 28px;
+          color: var(--checkbox-text-color);
+          &.disabled {
+            color: var(--checkbox-disabled-text-color);
+            cursor: not-allowed;
+            .num {
+              opacity: 0.5;
+            }
+          }
+
+          .num {
+            color: var(--danger-color);
+            margin: 0 5px;
+          }
+        }
+        .ysd-btn {
+          width: auto;
+          border-color: var(--base-color1-30);
+        }
+      }
+    }
+  }
+}
+
+.omitted-tooltip-content {
+  .ant-tooltip-arrow {
+    &::before {
+      background-color: var(--color-input-bg);
+    }
+  }
+  .ant-tooltip-inner {
+    background-color: var(--color-input-bg);
+    color: var(--color-text);
+    border-color: var(--color-input-border);
+
+    .omitted-nodes {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      max-height: 500px;
+      overflow-y: auto;
+      &::-webkit-scrollbar-track-piece,
+      &::-webkit-scrollbar-corner,
+      &::-webkit-scrollbar-track {
+        background-color: var(--layout-scroll-bar-bg-color);
+      }
+
+      &::-webkit-scrollbar {
+        width: 6px;
+        height: 12px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--layout-scroll-thumb-color);
+        border-radius: 4px;
+      }
+
+      &-item {
+        position: relative;
+        display: flex;
+        flex: none;
+        box-sizing: border-box;
+        max-width: 68px;
+        height: 24px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        line-height: 22px;
+        background: rgba(0, 0, 0, 0.06);
+        border: 1px solid rgba(5, 5, 5, 0.06);
+        border-radius: 4px;
+        cursor: default;
+        transition:
+          font-size 0.3s,
+          line-height 0.3s,
+          height 0.3s;
+        user-select: none;
+        margin-inline-end: 4px;
+        padding-inline-start: 8px;
+        padding-inline-end: 4px;
+        &-label {
+          display: inline-block;
+          width: calc(100% - 14px);
+          margin-inline-end: 4px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+        &-remove {
+          display: inline-block;
+          align-items: center;
+          color: var(--color-text);
+          font-style: normal;
+          line-height: inherit;
+          text-align: center;
+          font-weight: bold;
+          font-size: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+micro-app {
+  width: 100%;
+  height: 100%;
+}
+
+.reset-btn {
+  min-width: 72px;
+}

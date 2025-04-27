@@ -1,0 +1,244 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "caseId": 1,
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+        "bigImage":"http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+        "similarity": "99.1",
+        "detection": {
+          "x": 267,
+          "y": 1468,
+          "w": 1069,
+          "h": 584
+        },
+        "captureTime": "2023-11-09 10:47:02",
+        "locationId": "3702010296519040",
+        "locationName": "3702010296519040",
+        "longitude": "0",
+        "latitude": "0",
+        "lngLat": {
+            "lng": "",
+            "lat": ""
+          },
+        "targetType":"face",
+        "feature": "",
+        "createTime": "2023-11-08 16:19:58",
+        "userUuid": "3",
+        "userName": "管理员",
+        "organizationUuid": "1",
+        "organizationName": "数字工信内部办公与管理平台",
+        "sysModel": "目标检索",
+        "carInfo": "跃进-小福星-A款",
+        "yearId": 0,
+        "modelId": 0,
+        "brandId": 0,
+        "licensePlate1": "黑BDM688",
+        "licensePlate2": "黑BDM688",
+        "plateColorTypeId2": 5,
+        "direction": 0,
+        "gaitFeature": "",
+        "gaitMaskUrl": [
+          "http://192.168.11.211:9081/83,26a383824c3dda.jpg",
+          "http://192.168.11.211:9081/81,26a384303986aa.jpg"
+        ],
+        "gaitObjectUrl": [
+          "http://192.168.11.211:9081/81,26a366c093f834.jpg",
+          "http://192.168.11.211:9080/80,26a36a12a275a4.jpg"
+        ],
+        "matches":[]
+      },
+      {
+        "id": 2,
+        "caseId": 1,
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+        "bigImage":"http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+        "detection": {
+          "x": 267,
+          "y": 1468,
+          "w": 1069,
+          "h": 584
+        },
+        "captureTime": "2023-11-09 10:47:02",
+        "locationId": "3702010296519040",
+        "locationName": "3702010296519040",
+        "longitude": "0",
+        "latitude": "0",
+        "lngLat": {
+            "lng": "",
+            "lat": ""
+          },
+        "targetType": "pedestrian",
+        "feature": "",
+        "createTime": "2023-11-08 16:19:58",
+        "userUuid": "3",
+        "userName": "管理员",
+        "organizationUuid": "1",
+        "organizationName": "数字工信内部办公与管理平台",
+        "sysModel": "以图检索",
+        "carInfo": "跃进-小福星-A款",
+        "yearId": 0,
+        "modelId": 0,
+        "brandId": 0,
+        "licensePlate1": "黑BDM688",
+        "licensePlate2": "黑BDM688",
+        "plateColorTypeId2": 5,
+        "direction": 0,
+        "gaitFeature": "",
+        "gaitMaskUrl": [
+          "http://192.168.11.211:9081/83,26a383824c3dda.jpg",
+          "http://192.168.11.211:9081/81,26a384303986aa.jpg"
+        ],
+        "gaitObjectUrl": [
+          "http://192.168.11.211:9081/81,26a366c093f834.jpg",
+          "http://192.168.11.211:9080/80,26a36a12a275a4.jpg"
+        ],
+        "isGait":true,
+        "matches":[]
+      },
+      {
+        "id": 3,
+        "caseId": 1,
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+        "bigImage":"http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+        "detection": {
+          "x": 267,
+          "y": 1468,
+          "w": 1069,
+          "h": 584
+        },
+        "captureTime": "2023-11-09 10:47:02",
+        "locationId": "3702010296519040",
+        "locationName": "3702010296519040",
+        "longitude": "0",
+        "latitude": "0",
+        "lngLat": {
+            "lng": "",
+            "lat": ""
+          },
+        "targetType": "vehicle",
+        "feature": "",
+        "createTime": "2023-11-08 16:19:58",
+        "userUuid": "3",
+        "userName": "管理员",
+        "organizationUuid": "1",
+        "organizationName": "数字工信内部办公与管理平台",
+        "carInfo": "跃进-小福星-A款",
+        "yearId": 0,
+        "modelId": 0,
+        "brandId": 0,
+        "licensePlate1": "黑BDM688",
+        "licensePlate2": "黑BDM688",
+        "plateColorTypeId2": 5,
+        "direction": 0,
+        "gaitFeature": "",
+        "gaitMaskUrl": [
+          "http://192.168.11.211:9081/83,26a383824c3dda.jpg",
+          "http://192.168.11.211:9081/81,26a384303986aa.jpg"
+        ],
+        "gaitObjectUrl": [
+          "http://192.168.11.211:9081/81,26a366c093f834.jpg",
+          "http://192.168.11.211:9080/80,26a36a12a275a4.jpg"
+        ],
+        "matches": ["http://192.168.11.12:81/image-proxy?exactly=1\u0026img_uuid=http%3A%2F%2F192.168.11.12%3A9080%2F11%2C296dd2388314\u0026xywh=1247%2C798%2C206%2C273"]
+      },
+      {
+        "id": 4,
+        "caseId": 1,
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+        "bigImage":"http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+        "detection": {
+          "x": 267,
+          "y": 1468,
+          "w": 1069,
+          "h": 584
+        },
+        "captureTime": "2023-11-09 10:47:02",
+        "locationId": "3702010296519040",
+        "locationName": "3702010296519040",
+        "longitude": "0",
+        "latitude": "0",
+        "lngLat": {
+            "lng": "",
+            "lat": ""
+          },
+        "targetType": "vehicle",
+        "feature": "",
+        "createTime": "2023-11-08 16:19:58",
+        "userUuid": "3",
+        "userName": "管理员",
+        "organizationUuid": "1",
+        "organizationName": "数字工信内部办公与管理平台",
+        "sysModel": "以图检索",
+        "carInfo": "跃进-小福星-A款",
+        "yearId": 0,
+        "modelId": 0,
+        "brandId": 0,
+        "licensePlate1": "黑BDM688",
+        "licensePlate2": "黑BDM688",
+        "plateColorTypeId2": 5,
+        "direction": 0,
+        "gaitFeature": "",
+        "gaitMaskUrl": [
+          "http://192.168.11.211:9081/83,26a383824c3dda.jpg",
+          "http://192.168.11.211:9081/81,26a384303986aa.jpg"
+        ],
+        "gaitObjectUrl": [
+          "http://192.168.11.211:9081/81,26a366c093f834.jpg",
+          "http://192.168.11.211:9080/80,26a36a12a275a4.jpg"
+        ],
+        "matches":[]
+      },
+      {
+        "id": 5,
+        "caseId": 1,
+        "targetImage": "http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+        "bigImage":"http://192.168.11.12:81/image-proxy?exactly=1&img_uuid=http%3A%2F%2F192.168.7.206%3A8000%2F0fb7753c-549a-11ec-88b0-0cc47a9c4b97.jpg&xywh=267%2C1468%2C1069%2C584",
+        "detection": {
+          "x": 267,
+          "y": 1468,
+          "w": 1069,
+          "h": 584
+        },
+        "captureTime": "2023-11-09 10:47:02",
+        "locationId": "3702010296519040",
+        "locationName": "3702010296519040",
+        "longitude": "0",
+        "latitude": "0",
+        "lngLat": {
+            "lng": "",
+            "lat": ""
+          },
+        "targetType": "vehicle",
+        "feature": "",
+        "createTime": "2023-11-08 16:19:58",
+        "userUuid": "3",
+        "userName": "管理员",
+        "organizationUuid": "1",
+        "organizationName": "数字工信内部办公与管理平台",
+        "sysModel": "以图检索",
+        "carInfo": "跃进-小福星-A款",
+        "yearId": 0,
+        "modelId": 0,
+        "brandId": 0,
+        "licensePlate1": "黑BDM688",
+        "licensePlate2": "黑BDM688",
+        "plateColorTypeId2": 5,
+        "direction": 0,
+        "gaitFeature": "",
+        "gaitMaskUrl": [
+          "http://192.168.11.211:9081/83,26a383824c3dda.jpg",
+          "http://192.168.11.211:9081/81,26a384303986aa.jpg"
+        ],
+        "gaitObjectUrl": [
+          "http://192.168.11.211:9081/81,26a366c093f834.jpg",
+          "http://192.168.11.211:9080/80,26a36a12a275a4.jpg"
+        ],
+        "matches":[]
+      }
+    ],
+    "errorMessage": "",
+    "message": "获取成功",
+    "totalRecords": 5,
+    "usedTime": 0.01
+  }

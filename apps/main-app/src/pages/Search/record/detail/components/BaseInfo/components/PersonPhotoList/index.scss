@@ -1,0 +1,50 @@
+@import "@/assets/css/mixin.scss";
+
+$baseinfo-photolist: "baseinfo-photolist";
+.#{$baseinfo-photolist} {
+  .photo-lists {
+    padding: 0 0 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    @include sfp.flex-gap(16px);
+    .ajax-loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 300px;
+      width: 100%;
+    }
+    // .card-item-flex {
+    //   flex: auto;
+    //   margin-right: 18px;
+    //   margin-bottom: 18px;
+    //   width: 182px;
+    // }
+    .card-normal-item {
+      // margin-right: 0;
+      // margin-bottom: 8px;
+      flex: none;
+      width: 198px;
+    }
+    .result-nodata {
+      display: flex;
+      height: 160px;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--text-color);
+      width: 100%;
+      img {
+        height: 100px;
+      }
+      .ysd-icon {
+        font-size: 50px;
+        opacity: 0.5;
+      }
+    }
+  }
+  .upload-list {
+    display: none;
+  }
+}

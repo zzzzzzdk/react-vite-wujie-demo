@@ -1,0 +1,93 @@
+@import "@/assets/css/mixin";
+$driverPassengerCluster: "driver-passenger-cluster";
+
+.#{$driverPassengerCluster} {
+  margin-top: 10px;
+  .cluster-container {
+    display: grid;
+    gap: 20px;
+    //自动填充
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    justify-items: initial;
+  }
+}
+
+.#{$driverPassengerCluster}-modal {
+  .ysd-modal-content {
+    height: 600px; 
+    position: relative;
+    @include scrollBar();
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 18px;
+      height: calc(100% - 52px);
+      @include scrollBar();
+      .card-normal-item {
+        width: 202px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        flex: none;
+        &:nth-child(6n) {
+          margin-right: 0;
+        }
+      }
+      &.connect {
+        height: 100%;
+        display: grid;
+        gap: 20px;
+        //自动填充
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        justify-items: initial;
+        .clustering-card-container {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .ysd-pagination {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      // left: 50%;
+      // transform: translateX(-50%);
+    }
+    .ysdb-result-box-nodata {
+      margin-top: 10%;
+    }
+    .ysdb-result-box-loading {
+      margin-top: 100px;
+    }
+  }
+}
+.#{$driverPassengerCluster}-confirm {
+  .ysd-modal-header {
+    .ysd-icon {
+      display: none;
+    }
+  }
+  .ysd-modal-content {
+    line-height: 20px;
+    text-align: center;
+    .ysd-icon {
+      background-color: var(--warning-color);
+      border-radius: 50%;
+      color: #fff;
+      font-size: 20px;
+      font-size: var(--modal-title-icon-size);
+      font-size: 10px;
+      height: 20px;
+      margin-right: 6px;
+      text-align: center;
+      // vertical-align:middle;
+      width: 20px;
+    }
+    .padding-top-bottom-xxl{
+      padding: 32px 0 62px 0;
+      border-bottom: 1px solid var(--base-color1-10);
+    }
+  }
+  .ysd-modal-footer{
+    margin-top: 23px;
+    padding-right: 20px;
+  }
+}

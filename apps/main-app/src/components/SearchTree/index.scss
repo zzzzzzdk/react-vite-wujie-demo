@@ -1,0 +1,125 @@
+@import "@/assets/css/mixin";
+
+.search-tree {
+    height: 100%;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 14px;
+        position: relative;
+        margin-bottom: 16px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 4px;
+            height: 16px;
+            background-color: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        & > div:nth-child(1) {
+            font-weight: bold;
+        }
+        & > div:nth-child(2) {
+            cursor: pointer;
+            color: var(--primary-color);
+        }
+    }
+
+    .filter-input {
+        margin-bottom: 22px;
+    }
+
+    .tree-wrap {
+        height: calc(100% - 87px);
+
+        .ysd-tree-node {
+            height: auto;
+            .ysd-tree-node-title {
+                height: auto;
+                padding-left: 0;
+                .tree-item-container {
+                    display: flex;
+                    justify-content: space-between;
+
+                    &:hover {
+                        .btn-group {
+                            display: block;
+                        }
+                    }
+
+                    & > .name {
+                        min-width: calc(100% - 88px);
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        .error-message {
+                            color: var(--danger-color);
+                            font-size: 12px;
+                            height: 22px;
+                            line-height: 22px;
+                        }
+                    }
+                    & > .f-title {
+                        .ysd-icon{
+                            margin-right: 4px;
+                            color: #707070;
+                        }
+                        font-weight: bold;
+                    }
+                    .btn-group {
+                        min-width: 88px;
+                        display: none;
+                        color: var(--primary-color);
+                        font-size: 16px;
+                        text-align: right;
+                        &.show {
+                            display: block;
+                            .cancel {
+                                color: var(--danger-color);
+                            }
+                        }
+                        .del-btn {
+                            color: var(--danger-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ysd-tooltip-content {
+    .tree-item-tooltip {
+        // overflow: hidden;
+        // text-overflow: ellipsis;
+        p {
+            line-height: 24px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .name {
+            font-weight: bold;
+            white-space: normal;
+        }
+        .time {
+            display: flex;
+            .label {
+                line-height: 24px;
+            }
+            .timebox {
+                display: flex;
+                flex-direction: column;
+                line-height: 24px;
+            }
+        }
+        .label {
+            width: 60px;
+            display: inline-block;
+            text-align-last: justify;
+        }
+    }
+}

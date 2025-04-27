@@ -1,0 +1,77 @@
+.clothing-card {
+  width: 204px;
+  padding: 10px;
+  padding-bottom: 0;
+  background-color: var(--base-color2);
+  border-radius: 4px;
+  border: 1px solid var(--base-color1-10);
+  max-width: 300px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+  position: relative;
+  .image {
+    width: 184px;
+    height: 184px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    img {
+      // width: 100%;
+      object-fit: contain;
+    }
+  }
+  .gait-number {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px 4px 0px 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 0 8px;
+    line-height: 24px;
+    font-size: 12px;
+    cursor: pointer;
+    .ysd-icon {
+      margin-right: 5px;
+      font-size: 14px;
+    }
+  }
+  .cloth-info {
+    position: relative;
+    .info {
+      display: flex;
+      align-items: center;
+      height: 30px;
+      &-content {
+        width: calc(100% - 20px);
+        font-size: 14px;
+        padding-left: 5px;
+        font-weight: 400;
+        color: var(--text-color);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        span {
+          color: #3377ff;
+          cursor: pointer;
+        }
+      }
+    }
+    .similarity {
+      position: absolute;
+      cursor: pointer;
+      right: 0px;
+      top: 0px;
+      width: 59px;
+      height: 26px;
+      font-size: 20px;
+      font-family: Microsoft YaHei, Microsoft YaHei-Bold;
+      font-weight: 700;
+      text-align: left;
+      color: #ff5b4d;
+      box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+      span:last-child {
+        font-size: 14px;
+      }
+    }
+  }
+}

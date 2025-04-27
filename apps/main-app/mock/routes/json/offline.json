@@ -1,0 +1,852 @@
+{
+  "status": 0,
+  "data": [
+    {
+      "id": "aa",
+      "text": "\u6211\u7684\u4efb\u52a1",
+      "scale": 2,
+      "children": [
+        {
+          "id": "lx_180",
+          "pid": "aa",
+          "text": "\u6d4b\u8bd5\u4efb\u52a101",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 266,
+              "text": "2fc70603cc7b6a3c10e561266e6080da.wmv"
+            },
+            {
+              "id": "lx_201",
+              "pid": "lx_180",
+              "text": "\u6d4b\u8bd5\u4efb\u52a101-01",
+              "action": "face,person,bicycle,tricycle,car",
+              "children": [
+                {
+                  "id": "lx_202",
+                  "pid": "lx_201",
+                  "text": "\u6d4b\u8bd5\u4efb\u52a101-01-01",
+                  "action": "face,person,bicycle,tricycle,car",
+                  "children": [],
+                  "scale": 4,
+                  "disabled": true
+                }
+              ],
+              "scale": 4,
+              "disabled": true
+            }
+          ],
+          "scale": 3,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "bb",
+      "text": "\u5176\u4ed6\u4efb\u52a1",
+      "scale": 2,
+      "children": [
+        {
+          "id": "lx_122",
+          "pid": "bb",
+          "text": "\u6d4b\u8bd5\u65b0\u7a0b\u5e8f",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 184,
+              "text": "gait_video_test.MP4"
+            },
+            {
+              "id": 207,
+              "text": "00f2d7ab9e107792a7868f2be854d3c4.mp4"
+            },
+            {
+              "id": 208,
+              "text": "gait_video_test.MP4"
+            },
+            {
+              "id": 5,
+              "text": "gait_video_test.MP4"
+            },
+            {
+              "id": 6,
+              "text": "gait_video_test.MP4"
+            },
+            {
+              "id": 7,
+              "text": "gait_video_test.MP4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_123",
+          "pid": "bb",
+          "text": "\u65b0\u7a0b\u5e8f\u65e0\u6b65\u6001",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 185,
+              "text": "gait_video_test.MP4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_126",
+          "pid": "bb",
+          "text": "\u65cb\u8f6c90\u5ea6",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 188,
+              "text": "gait_video_test.MP4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_127",
+          "pid": "bb",
+          "text": "1614",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 189,
+              "text": "1.mp4"
+            },
+            {
+              "id": "lx_166",
+              "pid": "lx_127",
+              "text": "23232",
+              "action": "face,person,bicycle,tricycle,car",
+              "children": [],
+              "scale": 4,
+              "disabled": true
+            },
+            {
+              "id": "lx_169",
+              "pid": "lx_127",
+              "text": "22222",
+              "action": "face,person,bicycle,tricycle,car,gait",
+              "children": [],
+              "scale": 4,
+              "disabled": true
+            }
+          ],
+          "scale": 3,
+          "disabled": false
+        },
+        {
+          "id": "lx_128",
+          "pid": "bb",
+          "text": "123",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 205,
+              "text": "66f4939c2f5bfac01ed45992b008340c.h264"
+            },
+            {
+              "id": 206,
+              "text": "040d871728f48d0f8c98a5916593cca3.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_131",
+          "pid": "bb",
+          "text": "\u6d17",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 193,
+              "text": "\u6d4b\u8bd5\u89c6\u9891.mp4"
+            },
+            {
+              "id": 234,
+              "text": "gait_video_test.MP4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_132",
+          "pid": "bb",
+          "text": "\u70b9\u51fb",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 194,
+              "text": "30M.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_133",
+          "pid": "bb",
+          "text": "041901",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 195,
+              "text": "6dfea25ae76dbb01dec3c2f9dd73ab3c (1).mp4"
+            },
+            {
+              "id": 252,
+              "text": "\u65b0\u5efa\u6587\u4ef6\u5939.zip"
+            },
+            {
+              "id": "lx_167",
+              "pid": "lx_133",
+              "text": "22222",
+              "action": "face,person,bicycle,tricycle,car",
+              "children": [],
+              "scale": 4,
+              "disabled": true
+            }
+          ],
+          "scale": 3,
+          "disabled": false
+        },
+        {
+          "id": "lx_135",
+          "pid": "bb",
+          "text": "fd",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 200,
+              "text": "6dfea25ae76dbb01dec3c2f9dd73ab3c.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_136",
+          "pid": "bb",
+          "text": "d",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 201,
+              "text": "22\u5206\u949f\u3001301M.mp4"
+            },
+            {
+              "id": 202,
+              "text": "21\u5206\u949f\u3001594M.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_137",
+          "pid": "bb",
+          "text": "\u4e0d\u89e3\u6790",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 203,
+              "text": "16M.mp4"
+            },
+            {
+              "id": 204,
+              "text": "38M.mp4"
+            },
+            {
+              "id": 210,
+              "text": "gait_video_test.MP4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_138",
+          "pid": "bb",
+          "text": "\u51b2\u51b2\u51b2",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [],
+          "scale": 3,
+          "disabled": true
+        },
+        {
+          "id": "lx_139",
+          "pid": "bb",
+          "text": "042001",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 209,
+              "text": "1.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_140",
+          "pid": "bb",
+          "text": "\u63a8\u6587",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 211,
+              "text": "1.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_141",
+          "pid": "bb",
+          "text": "1111",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 212,
+              "text": "xx.zip"
+            },
+            {
+              "id": 214,
+              "text": "xx.zip"
+            },
+            {
+              "id": 215,
+              "text": "xx.zip"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_144",
+          "pid": "bb",
+          "text": "222",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 220,
+              "text": "6dfea25ae76dbb01dec3c2f9dd73ab3c (1) - \u526f\u672c.mp4"
+            },
+            {
+              "id": 222,
+              "text": "D1_S20230426025234_E20230426031124_1682484706.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_145",
+          "pid": "bb",
+          "text": "ceshiceshi",
+          "action": "face,person,gait",
+          "children": [
+            {
+              "id": 221,
+              "text": "D1_S20230426025234_E20230426031124_1682484706.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_147",
+          "pid": "bb",
+          "text": "333",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 224,
+              "text": "D1_S20230426025234_E20230426031124_1682484706.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_148",
+          "pid": "bb",
+          "text": "555",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 225,
+              "text": "D1_S20230426025234_E20230426031124_1682484706.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_149",
+          "pid": "bb",
+          "text": "6666",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 228,
+              "text": "D1_S20230426025234_E20230426031124_1682484706.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_151",
+          "pid": "bb",
+          "text": "8888",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 230,
+              "text": "D1_S20230426025234_E20230426031124_1682484706.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_152",
+          "pid": "bb",
+          "text": "999",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 231,
+              "text": "D1_S20230426025234_E20230426031124_1682484706.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_153",
+          "pid": "bb",
+          "text": "050401",
+          "action": "face,person,bicycle,tricycle,car,gait",
+          "children": [
+            {
+              "id": 232,
+              "text": "20230504.zip"
+            },
+            {
+              "id": 233,
+              "text": "050402.zip"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_154",
+          "pid": "bb",
+          "text": "\u4efb\u52a1\u4e00\u540c\u89c6\u9891",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 235,
+              "text": "1\u5206\u949f.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_155",
+          "pid": "bb",
+          "text": "\u4efb\u52a1\u4e8c-\u89c6\u9891",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 236,
+              "text": "1\u5206\u949f.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_156",
+          "pid": "bb",
+          "text": "\u89c6\u98911",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 237,
+              "text": "\u6d4b\u8bd5\u89c6\u9891.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_157",
+          "pid": "bb",
+          "text": "\u89c6\u98912",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 238,
+              "text": "\u6d4b\u8bd5\u89c6\u9891.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_158",
+          "pid": "bb",
+          "text": "\u89c6\u98913",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 239,
+              "text": "\u6d4b\u8bd5\u89c6\u9891.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_159",
+          "pid": "bb",
+          "text": "\u4e00\u4e2a\u5c0f\u65f610\u5206\u949f",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 240,
+              "text": "\u4e00\u5c0f\u65f610\u5206\u949f3.2G.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_162",
+          "pid": "bb",
+          "text": "\u4efb\u52a1",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 242,
+              "text": "\u4e00\u5c0f\u65f610\u5206\u949f3.2G.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_164",
+          "pid": "bb",
+          "text": "\u4e0d\u540c\u683c\u5f0f",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 249,
+              "text": "\u6d4b\u8bd5\u7684\u89c6\u9891 - \u526f\u672c (3).MBF"
+            },
+            {
+              "id": 251,
+              "text": "16M.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_168",
+          "pid": "bb",
+          "text": "333443",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [],
+          "scale": 3,
+          "disabled": true
+        },
+        {
+          "id": "lx_170",
+          "pid": "bb",
+          "text": "1137",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": "lx_171",
+              "pid": "lx_170",
+              "text": "01",
+              "action": "face,person,bicycle,tricycle,car",
+              "children": [
+                {
+                  "id": 253,
+                  "text": "D1_S20230426025234_E20230426031124_1682484706.mp4"
+                },
+                {
+                  "id": 254,
+                  "text": "192.168.7.212.mp4"
+                },
+                {
+                  "id": 255,
+                  "text": "test.mp4"
+                }
+              ],
+              "scale": 4
+            }
+          ],
+          "scale": 3,
+          "disabled": false
+        },
+        {
+          "id": "lx_172",
+          "pid": "bb",
+          "text": "wmv",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 256,
+              "text": "30M-WMV.wmv"
+            },
+            {
+              "id": 264,
+              "text": "516bbc1e7858d3524fa6c2de45afc5ca.wmv"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_173",
+          "pid": "bb",
+          "text": "LLM-test",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 257,
+              "text": "mid.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_174",
+          "pid": "bb",
+          "text": "test_pic",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 258,
+              "text": "\u76ee\u6807\u68c0\u7d22\u7ed3\u679c\u5bfc\u51fa_20230626133721_\u573a\u666f\u56fe.zip"
+            },
+            {
+              "id": 259,
+              "text": "\u76ee\u6807\u68c0\u7d22\u7ed3\u679c\u5bfc\u51fa_20230626133721_\u573a\u666f\u56fe.zip"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_175",
+          "pid": "bb",
+          "text": "ztest1",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": "lx_176",
+              "pid": "lx_175",
+              "text": "ztest2",
+              "action": "face,person,bicycle,tricycle,car",
+              "children": [],
+              "scale": 4,
+              "disabled": true
+            },
+            {
+              "id": "lx_178",
+              "pid": "lx_175",
+              "text": "ztest2.2",
+              "action": "face,person,bicycle,tricycle,car",
+              "children": [
+                {
+                  "id": 261,
+                  "text": "jpg.zip"
+                }
+              ],
+              "scale": 4
+            }
+          ],
+          "scale": 3,
+          "disabled": false
+        },
+        {
+          "id": "lx_181",
+          "pid": "bb",
+          "text": "\u533a\u57df\u7b5b\u9009\u65b9\u6848",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 267,
+              "text": "1\u5206\u949f.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_182",
+          "pid": "bb",
+          "text": "\u4f4e\u4e8e200\u76ee\u6807\u6570",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 268,
+              "text": "\u4e00\u5c0f\u65f610\u5206\u949f3.2G.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_183",
+          "pid": "bb",
+          "text": "\u6b65\u6001\u68c0\u7d22\u89c6\u9891",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 269,
+              "text": "\u6d4b\u8bd5\u89c6\u9891.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_184",
+          "pid": "bb",
+          "text": "\u4e0a\u4f20",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 270,
+              "text": "\u6d4b\u8bd5\u89c6\u9891.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_185",
+          "pid": "bb",
+          "text": "111",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 271,
+              "text": "D1_S20230426025234_E20230426031124_1682484706.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_187",
+          "pid": "bb",
+          "text": "\u6d4b\u8bd5",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 275,
+              "text": "e56895c00f0c6c3c750666260e7f560d (1).mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_190",
+          "pid": "bb",
+          "text": "ceshi shuju ",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 277,
+              "text": "\u4e8c\u8f6e\u8f66\u641c\u7d22\u5bfc\u51fa_2023_07_17_15_44_50_\u56fe\u7247\u4e00.zip"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_196",
+          "pid": "bb",
+          "text": "\u4e00\u7ea7\u4efb\u52a1",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": "lx_197",
+              "pid": "lx_196",
+              "text": "\u4e8c\u7ea7\u4efb\u52a1",
+              "action": "face,person,bicycle,tricycle,car",
+              "children": [
+                {
+                  "id": "lx_198",
+                  "pid": "lx_197",
+                  "text": "\u4e09\u7ea7\u4efb\u52a1",
+                  "action": "face,person,bicycle,tricycle,car",
+                  "children": [
+                    {
+                      "id": 283,
+                      "text": "2fb4bb463fc44d61e790004439093eac.mp4"
+                    }
+                  ],
+                  "scale": 4
+                }
+              ],
+              "scale": 4,
+              "disabled": false
+            }
+          ],
+          "scale": 3,
+          "disabled": true
+        },
+        {
+          "id": "lx_199",
+          "pid": "bb",
+          "text": "\u65b0\u4e00\u7ea7\u4efb\u52a1",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": "lx_200",
+              "pid": "lx_199",
+              "text": "\u65b0\u4e8c\u7ea7\u4efb\u52a1",
+              "action": "face,person,bicycle,tricycle,car",
+              "children": [
+                {
+                  "id": 284,
+                  "text": "prompt.87f3.mp4"
+                }
+              ],
+              "scale": 4
+            }
+          ],
+          "scale": 3,
+          "disabled": false
+        },
+        {
+          "id": "lx_203",
+          "pid": "bb",
+          "text": "0801ces",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": 287,
+              "text": "00f2d7ab9e107792a7868f2be854d3c4.mp4"
+            }
+          ],
+          "scale": 3
+        },
+        {
+          "id": "lx_205",
+          "pid": "bb",
+          "text": "55",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [
+            {
+              "id": "lx_206",
+              "pid": "lx_205",
+              "text": "iii",
+              "action": "face,person,bicycle,tricycle,car",
+              "children": [],
+              "scale": 4,
+              "disabled": true
+            }
+          ],
+          "scale": 3,
+          "disabled": true
+        },
+        {
+          "id": "lx_207",
+          "pid": "bb",
+          "text": "3333",
+          "action": "face,person,bicycle,tricycle,car",
+          "children": [],
+          "scale": 3,
+          "disabled": true
+        }
+      ]
+    }
+  ],
+  "message": "success"
+}

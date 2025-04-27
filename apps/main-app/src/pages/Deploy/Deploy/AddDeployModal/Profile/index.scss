@@ -1,0 +1,67 @@
+.deploy-profile {
+  position: relative;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(108px, 1fr));
+  /* 自动排列 */
+  grid-auto-flow: row dense;
+  justify-items: start;
+  gap: 12px;
+  .img-container {
+    position: relative;
+    .ysd-image-wrapper {
+      width: 108px;
+      height: 108px;
+    }
+    .checkbox,
+    .delete {
+      position: absolute;
+      top: 3px;
+      cursor: pointer;
+    }
+    .checkbox {
+      left: 6px;
+    }
+    .delete {
+      top: 6px;
+      right: 6px;
+      color: var(--danger-color);
+    }
+  }
+  .profile {
+    grid-column: 2/4;
+  }
+  .load {
+    position: absolute;
+    right: -60px;
+    bottom: 0;
+    color: var(--primary-color);
+    cursor: pointer;
+    &-more {
+      &::after {
+        content: "";
+        position: absolute;
+        right: -12px;
+        top: 5px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 8.7px 5px 0 5px;
+        border-color: var(--primary-color) transparent transparent transparent;
+      }
+    }
+    &-less {
+      &::after {
+        content: "";
+        position: absolute;
+        right: -12px;
+        top: 5px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 5px 8.7px 5px;
+        border-color: transparent transparent #007bff transparent;
+      }
+    }
+  }
+}

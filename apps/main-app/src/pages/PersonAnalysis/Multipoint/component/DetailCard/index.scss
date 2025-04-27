@@ -1,0 +1,104 @@
+.card-vehicle-detail-item {
+  max-width: 400px;
+  width: 100%;
+  // background-color: var(--base-color2);
+  border-radius: 4px;
+  border: 1px solid var(--base-color1-10);
+  position: relative;
+  min-height: 150px;
+  margin-bottom: 10px;
+  padding: 10px 0 10px 10px;
+
+  .index {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 4px 0px 4px 0px;
+    background: rgba(51, 119, 255, 0.5);
+    color: #fff;
+    font-weight: 700;
+    width: 32px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+  }
+
+  .flag-title {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 10px;
+
+    .icon-border {
+      border: 1px solid rgba(51, 119, 255, 0.3);
+      border-radius: 4px;
+      padding: 2px;
+      box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 10%);
+      margin-left: 2px;
+      margin-right: 5px;
+      
+      .icon-color {
+        width: 22px;
+        height: 22px;
+        opacity: 1;
+        border-radius: 4px;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.10);
+        text-align: center;
+        font-size: 14px;
+        font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 22px;
+      }
+    }
+
+    .num-track {
+      margin-left: 5px;
+    }
+
+    .more-btn {
+      cursor: pointer;
+      user-select: none;
+      margin-left: auto;
+      margin-right: 10px;
+      color: var(--primary-color);
+
+      .ysd-icon {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .track-centent {
+    display: flex;
+    flex-wrap: wrap;
+
+    .track-item {
+      width: calc(50% - 10px);
+      margin-right: 10px;
+      margin-bottom: 10px;
+
+      .capture-img {
+        height: 120px;
+        cursor: pointer;
+      }
+      .item-location-content {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .capture-info {
+      .info-item {
+        display: flex;
+        margin-top: 10px;
+      }
+
+      .ysd-icon {
+        margin-right: 5px;
+
+      }
+    }
+  }
+}

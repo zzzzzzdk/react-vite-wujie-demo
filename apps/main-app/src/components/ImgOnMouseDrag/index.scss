@@ -1,0 +1,19 @@
+.mouse-drag-container {
+    background-color: var(--color-gait-imgs-bg);
+    width: 100%;
+    height: 100%;
+    color: var(--color-text);
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: move;
+    -webkit-user-drag: none;
+    &::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    & > img {
+        height: 100%;
+        width: auto;
+        user-select: none;
+    }
+}

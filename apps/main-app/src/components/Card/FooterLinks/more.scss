@@ -1,0 +1,44 @@
+.more-links-wrap {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.card-more-popover {
+  .role-p {
+    a:hover {
+      text-decoration: underline !important;
+    }
+  }
+  .ysd-popover-inner {
+    .ysd-popover-inner-content {
+      padding: 4px 0;
+      .role-p {
+        width: 102px;
+        text-align: center;
+        line-height: 36px;
+        cursor: pointer;
+        .ysd-link {
+          width: 100%;
+          height: 100%;
+          color: var(--popover-color);
+          &:hover {
+            color: var(--primary-color);
+          }
+        }
+        a.no-link {
+          color: #999 !important;
+          text-decoration: none !important;
+        }
+        &:hover {
+          background-color: rgba(51, 119, 255, 0.06);
+        }
+        .joinClue:hover {
+          color: var(--primary-color);
+        }
+        .errorSubmit:hover {
+          color: var(--danger-color);
+        }
+      }
+    }
+  }
+}

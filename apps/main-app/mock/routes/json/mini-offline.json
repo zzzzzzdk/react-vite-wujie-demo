@@ -1,0 +1,72 @@
+{
+  "status": 0,
+  "data": [
+    {
+      "id": "1-0-0",
+      "text": "\u6211\u7684\u4efb\u52a1",
+      "scale": 2,
+      "children": [
+        {
+          "id": "1-1-0",
+          "pid": "1-0-0",
+          "text": "\u6d4b\u8bd5\u4efb\u52a101",
+          "action": "face,person,bicycle,tricycle,car",
+          "scale": 3,
+          "disabled": false
+        },
+        {
+          "id": "1-2-0",
+          "pid": "1-0-0",
+          "text": "\u6d4b\u8bd5\u4efb\u52a101 hello world",
+          "action": "face,person,bicycle,tricycle,car",
+          "disabled": false
+        }
+      ]
+    },
+
+    {
+      "id": "2-0-0",
+      "text": "其他任务",
+      "scale": 2,
+      "children": [
+        {
+          "id": "2-1-0",
+          "pid": "2-0-0",
+          "text": "\u6d4b\u8bd5\u4efb\u52a101",
+          "action": "face,person,bicycle,tricycle,car",
+          "scale": 3,
+          "disabled": false
+        },
+        {
+          "id": "2-2-0",
+          "pid": "2-0-0",
+          "text": "\u6d4b\u8bd5\u4efb\u52a101 hello world",
+          "action": "face,person,bicycle,tricycle,car",
+          "disabled": false,
+          "children": [
+            {
+              "id": "2-2-1",
+              "pid": "2-2-0",
+              "text": "\u6d4b\u8bd5\u4efb\u52a101 hello world----"
+            }
+          ]
+        },
+        {
+          "id": "2-3-0",
+          "pid": "2-0-0",
+          "text": "\u6d4b\u8bd5\u4efb\u52a101 hello world",
+          "action": "face,person,bicycle,tricycle,car",
+          "disabled": false,
+          "children": [
+            {
+              "id": "2-3-1",
+              "pid": "2-3-0",
+              "text": "\u6d4b\u8bd5\u4efb\u52a101 hello world"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "message": "success"
+}

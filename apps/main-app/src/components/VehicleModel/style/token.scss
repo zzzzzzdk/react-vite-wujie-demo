@@ -1,0 +1,26 @@
+:root {
+  --vehicle-model-background-color: var(--base-color2-30); // vehicleModel|背景色|input|-
+  --vehicle-model-border-width: 1px; // vehicleModel|边框宽度|input|-
+  --vehicle-model-border-color: var(--base-color1-30); // vehicleModel|边框颜色|input|-
+  --vehicle-model-border-radius: var(--border-radius); // vehicleModel|边框圆角|input|-
+  --vehicle-model-icon-size: var(--font-size); // vehicleModel|图标大小|input|-
+  --vehicle-model-icon-color: var(--base-color1-30); // vehicleModel|图标颜色|input|-
+  --vehicle-model-placeholder-color: var(--base-color1-50); // vehicleModel|提示文字颜色|input|-
+  --vehicle-model-hover-border-color: var(--primary-color); // vehicleModel|hover边框颜色|input|-
+  --vehicle-model-color: var(--base-color1); // vehicleModel|文字颜色|input|-
+  --vehicle-model-error-border-color: var(--danger-color); // vehicleModel|错误边框颜色|input|-
+  --vehicle-model-error-box-shadow-color: var(--danger-color-15); // vehicleModel|错误阴影颜色|input|-
+  --vehicle-model-disabled-background-color: var(--base-color1-5); // vehicleModel|禁用背景颜色|input|-
+  --vehicle-model-disabled-border-color: var(--base-color1-15); // vehicleModel|禁用边框颜色|input|-
+  --vehicle-model-disabled-color: var(--base-color1-50); // vehicleModel|禁用文字颜色|input|-
+  --vehicle-model-wrapper-background-color: var(--base-color2); // vehicleModel|下拉框背景颜色|input|-
+  --vehicle-model-wrapper-border-color: var(--base-color1-15); // vehicleModel|下拉框边框颜色|input|-
+  --vehicle-model-wrapper-color: var(--base-color1); // vehicleModel|下拉框文字颜色|input|-
+  --vehicle-model-letter-background-color: var(--primary-color-10); // vehicleModel|下拉框字母导航栏背景颜色|input|-
+  --vehicle-model-letter-hover-background-color: var(--primary-color-30); // vehicleModel|下拉框字母导航栏 hover 背景颜色|input|-
+  --vehicle-model-letter-active-background-color: var(--primary-color-85); // vehicleModel|下拉框字母导航栏 选中 背景颜色|input|-
+  --vehicle-model-search-background-color: var(--base-color2); // vehicleModel|下拉框搜索框背景颜色|input|-
+  --vehicle-model-item-hover-background-color: var(--base-color1-5); // vehicleModel|下拉框选项 hover 背景颜色|input|-
+  --vehicle-model-item-active-background-color: var(--primary-color-15); // vehicleModel|下拉框选项 选中 背景颜色|input|-
+  --vehicle-model-item-active-color: var(--primary-color); // vehicleModel|下拉框选项 选中 文字颜色|input|-
+}

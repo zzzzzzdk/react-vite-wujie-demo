@@ -1,0 +1,42 @@
+.deployment-info-cell {
+  display: flex;
+  min-height: 48px;
+  margin: -1px 0 0 -1px;
+  min-width: calc(1 / 3 * 100%);
+  max-width: calc(1 / 3 * 100%);
+  .name {
+    width: 116px;
+    display: grid;
+    place-items: center;
+    background: var(--table-color-bg-header-cell);
+    border: 1px solid var(--table-color-border);
+  }
+  .text {
+    margin: 0 0 0 -1px;
+    padding-left: 2em;
+    border: 1px solid var(--table-color-border);
+    border-left: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    display: flex;
+    align-items: center;
+    flex: 1;
+    span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+
+.deployment-info-cell-list {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  .deployment-info-cell {
+    // min-width: 260px;
+    flex: 1;
+  }
+}

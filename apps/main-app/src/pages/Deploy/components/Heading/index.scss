@@ -1,0 +1,31 @@
+.deployment-heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1em;
+  position: relative;
+  .text {
+    font-weight: bold;
+  }
+  .blue-bar {
+    width: 4px;
+    height: 1em;
+    background: var(--primary-color);
+    &-round {
+      border-radius: 2px;
+    }
+    margin-right: 10px;
+  }
+
+  // modifier
+  &-level-1 {
+    font-size: 16px;
+  }
+  &-level-2 {
+    font-size: 14px;
+  }
+  &-gray {
+    background-color: var(--table-color-bg-body-stripe-row);
+    padding: 2px;
+  }
+}

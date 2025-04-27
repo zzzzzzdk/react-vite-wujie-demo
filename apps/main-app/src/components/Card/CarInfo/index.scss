@@ -1,0 +1,108 @@
+@import "../../../assets/css/mixin.scss";
+$carlist-item: "carlist-item";
+.#{$carlist-item} {
+  display: flex;
+  width: 372px;
+  height: 198px;
+  background: var(--base-color2);
+  border: 1px solid var(--base-color1-10);
+  border-radius: 4px;
+  padding: 10px;
+  position: relative;
+  &:hover {
+    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 10%);
+  }
+  .car-img {
+    width: 178px;
+    height: 178px;
+    border-radius: 4px 0px 0px 4px;
+    margin-right: 10px;
+    position: relative;
+    .card-delete {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 2;
+      color: #ff5b4d;
+      cursor: pointer;
+    }
+  }
+  .car-info {
+    flex: 1;
+    .plate-info {
+      margin-bottom: 5px;
+    }
+    .label-text {
+      display: flex;
+      height: 23px;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+      color: var(--text-color);
+      line-height: 20px;
+      .car-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 90px;
+        span {
+          color: var(--primary-color);
+          cursor: pointer;
+        }
+        >em{
+          font-style: normal;
+          margin: 0 3px;
+        }
+      }
+    }
+    .time-location {
+      position: absolute;
+      bottom: 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--text-color);
+      padding-bottom: 5px;
+      .time-info,
+      .location-info {
+        display: flex;
+        height: 23px;
+        margin-top: 5px;
+        .card-info-content {
+          padding-left: 5px;
+          width: 160px;
+          @include text-ellipsis(single);
+          &.can-click {
+            cursor: pointer;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      .label-info {
+        display: flex;
+        .card-label {
+          padding-left: 5px;
+          display: flex;
+          @include sfp.flex-gap((0, 5px));
+          font-size: 14px;
+          font-weight: 400;
+          text-align: center;
+          line-height: 24px;
+          color: #ff5b4d;
+          height: 24px;
+          .label-item {
+            border-radius: 2px;
+            background: rgb(255, 91, 77, 0.2);
+            width: 76px;
+          }
+          .label-more {
+            border-radius: 2px;
+            background: rgb(255, 91, 77, 0.2);
+            width: 24px;
+          }
+        }
+      }
+    }
+  }
+}

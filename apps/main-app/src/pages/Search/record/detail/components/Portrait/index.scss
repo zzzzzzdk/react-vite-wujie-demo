@@ -1,0 +1,384 @@
+@import "@/assets/css/mixin.scss";
+
+$record-detail-portrait: "record-detail-portrait";
+
+.#{$record-detail-portrait} {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  &-top {
+    height: calc(100%);
+    @include scrollBar();
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+  }
+  &-header {
+    border-bottom: 1px solid var(--image-border-color);
+    padding-bottom: 15px;
+    .ysd-form {
+      display: flex;
+      @include sfp.flex-gap((0, 16px));
+      flex-wrap: wrap;
+      .ysd-form-item {
+        width: auto;
+        margin-bottom: 0;
+      }
+      .plate {
+        width: 240px;
+      }
+      .ysd-input-inner {
+        width: 170px;
+        // input {
+        //   width: 150px;
+        // }
+      }
+    }
+    .group-info {
+      width: 100%;
+      height: 51px;
+      background: rgba(51, 119, 255, 0.06);
+      border-radius: 4px;
+      margin-top: 15px;
+      display: flex;
+      @include sfp.flex-gap((0, 10px));
+      align-items: center;
+      padding-left: 20px;
+      .del-filter {
+        width: 72px;
+        height: 24px;
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid #ff5b4d;
+        border-radius: 2px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: #ff5b4d;
+        line-height: 24px;
+        cursor: pointer;
+      }
+    }
+    .plate-top {
+      // position: relative;
+    }
+    // @media screen and (max-width: 1920px) {
+    //   .plate-top {
+    //     display: none;
+    //     position: relative;
+    //   }
+    //   .plate-bottom {
+    //     display: block;
+    //   }
+    // }
+
+    // /* 当屏幕宽度大于1000像素时，应用以下样式 */
+    // @media screen and (min-width: 1921px) {
+    //   .plate-top {
+    //     display: block;
+    //     position: relative;
+    //   }
+    //   .plate-bottom {
+    //     display: none;
+    //   }
+    // }
+  }
+  &-content {
+    // height: calc(100% - 135px);
+    // @include scrollBar();
+    .result-total {
+      height: 28px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      @include sfp.flex-gap((0, 10px));
+      margin: 10px 0;
+      .total-num > span {
+        color: #3377ff;
+        margin: 0 5px;
+      }
+      .ysd-tag {
+        &:hover {
+          background-color: var(--danger-color-10) !important;
+          border: none;
+          .ysd-tag-close-btn {
+            color: #ff5b4d;
+          }
+        }
+      }
+      .result-groups {
+        position: relative;
+        .tips {
+          margin: 0 10px;
+          color: var(--primary-color);
+          .ysd-icon {
+            margin-right: 10px;
+          }
+        }
+      }
+      .ysd-select {
+        width: 162px !important;
+        height: 32px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        margin: 0 5px;
+        background-color: var(--select-background-color);
+        border: var(--select-border-width) solid var(--select-border-color);
+      }
+      .ysd-tag {
+        background: var(--base-color1-5) !important;
+        border: none;
+      }
+    }
+    .result-data {
+      .target-face-card {
+        flex: auto;
+        max-width: 300px;
+        width: 182px;
+        // height: 315px;
+        padding: 10px;
+        margin-right: 18px;
+        margin-bottom: 18px;
+        background-color: var(--base-color2);
+        border-radius: 4px;
+        border: 1px solid var(--base-color1-10);
+        position: relative;
+        &:hover {
+          box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 10%);
+        }
+        .image {
+          height: 180px;
+          margin-bottom: 12px;
+          cursor: pointer;
+        }
+        .face-card-info {
+          font-size: 14px;
+          font-weight: 400;
+          color: var(--text-color);
+          position: relative;
+          .add-btn {
+            position: absolute;
+            right: 0;
+            top: 0;
+            border-radius: 4px;
+            cursor: pointer;
+            padding: 2px 5px;
+            top: -5px;
+            background: #3377ff;
+            text-align: center;
+            line-height: 16px;
+            color: #fff;
+            font-size: 8px;
+          }
+          .now-capture {
+            margin: 5px 0;
+          }
+          .capture-num {
+            cursor: pointer;
+            .card-info-content span {
+              color: #3377ff;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+          .card-info {
+            display: flex;
+            height: 20px;
+            .card-info-content {
+              padding-left: 5px;
+              &.location {
+                cursor: pointer;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+      }
+      .card-item-flex {
+        flex: auto;
+        margin-right: 18px;
+        margin-bottom: 18px;
+        width: 182px;
+      }
+      &-face {
+        .card-item-flex {
+          width: 182px;
+        }
+      }
+      &-pedestrian {
+        .card-item-flex {
+          width: 200px;
+        }
+        &-0 {
+          .card-item-flex {
+            width: 176px;
+          }
+        }
+        &-2 {
+          .result-card-list-row {
+            margin-bottom: 10px;
+            .clothing-same {
+              padding: 40px 16px 16px 10px;
+              overflow-x: auto;
+              .clothing-card {
+                margin-right: 16px;
+                margin-bottom: 16px;
+              }
+            }
+          }
+        }
+      }
+      .gait-card-info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 182px;
+        border: 1px solid var(--tabs-line-border);
+        border-radius: 12px 4px 4px 4px;
+        padding: 5px;
+        margin-bottom: 16px;
+        .gait-video {
+          width: 16%;
+          border-radius: 4px;
+          position: relative;
+          .video-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -24px 0 0 -16px;
+            cursor: pointer;
+            .ysd-icon {
+              font-size: 55px;
+            }
+          }
+        }
+        .gait-mask {
+          width: 68%;
+          border: 1px solid var(--tabs-line-border);
+          border-radius: 4px;
+          margin: 0 5px;
+          position: relative;
+          .gait-sequence-list {
+            background: rgb(51, 119, 255, 0.01);
+            padding-bottom: 0;
+            .mouse-drag-container {
+              .list-top,
+              .list-bottom {
+                height: 49%;
+              }
+            }
+          }
+          .tip-mask {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 24px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 4px 0px 4px 0px;
+            padding: 0 10px;
+            line-height: 24px;
+            color: #fff;
+          }
+          .tip-info {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 24px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 0px 4px 0px 4px;
+            padding: 0 10px;
+            line-height: 24px;
+            color: #fff;
+            cursor: pointer;
+          }
+        }
+        .gait-info {
+          width: 16%;
+          position: relative;
+          padding: 10px;
+          .card-info {
+            display: flex;
+            line-height: 30px;
+            .card-info-content {
+              padding-left: 10px;
+              cursor: pointer;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+          .ysd-btn {
+            width: 220px;
+            height: 32px;
+            border: 1px solid #3377ff;
+            border-radius: 4px;
+            line-height: 32px;
+            position: absolute;
+            bottom: 0;
+            right: 10px;
+          }
+        }
+      }
+    }
+  }
+  &-pagination {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    border-top: 1px solid var(--tabs-line-border);
+    padding-top: 20px;
+    background-color: var(--page-bottom-bg);
+    z-index: 2;
+  }
+  &-cluter-modal {
+    .cluter-body {
+      position: relative;
+      height: 620px;
+      @include scrollBar();
+      // padding-bottom: 50px;
+      .title {
+        span {
+          color: #3377ff;
+          margin: 5px;
+        }
+      }
+      .content {
+        display: flex;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        .card-normal-item {
+          flex: none;
+          height: fit-content;
+        }
+        .ajax-loading {
+          width: 100%;
+          height: 500px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .cluter-pagination {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+      }
+    }
+    .ysd-modal-footer {
+      border-top: 1px solid var(--modal-title-border-color);
+      padding-top: 22px;
+      margin-top: 0;
+    }
+  }
+}
+
+.#{$record-detail-portrait}-cluter-modal {
+  .cluter-body {
+    .card-normal-item {
+      width: 204px;
+    }
+  }
+}

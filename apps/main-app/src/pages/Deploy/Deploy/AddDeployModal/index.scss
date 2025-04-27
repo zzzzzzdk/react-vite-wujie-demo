@@ -1,0 +1,110 @@
+@import "@/assets/css/mixin";
+.add-deploy-modal {
+  .fusion3-vehicle-model-trigger {
+    left: 620px !important;
+    top: 130px !important;
+  }
+  .layout {
+    max-height: 580px;
+    margin: 0 auto;
+    padding: 0 110px;
+    @include scrollBar;
+    header {
+      display: grid;
+      place-items: center;
+      .tabs {
+        margin: 0 0 24px 0;
+        padding: 3px;
+        border: 1px solid var(--tabs-border);
+        border-radius: var(--border-radius);
+        .ysd-radio-button-wrapper {
+          border: 0;
+          margin: 0;
+        }
+      }
+    }
+    main {
+      .form {
+        .ysd-form-item-content-value-input {
+          // margin: 2px 0;
+        }
+        /* 车牌号布控 */
+        display: grid;
+        gap: 16px;
+        .ysd-form-item {
+          margin: 0;
+        }
+        .fusion3-form-plate .fusion3-form-plate-form-input {
+          width: auto;
+          .ysd-input-inner {
+            position: relative;
+            left: -1px;
+            // border-left: none;
+          }
+        }
+        .form-vehicle-modal {
+          .fusion3-vehicle-model {
+            flex: 1;
+          }
+        }
+        /* 证件号布控 */
+        .warning {
+          .ysd-table-tr {
+            &:hover {
+              .ysd-table-td {
+                color: red;
+                background-color: var(--base-color2);
+              }
+            }
+          }
+          .group {
+            display: grid;
+            gap: 10px;
+          }
+          .method {
+            display: flex;
+            align-items: center;
+            .checkbox {
+              min-width: 92px;
+            }
+            .input {
+              width: 85px;
+            }
+          }
+        }
+        .ysd-form-item-content-value-input {
+          // @include sfp.flex-gap((0, 12px));
+          .license-wrap {
+            display: flex;
+            @include sfp.flex-gap((0, 12px));
+            width: 100%;
+          }
+        }
+        .id-number-btn {
+          min-width: 80px;
+          padding: 0 10px;
+        }
+        /* 图片布控  */
+        .threshold {
+          display: grid;
+          grid-template-columns: auto 85px;
+          align-items: center;
+          gap: 16px;
+        }
+      }
+    }
+  }
+  &-switch-warning {
+    .text {
+      margin: 24px 0 40px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .icon {
+        font-size: 16px;
+        margin: 4px;
+        color: var(--warning-color);
+      }
+    }
+  }
+}

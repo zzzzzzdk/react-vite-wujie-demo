@@ -1,0 +1,94 @@
+@import "@/assets/css/mixin.scss";
+$baseinfo-carlist: "baseinfo-carlist";
+
+.#{$baseinfo-carlist} {
+  .car-lists {
+    padding: 0 15px;
+    .ajax-loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      width: 100%;
+    }
+    .result-card-list-row {
+      margin-bottom: 10px;
+      @include sfp.flex-gap(10px);
+    }
+    .card-item-flex {
+      flex: auto;
+      margin-right: 18px;
+      margin-bottom: 18px;
+      width: 182px;
+    }
+    .result-nodata {
+      display: flex;
+      height: 160px;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--text-color);
+      width: 100%;
+      .ysd-icon {
+        font-size: 50px;
+        opacity: 0.5;
+      }
+      img {
+        height: 100px;
+      }
+    }
+  }
+  .under-car-lists {
+    display: flex;
+    @include sfp.flex-gap(10px);
+    flex-wrap: wrap;
+  }
+  .car-pagination {
+    position: relative;
+    height: 40px;
+    .ysd-pagination {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+  &-add-plate-modal {
+    .add-plate {
+      display: flex;
+      align-items: center;
+      padding: 40px 100px;
+      .plate-label {
+        width: 85px;
+        height: 19px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        color: var(--text-color);
+        line-height: 22px;
+      }
+      .deploy-item-content {
+        flex: 1;
+      }
+      .ysd-input-inner {
+        border-left: none;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+    }
+    .ysd-modal-footer {
+      border-top: 1px solid var(--modal-title-border-color);
+      padding-top: 22px;
+      margin-top: 0;
+    }
+  }
+  &-result-nodata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--resultbox-nodata-tip-color);
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+}
