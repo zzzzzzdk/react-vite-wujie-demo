@@ -2,9 +2,9 @@
   "name": "main-app",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "concurrently \"pnpm run mock\"  \"pnpm run dev\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",

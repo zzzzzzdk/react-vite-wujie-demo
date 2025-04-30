@@ -9,7 +9,7 @@ import ajax from '@/services'
 import c from '../images/c.png'
 import h from '../images/h.png'
 import { Link } from 'react-router-dom';
-import { ModalFeedBack } from '@/components'
+// import { ModalFeedBack } from '@/components'
 
 import './index.scss'
 
@@ -180,8 +180,8 @@ export default (pros) => {
     <span onClick={logout} title='退出' className="exit">
       <Icon type='tuichu' />
     </span>
-    <ModalFeedBack visible={yijian} handleFeedBackCancel={() => {
+    {/* <ModalFeedBack visible={yijian} handleFeedBackCancel={() => {
       setYijian(false)
-    }} uid={userInfo.id}></ModalFeedBack>
+    }} uid={userInfo.id}></ModalFeedBack> */}
   </div>
 }

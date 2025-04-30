@@ -1,14 +1,10 @@
+@use "./_flex-gap.scss" as sfp;
+
 body {
   overflow: hidden;
 }
 
 #root {
-  height: 100%;
-}
-
-micro-app,
-micro-app-body {
-  display: block;
   height: 100%;
 }
 
@@ -21,6 +17,11 @@ micro-app-body {
 .word-break {
   word-break: break-all;
   word-wrap: break-word;
+}
+
+.demo {
+  color: red !important;
+  background-color: red !important;
 }
 
 .link {
@@ -422,9 +423,11 @@ $technologyFormBorderFocus: #acc2ff;
     display: flex;
     flex-wrap: wrap;
     @include sfp.flex-gap(18px);
-    height: 80vh;
-    overflow-y: auto;
-    align-content: flex-start;
+& {
+      height: 80vh;
+      overflow-y: auto;
+      align-content: flex-start;
+    }
     &::-webkit-scrollbar-track-piece,
     &::-webkit-scrollbar-corner,
     &::-webkit-scrollbar-track {
@@ -564,11 +567,6 @@ $technologyFormBorderFocus: #acc2ff;
       }
     }
   }
-}
-
-micro-app {
-  width: 100%;
-  height: 100%;
 }
 
 .reset-btn {

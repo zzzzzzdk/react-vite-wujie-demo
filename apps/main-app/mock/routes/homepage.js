@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/v1/homepage/common-apps", (req, res) => {
+router.get("/api/v1/homepage/common-apps", (req, res) => {
   res.send({
     data: [
       {
@@ -57,14 +57,14 @@ router.get("/v1/homepage/common-apps", (req, res) => {
   });
 });
 
-router.post("/v1/homepage/common-apps", (req, res) => {
+router.post("/api/v1/homepage/common-apps", (req, res) => {
   res.send({
     data: 100,
     message: "编辑常用应用",
   });
 });
 
-router.get("/v1/homepage/warning-statistics", (req, res) => {
+router.get("/api/v1/homepage/warning-statistics", (req, res) => {
   res.send({
     data: {
       personnelCount: 100,

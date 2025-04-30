@@ -1,4 +1,4 @@
-@import "@/assets/css/mixin";
+@use "@/assets/css/mixin" as *;
 .homepage {
   .record-search-input {
     // overflow: hidden;

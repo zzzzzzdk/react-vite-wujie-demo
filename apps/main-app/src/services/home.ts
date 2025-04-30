@@ -4,14 +4,14 @@ const api = {
   getShortcuts: <T, U>() => {
     return ajax<U>({
       method: "get",
-      url: "v1/homepage/common-apps",
+      url: "/api/v1/homepage/common-apps",
     });
   },
   // 编辑常用app
   updateShortcuts: <T, U>(data: T) => {
     return ajax<U>({
       method: "post",
-      url: "v1/homepage/common-apps",
+      url: "/api/v1/homepage/common-apps",
       data,
     });
   },
@@ -19,7 +19,7 @@ const api = {
   getWarningStatistic: <T, U>() => {
     return ajax<U>({
       method: "get",
-      url: "v1/homepage/warning-statistics",
+      url: "/api/v1/homepage/warning-statistics",
     });
   },
 
@@ -27,7 +27,7 @@ const api = {
   getWarningHistory: <T, U>() => {
     return ajax<U>({
       method: "get",
-      url: "v1/homepage/warning-history",
+      url: "/api/v1/homepage/warning-history",
     });
   },
 };

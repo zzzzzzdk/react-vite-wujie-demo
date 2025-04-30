@@ -1,14 +1,12 @@
 var express = require("express");
 var router = express.Router();
-const location = require("./json/location.json");
+// const location = require("./json/location.json");
 const ziboLocation = require("./json/zibo-location.json")
 const testLocation = require("./json/test-location.json")
 // const location = require("../../location.json");
 const locationGroup = require("./json/location-group.json");
-const offlineJson = require("./json/offline.json");
 const bmy = require('./json/bmy.json')
 const hotBrands = require('./json/hot-brands.json')
-const gaitData = require("./json/gait-data.json")
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
@@ -77,13 +75,13 @@ router.get("/api/fusion/v1/common/config", function (req, res, next) {
     "win7ChromeUrl": '1111',
     "post_error": '/post_error',
     plateExcelUrl: '',
-    iam_host: 'http://localhost:8081',
-    sys_text: '以萨视图融合系统软件',
-    pdm_host: 'http://localhost:8081',
-    api_host: 'http://localhost:8081',
+    iam_host: 'http://localhost:5173',
+    sys_text: '视图融合系统软件',
+    pdm_host: 'http://localhost:5173',
+    api_host: 'http://localhost:5173',
     websocketUrl: 'ws://localhost:3004/ws',
     homepageWsUrl: 'ws://localhost:3004/homepage',
-    staticUrl: 'http://localhost:8081',
+    staticUrl: 'http://localhost:5173',
     map: {
       mapCRS: 3857,
       center: [120.205252, 35.965781],
@@ -214,421 +212,40 @@ router.get("/api/pdm/v1/common/route-menu", async function (req, res, next) {
             "text": "demo",
             "path": "/demo",
             "name": "demo",
+            "micro": {
+              microType: "react", // react vue 微应用类型
+              embedType: 'partial', // inlayout 内嵌 、 outlayout 大屏、partial 部分
+              name: "sub-app-0",
+              url: "http://localhost:5174",
+              container: ".micro-app-wrap"
+            },
           },
           {
             "icon": "shuxingjiansuo1",
             "text": "demo1内嵌",
             "path": "/demo1",
             "name": "demo1",
+            "micro": { 
+              microType: "react", // react vue 微应用类型
+              embedType: 'inlayout', // inlayout 内嵌 、 outlayout 大屏、partial 部分
+              name: "sub-app-1",
+              url: "http://localhost:5174/demo3",
+            },
           },
           {
             "icon": "shuxingjiansuo1",
-            "text": "demo2大屏",
-            "path": "/demo2",
-            "name": "demo2",
+            "text": "大屏（子应用）",
+            "path": "/sub-big-screen",
+            "name": "sub-big-screen",
+            "micro": {
+              microType: "vue", // react vue 微应用类型
+              embedType: "outlayout", // inlayout 内嵌 、 outlayout 大屏、partial 部分
+              name: "sub-big-screen",
+              url: "http://localhost:5174/demo4",
+              baseroute: "/sub-big-screen",
+            }
           }
         ]
-      },
-      {
-        "children": [
-          {
-            "icon": "shuxingjiansuo1",
-            "text": "属性检索",
-            "remarks": "",
-            "path": "/target",
-            "name": "target",
-            "type": "",
-            "id": "7536c609-a05d-3327-6d23-7e2f2d9ce6db",
-            "pid": "2e98e2f7-c68f-8cf4-155f-096fd20a52c7",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "yitujiansuo2",
-            "text": "以图检索",
-            "remarks": "",
-            "path": "/image",
-            "name": "image",
-            "type": "",
-            "id": "57f9fffc-fd8a-40fe-6698-87494f4192fa",
-            "pid": "2e98e2f7-c68f-8cf4-155f-096fd20a52c7",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "kuajingzhuizong1",
-            "text": "跨镜追踪",
-            "remarks": "",
-            "path": "/cross",
-            "name": "cross",
-            "type": "",
-            "id": "b5629e49-bca2-1871-6296-f8d7f0a06885",
-            "pid": "2e98e2f7-c68f-8cf4-155f-096fd20a52c7",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "kuajingzhuizong1",
-            "text": "实时跨镜追踪",
-            "remarks": "",
-            "path": "/real-time-tracking",
-            "name": "real-time-tracking",
-            "type": "",
-            "id": "b5629e49-bca2-1871-6296-f8d7f0a068851",
-            "pid": "2e98e2f7-c68f-8cf4-155f-096fd20a52c71",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "danganjiansuo1",
-            "text": "档案检索",
-            "remarks": "",
-            "path": "/record-search",
-            "name": "record-search",
-            "type": "",
-            "id": "9be6fb29-ae8b-4c33-d2a9-38b39bd7d641",
-            "pid": "2e98e2f7-c68f-8cf4-155f-096fd20a52c7",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "biaoqian",
-            "text": "标签管理",
-            "remarks": "",
-            "path": "/label-manage",
-            "name": "label-manage",
-            "type": "",
-            "id": "9be6fb29-ae8b-4c33-d2a9-38b39bd7d641",
-            "pid": "2e98e2f7-c68f-8cf4-155f-096fd20a52c7",
-            "target": "",
-            "children": null
-          }
-        ],
-        "icon": "mubiaojiansuo",
-        "id": "2e98e2f7-c68f-8cf4-155f-096fd20a52c7",
-        "name": "search",
-        "path": "/search",
-        "pid": "0",
-        "remarks": "",
-        "target": "",
-        "text": "目标检索",
-        "type": ""
-      },
-      {
-        "children": [
-          {
-            "icon": "chucirucheng2",
-            "text": "初次入城",
-            "remarks": "",
-            "path": "/initial",
-            "name": "initial",
-            "type": "",
-            "id": "initial",
-            "pid": "e164b77c-fd41-c793-b11f-efd21686d35e",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "cheliangtonghangfenxi",
-            "text": "同行分析",
-            "remarks": "",
-            "path": "/vehicle-peer",
-            "name": "vehicle-peer",
-            "type": "",
-            "id": "ea83ca46-0045-47f0-edcb-7a56ca4aa45c",
-            "pid": "e164b77c-fd41-c793-b11f-efd21686d35e",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "chelianglajiaodianfenxi",
-            "text": "落脚点分析",
-            "remarks": "",
-            "path": "/foothold-vehicle",
-            "name": "foothold-vehicle",
-            "type": "",
-            "id": "f6ba14a5-4f0a-1f35-a00b-1ff63254133d",
-            "pid": "e164b77c-fd41-c793-b11f-efd21686d35e",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "duodianpengzhuang-cheliang",
-            "text": "多点碰撞",
-            "remarks": "",
-            "path": "/vehicle-multipoint",
-            "name": "vehicle-multipoint",
-            "type": "",
-            "id": "a3fae2cc-f74e-9611-185a-d02a87efa1d8",
-            "pid": "e164b77c-fd41-c793-b11f-efd21686d35e",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "shuangbaotaijiance",
-            "text": "双胞胎车检索",
-            "remarks": "",
-            "path": "/doublecar",
-            "name": "doublecar",
-            "type": "",
-            "id": "31e5fe1b-969b-3397-0564-80f32fa1a76f",
-            "pid": "e164b77c-fd41-c793-b11f-efd21686d35e",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "guijichaxun-cheliang",
-            "text": "轨迹重现",
-            "remarks": "",
-            "path": "/vehicle-track",
-            "name": "vehicle-track",
-            "type": "",
-            "id": "376324ef-b4ad-b91d-47f9-2335c861f0a9",
-            "pid": "e164b77c-fd41-c793-b11f-efd21686d35e",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "zhoufuyechu-cheliang",
-            "text": "昼伏夜出",
-            "remarks": "",
-            "path": "/active-night",
-            "name": "active-night",
-            "type": "",
-            "id": "a4811a69-2b33-9c65-3d37-5a5fcc52ab39",
-            "pid": "e164b77c-fd41-c793-b11f-efd21686d35e",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "taopaiche1",
-            "text": "套牌车",
-            "remarks": "",
-            "path": "/vehicle-clone",
-            "name": "vehicle-clone",
-            "type": "",
-            "id": "bf4791b5-a567-673e-13a3-be51c3e783a2",
-            "pid": "e164b77c-fd41-c793-b11f-efd21686d35e",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "jiapaiche1",
-            "text": "假牌车",
-            "remarks": "",
-            "path": "/vehicle-fake",
-            "name": "vehicle-fake",
-            "type": "",
-            "id": "cd03d0a4-7655-7a2e-760c-ecad41a82c21",
-            "pid": "e164b77c-fd41-c793-b11f-efd21686d35e",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "pinfanguoche1",
-            "text": "频繁过车",
-            "remarks": "",
-            "path": "/frepass",
-            "name": "frepass",
-            "type": "",
-            "id": "6c52f003-9a07-efb5-1670-8adf9e580ac7",
-            "pid": "e164b77c-fd41-c793-b11f-efd21686d35e",
-            "target": "",
-            "children": null
-          }
-        ],
-        "icon": "cheliangyanpan2",
-        "id": "e164b77c-fd41-c793-b11f-efd21686d35e",
-        "name": "vehicle-judgment",
-        "path": "vehicle-judgment",
-        "pid": "0",
-        "remarks": "",
-        "target": "",
-        "text": "车辆研判",
-        "type": ""
-      },
-      {
-        "children": [
-          {
-            "icon": "duodianpengzhuang-renyuan",
-            "text": "多点碰撞",
-            "remarks": "",
-            "path": "/person-multipoint",
-            "name": "person-multipoint",
-            "type": "",
-            "id": "142e2242-cae2-3bff-9765-48b739b3bff7",
-            "pid": "681b274c-a185-7a28-7e90-8bb796f123c2",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "guijichaxun-renyuan",
-            "text": "轨迹重现",
-            "remarks": "",
-            "path": "/person-track",
-            "name": "person-track",
-            "type": "",
-            "id": "f3e0f33b-2698-492f-e0bf-7a371b648954",
-            "pid": "681b274c-a185-7a28-7e90-8bb796f123c2",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "tonghangfenxi2",
-            "text": "同行分析",
-            "remarks": "{\"path\":\"/face-peer\",\"route\":\"face-peer\"}",
-            "path": "/face-peer",
-            "name": "face-peer",
-            "type": "",
-            "id": "47696df8-ecef-9298-f464-960ed458a93b",
-            "pid": "681b274c-a185-7a28-7e90-8bb796f123c2",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "renyuanlajiaodianfenxi",
-            "text": "落脚点分析",
-            "remarks": "",
-            "path": "/foothold-person",
-            "name": "foothold-person",
-            "type": "",
-            "id": "7cc992c1-3967-fb06-eafb-2711032d9130",
-            "pid": "681b274c-a185-7a28-7e90-8bb796f123c2",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "quyumopai",
-            "text": "区域摸排",
-            "remarks": "",
-            "path": "/regional-mapping",
-            "name": "regional-mapping",
-            "type": "",
-            "id": "33f70005-4f94-f766-4c17-71713239bc5b",
-            "pid": "681b274c-a185-7a28-7e90-8bb796f123c2",
-            "target": "",
-            "children": null
-          }
-        ],
-        "icon": "renyuanyanpan2",
-        "id": "681b274c-a185-7a28-7e90-8bb796f123c2",
-        "name": "person-judgment",
-        "path": "person-judgment",
-        "pid": "0",
-        "remarks": "",
-        "target": "",
-        "text": "人员研判",
-        "type": ""
-      },
-      {
-        "children": [
-          {
-            "icon": "mubiaobukong",
-            "text": "目标布控",
-            "remarks": "",
-            "path": "/deploy",
-            "name": "deploy",
-            "type": "",
-            "id": "cdc375a3-dcc9-7180-a1af-d274a4389512",
-            "pid": "da8a6313-f18b-0abc-0df3-aa844767da67",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "bukongmingxi1",
-            "text": "布控明细",
-            "remarks": "",
-            "path": "/deploy-detail",
-            "name": "deploy-detail",
-            "type": "",
-            "id": "c744121e-1e1f-0a9b-1eb8-895f47f655e7",
-            "pid": "da8a6313-f18b-0abc-0df3-aa844767da67",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "gaojinglishi1",
-            "text": "告警历史",
-            "remarks": "",
-            "path": "/deploy-warning",
-            "name": "deploy-warning",
-            "type": "",
-            "id": "03b902cc-404c-8e80-55b0-6f0163cccdc9",
-            "pid": "da8a6313-f18b-0abc-0df3-aa844767da67",
-            "target": "",
-            "children": null
-          }
-        ],
-        "icon": "bukonggaojing",
-        "id": "da8a6313-f18b-0abc-0df3-aa844767da67",
-        "name": "warning",
-        "path": "/warning",
-        "pid": "0",
-        "remarks": "",
-        "target": "",
-        "text": "布控告警",
-        "type": ""
-      },
-      {
-        "children": [
-          {
-            "icon": "lixianshujufenxi1",
-            "text": "离线数据分析",
-            "remarks": "",
-            "path": "/offline",
-            "name": "offline",
-            "type": "",
-            "id": "fe3e694f-0412-587b-20c6-0a385948fa6b",
-            "pid": "37c2e1a1-6608-f658-6543-20ff76388cdc",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "lishishipinfenxi",
-            "text": "历史视频分析",
-            "remarks": "",
-            "path": "/history",
-            "name": "history",
-            "type": "",
-            "id": "2833b431-87ca-99e4-39b1-d38e8e7f2668",
-            "pid": "37c2e1a1-6608-f658-6543-20ff76388cdc",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "mubiao11bidui",
-            "text": "目标1:1比对",
-            "remarks": "",
-            "path": "/one2one",
-            "name": "one2one",
-            "type": "",
-            "id": "e38aa547-44a0-734a-ba63-0aa015a3138e",
-            "pid": "37c2e1a1-6608-f658-6543-20ff76388cdc",
-            "target": "",
-            "children": null
-          },
-          {
-            "icon": "renlianNNbidui",
-            "text": "人脸N:N比对",
-            "remarks": "",
-            "path": "/n2n",
-            "name": "N2N",
-            "type": "",
-            "id": "18a6fcc7-7107-3cf8-cd79-5a587bee4dbc",
-            "pid": "37c2e1a1-6608-f658-6543-20ff76388cdc",
-            "target": "",
-            "children": null
-          }
-        ],
-        "icon": "jiexiguanli",
-        "id": "37c2e1a1-6608-f658-6543-20ff76388cdc",
-        "name": "analysis",
-        "path": "/analysis",
-        "pid": "0",
-        "remarks": "",
-        "target": "",
-        "text": "解析管理",
-        "type": ""
       },
       {
         "icon": "jingwudamoxing",
@@ -873,7 +490,7 @@ router.all("/api/pdm/v1/common/location", async function (req, res) {
       "text": `点位${index}`
     }))
     res.json({
-      ...location,
+      // ...location,
       data: [
         {
           "children": [

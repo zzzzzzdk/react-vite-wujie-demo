@@ -1,10 +1,34 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta  charset="UTF-8" http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React + TS</title>
+    <link
+      rel="stylesheet"
+      id="theme-light"
+      type="text/css"
+      href="/static/css/light.css?v=${Date.now()}"
+    />
+    <link
+      rel="stylesheet"
+      id="theme-dark"
+      type="text/css"
+      href="/static/css/dark.css?v=${Date.now()}"
+      media="max-width: 1px"
+    />
+    <script src="/static/fonts/iconfont.js?v=${Date.now()}"></script>
+    <script src="/static/js/is/crypto-js.js"></script>
+    <script src="/static/js/is/jsencrypt.min.js"></script>
+    <script src="/static/js/is/is.js"></script>
+    <script>
+      var baseApi = '';
+      var yscUrl = '/api/fusion/v1/common/config';
+      var globalErrorUrl = window.location.pathname + 'error.html';
+      var globalLoginUrl = '#/login';
+    </script>
+    <script src="/static/js/is/get-ysc.js"></script>
   </head>
   <body>
     <div id="root"></div>

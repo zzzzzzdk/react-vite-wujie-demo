@@ -1,122 +1,115 @@
-import React, { Suspense, useState } from 'react'
+import React, { Suspense } from 'react';
 import RouteGuard from './RouteGuard';
-import {
-  createHashRouter,
-  RouterProvider,
-  HashRouter,
-  RouteObject,
-  useRoutes,
-} from 'react-router-dom'
+import { createHashRouter, RouterProvider, RouteObject } from 'react-router-dom';
 import { Loading } from '@yisa/webui';
-import { getToken, setToken } from '@/utils/cookie'
-import routeData, { RoutesType } from './router.config'
-import { ErrorBoundary } from '@/components';
+import { getToken } from '@/utils/cookie';
+import { mainAppRoutes, RoutesType } from '@/config/routes.config';
+import { ErrorBoundary, MicroApp } from '@/components';
+import { useSelector, RootState } from '@/store';
+import { ItemMenu } from '@/store/slices/user';
 
-type microItem = {
-  path?: string;
-  baseroute?: string;
-  url: string;
-  name: string;
-  inLayout: boolean
-}
+const RouteElement = (menuData: ItemMenu[]) => {
+  const flatMenuData = menuData.reduce((acc: ItemMenu[], item: ItemMenu) => {
+    acc.push(item);
+    if (item.children && item.children.length > 0) {
+      acc.push(...item.children);
+    }
+    return acc;
+  }, []);
 
-const RouteElement = () => {
-  let newRouteData = [...routeData]
-  // 微前端嵌入路由
-  let ninLayoutRoutes: microItem[] = [], noutLayoutRoutes: microItem[] = []
-  if (window.YISACONF.micro_data && window.YISACONF.micro_data.length) {
-    ninLayoutRoutes = window.YISACONF.micro_data.filter((item) => item.inLayout)
-    noutLayoutRoutes = window.YISACONF.micro_data.filter((item) => !item.inLayout)
-  }
+  // 处理微应用路由
+  const processMicroApps = (routes: RoutesType[]): RoutesType[] => {
+    const newRoutes = [...routes];
 
-  if (ninLayoutRoutes.length) {
-    newRouteData.forEach(item => {
-      if (item.layout) {
-        const extraArr = ninLayoutRoutes.map(route => {
-          return (
-            {
-              name: route.name,
-              text: "首页",
-              path: route.path || route.baseroute + '/*',
-              element: () => (<micro-app name={route.name} url={route.url} baseroute={route.path ? '' : route.baseroute}></micro-app>),
-              breadcrumb: [
-                {
-                  text: "首页",
-                },
-              ],
-            }
-          )
-        })
-        item.children = [...(item.children ?? []), ...extraArr]
-      }
-    })
-  }
+    // 处理需要替换主应用路由的微应用
+    flatMenuData.forEach((menuItem) => {
+      // 如果导航有微应用配置，则添加微应用路由
+      if (menuItem.micro) {
+        const microApp = menuItem.micro;
 
-  if (noutLayoutRoutes.length) {
-    const extraArr = noutLayoutRoutes.map(route => {
-      return (
-        {
-          name: route.name,
-          text: "首页",
-          path: route.path || route.baseroute + '/*',
-          element: () => (<micro-app name={route.name} url={route.url} baseroute={route.path ? '' : route.baseroute}> </micro-app>),
-          breadcrumb: [
-            {
-              text: "首页",
-            },
-          ],
-        }
-      )
-    })
-    newRouteData = [...newRouteData, ...extraArr]
-  }
-  const syncRouter = (arr: RoutesType[]): RouteObject[] => {
-    let routes: RouteObject[] = []
-    arr.forEach(route => {
-      const newRoute = {
-        ...route,
-        element: (
-          <ErrorBoundary>
-            <Suspense fallback={<Loading />}>
-              {
-                route.noNeedAuth ?
-                  <route.element />
-                  :
-                  <RouteGuard routeItem={route}>
-                    <route.element />
-                  </RouteGuard>
+        if (menuItem.micro.embedType === 'inlayout' || menuItem.micro.embedType === 'partial') {
+          // 查找并替换主应用路由
+          const replaceRoute = (routes: RoutesType[]): boolean => {
+            for (let i = 0; i < routes.length; i++) {
+              const route = routes[i];
+              if (route.path === menuItem.path) {
+                if (menuItem.micro?.embedType === 'inlayout') {
+                  route.element = () => (
+                    <MicroApp
+                      microAppConfig={{
+                        ...microApp as any,
+                        baseRouter: microApp.path? '' : microApp.baseroute,
+                      }}
+                    />
+                  );
+                }
+                route.isMicroApp = true;
+                route.microAppConfig = microApp;
+                return true;
               }
-            </Suspense>
-          </ErrorBoundary>
-        ),
-        children: route.children && syncRouter(route.children)
+              if (route.children && replaceRoute(route.children)) {
+                return true;
+              }
+            }
+            return false;
+          };
+
+          replaceRoute(newRoutes);
+        }
+        if (menuItem.micro.embedType === 'outlayout') {
+          // 添加独立大屏微应用路由
+          newRoutes.push({
+            path: menuItem.path || microApp.baseroute + '/*',
+            element: () => (
+              <MicroApp
+                microAppConfig={{
+                  ...microApp as any,
+                  baseRouter: microApp.path? '' : microApp.baseroute,
+                }}
+              />
+            ),
+            isMicroApp: true,
+            microAppConfig: microApp,
+            noNeedAuth: true,
+          });
+        }
       }
-      routes.push(newRoute)
-    })
+    });
 
-    return routes
-  }
+    return newRoutes;
+  };
 
-  // const element = useRoutes(syncRouter(routeData))
-  // console.log(newRouteData)
-  const element = createHashRouter(syncRouter(newRouteData))
-  return (
-    element
-  )
-}
+  // 转换路由配置为React Router格式
+  const syncRouter = (arr: RoutesType[]): RouteObject[] => {
+    return arr.map((route) => ({
+      ...route,
+      element: (
+        <ErrorBoundary>
+          <Suspense fallback={<Loading />}>
+            {route.noNeedAuth ? (
+              <route.element currentMenu={route} />
+            ) : (
+              <RouteGuard routeItem={route}>
+                <route.element  currentMenu={route}/>
+              </RouteGuard>
+            )}
+          </Suspense>
+        </ErrorBoundary>
+      ),
+      children: route.children && syncRouter(route.children),
+    }));
+  };
 
+  const processedRoutes = processMicroApps(mainAppRoutes);
+  const router = createHashRouter(syncRouter(processedRoutes));
 
+  return router;
+};
 
 export default function APPRouter() {
-  // 本地环境模拟登录时token
-  if (process.env.NODE_ENV === "development") {
-    // setToken('2vb1hj5ft8evs241r4h2siqp78----fronted---token', 88640000)
-  }
+  const menuData = useSelector((state: any) => {
+    return state.user.menu;
+  });
 
-  return (
-    // <HashRouter>
-    //   <RouteElement />
-    // </HashRouter>
-    <RouterProvider router={RouteElement()} />
-  )
+  return <RouterProvider router={RouteElement(menuData)} />;
 }

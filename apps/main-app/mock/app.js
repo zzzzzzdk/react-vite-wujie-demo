@@ -5,36 +5,9 @@ var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 
 var indexRouter = require("./routes/index");
-var tableRouter = require("./routes/table");
-var cardRouter = require("./routes/card");
-var one2oneRouter = require("./routes/one2one");
-var targetRouter = require("./routes/target");
-var imageRouter = require("./routes/image");
-var recordRouter = require("./routes/record");
-var offlineRouter = require("./routes/offline");
-var historyRouter = require("./routes/history");
-var n2nRouter = require("./routes/n2n")
-var vehicleAnalysis = require("./routes/vehicleAnalysis")
-var crossRouter = require('./routes/cross')
-var clueRouter = require("./routes/clue")
-var foothold = require("./routes/foothold")
-var personfoothold = require("./routes/personfoothold")
-var deploy = require("./routes/deploy")
-var doublecar = require("./routes/doublecar")
-var track = require("./routes/track")
-var personAnalysisRouter = require("./routes/personAnalysis")
-var activeNightRouter = require('./routes/activeNight')
-var exportRouter = require('./routes/export')
-var personRegionalMapping = require('./routes/personRegionalMapping')
-var vehicleFakeClone = require('./routes/vehicleFakeClone')
-var feedBack = require('./routes/feedBack')
-var recordRehicle = require('./routes/record-vehicle')
-var notifyRouter = require('./routes/notify')
-var eventStream = require('./routes/eventStream')
+
 var login =require("./routes/login")
 var homepageRouter = require('./routes/homepage')
-var log = require('./routes/log')
-var labelManage = require('./routes/labelManage')
 
 var app = express();
 
@@ -109,36 +82,9 @@ app.use("*", function (req, res, next) {
 });
 
 app.use("/", indexRouter);
-app.use("/", tableRouter);
-app.use("/", cardRouter);
-app.use("/", one2oneRouter);
-app.use('/', targetRouter);
-app.use('/', imageRouter);
-app.use('/', offlineRouter)
-app.use('/', historyRouter)
-app.use('/', n2nRouter)
-app.use('/', vehicleAnalysis)
-app.use('/', crossRouter)
-app.use('/', clueRouter)
-app.use('/', foothold)
-app.use('/', personfoothold)
-app.use('/', deploy)
-app.use('/', doublecar)
-app.use('/', track)
-app.use('/', recordRouter)
-app.use('/', personAnalysisRouter)
-app.use('/', activeNightRouter)
-app.use('/', exportRouter)
-app.use('/', personRegionalMapping)
-app.use('/', vehicleFakeClone)
-app.use('/', feedBack)
-app.use('/', recordRehicle)
-app.use('/', notifyRouter)
-app.use('/', eventStream)
 app.use('/',login)
 app.use('/', homepageRouter)
-app.use('/', log)
-app.use('/', labelManage)
+
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));

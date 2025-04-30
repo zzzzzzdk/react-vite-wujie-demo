@@ -1,4 +1,4 @@
-import { SearchInputHome } from "@/components";
+// import { SearchInputHome } from "@/components";
 import Card from "../Card";
 import { useNavigate } from "react-router-dom";
 import { CaptureData, FormDataProps } from "@/components/SearchInput/interface";
@@ -46,9 +46,9 @@ const SearchBar = (props: searchBarType) => {
       );
     }
   };
-  return (
-    <SearchInputHome onSearch={handleSearch} searchType="list" type={type} />
-  );
+  // return (
+  //   <SearchInputHome onSearch={handleSearch} searchType="list" type={type} />
+  // );
 };
 
 export default SearchBar;

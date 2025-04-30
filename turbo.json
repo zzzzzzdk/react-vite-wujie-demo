@@ -16,6 +16,9 @@
     "dev": {
       "cache": false
     },
+    "start": {
+      "cache": false
+    },
     "apps/main-app:build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
@@ -23,11 +26,25 @@
     "apps/main-app:dev": {
       "cache": false
     },
+    "apps/main-app:test": {
+      "dependsOn": ["^test"],
+      "outputs": []
+    },
+    "apps/main-app:lint": {
+      "dependsOn": ["^lint"],
+      "outputs": []
+    },
+    "apps/main-app:start": {
+      "cache": false
+    },
     "apps/sub-app:build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
     "apps/sub-app:dev": {
+      "cache": false
+    },
+    "apps/sub-app:start": {
       "cache": false
     }
   }

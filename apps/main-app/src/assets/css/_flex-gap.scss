@@ -16,10 +16,12 @@
 	margin-right: $gap-x * -1;
 	margin-bottom: $gap-y * -1;
 
+	& {
 	> * {
 		margin-right: $gap-x;
 		margin-bottom: $gap-y;
 	}
+}
 }
 
 // For testing purposes only.

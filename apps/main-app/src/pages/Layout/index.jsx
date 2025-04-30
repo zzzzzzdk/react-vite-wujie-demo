@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import { Layout, WaterMark, Modal } from '@yisa/webui';
-import { useDispatch, useSelector, RootState } from '@/store';
+import { useDispatch, useSelector } from '@/store';
 import { setSidebarWidth } from '@/store/slices/comment';
 import Footer from './Footer';
 import Breadcrumb from './Breadcrumb';
@@ -9,9 +9,9 @@ import Menu from './Menu';
 import RightTools from './RightTools';
 import { SwitchTransition, CSSTransition } from "react-transition-group";
 import './index.scss'
-import { RealtimeMessage } from '@/components'
+// import { RealtimeMessage } from '@/components'
 
-import { unstable_useBlocker as useBlocker } from 'react-router-dom';
+import { useBlocker } from 'react-router-dom';
 import { cancelAllRequests } from '@/utils/axios.config';
 
 function Page() {
@@ -159,7 +159,7 @@ function Page() {
   >
     <Outlet />
     <WaterMark content={[userInfo.name, userInfo.phone]} />
-    <RealtimeMessage />
+    {/* <RealtimeMessage /> */}
   </Layout>
 }
 

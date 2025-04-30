@@ -1,7 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import character from "@/config/character.config"
 import { flushSync } from 'react-dom';
-import microApp from '@micro-zoe/micro-app'
 
 const createRandom = () => {
   return new Date().getTime() + '_' + Math.random()
@@ -34,9 +33,9 @@ export const commonSlice = createSlice({
 
         changeTheme(skin)
         state.skin = skin
-        microApp.setGlobalData({
-          skin: skin
-        })
+        // microApp.setGlobalData({
+        //   skin: skin
+        // })
       }
     },
     setLayout: (state, action) => {

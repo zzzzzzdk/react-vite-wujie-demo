@@ -8,6 +8,33 @@ export default defineConfig({
   server: {
     port: 5174,
     cors: true,
-    origin: '//localhost:5174'
+    origin: '//localhost:5174',
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3004',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      },
+    },
+  },
+  resolve: {
+    alias: {
+      '@': '/src'
+    }
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@use "../../src/assets/css/global.scss" as *;'
+      }
+    }
+  },
+  build: {
+    assetsDir: 'static',
+    rollupOptions: {
+      output: {
+        assetFileNames: 'static/[name].[hash].[ext]',
+      }
+    }
   }
-})
+});

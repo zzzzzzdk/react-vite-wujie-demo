@@ -1,56 +1,91 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import WujieReact from 'wujie-react'
-import hostMap from "./hostMap";
-import './App.css'
+import React, { useEffect, useState } from 'react';
+import { useDispatch } from '@/store';
+import { setUserInfo, setSysConfig } from '@/store/slices/user';
+import { initSkinLayout } from '@/store/slices/comment';
+import APPRouter from '@/router';
+import { getToken, setID, mouseTools } from '@/utils';
+import ajax from '@/services';
+import character from '@/config/character.config';
+import { settingConfig } from '@/config';
 
 function App() {
-  console.log("App.tsx");
-  const [count, setCount] = useState(0)
-  const path = location.pathname.replace("/vite-sub", "").replace("/vite", "").replace("/", "");////
-  const viteUrl = hostMap("//localhost:5174/") + path;
-  const props = {
-    jump: (name: string) => {
-      // navigation(`/${name}`);
-    },
+  const dispatch = useDispatch();
+
+  const [loading, setLoading] = useState(true);
+  const errorHandel = (err: any) => {
+    setLoading(false);
+    // Message.error(err.message || '未知错误');
   };
 
-  return (
-    <>
-      <div>
-        <div className='wujie-sub' style={{ height: '600px' , width: '100%' }}>
-        {/* // 单例模式，name相同则复用一个无界实例，改变url则子应用重新渲染实例到对应路由 */}
-        <WujieReact
-          width="100%"
-          height="100%"
-          name="vite"
-          url={viteUrl}
-          sync={!path}
-          props={props}
-        ></WujieReact>
-        </div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+  useEffect(() => {
+    mouseTools(100);
+    if (getToken()) {
+      ajax
+        .getUserInfo()
+        .then((res) => {
+          dispatch(setUserInfo(res.data));
+          if (res.data && res.data.user_info) {
+            setID(res.data.user_info.id);
+            window.user_id = res.data.user_info.id;
+          }
+          // microApp.setGlobalData({
+          //   sysConfig: window.sysConfig,
+          //   skin: res.data.color || window.sysConfig.d_color,
+          //   userInfo: res.data,
+          //   token: getToken(),
+          // });
+          setLoading(false);
+        })
+        .catch((err) => {
+          errorHandel(err);
+        });
+      ajax
+        .getSysConfig()
+        .then((res) => {
+          let sysConfigObj = {};
+          res.data.forEach((item) => {
+            if (sysConfigObj[item.pageName]) {
+            } else {
+              sysConfigObj[item.pageName] = {};
+            }
+            sysConfigObj[item.pageName][item.categoryName] = {
+              default: item.default,
+              max: item.max,
+              min: item.min,
+            };
+          });
+          dispatch(setSysConfig(sysConfigObj));
+        })
+        .catch((err) => {
+          errorHandel(err);
+          console.log(err);
+          console.log('获取配置信息失败，使用默认的');
+          dispatch(setSysConfig(settingConfig));
+        });
+    } else {
+      setLoading(false);
+      // console.log("1111");
+      if (window.location.href.includes('login')) {
+        // 使用 window.location.href 来赋值，避免类型不匹配问题
+        window.location.href = window.YISACONF.login_url;
+        return;
+      }
+      window.location.href = window.YISACONF.login_url + '&target_url=' + window.location.href;
+      // window.location = YISACONF.login_url
+    }
+  }, []);
+
+  useEffect(() => {
+    const popState = (e) => {
+      console.log(e);
+    };
+    window.addEventListener('popstate', popState);
+    return () => {
+      window.removeEventListener('popstate', popState);
+    };
+  }, []);
+
+  return loading ? <div className='full-loading'></div> : <APPRouter />;
 }
 
-export default App
+export default App;

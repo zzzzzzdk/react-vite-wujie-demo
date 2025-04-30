@@ -5,7 +5,7 @@ import services, { ApiResponse } from '@/services'
 import "./index.scss";
 import particle from './js/particle.js'
 import SearchBar from './components/SearchBar';
-import { AspectRatioBox } from "@/components"
+// import { AspectRatioBox } from "@/components"
 import { ItemMenu } from '@/store/slices/user';
 import { MenuItem } from './components/Menu';
 import Color from './components/Menu/color'
@@ -171,9 +171,9 @@ const Home = () => {
     }
   }
 
-  useEffect(() => {
-    particle?.()
-  }, [])
+  // useEffect(() => {
+  //   particle?.()
+  // }, [])
 
   useEffect(() => {
     setLoading(true);
@@ -204,9 +204,9 @@ const Home = () => {
         <SearchBar />
         <main className="homepage-wrapper-container">
           <div className="left-box">
-            <AspectRatioBox
+            {/* <AspectRatioBox
               ratio={664 / 721}
-            >
+            > */}
               <div className="left">
                 {
                   leftItem.map(item => <div
@@ -221,12 +221,12 @@ const Home = () => {
                 }
                 <div className="middle-text">{window.YISACONF?.circle_text || "全部功能"}</div>
               </div>
-            </AspectRatioBox>
+            {/* </AspectRatioBox> */}
           </div>
           <div className="right-box">
-            <AspectRatioBox
+            {/* <AspectRatioBox
               ratio={462 / 536}
-            >
+            > */}
               <div className="right" >
                 {loading ? <Loading spinning={loading} size="large" /> :
                   <>
@@ -241,7 +241,7 @@ const Home = () => {
                   </>
                 }
               </div>
-            </AspectRatioBox>
+            {/* </AspectRatioBox> */}
           </div>
         </main>
       </div>

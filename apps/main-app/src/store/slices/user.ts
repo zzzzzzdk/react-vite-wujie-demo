@@ -11,11 +11,21 @@ export interface UserInfoState {
   lastLoginTime?: string; // 最后登录时间
 }
 
+export interface MicroAppConfig {
+  name: string;
+  url: string;
+  path?: string;
+  baseroute?: string;
+  microType?: "react" | "vue";
+  embedType?: "inlayout" | "outlayout" | "partial";
+}
+
 export interface ItemMenu {
   name: string;
   text: string;
   icon?: string;
   path: string;
+  micro?: MicroAppConfig;
   children?: Array<ItemMenu>;
 }
 

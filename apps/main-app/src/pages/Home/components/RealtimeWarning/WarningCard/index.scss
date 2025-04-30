@@ -1,3 +1,5 @@
+@use "@/assets/css/_flex-gap.scss" as sfp;
+
 .realtime-warning-card {
   background-color: var(--base-color2);
   border-radius: 4px;
