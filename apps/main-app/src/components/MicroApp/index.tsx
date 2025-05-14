@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import WujieReact from 'wujie-react';
-import { useSelector, RootState } from "@/store";
+import { useSelector, RootState } from '@/store';
 
 export interface microAppConfigPorps {
   baseRouter?: string;
@@ -35,16 +35,23 @@ const { bus } = WujieReact;
 interface MicroAppProps {
   // appName: string; // 微前端应用的名称
   microAppConfig: microAppConfigPorps; // 传递给微前端应用的参数
+  onChange?: (data: any) => void;
 }
 
-const MicroApp: React.FC<MicroAppProps> = ({ microAppConfig }) => {
+const MicroApp: React.FC<MicroAppProps> = ({ microAppConfig, onChange }) => {
   const userInfo = useSelector((state: any) => {
-    return state.user.userInfo
+    return state.user.userInfo;
   });
 
   useEffect(() => {
     // 主应用监听事件
-    bus.$on('事件名字', function (arg1: any) {});
+    bus.$on('handleDemoSearch', function (arg1: any) {
+      console.log('主应用接收到事件', arg1);
+      onChange?.({
+        action: 'handleDemoSearch',
+        data: arg1,
+      });
+    });
     // 主应用发送事件
     bus.$emit('userInfo', userInfo);
     // 主应用取消事件监听

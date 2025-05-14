@@ -215,8 +215,8 @@ router.get("/api/pdm/v1/common/route-menu", async function (req, res, next) {
             "micro": {
               microType: "react", // react vue 微应用类型
               embedType: 'partial', // inlayout 内嵌 、 outlayout 大屏、partial 部分
-              name: "sub-app-0",
-              url: "http://localhost:5174",
+              name: "sub-app-btn",
+              url: "http://localhost:5174/search",
               container: ".micro-app-wrap"
             },
           },
